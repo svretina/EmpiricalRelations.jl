@@ -1,0 +1,10 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+EmpiricalRelations = "e5ad9d44-c6ae-417e-b6bf-676d2331d8dc"
+
+[sources]
+EmpiricalRelations = {path = "/home/svretina/Codes/EmpiricalRelations.jl"}
+
+[compat]
+Documenter = "1"
+julia = "1.10"

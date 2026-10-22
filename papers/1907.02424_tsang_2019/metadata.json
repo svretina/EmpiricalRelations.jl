@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "1907.02424",
+  "resolved_version": "1907.02424v1",
+  "version": 1,
+  "title": "Modeling the postmerger gravitational wave signal and extracting binary properties from future binary neutron star detections",
+  "authors": [
+    "Ka Wa Tsang",
+    "Tim Dietrich",
+    "Chris Van Den Broeck"
+  ],
+  "abstract": "Gravitational wave astronomy has established its role in measuring the equation of state governing cold supranuclear matter. To date and in the near future, gravitational wave measurements from neutron star binaries are likely to be restricted to the inspiral. However, future upgrades and the next generation of gravitational wave detectors will enable us to detect the gravitational wave signatures emitted after the merger of two stars, at times when densities beyond those in single neutron stars are reached. Therefore, the postmerger gravitational wave signal enables studies of supranuclear matter at its extreme limit. To support this line of research, we present new and updated phenomenological relations between the binary properties and characteristic features of the postmerger evolution. Most notably, we derive an updated relation connecting the mass-weighted tidal deformability and the maximum neutron star mass to the dominant emission frequency of the postmerger spectrum. With the help of a configuration-independent Bayesian analysis using simplified Lorentzian model functions, we find that the main emission frequency of the postmerger remnant, for signal-to-noise ratios of $8$ and above, can be extracted within a 1-sigma uncertainty of about 100 Hz for Advanced LIGO and Advanced Virgo's design sensitivities. In some cases, even a postmerger signal-to-noise ratio of $4$ can be sufficient to determine the main emission frequency. This will enable us to measure binary and equation-of-state properties from the postmerger, to perform a consistency check between different parts of the binary neutron star coalescence, and to put our physical interpretation of neutron star mergers to the test.",
+  "submitted": "2019-07-04T14:32:56Z",
+  "last_revised": "2019-07-04T14:32:56Z",
+  "doi": "10.1103/PhysRevD.100.044047",
+  "journal_reference": "Phys. Rev. D 100, 044047 (2019)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1907.02424v1",
+  "pdf_url": "https://export.arxiv.org/pdf/1907.02424v1",
+  "source_url": "https://export.arxiv.org/src/1907.02424v1",
+  "publication_date": "2019-08-27",
+  "publication_year": 2019,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "empirical_relations",
+    "parameter_inference"
+  ],
+  "seed_group": "A",
+  "directory": "1907.02424_tsang_2019",
+  "accessed_at": "2026-10-22T17:42:19.466885Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper20190704.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper20190704.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "237522d9de3a9240880ef1f0a38161b5ccd17c5fcfab399511325ff15bc31969",
+    "source_sha256": "e74a38dba189a9f3f4079b5426008bcba11a6fb0c62ab12e0c6b6b11d9e216b4"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1907.02424v1",
+  "pdf_bytes": 5556101,
+  "source_final_url": "https://export.arxiv.org/src/1907.02424v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 4750654,
+  "source_inventory": {
+    "tex": [
+      "paper20190704.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "fig01.png",
+      "fig02.png",
+      "fig03.png",
+      "fig04.png",
+      "fig05.png",
+      "fig06.png",
+      "fig07.png",
+      "fig08a.pdf",
+      "fig08b.pdf",
+      "fig09.png",
+      "fig10.png",
+      "fig11.png"
+    ],
+    "other": [
+      "paper20190704.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

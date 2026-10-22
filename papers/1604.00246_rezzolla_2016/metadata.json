@@ -1,0 +1,94 @@
+{
+  "arxiv_id": "1604.00246",
+  "resolved_version": "1604.00246v2",
+  "version": 2,
+  "title": "Gravitational-wave signal from binary neutron stars: a systematic analysis of the spectral properties",
+  "authors": [
+    "Luciano Rezzolla",
+    "Kentaro Takami"
+  ],
+  "abstract": "A number of works have shown that important information on the equation of state of matter at nuclear density can be extracted from the gravitational waves emitted by merging neutron-star binaries. We present a comprehensive analysis of the gravitational-wave signal emitted during the inspiral, merger and post-merger of 56 neutron-star binaries. This sample of binaries, arguably the largest studied to date with realistic equations of state, spans across six different nuclear-physics equations of state and ten masses, allowing us to sharpen a number of results recently obtained on the spectral properties of the gravitational-wave signal. Overall we find that: (i) for binaries with masses differing no more than $20\\%$, the frequency at gravitational-wave amplitude's maximum is related quasi-universally with the tidal deformability of the two stars; (ii) the spectral properties vary during the post-merger phase, with a transient phase lasting a few millisecond after the merger and followed by a quasi-stationary phase; (iii) when distinguishing the spectral peaks between these two phases, a number of ambiguities in the identification of the peaks disappear, leaving a simple and robust picture; (iv) using properly identified frequencies, quasi-universal relations are found between the spectral features and the properties of the neutron stars; (v) for the most salient peaks analytic fitting functions can be obtained in terms of the stellar tidal deformability or compactness. Altogether, these results support the idea that the equation of state of nuclear matter can be constrained tightly when a signal in gravitational waves from binary neutron stars is detected.",
+  "submitted": "2016-04-01T13:55:19Z",
+  "last_revised": "2016-06-01T08:27:21Z",
+  "doi": "10.1103/PhysRevD.93.124051",
+  "journal_reference": "Phys. Rev. D 93, 124051 (2016)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1604.00246v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1604.00246v2",
+  "source_url": "https://export.arxiv.org/src/1604.00246v2",
+  "publication_date": "2016-06-21",
+  "publication_year": 2016,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "empirical_relations",
+    "spectral_classification"
+  ],
+  "seed_group": "A",
+  "directory": "1604.00246_rezzolla_2016",
+  "accessed_at": "2026-10-22T17:42:19.420186Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/manuscript.tex",
+  "main_tex_candidates": [
+    {
+      "path": "manuscript.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "aeireferences.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "a49273d016809388a9c064d3160cff543f484f8edf61f4eee959571f5ecb2bd4",
+    "source_sha256": "489b587e4bd85f2d3f4db832dce6ce0a11163600e88b09702e4cfcbe94a032d5"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1604.00246v2",
+  "pdf_bytes": 5160778,
+  "source_final_url": "https://export.arxiv.org/src/1604.00246v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 6268156,
+  "source_inventory": {
+    "tex": [
+      "manuscript.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "apsrev4-1-noeprint.bst"
+    ],
+    "figures": [
+      "figs/CorrFreq_Mfmax_for_kappaT.pdf",
+      "figs/CorrFreq_Mfmax_for_kappaT_with_others.pdf",
+      "figs/CorrFreq_f1_from_spectrogram.pdf",
+      "figs/CorrFreq_f1_from_spectrogram_for_kappaT.pdf",
+      "figs/CorrFreq_f20_from_spectrogram_for_kappaT.pdf",
+      "figs/CorrFreq_f2_from_spectrogram_for_kappaT.pdf",
+      "figs/CorrFreq_fspiral.pdf",
+      "figs/GW_spectrogram_5x7T.pdf",
+      "figs/GW_spectrogram_APR4-q10-M1300.pdf",
+      "figs/GW_spectrogram_GNH3-q10-M1300.pdf",
+      "figs/GW_spectrogram_short_5x7T.pdf",
+      "figs/GW_spectrogram_short_APR4-q10-M1300.pdf",
+      "figs/GW_spectrogram_short_GNH3-q10-M1300.pdf",
+      "figs/PSD_2x5.pdf",
+      "figs/PSD_5x7T.pdf",
+      "figs/Waveform_5x7T.pdf",
+      "figs/alp_1x5.pdf"
+    ],
+    "other": [
+      "aeireferences.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

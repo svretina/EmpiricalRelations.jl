@@ -1,0 +1,104 @@
+{
+  "status": "passed_with_warnings",
+  "summary": {
+    "waveforms": 371,
+    "cfc_sph": 90,
+    "core": 27,
+    "eos": 104,
+    "relations": 80,
+    "coefficients": 345,
+    "errors": 0,
+    "warnings": 3,
+    "sources_registered": 31,
+    "tables_inventoried": 93,
+    "equations_inventoried": 485,
+    "dependencies_inventoried": 27
+  },
+  "checks": [
+    {
+      "name": "CFC/SPH published row count",
+      "status": "pass",
+      "detail": "expected 90, extracted 90"
+    },
+    {
+      "name": "CoRe narrative-versus-table row count",
+      "status": "warning",
+      "detail": "article.tex states 28 waveforms, but tables/CORE_data.tex contains 27 numerical rows; the export preserves the 27 published rows and does not invent the missing record."
+    },
+    {
+      "name": "unique waveform IDs",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "EOS names resolve to eos.csv",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "name": "CFC/SPH narrative-versus-table EOS count",
+      "status": "warning",
+      "detail": "article.tex states 13 EOS, but the waveform table contains 12 unique identifiers: ['APR', 'BHBLP', 'DD2', 'LS220', 'LS375', 'NL3', 'SFHO', 'SFHX', 'SHEN', 'SLY4', 'TM1', 'TMA']"
+    },
+    {
+      "name": "waveform EOS have published property rows",
+      "status": "warning",
+      "detail": "No TOV_info.tex property row for: ['SHEN', 'SLY4']"
+    },
+    {
+      "name": "chirp masses agree within table rounding",
+      "status": "pass",
+      "detail": "maximum absolute difference 0.004982 Msun"
+    },
+    {
+      "name": "mass ratios agree within table rounding",
+      "status": "pass",
+      "detail": "maximum absolute difference 0.005464"
+    },
+    {
+      "name": "all reference dominant frequencies are measured",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "CoRe secondary frequencies remain missing",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "no exact duplicate waveform rows",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "name": "all coefficients resolve to a relation",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all public records have provenance",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "name": "missing frequencies are never encoded as zero",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all seed papers are source registered",
+      "status": "pass",
+      "detail": "expected 31, registered 31"
+    },
+    {
+      "name": "all staging records resolve to sources.csv",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "name": "all registered source projects were scanned",
+      "status": "pass",
+      "detail": "[]"
+    }
+  ]
+}

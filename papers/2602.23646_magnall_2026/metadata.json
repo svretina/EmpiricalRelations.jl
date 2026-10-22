@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2602.23646",
+  "resolved_version": "2602.23646v1",
+  "version": 1,
+  "title": "Realistic Equations of State Informing Neutron Star Post-Merger Gravitational-Wave Frequencies",
+  "authors": [
+    "Spencer J. Magnall",
+    "Nilaksha Barman",
+    "Debarati Chatterjee",
+    "Paul D. Lasky",
+    "Simon Goode"
+  ],
+  "abstract": "Binary neutron star mergers are thought to produce hot, rapidly rotating neutron stars with masses that can far exceed their Tolman-Oppenheimer-Volkoff mass. The gravitational-wave emission from such remnants provides a unique opportunity to measure the nuclear equation of state at densities and temperatures not available to terrestrial experiments. Current detector design is informed by gravitational-wave signals from general relativistic hydrodynamics simulations of neutron star mergers, typically with hybrid thermal treatments for the equation of state, where a cold equation of state is modified by adding a thermal component. We use realistic equations of state based on the relativistic mean field model with consistent treatment of thermal effects to compute the distribution of expected peak gravitational-wave frequencies. Marginalising over equation of state and progenitor neutron star masses, we show the peak frequency of emission ranges from $\\sim2.5$ to 4 kHz. The width of this distribution suggests the need for broadband observatories with kHz sensitivity, and calls into question some of the so-called post-merger optimised configurations. We show the proposed KAGRA high-frequency design is well-suited to measuring post-merger remnants when compared to the KAGRA broadband design.",
+  "submitted": "2026-02-27T03:32:19Z",
+  "last_revised": "2026-02-27T03:32:19Z",
+  "doi": "10.1093/mnras/stag1184",
+  "journal_reference": "Mon Not R Astron Soc (2026)",
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "gr-qc",
+    "nucl-th"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2602.23646v1",
+  "pdf_url": "https://export.arxiv.org/pdf/2602.23646v1",
+  "source_url": "https://export.arxiv.org/src/2602.23646v1",
+  "publication_date": "2026-07-03",
+  "publication_year": 2026,
+  "publication_date_source": "Crossref:published-print",
+  "publisher": "Oxford University Press (OUP)",
+  "container_title": "Monthly Notices of the Royal Astronomical Society",
+  "categories": [
+    "thermal_physics",
+    "rotating_stars",
+    "frequency_distribution"
+  ],
+  "seed_group": "D",
+  "directory": "2602.23646_magnall_2026",
+  "accessed_at": "2026-10-22T17:42:24.394384Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/Paper.tex",
+  "main_tex_candidates": [
+    {
+      "path": "Paper.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "d569601a84421d8a69f1d61d91e84870e94b078bb975da17aa89e5fe3b82268d",
+    "source_sha256": "f8e74b43f3a0c883c6a06cc4e0e38656668d5932f3065891e7e6a1868f986d39"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2602.23646v1",
+  "pdf_bytes": 6458516,
+  "source_final_url": "https://export.arxiv.org/src/2602.23646v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 6450148,
+  "source_inventory": {
+    "tex": [
+      "Paper.tex"
+    ],
+    "bibliography": [
+      "Paper.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "Figs/SNRS_detuned_normalised_two_panels.pdf",
+      "Figs/T_vs_nb_S_1_2.pdf",
+      "Figs/all_sensitivity_curves_with_peakfreq_asharp.pdf",
+      "Figs/f_peak_cold_hot.pdf",
+      "Figs/f_peak_hot_cold_posterior_total.pdf",
+      "Figs/mr_hot_cold.png"
+    ],
+    "other": [
+      "00README.json"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

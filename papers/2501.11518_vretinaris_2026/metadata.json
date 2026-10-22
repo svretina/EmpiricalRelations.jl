@@ -1,0 +1,96 @@
+{
+  "arxiv_id": "2501.11518",
+  "resolved_version": "2501.11518v1",
+  "version": 1,
+  "title": "Robust and fast parameter estimation for gravitational waves from binary neutron star merger remnants",
+  "authors": [
+    "Stamatis Vretinaris",
+    "Georgios Vretinaris",
+    "Christos Mermigkas",
+    "Minas Karamanis",
+    "Nikolaos Stergioulas"
+  ],
+  "abstract": "We present a robust and efficient methodology for parameter estimation of gravitational waves generated during the post-merger phase of binary neutron star mergers. Our approach leverages an analytic waveform model combined with empirical relations to predict prior ranges for the post-merger frequencies based on measurements of the chirp mass and effective tidal deformability in the inspiral phase. This enables robust inference of the main features of the post-merger spectrum, avoiding possible multi-modality induced by wide priors. Using waveforms derived from numerical relativity, we systematically validate our model across a broad spectrum of neutron star equations of state and mass configurations, demonstrating high fitting factors. Our method can be applied in future detections of gravitational waves from the post-merger phase with third-generation gravitational wave observatories. Furthermore, by integrating the Preconditioned Monte Carlo sampling method within the pocoMC framework, we achieve substantial computational acceleration compared to conventional Bayesian techniques.",
+  "submitted": "2025-01-20T14:48:12Z",
+  "last_revised": "2025-01-20T14:48:12Z",
+  "doi": "10.1103/g1qs-j74x",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "gr-qc"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2501.11518v1",
+  "pdf_url": "https://export.arxiv.org/pdf/2501.11518v1",
+  "source_url": "https://export.arxiv.org/src/2501.11518v1",
+  "publication_date": "2026-01-07",
+  "publication_year": 2026,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "waveform_model",
+    "parameter_inference"
+  ],
+  "seed_group": "B",
+  "directory": "2501.11518_vretinaris_2026",
+  "accessed_at": "2026-10-22T17:42:19.778711Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/main.tex",
+  "main_tex_candidates": [
+    {
+      "path": "main.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "main.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "16068256d5dcf1920ba156c96a5a1e7d5b5034107107301bd62c8ce5693641ba",
+    "source_sha256": "c3820a3ac3edad13088d4162ef07d24e67a68c70c5ad2521d8c97e9469201c5e"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2501.11518v1",
+  "pdf_bytes": 8216256,
+  "source_final_url": "https://export.arxiv.org/src/2501.11518v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 9522041,
+  "source_inventory": {
+    "tex": [
+      "main.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "plots/2H-1.35-maximum_likelihood_frequency_domain.pdf",
+      "plots/2H-1.35-median_frequency_domain.pdf",
+      "plots/BHBlp-1.3-maximum_likelihood_frequency_domain.pdf",
+      "plots/BHBlp-1.3-maximum_likelihood_time_domain.pdf",
+      "plots/BHBlp-1.3-median_frequency_domain.pdf",
+      "plots/MPA1-1.55-maximum_likelihood_frequency_domain.pdf",
+      "plots/MPA1-1.55-median_frequency_domain.pdf",
+      "plots/SLy_1.5_1_ASD.pdf",
+      "plots/SLy_1.5_1_maximum_likelihood_frequency_domain.pdf",
+      "plots/SLy_1.5_1_median_frequency_domain.pdf",
+      "plots/SNR16-maximum_likelihood_frequency_domain.pdf",
+      "plots/SNR16-median_frequency_domain.pdf",
+      "plots/SNR8-maximum_likelihood_frequency_domain.pdf",
+      "plots/SNR8-median_frequency_domain.pdf",
+      "plots/det_td.pdf",
+      "plots/easter_half_reparam_plus_free_True_violin_plot_all.pdf",
+      "plots/models.pdf",
+      "plots/mr.pdf",
+      "plots/surface_fLM.pdf"
+    ],
+    "other": [
+      "main.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

@@ -1,0 +1,100 @@
+{
+  "arxiv_id": "2304.01971",
+  "resolved_version": "2304.01971v2",
+  "version": 2,
+  "title": "Exploring thermal effects of the hadron-quark matter transition in neutron star mergers",
+  "authors": [
+    "Sebastian Blacker",
+    "Andreas Bauswein",
+    "Stefan Typel"
+  ],
+  "abstract": "We study the importance of the thermal behavior of the hadron-quark phase transition in neutron star (NS) mergers. To this end, we devise a new scheme approximating thermal effects to supplement any cold, barotropic hybrid equation of state (EoS) model, i.e. two-phase EoS constructions with a hadronic regime and a phase of deconfined quark matter. The consideration of temperature-dependent phase boundaries turns out to be critical for a quantitative description of quark matter effects in NS mergers, since the coexistence phase can introduce a strong softening of the EoS at finite temperature, which is even more significant than the change of the EoS by the phase transition at T=0. We validate our approach by comparing to existing fully temperature-dependent EoS models and find a very good quantitative agreement of postmerger gravitational-wave (GW) features. Simulations with the commonly-used thermal ideal-gas approach exhibit sizable differences compared to full hybrid models implying that its use in NS merger simulations with quark matter is problematic. Our new scheme provides the means to isolate thermal effects of quark matter from the properties of the cold hybrid EoS and thus allows an assessment of the thermal behavior alone. We show that different shapes of the phase boundaries at finite temperature can have a large impact on the postmerger dynamics and GW signal for the same cold hybrid model. This finding demonstrates that postmerger GW emission contains important complementary information compared to properties extracted from cold stars. We also show by concrete examples that it is even possible for quark matter to only occur and thus be detectable in finite-temperature systems like merger remnants but not in cold NSs (abbreviated).",
+  "submitted": "2023-04-04T17:28:42Z",
+  "last_revised": "2023-09-29T13:24:25Z",
+  "doi": "10.1103/PhysRevD.108.063032",
+  "journal_reference": "Phys.Rev.D 108 (2023) 6, 063032",
+  "arxiv_categories": [
+    "astro-ph.HE"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2304.01971v2",
+  "pdf_url": "https://export.arxiv.org/pdf/2304.01971v2",
+  "source_url": "https://export.arxiv.org/src/2304.01971v2",
+  "publication_date": "2023-09-28",
+  "publication_year": 2023,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "phase_transition",
+    "thermal_physics"
+  ],
+  "seed_group": "C",
+  "directory": "2304.01971_blacker_2023",
+  "accessed_at": "2026-10-22T17:42:19.916333Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/main.tex",
+  "main_tex_candidates": [
+    {
+      "path": "main.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "journalheader.tex"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "43c494cfb1575ffb312c70b8d8dd037c78d9b915fa8c73f0e801e92d202fc4c0",
+    "source_sha256": "9e209a0d26924728340ca61001392eb222923ba2ebf5493297c15adaade2f8ec"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2304.01971v2",
+  "pdf_bytes": 1212321,
+  "source_final_url": "https://export.arxiv.org/src/2304.01971v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 3072279,
+  "source_inventory": {
+    "tex": [
+      "journalheader.tex",
+      "main.tex"
+    ],
+    "bibliography": [
+      "mainNotes.bib",
+      "references.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "Plots/AllPhaseBoundaries.pdf",
+      "Plots/DD2FQuark41_135135rhomax.pdf",
+      "Plots/DD2FQuark484NewBounds.pdf",
+      "Plots/DiffsQuark41.pdf",
+      "Plots/FujimotoRelations.pdf",
+      "Plots/FujimotoTOV.pdf",
+      "Plots/Rhomax_Weihpp_fmaxTwoPanel.pdf",
+      "Plots/SpectraDD2F-SF-1.pdf",
+      "Plots/SpectraWeihppNew.pdf",
+      "Plots/Spectradd2fQuark484ShiftedBoundsNew.pdf",
+      "Plots/ToyBounds.pdf",
+      "Plots/dd2fQuark41ConstTEoS.pdf",
+      "Plots/dd2fQuark41DiagramEth.pdf",
+      "Plots/dd2fQuark41DiagramT.pdf",
+      "Plots/dd2fQuark41EoSAll.pdf",
+      "Plots/dd2fQuark41EoSSketch.pdf",
+      "Plots/dd2fQuark41Gammath.pdf",
+      "Plots/dd2fQuark484ShiftedBounds_135135rhomax.pdf",
+      "Plots/fPeakMtotQuark483.pdf"
+    ],
+    "other": [
+      "main.bbl",
+      "main.out",
+      "main.synctex"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

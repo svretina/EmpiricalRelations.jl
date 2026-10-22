@@ -1,0 +1,117 @@
+{
+  "arxiv_id": "2407.11143",
+  "resolved_version": "2407.11143v2",
+  "version": 2,
+  "title": "General relativistic hydrodynamic simulations of binary strange star mergers",
+  "authors": [
+    "Francesco Grippa",
+    "Aviral Prakash",
+    "Domenico Logoteta",
+    "David Radice",
+    "Ignazio Bombaci"
+  ],
+  "abstract": "We perform fully general-relativistic simulations of binary strange star mergers considering two different approaches for thermal effects. The first uses a cold equation of state (EOS) derived from a modified version of the MIT bag model which is then supplemented by a $Γ$-law correction. The second approach employs a microphysical description of the finite-temperature effects. We describe results obtained with the two treatments, highlighting the influence of thermal effects. We find that the postmerger dynamics differs significantly in the two cases, leading to quantitative differences in the postmerger gravitational-wave spectrum and ejecta mass. The peak frequency of the postmerger gravitational-wave emission is consistent with the established quasi-universal relations for binary neutron star mergers and as a result, our simulations cannot distinguish between mergers of neutron stars and those of strange stars. Our models with realistic treatment of finite-temperature effects produce a significant amount of ejecta $\\gtrsim 0.02\\ M_{\\odot}$. The resulting flux of strangelets near the Earth, computed assuming that all neutron star mergers are in fact strange-stars mergers and that the binary considered here is representative, is in tension with experimental upper limits. As such, our results tentatively disfavor a scenario in which strange-quark matter is the lowest energy state of matter.",
+  "submitted": "2024-07-15T18:08:31Z",
+  "last_revised": "2025-04-01T08:46:36Z",
+  "doi": "10.1103/PhysRevD.111.083009",
+  "journal_reference": "Phys. Rev. D 111, 083009 (2025)",
+  "arxiv_categories": [
+    "astro-ph.HE"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2407.11143v2",
+  "pdf_url": "https://export.arxiv.org/pdf/2407.11143v2",
+  "source_url": "https://export.arxiv.org/src/2407.11143v2",
+  "publication_date": "2025-04-04",
+  "publication_year": 2025,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "strange_stars",
+    "systematics",
+    "raw_frequency_data"
+  ],
+  "seed_group": "D",
+  "directory": "2407.11143_grippa_2025",
+  "accessed_at": "2026-10-22T17:42:24.351535Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/main.tex",
+  "main_tex_candidates": [
+    {
+      "path": "main.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "Table_Summary.tex"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "d51f267b4a13016e85c9bf773ce9584e41d1625ef6535ac6a1e10b4aa231b47e",
+    "source_sha256": "340e2ae9c07f2af2a54e6874bddc4e4976e8be33f0cb5e75e2e2ad81133d209a"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2407.11143v2",
+  "pdf_bytes": 3324801,
+  "source_final_url": "https://export.arxiv.org/src/2407.11143v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 2757003,
+  "source_inventory": {
+    "tex": [
+      "Table_Summary.tex",
+      "main.tex"
+    ],
+    "bibliography": [
+      "bibliography.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "Plots/2D/T_rem_fin_SR.png",
+      "Plots/2D/colorbar.png",
+      "Plots/2D/e_fin_SR_a.png",
+      "Plots/2D/e_fin_SR_b.png",
+      "Plots/2D/e_fin_SR_c.png",
+      "Plots/2D/e_fin_SR_d.png",
+      "Plots/2D/e_fin_SR_e.png",
+      "Plots/2D/e_fin_SR_f.png",
+      "Plots/2D/e_xz_fin.png",
+      "Plots/EOS/Mass_radius.png",
+      "Plots/EOS/P_dP_vs_e.png",
+      "Plots/EOS/P_rho_eos_thermal_new.png",
+      "Plots/SRs/SQM_QUR.png",
+      "Plots/SRs/asd.png",
+      "Plots/SRs/disk_mass_SRs.png",
+      "Plots/SRs/hist_theta.png",
+      "Plots/SRs/min_lapse_SRs.png",
+      "Plots/SRs/n_b_SRs.png",
+      "Plots/SRs/remnant_mass.png",
+      "Plots/SRs/strainfreq_SRs.png",
+      "Plots/SRs/total_outflowed_mass_det_0_SRs.png",
+      "Plots/Single_strange_star/colorbar_single.png",
+      "Plots/Single_strange_star/cons_dens_binary.png",
+      "Plots/Single_strange_star/cons_dens_single_star.png",
+      "Plots/Single_strange_star/e_new.png",
+      "Plots/Single_strange_star/e_old_1.png",
+      "Plots/Single_strange_star/e_old_2.png",
+      "Plots/Single_strange_star/e_old_3.png",
+      "Plots/Single_strange_star/e_old_colorbar.png",
+      "Plots/Single_strange_star/n_singlestars.png",
+      "Plots/Single_strange_star/p_colorbar.png",
+      "Plots/Single_strange_star/p_new.png",
+      "Plots/Single_strange_star/p_old_1.png",
+      "Plots/Single_strange_star/p_old_2.png",
+      "Plots/Single_strange_star/p_old_3.png",
+      "Plots/Single_strange_star/p_old_colorbar.png"
+    ],
+    "other": [
+      "main.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

@@ -1,0 +1,96 @@
+{
+  "arxiv_id": "2205.09112",
+  "resolved_version": "2205.09112v1",
+  "version": 1,
+  "title": "Kilohertz Gravitational Waves From Binary Neutron Star Mergers: Numerical-relativity Informed Postmerger Model",
+  "authors": [
+    "Matteo Breschi",
+    "Sebastiano Bernuzzi",
+    "Kabir Chakravarti",
+    "Alessandro Camilletti",
+    "Aviral Prakash",
+    "Albino Perego"
+  ],
+  "abstract": "We present ${\\tt NRPMw}$, an analytical model of gravitational-waves from neutron star merger remnants informed using 618 numerical relativity (NR) simulations. ${\\tt NRPMw}$ is designed in the frequency domain using a combination of complex Gaussian wavelets. The wavelet's parameters are calibrated to equations of state (EOS) insensitive relations from NR data. The NR simulations are computed with 21 EOS (7 of which are finite-temperature microphysical models, and 3 of which contain quark phase transitions or hyperonic degrees of freedom) and span total binary masses $M\\in[2.4,3.4]~{\\rm M}_\\odot$, mass ratios up to $q=2$, and (nonprecessing) dimensionless spins magnitudes up to ${0.2}$. The theoretical uncertainties of the EOS-insensitive relations are incorporated in ${\\tt NRPMw}$ using recalibration parameters that enhance the flexibility and accuracy of the model. ${\\tt NRPMw}$ is NR-faithful with fitting factors ${\\gtrsim}0.9$ computed on an independent validation set of 102 simulations.",
+  "submitted": "2022-05-18T17:59:15Z",
+  "last_revised": "2022-05-18T17:59:15Z",
+  "doi": null,
+  "journal_reference": null,
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2205.09112v1",
+  "pdf_url": "https://export.arxiv.org/pdf/2205.09112v1",
+  "source_url": "https://export.arxiv.org/src/2205.09112v1",
+  "publication_date": null,
+  "publication_year": 2022,
+  "publication_date_source": null,
+  "publisher": null,
+  "container_title": null,
+  "categories": [
+    "waveform_model",
+    "frequency_domain"
+  ],
+  "seed_group": "B",
+  "directory": "2205.09112_breschi_2022",
+  "accessed_at": "2026-10-22T17:42:19.751803Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper20220518.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper20220518.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "paper20220518.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "3b5da5120ae8ad622659410c4f89d54194d371d2b2b5d9415214a990a4c8998f",
+    "source_sha256": "c99abd4c2f45d1dcf814c84c1a4f8d33f165ead504da54c8a5f28b568ec398a0"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2205.09112v1",
+  "pdf_bytes": 2144983,
+  "source_final_url": "https://export.arxiv.org/src/2205.09112v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 4408869,
+  "source_inventory": {
+    "tex": [
+      "paper20220518.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "fig01.pdf",
+      "fig02a.pdf",
+      "fig02b.pdf",
+      "fig03.pdf",
+      "fig04a.pdf",
+      "fig04b.pdf",
+      "fig05.pdf",
+      "fig06.pdf",
+      "fig07.pdf",
+      "fig08a.pdf",
+      "fig08b.pdf",
+      "fig08c.pdf",
+      "fig08d.pdf",
+      "fig09a.pdf",
+      "fig09b.pdf",
+      "fig09c.pdf",
+      "fig09d.pdf"
+    ],
+    "other": [
+      "paper20220518.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

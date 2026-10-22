@@ -1,0 +1,107 @@
+{
+  "arxiv_id": "2405.09468",
+  "resolved_version": "2405.09468v1",
+  "version": 1,
+  "title": "Predicting Binary Neutron Star Postmerger Spectra Using Artificial Neural Networks",
+  "authors": [
+    "Dimitrios Pesios",
+    "Ioannis Koutalios",
+    "Dimitris Kugiumtzis",
+    "Nikolaos Stergioulas"
+  ],
+  "abstract": "Gravitational waves in the postmerger phase of binary neutron star mergers may become detectable with planned upgrades of existing gravitational-wave detectors or with more sensitive next-generation detectors. The construction of template banks for the postmerger phase can facilitate signal detection and parameter estimation. Here, we investigate the performance of an artificial neural network in predicting simulation-based waveforms in the frequency domain (restricted to the magnitude of the frequency spectrum and to equal-mass models) that depend on three parameters that can be inferred through observations, neutron star mass, tidal deformability, and the gradient of radius versus mass. Compared to a baseline study using multiple linear regression, we find that the artificial neural network can predict waveforms with higher accuracy and more consistent performance in a cross-validation study. We also demonstrate, through a recalibration procedure, that future reduction of uncertainties in empirical relations that are used in our hierarchical scheme will result in more accurate predicted postmerger spectra.",
+  "submitted": "2024-05-15T16:03:51Z",
+  "last_revised": "2024-05-15T16:03:51Z",
+  "doi": null,
+  "journal_reference": null,
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2405.09468v1",
+  "pdf_url": "https://export.arxiv.org/pdf/2405.09468v1",
+  "source_url": "https://export.arxiv.org/src/2405.09468v1",
+  "publication_date": null,
+  "publication_year": 2024,
+  "publication_date_source": null,
+  "publisher": null,
+  "container_title": null,
+  "categories": [
+    "waveform_model",
+    "machine_learning",
+    "raw_frequency_data"
+  ],
+  "seed_group": "D",
+  "directory": "2405.09468_pesios_2024",
+  "accessed_at": "2026-10-22T17:42:24.288880Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/PKS2024.tex",
+  "main_tex_candidates": [
+    {
+      "path": "PKS2024.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "PKS2024.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "b2ec55979300c91d9c14514b84b2642bbd6b321dfe81e266a99d10d0f27afaad",
+    "source_sha256": "ff0c277b779dacc1a9580e014a0ed976dfe3eb291897bfc9ca434365d4c272cd"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2405.09468v1",
+  "pdf_bytes": 9492374,
+  "source_final_url": "https://export.arxiv.org/src/2405.09468v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 8242954,
+  "source_inventory": {
+    "tex": [
+      "PKS2024.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "revsymb4-2.sty",
+      "revtex4-2.cls"
+    ],
+    "figures": [
+      "figs/Core_linreg.pdf",
+      "figs/Core_neural.pdf",
+      "figs/LS220_after.pdf",
+      "figs/LS220_before.pdf",
+      "figs/LossForFold1.pdf",
+      "figs/LossForFold2.pdf",
+      "figs/LossForFold3.pdf",
+      "figs/LossForFold4.pdf",
+      "figs/Soultanis_linreg.pdf",
+      "figs/Soultanis_neural.pdf",
+      "figs/Spectra_DD2_M13000.pdf",
+      "figs/Strain_DD2_M13000.pdf",
+      "figs/Takami_linreg.pdf",
+      "figs/Takami_neural.pdf",
+      "figs/calibrated.pdf",
+      "figs/histogram_linreg_calib_n.pdf",
+      "figs/histogram_linreg_calib_y.pdf",
+      "figs/histogram_neural_calib_n.pdf",
+      "figs/histogram_neural_calib_y.pdf",
+      "figs/original.pdf",
+      "figs/shifted.pdf",
+      "figs/violin_plots1_per_N_linreg_ann_derivatives_VERTICAL_calib.pdf",
+      "figs/violin_plots1_per_N_linreg_ann_derivatives_VERTICAL_no_calib.pdf"
+    ],
+    "other": [
+      "PKS2024.bbl",
+      "aps10pt4-2.rtx",
+      "aps4-2.rtx",
+      "revtex4-2.dtx"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

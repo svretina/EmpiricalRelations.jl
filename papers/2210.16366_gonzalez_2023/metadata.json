@@ -1,0 +1,112 @@
+{
+  "arxiv_id": "2210.16366",
+  "resolved_version": "2210.16366v2",
+  "version": 2,
+  "title": "Second release of the CoRe database of binary neutron star merger waveforms",
+  "authors": [
+    "Alejandra Gonzalez",
+    "Francesco Zappa",
+    "Matteo Breschi",
+    "Sebastiano Bernuzzi",
+    "David Radice",
+    "Ananya Adhikari",
+    "Alessandro Camilletti",
+    "Swami Vivekanandji Chaurasia",
+    "Georgios Doulis",
+    "Surendra Padamata",
+    "Alireza Rashti",
+    "Maximiliano Ujevic",
+    "Bernd Brügmann",
+    "William Cook",
+    "Tim Dietrich",
+    "Albino Perego",
+    "Amit Poudel",
+    "Wolfgang Tichy"
+  ],
+  "abstract": "We present the second data release of gravitational waveforms from binary neutron star merger simulations performed by the Computational Relativity (CoRe) collaboration. The current database consists of 254 different binary neutron star configurations and a total of 590 individual numerical-relativity simulations using various grid resolutions. The released waveform data contain the strain and the Weyl curvature multipoles up to $\\ell=m=4$. They span a significant portion of the mass, mass-ratio,spin and eccentricity parameter space and include targeted configurations to the events GW170817 and GW190425. CoRe simulations are performed with 18 different equations of state, seven of which are finite temperature models, and three of which account for non-hadronic degrees of freedom. About half of the released data are computed with high-order hydrodynamics schemes for tens of orbits to merger; the other half is computed with advanced microphysics. We showcase a standard waveform error analysis and discuss the accuracy of the database in terms of faithfulness. We present ready-to-use fitting formulas for equation of state-insensitive relations at merger (e.g. merger frequency), luminosity peak, and post-merger spectrum.",
+  "submitted": "2022-10-28T19:01:58Z",
+  "last_revised": "2023-03-28T12:40:25Z",
+  "doi": "10.1088/1361-6382/acc231",
+  "journal_reference": "Class. Quantum Grav. 40 085011 (2023)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2210.16366v2",
+  "pdf_url": "https://export.arxiv.org/pdf/2210.16366v2",
+  "source_url": "https://export.arxiv.org/src/2210.16366v2",
+  "publication_date": "2023-04-20",
+  "publication_year": 2023,
+  "publication_date_source": "Crossref:published-print",
+  "publisher": "IOP Publishing",
+  "container_title": "Classical and Quantum Gravity",
+  "categories": [
+    "core_database",
+    "waveforms",
+    "empirical_relations"
+  ],
+  "seed_group": "C",
+  "directory": "2210.16366_gonzalez_2023",
+  "accessed_at": "2026-10-22T17:42:19.847609Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper20230323.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper20230323.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "paper20230323.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "7fc211e4be5de2081c80e9e32fd8e373b396f69ce11c9e20531c784f0c4c5061",
+    "source_sha256": "60ce3331bb69a96f499625d4fb9e462e5c0d363e222348da949132fbfeda8914"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2210.16366v2",
+  "pdf_bytes": 2809736,
+  "source_final_url": "https://export.arxiv.org/src/2210.16366v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 4384574,
+  "source_inventory": {
+    "tex": [
+      "paper20230323.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "iopams.sty",
+      "iopart.cls"
+    ],
+    "figures": [
+      "fig01.pdf",
+      "fig02.pdf",
+      "fig03.pdf",
+      "fig04.pdf",
+      "fig05.pdf",
+      "fig06.pdf",
+      "fig07.pdf",
+      "fig08.pdf",
+      "fig09a.pdf",
+      "fig09b.pdf",
+      "fig10.pdf",
+      "fig11.pdf",
+      "fig12.pdf",
+      "fig13.pdf",
+      "fig14.pdf"
+    ],
+    "other": [
+      "iopart10.clo",
+      "iopart12.clo",
+      "paper20230323.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

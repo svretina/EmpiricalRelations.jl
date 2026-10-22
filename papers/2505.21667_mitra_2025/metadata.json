@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2505.21667",
+  "resolved_version": "2505.21667v1",
+  "version": 1,
+  "title": "Prospect of Constraining the EoS of Neutron Stars Using Post-Merger Signals",
+  "authors": [
+    "Soham Mitra",
+    "Praveer Tiwari",
+    "Archana Pai"
+  ],
+  "abstract": "Post-merger gravitational-wave emission from a binary neutron star merger carries crucial information about the equation of state (EoS) of matter at high temperatures. Current gravitational wave detectors have limited sensitivities at post-merger frequencies in the range [1.5, 4] kHz. Therefore, valuable inferences can only be made after combining information from multiple (BNS) events. Criswell et al. [Phys. Rev. D 107, 043021 (2023)] carries out an injection study to infer the radius posterior for a $1.6 M_{\\odot}$ NS by combining the information from injected BNS events via the hierarchical Bayesian inference (HBI) formulation. This formulation utilizes empirical relations that connect the peak frequency of the post-merger remnant with the chirp mass of the system, and the EoS proxy parameter $R_{1.6}$. In this work, we extend the HBI formulation to other EoS proxy parameters (i.e., the radius of (NS), $R_{1.X}$, with masses 1.2, 1.4, and 1.8 $M_{\\odot}$) and combine the four $R_{1.X}$ posteriors through the piecewise polytropic EoS model to obtain measurable constraints on the EoS of the NS. We show that the NS radii can be constrained to within $\\sim$1 km ( $\\sim$0.55 km) assuming uniform (astrophysical) prior on $R_{1.X}$ for injections in the A+ noise. We also study systematic biases in the analysis coming from the limitations of empirical relations.",
+  "submitted": "2025-05-27T18:46:45Z",
+  "last_revised": "2025-05-27T18:46:45Z",
+  "doi": null,
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "gr-qc",
+    "hep-ph",
+    "nucl-th",
+    "physics.data-an"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2505.21667v1",
+  "pdf_url": "https://export.arxiv.org/pdf/2505.21667v1",
+  "source_url": "https://export.arxiv.org/src/2505.21667v1",
+  "publication_date": null,
+  "publication_year": 2025,
+  "publication_date_source": null,
+  "publisher": null,
+  "container_title": null,
+  "categories": [
+    "indirect_application",
+    "radius_frequency",
+    "systematics"
+  ],
+  "seed_group": "D",
+  "directory": "2505.21667_mitra_2025",
+  "accessed_at": "2026-10-22T17:42:24.378714Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/Paper_Draft.tex",
+  "main_tex_candidates": [
+    {
+      "path": "Paper_Draft.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "79540ea09a57994f9e90b945b4f4fb0e11ba1169e42984da313cd9512d81182f",
+    "source_sha256": "e26eaddc0887fcccb1bf53183e3737f10ddec8d771bbfe5c1a95d38a55d8dd89"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2505.21667v1",
+  "pdf_bytes": 1352334,
+  "source_final_url": "https://export.arxiv.org/src/2505.21667v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 2373444,
+  "source_inventory": {
+    "tex": [
+      "Paper_Draft.tex"
+    ],
+    "bibliography": [
+      "references.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "Flow_Chart_EoS.pdf",
+      "Full_SFHx.pdf",
+      "Rlamda_M_Full.pdf",
+      "SFHx_SLy4.pdf",
+      "SFHx_SLy4_Fit_Accuracy.pdf"
+    ],
+    "other": [
+      "00README.json",
+      "Paper_Draft.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

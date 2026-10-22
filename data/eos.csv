@@ -1,0 +1,105 @@
+id,source_id,eos,eos_variant,r_1_2_km,r_1_4_km,r_1_6_km,r_1_8_km,m_tov_msun,definition_notes,source_table
+arxiv-1910-10856-eos-apr,arxiv-1910-10856,APR,,11.37,11.34,11.27,11.14,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-bhblp,arxiv-1910-10856,BHBLP,,13.08,13.14,13.12,12.95,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-dd2,arxiv-1910-10856,DD2,,13.08,13.15,13.18,13.16,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-ls220,arxiv-1910-10856,LS220,,12.65,12.56,12.36,12.0,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-ls375,arxiv-1910-10856,LS375,,13.43,13.57,13.67,13.72,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-nl3,arxiv-1910-10856,NL3,,14.64,14.69,14.73,14.75,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-sfho,arxiv-1910-10856,SFHO,,11.89,11.81,11.68,11.43,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-sfhx,arxiv-1910-10856,SFHX,,11.87,11.92,11.9,11.79,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-tm1,arxiv-1910-10856,TM1,,14.44,14.38,14.26,14.06,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-tma,arxiv-1910-10856,TMA,,13.75,13.72,13.57,13.24,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-alf2,arxiv-1910-10856,ALF2,,12.64,12.7,12.64,12.4,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-eng,arxiv-1910-10856,ENG,,11.97,11.97,11.92,11.79,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-h4,arxiv-1910-10856,H4,,14.04,13.95,13.74,13.32,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-mpa1,arxiv-1910-10856,MPA1,,12.37,12.43,12.47,12.46,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-ms1b,arxiv-1910-10856,MS1b,,14.43,14.53,14.6,14.65,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-sly,arxiv-1910-10856,SLy,,11.8,11.71,11.55,11.27,,"Cold, nonrotating stellar models for the source-specific EOS definition.",tables/TOV_info.tex
+arxiv-1910-10856-eos-shen,arxiv-1910-10856,SHEN,,,,,,,EOS appears in the waveform table but has no row in tables/TOV_info.tex; properties remain missing.,tables/bauswein_data.tex
+arxiv-1910-10856-eos-sly4,arxiv-1910-10856,SLY4,,,,,,,EOS appears in the waveform table but has no row in tables/TOV_info.tex; properties remain missing.,tables/bauswein_data.tex
+arxiv-1106-1616-eos-sly4,arxiv-1106-1616,Sly4,,,,,,2.05,Maximum-mass radius Rmax=10.01 km.,paper.tex
+arxiv-1106-1616-eos-apr,arxiv-1106-1616,APR,,,,,,2.19,Maximum-mass radius Rmax=9.9 km.,paper.tex
+arxiv-1106-1616-eos-fps,arxiv-1106-1616,FPS,,,,,,1.8,Maximum-mass radius Rmax=9.3 km.,paper.tex
+arxiv-1106-1616-eos-bbb2,arxiv-1106-1616,BBB2,,,,,,1.92,Maximum-mass radius Rmax=9.55 km.,paper.tex
+arxiv-1106-1616-eos-glendnh3,arxiv-1106-1616,Glendnh3,,,,,,1.96,Maximum-mass radius Rmax=11.48 km.,paper.tex
+arxiv-1106-1616-eos-eosau,arxiv-1106-1616,eosAU,,,,,,2.14,Maximum-mass radius Rmax=9.45 km.,paper.tex
+arxiv-1106-1616-eos-eosc,arxiv-1106-1616,eosC,,,,,,1.87,Maximum-mass radius Rmax=9.89 km.,paper.tex
+arxiv-1106-1616-eos-eosl,arxiv-1106-1616,eosL,,,,,,2.76,Maximum-mass radius Rmax=14.3 km.,paper.tex
+arxiv-1106-1616-eos-eoso,arxiv-1106-1616,eosO,,,,,,2.39,Maximum-mass radius Rmax=11.56 km.,paper.tex
+arxiv-1106-1616-eos-eosuu,arxiv-1106-1616,eosUU,,,,,,2.21,Maximum-mass radius Rmax=9.84 km.,paper.tex
+arxiv-1106-1616-eos-eosws,arxiv-1106-1616,eosWS,,,,,,1.85,Maximum-mass radius Rmax=9.58 km.,paper.tex
+arxiv-1106-1616-eos-ska,arxiv-1106-1616,SKA,,,,,,2.21,Maximum-mass radius Rmax=11.17 km.,paper.tex
+arxiv-1106-1616-eos-shen,arxiv-1106-1616,Shen,,,,,,2.24,Maximum-mass radius Rmax=12.63 km.,paper.tex
+arxiv-1106-1616-eos-ls180,arxiv-1106-1616,LS180,,,,,,1.83,Maximum-mass radius Rmax=10.04 km.,paper.tex
+arxiv-1106-1616-eos-ls220,arxiv-1106-1616,LS220,,,,,,2.04,Maximum-mass radius Rmax=10.61 km.,paper.tex
+arxiv-1106-1616-eos-ls375,arxiv-1106-1616,LS375,,,,,,2.71,Maximum-mass radius Rmax=12.34 km.,paper.tex
+arxiv-1106-1616-eos-gs1,arxiv-1106-1616,GS1,,,,,,2.75,Maximum-mass radius Rmax=13.27 km.,paper.tex
+arxiv-1106-1616-eos-gs2,arxiv-1106-1616,GS2,,,,,,2.09,Maximum-mass radius Rmax=11.78 km.,paper.tex
+arxiv-1907-03790-eos-eos,arxiv-1907-03790,EOS,,,,,,,Published radii include R_1.35=1.35 km; full mass grid remains in published_table_cells.csv.,paper.tex
+arxiv-1907-03790-eos-15h,arxiv-1907-03790,15H,,,,,,2.53,Published radii include R_1.35=13.69 km; full mass grid remains in published_table_cells.csv.,paper.tex
+arxiv-1907-03790-eos-125h,arxiv-1907-03790,125H,,,,,,2.38,Published radii include R_1.35=12.97 km; full mass grid remains in published_table_cells.csv.,paper.tex
+arxiv-1907-03790-eos-h,arxiv-1907-03790,H,,,,,,2.25,Published radii include R_1.35=12.27 km; full mass grid remains in published_table_cells.csv.,paper.tex
+arxiv-1907-03790-eos-hb,arxiv-1907-03790,HB,,,,,,2.12,Published radii include R_1.35=11.61 km; full mass grid remains in published_table_cells.csv.,paper.tex
+arxiv-1907-03790-eos-b,arxiv-1907-03790,B,,,,,,2.0,Published radii include R_1.35=10.96 km; full mass grid remains in published_table_cells.csv.,paper.tex
+arxiv-1509-08522-eos-eos,arxiv-1509-08522,EoS,,,,,,,Published R_1.35=1.35 km.,pmns_pca.tex
+arxiv-1509-08522-eos-nl3,arxiv-1509-08522,NL3,,,,,,,Published R_1.35=14.75 km.,pmns_pca.tex
+arxiv-1509-08522-eos-ls375,arxiv-1509-08522,LS375,,,,,,,Published R_1.35=13.65 km.,pmns_pca.tex
+arxiv-1509-08522-eos-dd2,arxiv-1509-08522,DD2,,,,,,,Published R_1.35=13.21 km.,pmns_pca.tex
+arxiv-1509-08522-eos-tm1,arxiv-1509-08522,TM1,,,,,,,Published R_1.35=14.49 km.,pmns_pca.tex
+arxiv-1509-08522-eos-sfhx,arxiv-1509-08522,SFHX,,,,,,,Published R_1.35=11.98 km.,pmns_pca.tex
+arxiv-1509-08522-eos-gs2,arxiv-1509-08522,GS2,,,,,,,Published R_1.35=13.38 km.,pmns_pca.tex
+arxiv-1509-08522-eos-sfho,arxiv-1509-08522,SFHO,,,,,,,Published R_1.35=11.92 km.,pmns_pca.tex
+arxiv-1509-08522-eos-ls220,arxiv-1509-08522,LS220,,,,,,,Published R_1.35=12.73 km.,pmns_pca.tex
+arxiv-1509-08522-eos-tma,arxiv-1509-08522,TMA,,,,,,,Published R_1.35=13.86 km.,pmns_pca.tex
+arxiv-1509-08522-eos-apr,arxiv-1509-08522,APR,,,,,,,Published R_1.35=11.33 km.,pmns_pca.tex
+arxiv-1509-08522-eos-bhblp,arxiv-1509-08522,BHBLP,,,,,,,Published R_1.35=13.21 km.,pmns_pca.tex
+arxiv-1509-08522-eos-shen,arxiv-1509-08522,Shen,,,,,,,Published R_1.35=14.64 km.,pmns_pca.tex
+arxiv-1509-08522-eos-heb6,arxiv-1509-08522,Heb6,,,,,,,Published R_1.35=13.33 km.,pmns_pca.tex
+arxiv-1509-08522-eos-heb5,arxiv-1509-08522,Heb5,,,,,,,Published R_1.35=12.38 km.,pmns_pca.tex
+arxiv-1509-08522-eos-heb4,arxiv-1509-08522,Heb4,,,,,,,Published R_1.35=12.51 km.,pmns_pca.tex
+arxiv-1509-08522-eos-heb3,arxiv-1509-08522,Heb3,,,,,,,Published R_1.35=12.03 km.,pmns_pca.tex
+arxiv-1504-01764-eos-sly,arxiv-1504-01764,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-eng,arxiv-1504-01764,ENG,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-mpa1,arxiv-1504-01764,MPA1,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-alf2,arxiv-1504-01764,ALF2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-h4,arxiv-1504-01764,H4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-ms1b,arxiv-1504-01764,MS1b,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-ms1,arxiv-1504-01764,MS1,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1504-01764-eos-2h,arxiv-1504-01764,2H,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper20150817.tex
+arxiv-1907-03790-eos-sfho,arxiv-1907-03790,SFHo,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,paper.tex
+arxiv-1412-3240-eos-,arxiv-1412-3240,,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1412-3240-eos-gnh3,arxiv-1412-3240,GNH3,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1412-3240-eos-h4,arxiv-1412-3240,H4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1412-3240-eos-alf2,arxiv-1412-3240,ALF2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1412-3240-eos-sly,arxiv-1412-3240,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1412-3240-eos-apr4,arxiv-1412-3240,APR4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1604-00246-eos-gnh3,arxiv-1604-00246,GNH3,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1604-00246-eos-h4,arxiv-1604-00246,H4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1604-00246-eos-alf2,arxiv-1604-00246,ALF2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1604-00246-eos-sly,arxiv-1604-00246,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1604-00246-eos-apr4,arxiv-1604-00246,APR4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1604-00246-eos-ls220,arxiv-1604-00246,LS220,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1908-11418-eos-2b,arxiv-1908-11418,2B,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
+arxiv-1908-11418-eos-sly4,arxiv-1908-11418,SLy4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
+arxiv-1908-11418-eos-bhb-lambda-phi,arxiv-1908-11418,BHB\Lambda\phi,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
+arxiv-1908-11418-eos-dd2,arxiv-1908-11418,DD2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
+arxiv-1908-11418-eos-ls220,arxiv-1908-11418,LS220,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
+arxiv-1908-11418-eos-h4,arxiv-1908-11418,H4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
+arxiv-2310-06025-eos-eos,arxiv-2310-06025,EOS,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,NR_Simulation_Summary.tex
+arxiv-2310-06025-eos-blh,arxiv-2310-06025,BLh,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,NR_Simulation_Summary.tex
+arxiv-2310-06025-eos-blq,arxiv-2310-06025,BLQ,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,NR_Simulation_Summary.tex
+arxiv-2310-06025-eos-dd2f,arxiv-2310-06025,DD2F,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,NR_Simulation_Summary.tex
+arxiv-2310-06025-eos-dd2f-sf1,arxiv-2310-06025,DD2F-SF1,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,NR_Simulation_Summary.tex
+arxiv-2411-00943-eos-sly,arxiv-2411-00943,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,apssamp.tex
+arxiv-2411-00943-eos-alf2,arxiv-2411-00943,ALF2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,apssamp.tex
+arxiv-2501-11518-eos-sly,arxiv-2501-11518,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-ls220,arxiv-2501-11518,LS220,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-ms1b,arxiv-2501-11518,MS1b,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-bhblp,arxiv-2501-11518,BHBlp,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-dd2,arxiv-2501-11518,DD2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-2h,arxiv-2501-11518,2H,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-h4,arxiv-2501-11518,H4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2501-11518-eos-mpa1,arxiv-2501-11518,MPA1,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2407-11143-eos-strange-star,arxiv-2407-11143,strange-star,Cold + \Gamma-Law,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,Table_Summary.tex
+arxiv-2606-08522-eos-stiff,arxiv-2606-08522,stiff,1.25-1.30-stiff-m125,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex
+arxiv-2606-08522-eos-soft,arxiv-2606-08522,soft,1.25-1.40-soft-m125,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,main.tex

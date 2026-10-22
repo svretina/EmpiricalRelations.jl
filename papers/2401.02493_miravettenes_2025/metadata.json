@@ -1,0 +1,98 @@
+{
+  "arxiv_id": "2401.02493",
+  "resolved_version": "2401.02493v4",
+  "version": 4,
+  "title": "Identifying thermal effects in neutron star merger remnants with model-agnostic waveform reconstructions and third-generation detectors",
+  "authors": [
+    "Miquel Miravet-Tenés",
+    "Davide Guerra",
+    "Milton Ruiz",
+    "Pablo Cerdá-Durán",
+    "José A. Font"
+  ],
+  "abstract": "We probe the intrinsic differences in simulated gravitational-wave signals from binary neutron star (BNS) mergers, arising from varying approaches to incorporating thermal effects in numerical-relativity modeling. We consider a hybrid approach in which the equation of state (EOS) comprises a cold, zero-temperature, piecewise-polytropic part and a thermal part described by an ideal gas, and a tabulated approach based on self-consistent, microphysical, finite-temperature EOS. We use time-domain waveforms corresponding to BNS merger simulations with four different EOSs. Those are injected into Gaussian noise given by the sensitivity of the third-generation detector Einstein Telescope and reconstructed using BayesWave, a Bayesian data-analysis algorithm that recovers the signals through a model-agnostic approach. The two representations of thermal effects result in different dominant peak frequencies in the spectra of the postmerger signals, for both the quadrupole fundamental mode and the late-time inertial modes. For some of the EOSs investigated those differences are large enough to be told apart, especially in the early postmerger phase when the signal amplitude is the loudest. Our results suggest that a self-consistent treatment of thermal effects in BNS postmerger modeling is essential to prevent significant parameter biases in upcoming gravitational-wave detections.",
+  "submitted": "2024-01-04T19:06:34Z",
+  "last_revised": "2025-03-03T13:17:51Z",
+  "doi": "10.1103/PhysRevD.111.043006",
+  "journal_reference": "Phys. Rev. D, 111, 2025, 043006",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2401.02493v4",
+  "pdf_url": "https://export.arxiv.org/pdf/2401.02493v4",
+  "source_url": "https://export.arxiv.org/src/2401.02493v4",
+  "publication_date": "2025-02-05",
+  "publication_year": 2025,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "thermal_physics",
+    "systematics",
+    "inertial_modes"
+  ],
+  "seed_group": "D",
+  "directory": "2401.02493_miravettenes_2025",
+  "accessed_at": "2026-10-22T17:42:24.054607Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/apssamp.tex",
+  "main_tex_candidates": [
+    {
+      "path": "apssamp.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "d7d80762e9c4081239db16b08821c429b1dceb032e88acb09bfce1dd14ae926d",
+    "source_sha256": "5768be54cb94166caa687287d082318ed96b8cbee9aefc43b404c3c748dda936"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2401.02493v4",
+  "pdf_bytes": 34169236,
+  "source_final_url": "https://export.arxiv.org/src/2401.02493v4",
+  "source_content_type": "application/gzip",
+  "source_bytes": 32901663,
+  "source_inventory": {
+    "tex": [
+      "apssamp.tex"
+    ],
+    "bibliography": [
+      "refs.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "MG_Rcirc.pdf",
+      "SNR.pdf",
+      "fp_early.pdf",
+      "fp_late.pdf",
+      "fp_mid.pdf",
+      "lambda_early.pdf",
+      "lambda_mid.pdf",
+      "ov_all.pdf",
+      "ov_early_v2.pdf",
+      "ov_late_v2.pdf",
+      "ov_mid_v2.pdf",
+      "rec_early_HShen.pdf",
+      "rec_early_SLy4.pdf",
+      "rec_late_HShen.pdf",
+      "rec_late_SLy4.pdf",
+      "rec_mid_HShen.pdf",
+      "rec_mid_SLy4.pdf",
+      "spec_HShen.png",
+      "spec_LS220.png"
+    ],
+    "other": [
+      "apssamp.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

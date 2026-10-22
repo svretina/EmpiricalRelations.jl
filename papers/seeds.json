@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "papers": [
+    {"arxiv_id": "1106.1616", "group": "A", "topics": ["empirical_relations", "dominant_frequency", "eos"]},
+    {"arxiv_id": "1403.5301", "group": "A", "topics": ["empirical_relations", "dominant_frequency", "eos"]},
+    {"arxiv_id": "1403.5672", "group": "A", "topics": ["empirical_relations", "secondary_frequencies", "compactness"]},
+    {"arxiv_id": "1412.3240", "group": "A", "topics": ["spectral_classification", "secondary_frequencies"]},
+    {"arxiv_id": "1502.03176", "group": "A", "topics": ["spectral_classification", "mode_identification", "secondary_frequencies"]},
+    {"arxiv_id": "1604.00246", "group": "A", "topics": ["empirical_relations", "spectral_classification"]},
+    {"arxiv_id": "1907.02424", "group": "A", "topics": ["empirical_relations", "parameter_inference"]},
+    {"arxiv_id": "1910.10856", "group": "A", "topics": ["empirical_relations", "secondary_frequencies", "spectral_classification"]},
+    {"arxiv_id": "2102.12455", "group": "A", "topics": ["empirical_relations", "fit_residuals"]},
+    {"arxiv_id": "2606.08522", "group": "A", "topics": ["empirical_relations", "uncertainties", "secondary_frequencies"]},
+    {"arxiv_id": "1509.08522", "group": "B", "topics": ["waveform_model", "principal_components"]},
+    {"arxiv_id": "1908.11418", "group": "B", "topics": ["waveform_model", "time_domain"]},
+    {"arxiv_id": "2111.08353", "group": "B", "topics": ["waveform_model", "time_domain", "mode_coupling"]},
+    {"arxiv_id": "2205.09112", "group": "B", "topics": ["waveform_model", "frequency_domain"]},
+    {"arxiv_id": "2501.11518", "group": "B", "topics": ["waveform_model", "parameter_inference"]},
+    {"arxiv_id": "1702.02567", "group": "C", "topics": ["collapse_threshold", "eos"]},
+    {"arxiv_id": "2210.16366", "group": "C", "topics": ["core_database", "waveforms", "empirical_relations"]},
+    {"arxiv_id": "2301.09672", "group": "C", "topics": ["consistency_test", "parameter_inference"]},
+    {"arxiv_id": "2302.11359", "group": "C", "topics": ["thermal_physics", "systematics"]},
+    {"arxiv_id": "2304.01971", "group": "C", "topics": ["phase_transition", "thermal_physics"]},
+    {"arxiv_id": "2310.06025", "group": "C", "topics": ["phase_transition", "detectability"]},
+    {"arxiv_id": "2411.00943", "group": "C", "topics": ["magnetic_fields", "systematics"]}
+    ,
+    {"arxiv_id": "1402.6244", "group": "D", "topics": ["quasi_universal_relations", "tidal_coupling", "merger_frequency"]},
+    {"arxiv_id": "1504.01764", "group": "D", "topics": ["explicit_fit", "tidal_coupling", "postmerger_spectrum"]},
+    {"arxiv_id": "1907.03790", "group": "D", "topics": ["systematics", "tidal_deformability", "numerical_resolution"]},
+    {"arxiv_id": "2310.10728", "group": "D", "topics": ["explicit_fit", "instantaneous_frequency", "merger_frequency"]},
+    {"arxiv_id": "2401.02493", "group": "D", "topics": ["thermal_physics", "systematics", "inertial_modes"]},
+    {"arxiv_id": "2405.09468", "group": "D", "topics": ["waveform_model", "machine_learning", "raw_frequency_data"]},
+    {"arxiv_id": "2407.11143", "group": "D", "topics": ["strange_stars", "systematics", "raw_frequency_data"]},
+    {"arxiv_id": "2505.21667", "group": "D", "topics": ["indirect_application", "radius_frequency", "systematics"]},
+    {"arxiv_id": "2602.23646", "group": "D", "topics": ["thermal_physics", "rotating_stars", "frequency_distribution"]}
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "arxiv_id": "2102.12455",
+  "resolved_version": "2102.12455v2",
+  "version": 2,
+  "title": "Frequency deviations in universal relations of isolated neutron stars and postmerger remnants",
+  "authors": [
+    "Georgios Lioutas",
+    "Andreas Bauswein",
+    "Nikolaos Stergioulas"
+  ],
+  "abstract": "We relate the fundamental quadrupolar fluid mode of isolated non-rotating NSs and the dominant oscillation frequency of neutron star merger remnants. Both frequencies individually are known to correlate with certain stellar parameters like radii or the tidal deformability, which we further investigate by constructing fit formulae and quantifying the scatter of the data points from those relations. Furthermore, we compare how individual data points deviate from the corresponding fit to all data points. Considering this point-to-point scatter we uncover a striking similarity between the frequency deviations of perturbative data for isolated NSs and of oscillation frequencies of rapidly rotating, hot, massive merger remnants. The correspondence of frequency deviations in these very different stellar systems points to an underlying mechanism and EoS information being encoded in the frequency deviation. We trace the frequency scatter back to deviations of the tidal Love number from an average tidal Love number for a given stellar compactness. Our results thus indicate a possibility to break the degeneracy between NS radii, tidal deformability and tidal Love number. We also relate frequency deviations to the derivative of the tidal deformability with respect to mass. Our findings generally highlight a possibility to improve GW asteroseismology relations where the systematic behavior of frequency deviations is employed to reduce the scatter in such relationships and consequently increase the measurement accuracy. In addition, we relate the f-mode frequency of static stars and the dominant GW frequency of merger remnants. We find an analytic mapping to connect the masses of both stellar systems, which yields particularly accurate mass-independent relations between both frequencies and between the postmerger frequency and the tidal deformability.",
+  "submitted": "2021-02-24T18:38:23Z",
+  "last_revised": "2021-09-09T16:04:36Z",
+  "doi": "10.1103/PhysRevD.104.043011",
+  "journal_reference": "Phys. Rev. D 104, 043011 (2021)",
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2102.12455v2",
+  "pdf_url": "https://export.arxiv.org/pdf/2102.12455v2",
+  "source_url": "https://export.arxiv.org/src/2102.12455v2",
+  "publication_date": "2021-08-16",
+  "publication_year": 2021,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "empirical_relations",
+    "fit_residuals"
+  ],
+  "seed_group": "A",
+  "directory": "2102.12455_lioutas_2021",
+  "accessed_at": "2026-10-22T17:42:19.568865Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/draft_static_stars.tex",
+  "main_tex_candidates": [
+    {
+      "path": "draft_static_stars.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "27d928ab9d98f846038e37e27790bcf754c0544d8c7e805e5bfdf1798ade7d04",
+    "source_sha256": "5464445ca2aec0b2e9a1a0e39dfc3d19362d24049d3d3fac3b6ed51bc7fb6c25"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2102.12455v2",
+  "pdf_bytes": 1381141,
+  "source_final_url": "https://export.arxiv.org/src/2102.12455v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 4455796,
+  "source_inventory": {
+    "tex": [
+      "draft_static_stars.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "figures/2colors_fpeak135_Lam135_band.pdf",
+      "figures/2colors_fpeak135_R16_band.pdf",
+      "figures/2colors_fpert_Lam135_band.pdf",
+      "figures/2colors_fpert_R16_band.pdf",
+      "figures/AK_90percent_Fractional_errors.pdf",
+      "figures/AK_original.pdf",
+      "figures/Lam16_Lam135.pdf",
+      "figures/Lam16_R16.pdf",
+      "figures/MR_colored.pdf",
+      "figures/Mchirpfpeak_Lambda_mass_errorbands.pdf",
+      "figures/TL_90percent_Fractional_errors.pdf",
+      "figures/TL_original_Fractional_errors.pdf",
+      "figures/TidalDefFreq_Static_Fractional_errors.pdf",
+      "figures/dLamdM_corrections_panels.pdf",
+      "figures/deltaLam_deltafpert_R16.pdf",
+      "figures/deltafpeak_deltafpert_M16.pdf",
+      "figures/fpeak135_Lambda_Mass_deviations.pdf",
+      "figures/fpeak_Rx90percent_res1212_panel.pdf",
+      "figures/fpeak_Rx_res1212_panel.pdf",
+      "figures/fpeak_TidalDefx_res1212_panels.pdf",
+      "figures/fpeak_fpert_mass_errorbands.pdf",
+      "figures/fpeak_fpert_mass_errorbands_All.pdf",
+      "figures/fpert_Lambda16_pointdist.pdf",
+      "figures/k2_k2cor_InvComp_M16_MaxDev_panels.pdf",
+      "figures/rhomaxmerger_rhoc_res135135.pdf"
+    ],
+    "other": [
+      "draft_static_stars.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

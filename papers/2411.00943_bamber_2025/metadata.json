@@ -1,0 +1,116 @@
+{
+  "arxiv_id": "2411.00943",
+  "resolved_version": "2411.00943v2",
+  "version": 2,
+  "title": "Postmerger multimessenger analysis of binary neutron stars: Effect of the magnetic field strength and topology",
+  "authors": [
+    "Jamie Bamber",
+    "Antonios Tsokaros",
+    "Milton Ruiz",
+    "Stuart L. Shapiro"
+  ],
+  "abstract": "The oscillation modes of neutron star (NS) merger remnants, as encoded by the kHz postmerger gravitational wave (GW) signal, hold great potential for constraining the as-yet undetermined equation of state (EOS) of dense nuclear matter. Previous works have used numerical relativity simulations to derive quasi-universal relations for the key oscillation frequencies, but most of them omit the effects of a magnetic field. We conduct full general-relativistic magnetohydrodynamics simulations of NSNS mergers with two different masses and two different EOSs (SLy and ALF2) with three different initial magnetic field topologies (poloidal and toroidal only, confined to the interior, and \"pulsar-like\": dipolar poloidal extending from the interior to the exterior), with four different magnetic field strengths with maximum values ranging from from $5.5\\times 10^{15}G$ to $2.2\\times 10^{17}G$ at the time of insertion. We find that magnetic braking and magnetic effective turbulent viscosity drives the merger remnants towards uniform rotation and increases their overall angular momentum loss. As a result, the $f_2$ frequency of the dominant postmerger GW mode shifts upwards over time. The overall shift is up to $\\sim 200$Hz for the strongest magnetic field we consider and $\\sim 50$Hz for the median case and is therefore detectable in principle by future GW observatories, which should include the magnetic field in their analyses. We also explore the impact of the magnetic field on the postmerger electromagnetic emission, and demonstrate that an extremely large magnetic field, or alternatively a significant shear viscosity mechanism, can cause a supramassive NS remnant to collapse to a BH in less than 100ms and lead to jet formation, although we do not expect the conditions for such an outcome to be realistic.",
+  "submitted": "2024-11-01T18:00:04Z",
+  "last_revised": "2025-02-27T01:40:34Z",
+  "doi": "10.1103/PhysRevD.111.044038",
+  "journal_reference": "Phys. Rev. D 111, 044038 (2025)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE",
+    "nucl-th"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2411.00943v2",
+  "pdf_url": "https://export.arxiv.org/pdf/2411.00943v2",
+  "source_url": "https://export.arxiv.org/src/2411.00943v2",
+  "publication_date": "2025-02-12",
+  "publication_year": 2025,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "magnetic_fields",
+    "systematics"
+  ],
+  "seed_group": "C",
+  "directory": "2411.00943_bamber_2025",
+  "accessed_at": "2026-10-22T17:42:20.052690Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/apssamp.tex",
+  "main_tex_candidates": [
+    {
+      "path": "apssamp.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "42088c9c252cc6c08b7a4e1a47ba9a26181c4fa8a60714e0667cb696acc4c9fe",
+    "source_sha256": "c287f983e884e7f3f47f322ffe0e3148045abc53766fe380cfdd247e87bfd501"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2411.00943v2",
+  "pdf_bytes": 32154797,
+  "source_final_url": "https://export.arxiv.org/src/2411.00943v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 32757630,
+  "source_inventory": {
+    "tex": [
+      "apssamp.tex"
+    ],
+    "bibliography": [
+      "apssamp.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "figures/ALF2_2.57_B2.2E17_final.png",
+      "figures/EOS_M_M0_R_curves.png",
+      "figures/IRE3.0_ALF2_ALF2_030_M2.57_B2.20E17_mass_conservation_v6_jon3.png",
+      "figures/IRE3.0_SLy_SLy_010_M2.57_B1.38E16_mri_xy_084864.png",
+      "figures/IRE3.0_SLy_SLy_010_M2.57_B2.20E17_mri_xz_084864.png",
+      "figures/IRE3.0_SLy_SLy_010_M2.57_B5.50E15_mri_xy_084864.png",
+      "figures/M0_vs_rho_c_ALF2_zoom.png",
+      "figures/M0_vs_rho_c_SLy_zoom.png",
+      "figures/Max_Lorentz_vs_z_t_last_5ms_ALF2_M2.57.png",
+      "figures/Omega_vs_r_combined.png",
+      "figures/SLy_2.57_B5.50E16_convergence_test.png",
+      "figures/SLy_pol_contact.png",
+      "figures/SLy_pol_final.png",
+      "figures/SLy_pol_initial.png",
+      "figures/SLy_pol_merger.png",
+      "figures/SLy_pulsar_contact.png",
+      "figures/SLy_pulsar_final.png",
+      "figures/SLy_pulsar_initial.png",
+      "figures/SLy_pulsar_merge.png",
+      "figures/SLy_tor_contact.png",
+      "figures/SLy_tor_final.png",
+      "figures/SLy_tor_initial.png",
+      "figures/SLy_tor_merger.png",
+      "figures/combined_EMF_energy_integral_growth_ALF2_M2.57.png",
+      "figures/combined_EM_energy_tor_pol_ALF2_M2.57.png",
+      "figures/combined_FFTs_grid.png",
+      "figures/combined_GW_signals.png",
+      "figures/combined_J_vs_M_ALF2.png",
+      "figures/combined_Mdot_M_ouside_AH.png",
+      "figures/combined_alpha_SS_ALF2_M2.57.png",
+      "figures/combined_f_vs_Bfield.png",
+      "figures/combined_luminosity_jon3_ALF2_M2.57.png",
+      "figures/combined_rho_Gamma_bsqrd2rho_Bpol_Btor_ALF2_M2.57_25ms.png",
+      "figures/combined_rho_Gamma_bsqrd2rho_Bpol_Btor_ALF2_M2.70_fixed.png",
+      "figures/poloidal_ID_v2.PNG",
+      "figures/pulsar_ID_v2.PNG",
+      "figures/t_BH_vs_Bfield.png",
+      "figures/toroidal_ID_v2.PNG"
+    ],
+    "other": [
+      "apssamp.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

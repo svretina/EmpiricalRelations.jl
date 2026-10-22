@@ -1,0 +1,84 @@
+{
+  "arxiv_id": "1403.5672",
+  "resolved_version": "1403.5672v2",
+  "version": 2,
+  "title": "Constraining the Equation of State of Neutron Stars from Binary Mergers",
+  "authors": [
+    "Kentaro Takami",
+    "Luciano Rezzolla",
+    "Luca Baiotti"
+  ],
+  "abstract": "Determining the equation of state of matter at nuclear density and hence the structure of neutron stars has been a riddle for decades. We show how the imminent detection of gravitational waves from merging neutron star binaries can be used to solve this riddle. Using a large number of accurate numerical-relativity simulations of binaries with nuclear equations of state, we find that the postmerger emission is characterized by two distinct and robust spectral features. While the high-frequency peak has already been associated with the oscillations of the hypermassive neutron star produced by the merger and depends on the equation of state, a new correlation emerges between the low-frequency peak, related to the merger process, and the total compactness of the stars in the binary. More importantly, such a correlation is essentially universal, thus providing a powerful tool to set tight constraints on the equation of state. If the mass of the binary is known from the inspiral signal, the combined use of the two frequency peaks sets four simultaneous constraints to be satisfied. Ideally, even a single detection would be sufficient to select one equation of state over the others. We test our approach with simulated data and verify it works well for all the equations of state considered.",
+  "submitted": "2014-03-22T15:13:32Z",
+  "last_revised": "2014-08-21T11:59:24Z",
+  "doi": "10.1103/PhysRevLett.113.091104",
+  "journal_reference": "Phys. Rev. Lett. 113, 091104 (2014)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE",
+    "astro-ph.SR"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1403.5672v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1403.5672v2",
+  "source_url": "https://export.arxiv.org/src/1403.5672v2",
+  "publication_date": "2014-08-28",
+  "publication_year": 2014,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review Letters",
+  "categories": [
+    "empirical_relations",
+    "secondary_frequencies",
+    "compactness"
+  ],
+  "seed_group": "A",
+  "directory": "1403.5672_takami_2014",
+  "accessed_at": "2026-10-22T17:42:19.369654Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/letter.tex",
+  "main_tex_candidates": [
+    {
+      "path": "letter.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "aeireferences.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "0199616b63cc4d36dc56596f2c425b90fd6d990e064dd7be9dee25c6fe6b831a",
+    "source_sha256": "96d07107a91356e7a3d6df006d5c527730a91e4e91f47cb6f04396b611311a71"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1403.5672v2",
+  "pdf_bytes": 379038,
+  "source_final_url": "https://export.arxiv.org/src/1403.5672v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 154115,
+  "source_inventory": {
+    "tex": [
+      "letter.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "apsrev4-1-noeprint.bst"
+    ],
+    "figures": [
+      "Constr_ALF2_M13250.pdf",
+      "Constr_APR4_M13250.pdf",
+      "CorrFreq_with_PT_UEM.pdf",
+      "PSD__example_50Mpc.pdf"
+    ],
+    "other": [
+      "aeireferences.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

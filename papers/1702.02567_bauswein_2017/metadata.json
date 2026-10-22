@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "1702.02567",
+  "resolved_version": "1702.02567v2",
+  "version": 2,
+  "title": "Semi-analytic derivation of the threshold mass for prompt collapse in binary neutron star mergers",
+  "authors": [
+    "Andreas Bauswein",
+    "Nikolaos Stergioulas"
+  ],
+  "abstract": "The threshold mass for prompt collapse in binary neutron star mergers was empirically found to depend on the stellar properties of the maximum-mass non-rotating neutron star model. Here we present a semi-analytic derivation of this empirical relation which suggests that it is rather insensitive to thermal effects, to deviations from axisymmetry and to the exact rotation law in merger remnants. We utilize axisymmetric, cold equilibrium models with differential rotation and determine the threshold mass for collapse from the comparison between an empirical relation that describes the angular momentum in the remnant for a given total binary mass and the sequence of rotating equilibrium models at the threshold to collapse (the latter assumed to be near the turning point of fixed-angular-momentum sequences). In spite of the various simplifying assumptions, the empirical relation for prompt collapse is reproduced with good accuracy, which demonstrates its robustness. We discuss implications of our methodology and results for understanding other empirical relations satisfied by neutron-star merger remnants that have been discovered by numerical simulations and that play a key role in constraining the high-density equation of state through gravitational-wave observations.",
+  "submitted": "2017-02-08T14:24:14Z",
+  "last_revised": "2017-08-03T15:40:24Z",
+  "doi": "10.1093/mnras/stx1983",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "astro-ph.SR",
+    "gr-qc"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/1702.02567v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1702.02567v2",
+  "source_url": "https://export.arxiv.org/src/1702.02567v2",
+  "publication_date": "2017-11",
+  "publication_year": 2017,
+  "publication_date_source": "Crossref:published-print",
+  "publisher": "Oxford University Press (OUP)",
+  "container_title": "Monthly Notices of the Royal Astronomical Society",
+  "categories": [
+    "collapse_threshold",
+    "eos"
+  ],
+  "seed_group": "C",
+  "directory": "1702.02567_bauswein_2017",
+  "accessed_at": "2026-10-22T17:42:19.839220Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/mnras_template-arxiv.tex",
+  "main_tex_candidates": [
+    {
+      "path": "mnras_template-arxiv.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "table1.tex"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "a9c592d8e88e6b4253b258400e238193d5b75ab557c82d7ed4cc3861c0e3bd9a",
+    "source_sha256": "699e8222389ebb8cc098cad8c8e1cf3a9e59bf7be517c207095e09772c797d6d"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1702.02567v2",
+  "pdf_bytes": 430762,
+  "source_final_url": "https://export.arxiv.org/src/1702.02567v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 665418,
+  "source_inventory": {
+    "tex": [
+      "mnras_template-arxiv.tex",
+      "table1.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "mnras.cls"
+    ],
+    "figures": [
+      "Intersections_for_Mstab_oppoaxes_wJmerger.eps",
+      "Jconstsequences_fitwodia.eps",
+      "Mmax-Cmax.eps",
+      "Rthres-Mthres_plot_eos-corrected.eps",
+      "fit_a-Mmax2Rmax-1.eps",
+      "fit_b-Mmax.eps",
+      "k_plot_eos-corrected.eps",
+      "stablimit_maxima_fitpa.eps",
+      "tovplot3.eps"
+    ],
+    "other": [
+      "mnras_template-arxiv.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

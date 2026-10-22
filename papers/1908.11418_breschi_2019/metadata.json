@@ -1,0 +1,101 @@
+{
+  "arxiv_id": "1908.11418",
+  "resolved_version": "1908.11418v2",
+  "version": 2,
+  "title": "kiloHertz gravitational waves from binary neutron star remnants: time-domain model and constraints on extreme matter",
+  "authors": [
+    "Matteo Breschi",
+    "Sebastiano Bernuzzi",
+    "Francesco Zappa",
+    "Michalis Agathos",
+    "Albino Perego",
+    "David Radice",
+    "Alessandro Nagar"
+  ],
+  "abstract": "The remnant star of a neutron star merger is an anticipated loud source of kiloHertz gravitational waves that conveys unique information on the equation of state of hot matter at extreme densities. Observations of such signals are hampered by the photon shot noise of ground-based interferometers and pose a challenge for gravitational-wave astronomy. We develop an analytical time-domain waveform model for postmerger signals informed by numerical relativity simulations. The model completes effective-one-body waveforms for quasi-circular nonspinning binaries in the kiloHertz regime. We show that a template-based analysis can detect postmerger signals with a minimal signal-to-noise ratios (SNR) of 8, corresponding to GW170817-like events for third-generation interferometers. Using Bayesian model selection and the complete inspiral-merger-postmerger waveform model it is possible to infer whether the merger outcome is a prompt collapse to a black hole or a remnant star. In the latter case, the radius of the maximum mass (most compact) nonrotating neutron star can be determined to kilometer precision. We demonstrate the feasibility of inferring the stiffness of the equation of state at extreme densities using the quasiuniversal relations deduced from numerical-relativity simulations.",
+  "submitted": "2019-08-29T18:41:11Z",
+  "last_revised": "2020-01-20T15:41:47Z",
+  "doi": "10.1103/PhysRevD.100.104029",
+  "journal_reference": "Phys. Rev. D 100, 104029 (2019)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1908.11418v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1908.11418v2",
+  "source_url": "https://export.arxiv.org/src/1908.11418v2",
+  "publication_date": "2019-11-14",
+  "publication_year": 2019,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "waveform_model",
+    "time_domain"
+  ],
+  "seed_group": "B",
+  "directory": "1908.11418_breschi_2019",
+  "accessed_at": "2026-10-22T17:42:19.619691Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/ms.tex",
+  "main_tex_candidates": [
+    {
+      "path": "ms.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "7f9ad2b794b89f52d2cbbefedc6222e2873e1b9d724b38c3be0676b0a24d565a",
+    "source_sha256": "8e10f6a6a34dc7fb781abae2c9c16f216dc791ef42b2979b4f96d49bb1ca4c93"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1908.11418v2",
+  "pdf_bytes": 7259428,
+  "source_final_url": "https://export.arxiv.org/src/1908.11418v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 8177608,
+  "source_inventory": {
+    "tex": [
+      "ms.tex"
+    ],
+    "bibliography": [
+      "msNotes.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "f2_rad_Mmax_contour.png",
+      "nrpm_fig_1_pt1.png",
+      "nrpm_fig_1_pt2.png",
+      "nrpm_fig_2.png",
+      "nrpm_fig_3.png",
+      "nrpm_fig_4_new.png",
+      "nrpm_fig_5.png",
+      "nrpm_fig_5_new.png",
+      "nrpm_fig_amps_xi.png",
+      "nrpm_fig_concistency_highmass_highsnr.png",
+      "nrpm_fig_concistency_highmass_lowsnr.png",
+      "nrpm_fig_concistency_lowmass_highsnr.png",
+      "nrpm_fig_concistency_lowmass_lowsnr.png",
+      "nrpm_fig_core_sacra.png",
+      "nrpm_fig_eos.png",
+      "nrpm_fig_eos_new.png",
+      "nrpm_fig_freqs_xi.png",
+      "nrpm_fig_posterior1.png",
+      "nrpm_fig_posterior_log.png",
+      "nrpm_fig_times_xi.png",
+      "resolution_SLy130130.png"
+    ],
+    "other": [
+      "ms.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

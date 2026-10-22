@@ -1,0 +1,3172 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-22T17:42:24.438642Z",
+  "summary": {
+    "total": 31,
+    "pdfs_downloaded": 31,
+    "sources_downloaded": 31,
+    "tex_projects_extracted": 31,
+    "sources_unavailable": 0,
+    "failed": 0,
+    "ambiguous_roots": 0
+  },
+  "papers": [
+    {
+      "arxiv_id": "1106.1616",
+      "resolved_version": "1106.1616v2",
+      "version": 2,
+      "title": "Measuring neutron-star properties via gravitational waves from binary mergers",
+      "authors": [
+        "A. Bauswein",
+        "H. -Th. Janka"
+      ],
+      "abstract": "We demonstrate by a large set of merger simulations for symmetric binary neutron stars (NSs) that there is a tight correlation between the frequency peak of the postmerger gravitational-wave (GW) emission and the physical properties of the nuclear equation of state (EoS), e.g. expressed by the radius of the maximum-mass Tolman-Oppenheimer-Volkhoff configuration. Therefore, a single measurement of the peak frequency of the postmerger GW signal will constrain the NS EoS significantly. For plausible optimistic merger-rate estimates a corresponding detection with Advanced LIGO is likely to happen within an operation time of roughly a year.",
+      "submitted": "2011-06-08T18:30:14Z",
+      "last_revised": "2011-11-23T09:18:38Z",
+      "doi": "10.1103/PhysRevLett.108.011101",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.SR",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.SR",
+      "abstract_url": "https://arxiv.org/abs/1106.1616v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1106.1616v2",
+      "source_url": "https://export.arxiv.org/src/1106.1616v2",
+      "publication_date": "2012-01-05",
+      "publication_year": 2012,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review Letters",
+      "categories": [
+        "empirical_relations",
+        "dominant_frequency",
+        "eos"
+      ],
+      "seed_group": "A",
+      "directory": "1106.1616_bauswein_2012",
+      "accessed_at": "2026-10-22T17:42:19.354209Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "b8d0f9f8c8618dbff77ec191c09a60063c57ad395985d5c7eb05a57747b0c582",
+        "source_sha256": "8093ecece06147287fb069308bc0434186b28873de691391feb3a26911a2f3cb"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1106.1616v2",
+      "pdf_bytes": 204473,
+      "source_final_url": "https://export.arxiv.org/src/1106.1616v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 31087,
+      "source_inventory": {
+        "tex": [
+          "paper.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig1.eps",
+          "fig2.eps",
+          "fig3.eps",
+          "fig4.eps"
+        ],
+        "other": [
+          "paper.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1403.5301",
+      "resolved_version": "1403.5301v2",
+      "version": 2,
+      "title": "Revealing the high-density equation of state through binary neutron star mergers",
+      "authors": [
+        "A. Bauswein",
+        "N. Stergioulas",
+        "H. -T. Janka"
+      ],
+      "abstract": "We present a novel method for revealing the equation of state of high-density neutron star matter through gravitational waves emitted during the postmerger phase of a binary neutron star system. The method relies on a small number of detections of the peak frequency in the postmerger phase for binaries of different (relatively low) masses, in the most likely range of expected detections. From such observations, one can construct the derivative of the peak frequency versus the binary mass, in this mass range. Through a detailed study of binary neutron star mergers for a large sample of equations of state, we show that one can extrapolate the above information to the highest possible mass (the threshold mass for black hole formation in a binary neutron star merger). In turn, this allows for an empirical determination of the maximum mass of cold, nonrotating neutron stars to within 0.1 M_sun, while the corresponding radius is determined to within a few percent. Combining this with the determination of the radius of cold, nonrotating neutron stars of 1.6 M_sun (to within a few percent, as was demonstrated in Bauswein et al., PRD, 86, 063001, 2012), allows for a clear distinction of a particular candidate equation of state among a large set of other candidates. Our method is particularly appealing because it reveals simultaneously the moderate and very high-density parts of the equation of state, enabling the distinction of mass-radius relations even if they are similar at typical neutron star masses. Furthermore, our method also allows to deduce the maximum central energy density and maximum central rest-mass density of cold, nonrotating neutron stars with an accuracy of a few per cent.",
+      "submitted": "2014-03-20T21:24:51Z",
+      "last_revised": "2014-06-19T09:51:25Z",
+      "doi": "10.1103/PhysRevD.90.023002",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.SR",
+        "gr-qc",
+        "nucl-th"
+      ],
+      "primary_category": "astro-ph.SR",
+      "abstract_url": "https://arxiv.org/abs/1403.5301v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1403.5301v2",
+      "source_url": "https://export.arxiv.org/src/1403.5301v2",
+      "publication_date": "2014-07-01",
+      "publication_year": 2014,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "empirical_relations",
+        "dominant_frequency",
+        "eos"
+      ],
+      "seed_group": "A",
+      "directory": "1403.5301_bauswein_2014",
+      "accessed_at": "2026-10-22T17:42:19.360014Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "textable_formatted.tex"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "8e07eb14a5bce64e40366d6aa62aec4c0c774992f856898e3b2cc9c5a6c21c16",
+        "source_sha256": "7e1a79ce9a6031ea02ce67028fa4f336df2adeeb3e90cbe37bea3797178354d0"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1403.5301v2",
+      "pdf_bytes": 397770,
+      "source_final_url": "https://export.arxiv.org/src/1403.5301v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 233609,
+      "source_inventory": {
+        "tex": [
+          "paper.tex",
+          "textable_formatted.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "f1.eps",
+          "f10.eps",
+          "f11.eps",
+          "f12.eps",
+          "f2.eps",
+          "f3.eps",
+          "f4.eps",
+          "f5.eps",
+          "f6.eps",
+          "f7.eps",
+          "f8.eps",
+          "f9.eps"
+        ],
+        "other": []
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1403.5672",
+      "resolved_version": "1403.5672v2",
+      "version": 2,
+      "title": "Constraining the Equation of State of Neutron Stars from Binary Mergers",
+      "authors": [
+        "Kentaro Takami",
+        "Luciano Rezzolla",
+        "Luca Baiotti"
+      ],
+      "abstract": "Determining the equation of state of matter at nuclear density and hence the structure of neutron stars has been a riddle for decades. We show how the imminent detection of gravitational waves from merging neutron star binaries can be used to solve this riddle. Using a large number of accurate numerical-relativity simulations of binaries with nuclear equations of state, we find that the postmerger emission is characterized by two distinct and robust spectral features. While the high-frequency peak has already been associated with the oscillations of the hypermassive neutron star produced by the merger and depends on the equation of state, a new correlation emerges between the low-frequency peak, related to the merger process, and the total compactness of the stars in the binary. More importantly, such a correlation is essentially universal, thus providing a powerful tool to set tight constraints on the equation of state. If the mass of the binary is known from the inspiral signal, the combined use of the two frequency peaks sets four simultaneous constraints to be satisfied. Ideally, even a single detection would be sufficient to select one equation of state over the others. We test our approach with simulated data and verify it works well for all the equations of state considered.",
+      "submitted": "2014-03-22T15:13:32Z",
+      "last_revised": "2014-08-21T11:59:24Z",
+      "doi": "10.1103/PhysRevLett.113.091104",
+      "journal_reference": "Phys. Rev. Lett. 113, 091104 (2014)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "astro-ph.SR"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1403.5672v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1403.5672v2",
+      "source_url": "https://export.arxiv.org/src/1403.5672v2",
+      "publication_date": "2014-08-28",
+      "publication_year": 2014,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review Letters",
+      "categories": [
+        "empirical_relations",
+        "secondary_frequencies",
+        "compactness"
+      ],
+      "seed_group": "A",
+      "directory": "1403.5672_takami_2014",
+      "accessed_at": "2026-10-22T17:42:19.369654Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/letter.tex",
+      "main_tex_candidates": [
+        {
+          "path": "letter.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "aeireferences.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "0199616b63cc4d36dc56596f2c425b90fd6d990e064dd7be9dee25c6fe6b831a",
+        "source_sha256": "96d07107a91356e7a3d6df006d5c527730a91e4e91f47cb6f04396b611311a71"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1403.5672v2",
+      "pdf_bytes": 379038,
+      "source_final_url": "https://export.arxiv.org/src/1403.5672v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 154115,
+      "source_inventory": {
+        "tex": [
+          "letter.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "apsrev4-1-noeprint.bst"
+        ],
+        "figures": [
+          "Constr_ALF2_M13250.pdf",
+          "Constr_APR4_M13250.pdf",
+          "CorrFreq_with_PT_UEM.pdf",
+          "PSD__example_50Mpc.pdf"
+        ],
+        "other": [
+          "aeireferences.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1412.3240",
+      "resolved_version": "1412.3240v2",
+      "version": 2,
+      "title": "Spectral properties of the post-merger gravitational-wave signal from binary neutron stars",
+      "authors": [
+        "Kentaro Takami",
+        "Luciano Rezzolla",
+        "Luca Baiotti"
+      ],
+      "abstract": "Extending previous work by a number of authors, we have recently presented a new approach in which the detection of gravitational waves from merging neutron star binaries can be used to determine the equation of state of matter at nuclear density and hence the structure of neutron stars. In particular, after performing a large number of numerical-relativity simulations of binaries with nuclear equations of state, we have found that the post-merger emission is characterized by two distinct and robust spectral features. While the high-frequency peak was already shown to be associated with the oscillations of the hypermassive neutron star produced by the merger and to depend on the equation of state, we have highlighted that the low-frequency peak is related to the merger process and to the total compactness of the stars in the binary. This relation is essentially universal and provides a powerful tool to set tight constraints on the equation of state. We here provide additional information on the extensive analysis performed, illustrating the methods used, the tests considered, as well as the robustness of the results. We also discuss additional relations that can be deduced when exploring the data and how these correlate with various properties of the binary. Finally, we present a simple mechanical toy model that explains the main spectral features of the post-merger signal and can even reproduce analytically the complex waveforms emitted right after the merger.",
+      "submitted": "2014-12-10T09:54:23Z",
+      "last_revised": "2015-03-06T16:30:59Z",
+      "doi": "10.1103/PhysRevD.91.064001",
+      "journal_reference": "Phys. Rev. D 91, 064001 (2015)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "astro-ph.SR"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1412.3240v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1412.3240v2",
+      "source_url": "https://export.arxiv.org/src/1412.3240v2",
+      "publication_date": "2015-03-02",
+      "publication_year": 2015,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "spectral_classification",
+        "secondary_frequencies"
+      ],
+      "seed_group": "A",
+      "directory": "1412.3240_takami_2015",
+      "accessed_at": "2026-10-22T17:42:19.374338Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/manuscript.tex",
+      "main_tex_candidates": [
+        {
+          "path": "manuscript.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "aeireferences.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "c19230467559f96853ac48e923364378d8cd2344bb9c0e37b1b44d1999a9e856",
+        "source_sha256": "b93ffd7b2283728e82094d02e650f8981bd77dc655640eb8a496a425779d5825"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1412.3240v2",
+      "pdf_bytes": 3806441,
+      "source_final_url": "https://export.arxiv.org/src/1412.3240v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 3954889,
+      "source_inventory": {
+        "tex": [
+          "manuscript.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "apsrev4-1-noeprint.bst"
+        ],
+        "figures": [
+          "figs/BNSs_snaps_xy_1x5.pdf",
+          "figs/Constr_M13000_1x5.pdf",
+          "figs/CorrFreq_Mf_3x4.pdf",
+          "figs/CorrFreq_f1_with_PT_UEM.pdf",
+          "figs/CorrFreq_f_3x4.pdf",
+          "figs/CorrFreq_for_Bauswein2012a.pdf",
+          "figs/CorrFreq_for_R16.pdf",
+          "figs/CorrFreq_fp_for_Lambda.pdf",
+          "figs/EoS__rho_vs_p_with_err.pdf",
+          "figs/HLLE_vs_Marq_2D_paper.pdf",
+          "figs/PSD_5x5.pdf",
+          "figs/PSD__DiffGamma_50Mpc_4models.pdf",
+          "figs/PSD__DiffGrid_50Mpc_etc.pdf",
+          "figs/PSD_fit_APR4_1375.pdf",
+          "figs/PSD_t+609_5000_1x5.pdf",
+          "figs/ToyModel_PSD.pdf",
+          "figs/ToyModel_fgw_Omg_GNH3_M1300.pdf",
+          "figs/ToyModel_waveforms_GNH3_M1300.pdf",
+          "figs/Waveform_5x5.pdf",
+          "figs/cartoon.pdf"
+        ],
+        "other": [
+          "aeireferences.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1502.03176",
+      "resolved_version": "1502.03176v2",
+      "version": 2,
+      "title": "A unified picture of the post-merger dynamics and gravitational wave emission in neutron-star mergers",
+      "authors": [
+        "A. Bauswein",
+        "N. Stergioulas"
+      ],
+      "abstract": "We introduce a classification scheme of the post-merger dynamics and gravitational-wave emission in binary neutron star mergers, after identifying a new mechanism by which a secondary peak in the gravitational-wave spectrum is produced. It is caused by a spiral deformation, the pattern of which rotates slower with respect to the double-core structure in center of the remnant. This secondary peak is typically well separated in frequency from the secondary peak produced by a nonlinear interaction between a quadrupole and a quasi-radial oscillation. The new mechanism allows for an explanation of low-frequency modulations seen in a number of physical characteristics of the remnant, such as the central lapse function, the maximum density and the separation between the two cores. We find empirical relations for both types of secondary peaks between their gravitational-wave frequency and the compactness of nonrotating individual neutron stars, that exist for fixed total binary masses. These findings are derived for equal-mass binaries without intrinsic neutron-star spin analyzing hydrodynamical simulations without magnetic field effects. Our classification scheme may form the basis for the construction of detailed gravitational-wave templates of the post-merger phase. We find that the quasi-radial oscillation frequency of the remnant decreases with the total binary mass. For a given merger event our classification scheme may allow to determine the proximity of the measured total binary mass to the threshold mass for prompt black hole formation, which can, in turn, yield an estimate of the maximum neutron-star mass.",
+      "submitted": "2015-02-11T02:27:43Z",
+      "last_revised": "2015-06-02T18:04:27Z",
+      "doi": null,
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.SR",
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.SR",
+      "abstract_url": "https://arxiv.org/abs/1502.03176v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1502.03176v2",
+      "source_url": "https://export.arxiv.org/src/1502.03176v2",
+      "publication_date": null,
+      "publication_year": 2015,
+      "publication_date_source": null,
+      "publisher": null,
+      "container_title": null,
+      "categories": [
+        "spectral_classification",
+        "mode_identification",
+        "secondary_frequencies"
+      ],
+      "seed_group": "A",
+      "directory": "1502.03176_bauswein_2015",
+      "accessed_at": "2026-10-22T17:42:19.414068Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "9724e0c823ee2cfec27a677041c7dc25dd47d3de060896e1d25db3c9dc579841",
+        "source_sha256": "e405306591aafb5dd9b72a236a3b5ae5a4c33c3fcf8cadf44ccfadd530875bff"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1502.03176v2",
+      "pdf_bytes": 472930,
+      "source_final_url": "https://export.arxiv.org/src/1502.03176v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 85843,
+      "source_inventory": {
+        "tex": [
+          "paper.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig1a.eps",
+          "fig1b.eps",
+          "fig2a.eps",
+          "fig2b.eps",
+          "fig2c.eps",
+          "fig2d.eps",
+          "fig3.eps",
+          "fig4a.eps",
+          "fig4b.eps",
+          "fig4c.eps",
+          "fig5.eps"
+        ],
+        "other": []
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1604.00246",
+      "resolved_version": "1604.00246v2",
+      "version": 2,
+      "title": "Gravitational-wave signal from binary neutron stars: a systematic analysis of the spectral properties",
+      "authors": [
+        "Luciano Rezzolla",
+        "Kentaro Takami"
+      ],
+      "abstract": "A number of works have shown that important information on the equation of state of matter at nuclear density can be extracted from the gravitational waves emitted by merging neutron-star binaries. We present a comprehensive analysis of the gravitational-wave signal emitted during the inspiral, merger and post-merger of 56 neutron-star binaries. This sample of binaries, arguably the largest studied to date with realistic equations of state, spans across six different nuclear-physics equations of state and ten masses, allowing us to sharpen a number of results recently obtained on the spectral properties of the gravitational-wave signal. Overall we find that: (i) for binaries with masses differing no more than $20\\%$, the frequency at gravitational-wave amplitude's maximum is related quasi-universally with the tidal deformability of the two stars; (ii) the spectral properties vary during the post-merger phase, with a transient phase lasting a few millisecond after the merger and followed by a quasi-stationary phase; (iii) when distinguishing the spectral peaks between these two phases, a number of ambiguities in the identification of the peaks disappear, leaving a simple and robust picture; (iv) using properly identified frequencies, quasi-universal relations are found between the spectral features and the properties of the neutron stars; (v) for the most salient peaks analytic fitting functions can be obtained in terms of the stellar tidal deformability or compactness. Altogether, these results support the idea that the equation of state of nuclear matter can be constrained tightly when a signal in gravitational waves from binary neutron stars is detected.",
+      "submitted": "2016-04-01T13:55:19Z",
+      "last_revised": "2016-06-01T08:27:21Z",
+      "doi": "10.1103/PhysRevD.93.124051",
+      "journal_reference": "Phys. Rev. D 93, 124051 (2016)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1604.00246v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1604.00246v2",
+      "source_url": "https://export.arxiv.org/src/1604.00246v2",
+      "publication_date": "2016-06-21",
+      "publication_year": 2016,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "empirical_relations",
+        "spectral_classification"
+      ],
+      "seed_group": "A",
+      "directory": "1604.00246_rezzolla_2016",
+      "accessed_at": "2026-10-22T17:42:19.420186Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/manuscript.tex",
+      "main_tex_candidates": [
+        {
+          "path": "manuscript.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "aeireferences.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "a49273d016809388a9c064d3160cff543f484f8edf61f4eee959571f5ecb2bd4",
+        "source_sha256": "489b587e4bd85f2d3f4db832dce6ce0a11163600e88b09702e4cfcbe94a032d5"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1604.00246v2",
+      "pdf_bytes": 5160778,
+      "source_final_url": "https://export.arxiv.org/src/1604.00246v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 6268156,
+      "source_inventory": {
+        "tex": [
+          "manuscript.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "apsrev4-1-noeprint.bst"
+        ],
+        "figures": [
+          "figs/CorrFreq_Mfmax_for_kappaT.pdf",
+          "figs/CorrFreq_Mfmax_for_kappaT_with_others.pdf",
+          "figs/CorrFreq_f1_from_spectrogram.pdf",
+          "figs/CorrFreq_f1_from_spectrogram_for_kappaT.pdf",
+          "figs/CorrFreq_f20_from_spectrogram_for_kappaT.pdf",
+          "figs/CorrFreq_f2_from_spectrogram_for_kappaT.pdf",
+          "figs/CorrFreq_fspiral.pdf",
+          "figs/GW_spectrogram_5x7T.pdf",
+          "figs/GW_spectrogram_APR4-q10-M1300.pdf",
+          "figs/GW_spectrogram_GNH3-q10-M1300.pdf",
+          "figs/GW_spectrogram_short_5x7T.pdf",
+          "figs/GW_spectrogram_short_APR4-q10-M1300.pdf",
+          "figs/GW_spectrogram_short_GNH3-q10-M1300.pdf",
+          "figs/PSD_2x5.pdf",
+          "figs/PSD_5x7T.pdf",
+          "figs/Waveform_5x7T.pdf",
+          "figs/alp_1x5.pdf"
+        ],
+        "other": [
+          "aeireferences.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1907.02424",
+      "resolved_version": "1907.02424v1",
+      "version": 1,
+      "title": "Modeling the postmerger gravitational wave signal and extracting binary properties from future binary neutron star detections",
+      "authors": [
+        "Ka Wa Tsang",
+        "Tim Dietrich",
+        "Chris Van Den Broeck"
+      ],
+      "abstract": "Gravitational wave astronomy has established its role in measuring the equation of state governing cold supranuclear matter. To date and in the near future, gravitational wave measurements from neutron star binaries are likely to be restricted to the inspiral. However, future upgrades and the next generation of gravitational wave detectors will enable us to detect the gravitational wave signatures emitted after the merger of two stars, at times when densities beyond those in single neutron stars are reached. Therefore, the postmerger gravitational wave signal enables studies of supranuclear matter at its extreme limit. To support this line of research, we present new and updated phenomenological relations between the binary properties and characteristic features of the postmerger evolution. Most notably, we derive an updated relation connecting the mass-weighted tidal deformability and the maximum neutron star mass to the dominant emission frequency of the postmerger spectrum. With the help of a configuration-independent Bayesian analysis using simplified Lorentzian model functions, we find that the main emission frequency of the postmerger remnant, for signal-to-noise ratios of $8$ and above, can be extracted within a 1-sigma uncertainty of about 100 Hz for Advanced LIGO and Advanced Virgo's design sensitivities. In some cases, even a postmerger signal-to-noise ratio of $4$ can be sufficient to determine the main emission frequency. This will enable us to measure binary and equation-of-state properties from the postmerger, to perform a consistency check between different parts of the binary neutron star coalescence, and to put our physical interpretation of neutron star mergers to the test.",
+      "submitted": "2019-07-04T14:32:56Z",
+      "last_revised": "2019-07-04T14:32:56Z",
+      "doi": "10.1103/PhysRevD.100.044047",
+      "journal_reference": "Phys. Rev. D 100, 044047 (2019)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1907.02424v1",
+      "pdf_url": "https://export.arxiv.org/pdf/1907.02424v1",
+      "source_url": "https://export.arxiv.org/src/1907.02424v1",
+      "publication_date": "2019-08-27",
+      "publication_year": 2019,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "empirical_relations",
+        "parameter_inference"
+      ],
+      "seed_group": "A",
+      "directory": "1907.02424_tsang_2019",
+      "accessed_at": "2026-10-22T17:42:19.466885Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper20190704.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper20190704.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "237522d9de3a9240880ef1f0a38161b5ccd17c5fcfab399511325ff15bc31969",
+        "source_sha256": "e74a38dba189a9f3f4079b5426008bcba11a6fb0c62ab12e0c6b6b11d9e216b4"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1907.02424v1",
+      "pdf_bytes": 5556101,
+      "source_final_url": "https://export.arxiv.org/src/1907.02424v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4750654,
+      "source_inventory": {
+        "tex": [
+          "paper20190704.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig01.png",
+          "fig02.png",
+          "fig03.png",
+          "fig04.png",
+          "fig05.png",
+          "fig06.png",
+          "fig07.png",
+          "fig08a.pdf",
+          "fig08b.pdf",
+          "fig09.png",
+          "fig10.png",
+          "fig11.png"
+        ],
+        "other": [
+          "paper20190704.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1910.10856",
+      "resolved_version": "1910.10856v1",
+      "version": 1,
+      "title": "Empirical relations for gravitational-wave asteroseismology of binary neutron star mergers",
+      "authors": [
+        "Stamatis Vretinaris",
+        "Nikolaos Stergioulas",
+        "Andreas Bauswein"
+      ],
+      "abstract": "We construct new, multivariate empirical relations for measuring neutron star radii and tidal deformabilities from the dominant gravitational wave frequency in the post-merger phase of binary neutron star mergers. The relations determine neutron star radii and tidal deformabilities for specific neutron star masses with consistent accuracy and depend only on two observables: the post-merger peak frequency $f_{\\rm peak}$ and the chirp mass $M_{\\rm chirp}$. The former could be measured with good accuracy from gravitational waves emitted in the post-merger phase using next-generation detectors, whereas the latter is already obtained with good accuracy from the inspiral phase with present-day detectors. Our main data set consists of a gravitational wave catalogue obtained with CFC/SPH simulations. We also extract the $f_{\\rm peak}$ frequency from the publicly available CoRe data set, obtained through grid-based GRHD simulations and find good agreement between the extracted frequencies of the two data sets. As a result, we can construct empirical relations for the combined data sets. Furthermore, we investigate empirical relations for two secondary peaks, $f_{2-0}$ and $f_{\\rm spiral}$, and show that these relations are distinct in the whole parameter space, in agreement with a previously introduced spectral classification scheme. Finally, we show that the spectral classification scheme can be reproduced using machine-learning techniques.",
+      "submitted": "2019-10-24T00:32:54Z",
+      "last_revised": "2019-10-24T00:32:54Z",
+      "doi": "10.1103/PhysRevD.101.084039",
+      "journal_reference": "Phys. Rev. D 101, 084039 (2020)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1910.10856v1",
+      "pdf_url": "https://export.arxiv.org/pdf/1910.10856v1",
+      "source_url": "https://export.arxiv.org/src/1910.10856v1",
+      "publication_date": "2020-04-20",
+      "publication_year": 2020,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "empirical_relations",
+        "secondary_frequencies",
+        "spectral_classification"
+      ],
+      "seed_group": "A",
+      "directory": "1910.10856_vretinaris_2020",
+      "accessed_at": "2026-10-22T17:42:19.504198Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/article.tex",
+      "main_tex_candidates": [
+        {
+          "path": "article.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "tables/TOV_info.tex",
+            "tables/bauswein_data.tex",
+            "tables/CORE_data.tex",
+            "tables/tables_combined_fRM.tex",
+            "tables/tables_combined.tex"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "f93e42d050652db218298bb3ba03646f05ec45e2e35450adb6f3c4c0fe8cc444",
+        "source_sha256": "b61696f7a54b2c118caa76c8586de61a8beb044c402637d3b1cd73e51dcfad06"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1910.10856v1",
+      "pdf_bytes": 5893681,
+      "source_final_url": "https://export.arxiv.org/src/1910.10856v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 8272272,
+      "source_inventory": {
+        "tex": [
+          "article.tex",
+          "eoschirp.tex",
+          "eosconf.tex",
+          "firsthalf_freq_table.tex",
+          "secondhalf_freq_table.tex",
+          "tables/CORE_data.tex",
+          "tables/TOV_info.tex",
+          "tables/bauswein_data.tex",
+          "tables/table2_f=2-0_e=0.tex",
+          "tables/table2_f=2-0_e=0_fRM.tex",
+          "tables/table2_f=2-0_e=1.tex",
+          "tables/table2_f=2-0_e=1_fRM.tex",
+          "tables/table2_f=peak_e=0.tex",
+          "tables/table2_f=peak_e=0_fRM.tex",
+          "tables/table2_f=peak_e=1.tex",
+          "tables/table2_f=peak_e=1_fRM.tex",
+          "tables/table2_f=spiral_e=0.tex",
+          "tables/table2_f=spiral_e=0_fRM.tex",
+          "tables/table2_f=spiral_e=1.tex",
+          "tables/table2_f=spiral_e=1_fRM.tex",
+          "tables/tables_combined-backup.tex",
+          "tables/tables_combined.tex",
+          "tables/tables_combined_fRM.tex",
+          "tovplot.tex"
+        ],
+        "bibliography": [
+          "VSB.bib"
+        ],
+        "styles": [
+          "aas_macros.sty"
+        ],
+        "figures": [
+          "figures-final/3surfaces2gether_R16_R18_e0.png",
+          "figures-final/CORE_models.png",
+          "figures-final/CORE_models_chirp.png",
+          "figures-final/classification.png",
+          "figures-final/eoschirp.png",
+          "figures-final/eosconf.png",
+          "figures-final/histogram_e=1.png",
+          "figures-final/surfaceCombined_R16_fpeak_e0.pdf",
+          "figures-final/surfaceCombined_fRM_fpeak_R18_e0.pdf",
+          "figures-final/surface_LfM_L16_fpeak_e0-f.png",
+          "figures-final/surface_LfM_L16_fpeak_e0-fM1-2D.png",
+          "figures-final/surface_LfM_Ltilde_fpeak_e0-fM-2D.png",
+          "figures-final/surface_LfM_Ltilde_fpeak_e0-fM.png",
+          "figures-final/surface_LfM_all.png",
+          "figures-final/surface_R16_f2-0_R18_fspiral_e0.png",
+          "figures-final/surface_Rall_fpeak_e0.png",
+          "figures-final/surface_fLM_L16_fpeak_e0-fM.png",
+          "figures-final/surface_fLM_L18_fpeak_e0-fM.png",
+          "figures-final/surface_fLM_Ltilde_fpeak_e0-fM.pdf",
+          "figures-final/surface_fLM_Ltilde_fpeak_e1-fM.pdf",
+          "figures-final/surface_fRM_fpeak_Rall_e0.png",
+          "figures-final/tovplot3.pdf"
+        ],
+        "other": [
+          "article.bbl",
+          "figures-final/3surfaces2gether_R16_R18_e0.png.bb",
+          "figures-final/classification.png.bb",
+          "figures-final/histogram_e=1.png.bb",
+          "figures-final/surfaceCombined_R16_fpeak_e0.pdf.bb",
+          "figures-final/surfaceCombined_R16_fpeak_e0.png.bb",
+          "figures-final/surfaceCombined_fRM_fpeak_R18_e0.pdf.bb",
+          "figures-final/surfaceCombined_fRM_fpeak_R18_e0.png.bb",
+          "figures-final/surface_LfM_L16_fpeak_e0-f.png.bb",
+          "figures-final/surface_LfM_L16_fpeak_e0-fM1-2D.png.bb",
+          "figures-final/surface_LfM_Ltilde_fpeak_e0-fM-2D.png.bb",
+          "figures-final/surface_LfM_Ltilde_fpeak_e0-fM.png.bb",
+          "figures-final/surface_R16_f2-0_R18_fspiral_e0.png.bb",
+          "figures-final/surface_Rall_fpeak_e0.png.bb",
+          "figures-final/surface_fLM_L16_fpeak_e0-fM.png.bb",
+          "figures-final/surface_fLM_L18_fpeak_e0-fM.png.bb",
+          "figures-final/surface_fLM_Ltilde_fpeak_e0-fM.pdf.bb",
+          "figures-final/surface_fLM_Ltilde_fpeak_e0-fM.png.bb",
+          "figures-final/surface_fRM_fpeak_Rall_e0.png.bb",
+          "figures-final/tovplot3.pdf.bb"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2102.12455",
+      "resolved_version": "2102.12455v2",
+      "version": 2,
+      "title": "Frequency deviations in universal relations of isolated neutron stars and postmerger remnants",
+      "authors": [
+        "Georgios Lioutas",
+        "Andreas Bauswein",
+        "Nikolaos Stergioulas"
+      ],
+      "abstract": "We relate the fundamental quadrupolar fluid mode of isolated non-rotating NSs and the dominant oscillation frequency of neutron star merger remnants. Both frequencies individually are known to correlate with certain stellar parameters like radii or the tidal deformability, which we further investigate by constructing fit formulae and quantifying the scatter of the data points from those relations. Furthermore, we compare how individual data points deviate from the corresponding fit to all data points. Considering this point-to-point scatter we uncover a striking similarity between the frequency deviations of perturbative data for isolated NSs and of oscillation frequencies of rapidly rotating, hot, massive merger remnants. The correspondence of frequency deviations in these very different stellar systems points to an underlying mechanism and EoS information being encoded in the frequency deviation. We trace the frequency scatter back to deviations of the tidal Love number from an average tidal Love number for a given stellar compactness. Our results thus indicate a possibility to break the degeneracy between NS radii, tidal deformability and tidal Love number. We also relate frequency deviations to the derivative of the tidal deformability with respect to mass. Our findings generally highlight a possibility to improve GW asteroseismology relations where the systematic behavior of frequency deviations is employed to reduce the scatter in such relationships and consequently increase the measurement accuracy. In addition, we relate the f-mode frequency of static stars and the dominant GW frequency of merger remnants. We find an analytic mapping to connect the masses of both stellar systems, which yields particularly accurate mass-independent relations between both frequencies and between the postmerger frequency and the tidal deformability.",
+      "submitted": "2021-02-24T18:38:23Z",
+      "last_revised": "2021-09-09T16:04:36Z",
+      "doi": "10.1103/PhysRevD.104.043011",
+      "journal_reference": "Phys. Rev. D 104, 043011 (2021)",
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2102.12455v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2102.12455v2",
+      "source_url": "https://export.arxiv.org/src/2102.12455v2",
+      "publication_date": "2021-08-16",
+      "publication_year": 2021,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "empirical_relations",
+        "fit_residuals"
+      ],
+      "seed_group": "A",
+      "directory": "2102.12455_lioutas_2021",
+      "accessed_at": "2026-10-22T17:42:19.568865Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/draft_static_stars.tex",
+      "main_tex_candidates": [
+        {
+          "path": "draft_static_stars.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "27d928ab9d98f846038e37e27790bcf754c0544d8c7e805e5bfdf1798ade7d04",
+        "source_sha256": "5464445ca2aec0b2e9a1a0e39dfc3d19362d24049d3d3fac3b6ed51bc7fb6c25"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2102.12455v2",
+      "pdf_bytes": 1381141,
+      "source_final_url": "https://export.arxiv.org/src/2102.12455v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4455796,
+      "source_inventory": {
+        "tex": [
+          "draft_static_stars.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "figures/2colors_fpeak135_Lam135_band.pdf",
+          "figures/2colors_fpeak135_R16_band.pdf",
+          "figures/2colors_fpert_Lam135_band.pdf",
+          "figures/2colors_fpert_R16_band.pdf",
+          "figures/AK_90percent_Fractional_errors.pdf",
+          "figures/AK_original.pdf",
+          "figures/Lam16_Lam135.pdf",
+          "figures/Lam16_R16.pdf",
+          "figures/MR_colored.pdf",
+          "figures/Mchirpfpeak_Lambda_mass_errorbands.pdf",
+          "figures/TL_90percent_Fractional_errors.pdf",
+          "figures/TL_original_Fractional_errors.pdf",
+          "figures/TidalDefFreq_Static_Fractional_errors.pdf",
+          "figures/dLamdM_corrections_panels.pdf",
+          "figures/deltaLam_deltafpert_R16.pdf",
+          "figures/deltafpeak_deltafpert_M16.pdf",
+          "figures/fpeak135_Lambda_Mass_deviations.pdf",
+          "figures/fpeak_Rx90percent_res1212_panel.pdf",
+          "figures/fpeak_Rx_res1212_panel.pdf",
+          "figures/fpeak_TidalDefx_res1212_panels.pdf",
+          "figures/fpeak_fpert_mass_errorbands.pdf",
+          "figures/fpeak_fpert_mass_errorbands_All.pdf",
+          "figures/fpert_Lambda16_pointdist.pdf",
+          "figures/k2_k2cor_InvComp_M16_MaxDev_panels.pdf",
+          "figures/rhomaxmerger_rhoc_res135135.pdf"
+        ],
+        "other": [
+          "draft_static_stars.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2606.08522",
+      "resolved_version": "2606.08522v3",
+      "version": 3,
+      "title": "Post-Merger Gravitational-Wave Uncertainties of Binary Neutron Stars under Multi-Messenger EOS Constraints",
+      "authors": [
+        "Yong-Jia Huang",
+        "Luca Baiotti"
+      ],
+      "abstract": "The high-frequency gravitational waves emitted by a binary neutron star merger remnant carry information on matter at densities and temperatures beyond those reached in isolated neutron stars. We quantify how tightly current multi-messenger constraints already determine the dominant post-merger frequency $f_{2,\\rm mean}$. Adopting a set of cold equations of state (EOSs) constrained jointly by gravitational-wave tidal deformability, NICER mass--radius measurements, massive-pulsar masses, chiral effective field theory at low density, and perturbative QCD at asymptotically high density, for each binary mass we select the softest and stiffest models of the multi-messenger posterior and follow their coalescence with fully general-relativistic hydrodynamics simulations. Together with a broad set of EOSs drawn from the literature ($82$ models in total), these simulations show that, once the binary mass and a single measure of the stellar compactness ($Λ$ or $R$) are held fixed, the residual spread of $f_{2,\\rm mean}$ is only $\\sim 100\\,{\\rm Hz}$, a factor of several below the $\\gtrsim 500\\,{\\rm Hz}$ range spanned by an EOSs set including those already disfavored by the data. This tight calibration of the cold-matter prediction implies that a future high-frequency detection departing from it would point directly to additional physics, such as a hadron--quark transition occurring at finite temperature. We further confirm the quasi-universal relation $(f_1+f_3)/2 \\approx f_{2,\\rm mean}$ to within $\\sim 116\\,{\\rm Hz}$, which provides a model-independent estimate of $f_{2,\\rm mean}$ from the secondary spectral peaks.",
+      "submitted": "2026-06-07T08:59:16Z",
+      "last_revised": "2026-07-31T05:24:40Z",
+      "doi": "10.1088/1361-6382/ae92c9",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc",
+        "nucl-th"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2606.08522v3",
+      "pdf_url": "https://export.arxiv.org/pdf/2606.08522v3",
+      "source_url": "https://export.arxiv.org/src/2606.08522v3",
+      "publication_date": "2026-08-28",
+      "publication_year": 2026,
+      "publication_date_source": "Crossref:published-print",
+      "publisher": "IOP Publishing",
+      "container_title": "Classical and Quantum Gravity",
+      "categories": [
+        "empirical_relations",
+        "uncertainties",
+        "secondary_frequencies"
+      ],
+      "seed_group": "A",
+      "directory": "2606.08522_huang_2026",
+      "accessed_at": "2026-10-22T17:42:19.594231Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/main.tex",
+      "main_tex_candidates": [
+        {
+          "path": "main.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "3056dba8b97cdb3c49c5cb3ee80480484a6e8cead807c000be4f5253a51d2a3e",
+        "source_sha256": "10efd1174d39120d5d9e0033ef3c0497f5bf98b918779e0de5476187941ac501"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2606.08522v3",
+      "pdf_bytes": 642891,
+      "source_final_url": "https://export.arxiv.org/src/2606.08522v3",
+      "source_content_type": "application/gzip",
+      "source_bytes": 422753,
+      "source_inventory": {
+        "tex": [
+          "main.tex"
+        ],
+        "bibliography": [
+          "ref.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "EOS_models.pdf",
+          "detrended_plane_statistical_eos_Han23.pdf",
+          "detrended_plane_statistical_eos_updated.pdf",
+          "f2m_vs_f1f3_relation.pdf",
+          "fundamental_plane_statistical_eos_Han23.pdf",
+          "fundamental_plane_statistical_eos_updated.pdf",
+          "rho_max1.pdf",
+          "rho_max2.pdf",
+          "rho_max3.pdf"
+        ],
+        "other": [
+          "00README.json"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1509.08522",
+      "resolved_version": "1509.08522v1",
+      "version": 1,
+      "title": "Observing Gravitational Waves From The Post-Merger Phase Of Binary Neutron Star Coalescence",
+      "authors": [
+        "James Alexander Clark",
+        "Andreas Bauswein",
+        "Nikolaos Stergioulas",
+        "Deirdre Shoemaker"
+      ],
+      "abstract": "We present an effective, low-dimensionality frequency-domain template for the gravitational wave signal from the stellar remnants from binary neutron star coalescence. A principal component decomposition of a suite of numerical simulations of binary neutron star mergers is used to construct orthogonal basis functions for the amplitude and phase spectra of the waveforms for a variety of neutron star equations of state and binary mass configurations. We review the phenomenology of late merger / post-merger gravitational wave emission in binary neutron star coalescence and demonstrate how an understanding of the dynamics during and after the merger leads to the construction of a universal spectrum. We also provide a discussion of the prospects for detecting the post-merger signal in future gravitational wave detectors as a potential contribution to the science case for third generation instruments. The template derived in our analysis achieves $>90\\%$ match across a wide variety of merger waveforms and strain sensitivity spectra for current and potential gravitational wave detectors. A Fisher matrix analysis yields a preliminary estimate of the typical uncertainty in the determination of the dominant post-merger oscillation frequency $f_{\\mathrm{peak}}$ as $δf_{\\mathrm{peak}} \\sim 50$Hz. Using recently derived correlations between $f_{\\mathrm{peak}}$ and the neutron star radii, this suggests potential constraints on the radius of a fiducial neutron star of $\\sim 220$\\,m. Such measurements would only be possible for nearby ($\\sim 30$Mpc) sources with advanced LIGO but become more feasible for planned upgrades to advanced LIGO and other future instruments, leading to constraints on the high density neutron star equation of state which are independent and complementary to those inferred from the pre-merger inspiral gravitational wave signal.",
+      "submitted": "2015-09-28T22:07:01Z",
+      "last_revised": "2015-09-28T22:07:01Z",
+      "doi": "10.1088/0264-9381/33/8/085003",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/1509.08522v1",
+      "pdf_url": "https://export.arxiv.org/pdf/1509.08522v1",
+      "source_url": "https://export.arxiv.org/src/1509.08522v1",
+      "publication_date": "2016-04-21",
+      "publication_year": 2016,
+      "publication_date_source": "Crossref:published-print",
+      "publisher": "IOP Publishing",
+      "container_title": "Classical and Quantum Gravity",
+      "categories": [
+        "waveform_model",
+        "principal_components"
+      ],
+      "seed_group": "B",
+      "directory": "1509.08522_clark_2016",
+      "accessed_at": "2026-10-22T17:42:19.601712Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/pmns_pca.tex",
+      "main_tex_candidates": [
+        {
+          "path": "pmns_pca.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "92ccc066b426b5c749d7320f7fea8bde32ff79af1ce04d000af841b017c52305",
+        "source_sha256": "95b17071aaa100ba0cfafc359b7cc5a7b62fc1b39b93e5d0bf7717bcb54c2b11"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1509.08522v1",
+      "pdf_bytes": 2067811,
+      "source_final_url": "https://export.arxiv.org/src/1509.08522v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 2007811,
+      "source_inventory": {
+        "tex": [
+          "pmns_pca.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "iopams.sty",
+          "iopart.cls"
+        ],
+        "figures": [
+          "all_spectra.eps",
+          "first_magnitude_pc_alleos_allmass_lessvisc.eps",
+          "fpeakplot_pca.eps",
+          "frequencyrelations.eps",
+          "magnitude-explained_variance_alleos_allmass_lessvisc.eps",
+          "matches_ALL_aLIGO_targetsnr-5.00_eos-all_mass-all_viscosity-lessvisc_reduced.eps",
+          "matches_LOO_aLIGO_targetsnr-5.00_eos-all_mass-all_viscosity-lessvisc_reduced.eps",
+          "mean_all_spectra.eps",
+          "mean_spectrum_alleos_allmass_lessvisc.eps",
+          "multidet_deltaFpeak_summary.eps",
+          "multidet_deltaR16_summary.eps",
+          "multidet_match_summary.eps",
+          "noise_spectra.eps",
+          "phase-explained_variance_alleos_allmass_lessvisc.eps",
+          "pic132.eps",
+          "pic138.eps",
+          "pic153.eps",
+          "pic191.eps",
+          "sfho_example.eps",
+          "three_spectra.eps",
+          "three_spectra_align.eps",
+          "tm1_example.eps",
+          "tm1_rec_example_allpcs.eps",
+          "tm1_rec_example_onepc.eps",
+          "waveform_catalogue.eps"
+        ],
+        "other": [
+          "Makefile",
+          "iopart10.clo",
+          "pmns_pca.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1908.11418",
+      "resolved_version": "1908.11418v2",
+      "version": 2,
+      "title": "kiloHertz gravitational waves from binary neutron star remnants: time-domain model and constraints on extreme matter",
+      "authors": [
+        "Matteo Breschi",
+        "Sebastiano Bernuzzi",
+        "Francesco Zappa",
+        "Michalis Agathos",
+        "Albino Perego",
+        "David Radice",
+        "Alessandro Nagar"
+      ],
+      "abstract": "The remnant star of a neutron star merger is an anticipated loud source of kiloHertz gravitational waves that conveys unique information on the equation of state of hot matter at extreme densities. Observations of such signals are hampered by the photon shot noise of ground-based interferometers and pose a challenge for gravitational-wave astronomy. We develop an analytical time-domain waveform model for postmerger signals informed by numerical relativity simulations. The model completes effective-one-body waveforms for quasi-circular nonspinning binaries in the kiloHertz regime. We show that a template-based analysis can detect postmerger signals with a minimal signal-to-noise ratios (SNR) of 8, corresponding to GW170817-like events for third-generation interferometers. Using Bayesian model selection and the complete inspiral-merger-postmerger waveform model it is possible to infer whether the merger outcome is a prompt collapse to a black hole or a remnant star. In the latter case, the radius of the maximum mass (most compact) nonrotating neutron star can be determined to kilometer precision. We demonstrate the feasibility of inferring the stiffness of the equation of state at extreme densities using the quasiuniversal relations deduced from numerical-relativity simulations.",
+      "submitted": "2019-08-29T18:41:11Z",
+      "last_revised": "2020-01-20T15:41:47Z",
+      "doi": "10.1103/PhysRevD.100.104029",
+      "journal_reference": "Phys. Rev. D 100, 104029 (2019)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1908.11418v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1908.11418v2",
+      "source_url": "https://export.arxiv.org/src/1908.11418v2",
+      "publication_date": "2019-11-14",
+      "publication_year": 2019,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "waveform_model",
+        "time_domain"
+      ],
+      "seed_group": "B",
+      "directory": "1908.11418_breschi_2019",
+      "accessed_at": "2026-10-22T17:42:19.619691Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/ms.tex",
+      "main_tex_candidates": [
+        {
+          "path": "ms.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "7f9ad2b794b89f52d2cbbefedc6222e2873e1b9d724b38c3be0676b0a24d565a",
+        "source_sha256": "8e10f6a6a34dc7fb781abae2c9c16f216dc791ef42b2979b4f96d49bb1ca4c93"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1908.11418v2",
+      "pdf_bytes": 7259428,
+      "source_final_url": "https://export.arxiv.org/src/1908.11418v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 8177608,
+      "source_inventory": {
+        "tex": [
+          "ms.tex"
+        ],
+        "bibliography": [
+          "msNotes.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "f2_rad_Mmax_contour.png",
+          "nrpm_fig_1_pt1.png",
+          "nrpm_fig_1_pt2.png",
+          "nrpm_fig_2.png",
+          "nrpm_fig_3.png",
+          "nrpm_fig_4_new.png",
+          "nrpm_fig_5.png",
+          "nrpm_fig_5_new.png",
+          "nrpm_fig_amps_xi.png",
+          "nrpm_fig_concistency_highmass_highsnr.png",
+          "nrpm_fig_concistency_highmass_lowsnr.png",
+          "nrpm_fig_concistency_lowmass_highsnr.png",
+          "nrpm_fig_concistency_lowmass_lowsnr.png",
+          "nrpm_fig_core_sacra.png",
+          "nrpm_fig_eos.png",
+          "nrpm_fig_eos_new.png",
+          "nrpm_fig_freqs_xi.png",
+          "nrpm_fig_posterior1.png",
+          "nrpm_fig_posterior_log.png",
+          "nrpm_fig_times_xi.png",
+          "resolution_SLy130130.png"
+        ],
+        "other": [
+          "ms.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2111.08353",
+      "resolved_version": "2111.08353v2",
+      "version": 2,
+      "title": "Analytic models of the spectral properties of gravitational waves from neutron star merger remnants",
+      "authors": [
+        "Theodoros Soultanis",
+        "Andreas Bauswein",
+        "Nikolaos Stergioulas"
+      ],
+      "abstract": "We present a new analytic model describing gravitational wave emission in the post-merger phase of binary neutron star mergers. The model is described by a number of physical parameters that are related to various oscillation modes, quasi-linear combination tones or non-linear features that appear in the post-merger phase. The time evolution of the main post-merger frequency peak is taken into account and it is described by a two-segment linear expression. The effectiveness of the model, in terms of the fitting factor or, equivalently, the reduction in the detection rate, is evaluated along a sequence of equal-mass simulations of varying mass. We find that all parameters of the analytic model correlate with the total binary mass of the system. For high masses, we identify new spectral features originating from the non-linear coupling between the quasi-radial oscillation and the antipodal tidal deformation, the inclusion of which significantly improves the fitting factors achieved by the model. We can thus model the post-merger gravitational-wave emission with an analytic model that achieves high fitting factors for a wide range of total binary masses. Our model can be used for the detection and parameter estimation of the post-merger phase in upcoming searches with upgraded second-generation detectors, such as aLIGO+ and aVirgo+, with future, third-generation detectors (Einstein Telescope and Cosmic Explorer) or with dedicated, high-frequency detectors.",
+      "submitted": "2021-11-16T10:54:07Z",
+      "last_revised": "2022-02-07T12:36:36Z",
+      "doi": "10.1103/PhysRevD.105.043020",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2111.08353v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2111.08353v2",
+      "source_url": "https://export.arxiv.org/src/2111.08353v2",
+      "publication_date": "2022-02-28",
+      "publication_year": 2022,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "waveform_model",
+        "time_domain",
+        "mode_coupling"
+      ],
+      "seed_group": "B",
+      "directory": "2111.08353_soultanis_2022",
+      "accessed_at": "2026-10-22T17:42:19.674424Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/main.tex",
+      "main_tex_candidates": [
+        {
+          "path": "main.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "journalheader.tex",
+            "main.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "04ed684687475e1adc520749ab7ace85a890b18a7597596a286b21deacdf47a5",
+        "source_sha256": "ea761cb3a800c3ed907841ffcde4054d91184477c02193156750337df5c1b69d"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2111.08353v2",
+      "pdf_bytes": 11852322,
+      "source_final_url": "https://export.arxiv.org/src/2111.08353v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 9866189,
+      "source_inventory": {
+        "tex": [
+          "journalheader.tex",
+          "main.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "ATpeak-TM.pdf",
+          "AcdotT-TM.pdf",
+          "Apeak-TM.pdf",
+          "Nfactor-TM.pdf",
+          "Tpeak-TM.pdf",
+          "amplitudes-TM.pdf",
+          "dumpFFT_HR_mpa1-m1_25.pdf",
+          "dumpFFT_allfreq_components_mpa1-m155.pdf",
+          "dumpFFT_eccruns_comparison.pdf",
+          "dumpFFT_evolution_mpa1-m125.pdf",
+          "dumpFFT_fsp0_mpa1-m150.pdf",
+          "dumpFFT_model_components_mpa1-m125.pdf",
+          "dumpFFT_model_mpa1-m125.pdf",
+          "dumpFFT_mthres_components_mpa1-m155.pdf",
+          "dumpFFT_nopi_mpa1-m1_50.pdf",
+          "dumpGW_model_mpa1-m125.pdf",
+          "dumpGW_sep_mpa1-m1_25.pdf",
+          "dumpSPEC_f0_from_ac_mpa1-m125.pdf",
+          "dumpSPEC_mpa1-m125.pdf",
+          "dump_Amp_of_t_m1_25_1.pdf",
+          "dump_Amp_of_t_m1_25_2.pdf",
+          "dump_Amp_of_t_m1_25_3.pdf",
+          "dump_phase_model_components_mpa1-m125.pdf",
+          "dump_specComp_HR_m1_25.pdf",
+          "dump_specComp_m125.pdf",
+          "fpeak-relations.pdf",
+          "lapses_all.pdf",
+          "sequence-Ac-sAc-match-ET.pdf",
+          "sequence-FFT-fullGW.pdf",
+          "sequence-FFT-model.pdf",
+          "sequence-FFT.pdf",
+          "sequence-GW-model.pdf",
+          "sequence-SPECs.pdf",
+          "sequence-SPECs_f0.pdf",
+          "sequence-lapse-FFT.pdf",
+          "sequence-match-ET.pdf",
+          "sequence_ecc_phi_of_phipeak.pdf",
+          "sequence_phi_of_Mtot.pdf",
+          "sequence_phi_of_phipeak.pdf",
+          "taus-TM.pdf"
+        ],
+        "other": [
+          "main.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2205.09112",
+      "resolved_version": "2205.09112v1",
+      "version": 1,
+      "title": "Kilohertz Gravitational Waves From Binary Neutron Star Mergers: Numerical-relativity Informed Postmerger Model",
+      "authors": [
+        "Matteo Breschi",
+        "Sebastiano Bernuzzi",
+        "Kabir Chakravarti",
+        "Alessandro Camilletti",
+        "Aviral Prakash",
+        "Albino Perego"
+      ],
+      "abstract": "We present ${\\tt NRPMw}$, an analytical model of gravitational-waves from neutron star merger remnants informed using 618 numerical relativity (NR) simulations. ${\\tt NRPMw}$ is designed in the frequency domain using a combination of complex Gaussian wavelets. The wavelet's parameters are calibrated to equations of state (EOS) insensitive relations from NR data. The NR simulations are computed with 21 EOS (7 of which are finite-temperature microphysical models, and 3 of which contain quark phase transitions or hyperonic degrees of freedom) and span total binary masses $M\\in[2.4,3.4]~{\\rm M}_\\odot$, mass ratios up to $q=2$, and (nonprecessing) dimensionless spins magnitudes up to ${0.2}$. The theoretical uncertainties of the EOS-insensitive relations are incorporated in ${\\tt NRPMw}$ using recalibration parameters that enhance the flexibility and accuracy of the model. ${\\tt NRPMw}$ is NR-faithful with fitting factors ${\\gtrsim}0.9$ computed on an independent validation set of 102 simulations.",
+      "submitted": "2022-05-18T17:59:15Z",
+      "last_revised": "2022-05-18T17:59:15Z",
+      "doi": null,
+      "journal_reference": null,
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2205.09112v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2205.09112v1",
+      "source_url": "https://export.arxiv.org/src/2205.09112v1",
+      "publication_date": null,
+      "publication_year": 2022,
+      "publication_date_source": null,
+      "publisher": null,
+      "container_title": null,
+      "categories": [
+        "waveform_model",
+        "frequency_domain"
+      ],
+      "seed_group": "B",
+      "directory": "2205.09112_breschi_2022",
+      "accessed_at": "2026-10-22T17:42:19.751803Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper20220518.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper20220518.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "paper20220518.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "3b5da5120ae8ad622659410c4f89d54194d371d2b2b5d9415214a990a4c8998f",
+        "source_sha256": "c99abd4c2f45d1dcf814c84c1a4f8d33f165ead504da54c8a5f28b568ec398a0"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2205.09112v1",
+      "pdf_bytes": 2144983,
+      "source_final_url": "https://export.arxiv.org/src/2205.09112v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4408869,
+      "source_inventory": {
+        "tex": [
+          "paper20220518.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig01.pdf",
+          "fig02a.pdf",
+          "fig02b.pdf",
+          "fig03.pdf",
+          "fig04a.pdf",
+          "fig04b.pdf",
+          "fig05.pdf",
+          "fig06.pdf",
+          "fig07.pdf",
+          "fig08a.pdf",
+          "fig08b.pdf",
+          "fig08c.pdf",
+          "fig08d.pdf",
+          "fig09a.pdf",
+          "fig09b.pdf",
+          "fig09c.pdf",
+          "fig09d.pdf"
+        ],
+        "other": [
+          "paper20220518.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2501.11518",
+      "resolved_version": "2501.11518v1",
+      "version": 1,
+      "title": "Robust and fast parameter estimation for gravitational waves from binary neutron star merger remnants",
+      "authors": [
+        "Stamatis Vretinaris",
+        "Georgios Vretinaris",
+        "Christos Mermigkas",
+        "Minas Karamanis",
+        "Nikolaos Stergioulas"
+      ],
+      "abstract": "We present a robust and efficient methodology for parameter estimation of gravitational waves generated during the post-merger phase of binary neutron star mergers. Our approach leverages an analytic waveform model combined with empirical relations to predict prior ranges for the post-merger frequencies based on measurements of the chirp mass and effective tidal deformability in the inspiral phase. This enables robust inference of the main features of the post-merger spectrum, avoiding possible multi-modality induced by wide priors. Using waveforms derived from numerical relativity, we systematically validate our model across a broad spectrum of neutron star equations of state and mass configurations, demonstrating high fitting factors. Our method can be applied in future detections of gravitational waves from the post-merger phase with third-generation gravitational wave observatories. Furthermore, by integrating the Preconditioned Monte Carlo sampling method within the pocoMC framework, we achieve substantial computational acceleration compared to conventional Bayesian techniques.",
+      "submitted": "2025-01-20T14:48:12Z",
+      "last_revised": "2025-01-20T14:48:12Z",
+      "doi": "10.1103/g1qs-j74x",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "gr-qc"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2501.11518v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2501.11518v1",
+      "source_url": "https://export.arxiv.org/src/2501.11518v1",
+      "publication_date": "2026-01-07",
+      "publication_year": 2026,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "waveform_model",
+        "parameter_inference"
+      ],
+      "seed_group": "B",
+      "directory": "2501.11518_vretinaris_2026",
+      "accessed_at": "2026-10-22T17:42:19.778711Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/main.tex",
+      "main_tex_candidates": [
+        {
+          "path": "main.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "main.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "16068256d5dcf1920ba156c96a5a1e7d5b5034107107301bd62c8ce5693641ba",
+        "source_sha256": "c3820a3ac3edad13088d4162ef07d24e67a68c70c5ad2521d8c97e9469201c5e"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2501.11518v1",
+      "pdf_bytes": 8216256,
+      "source_final_url": "https://export.arxiv.org/src/2501.11518v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 9522041,
+      "source_inventory": {
+        "tex": [
+          "main.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "plots/2H-1.35-maximum_likelihood_frequency_domain.pdf",
+          "plots/2H-1.35-median_frequency_domain.pdf",
+          "plots/BHBlp-1.3-maximum_likelihood_frequency_domain.pdf",
+          "plots/BHBlp-1.3-maximum_likelihood_time_domain.pdf",
+          "plots/BHBlp-1.3-median_frequency_domain.pdf",
+          "plots/MPA1-1.55-maximum_likelihood_frequency_domain.pdf",
+          "plots/MPA1-1.55-median_frequency_domain.pdf",
+          "plots/SLy_1.5_1_ASD.pdf",
+          "plots/SLy_1.5_1_maximum_likelihood_frequency_domain.pdf",
+          "plots/SLy_1.5_1_median_frequency_domain.pdf",
+          "plots/SNR16-maximum_likelihood_frequency_domain.pdf",
+          "plots/SNR16-median_frequency_domain.pdf",
+          "plots/SNR8-maximum_likelihood_frequency_domain.pdf",
+          "plots/SNR8-median_frequency_domain.pdf",
+          "plots/det_td.pdf",
+          "plots/easter_half_reparam_plus_free_True_violin_plot_all.pdf",
+          "plots/models.pdf",
+          "plots/mr.pdf",
+          "plots/surface_fLM.pdf"
+        ],
+        "other": [
+          "main.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1702.02567",
+      "resolved_version": "1702.02567v2",
+      "version": 2,
+      "title": "Semi-analytic derivation of the threshold mass for prompt collapse in binary neutron star mergers",
+      "authors": [
+        "Andreas Bauswein",
+        "Nikolaos Stergioulas"
+      ],
+      "abstract": "The threshold mass for prompt collapse in binary neutron star mergers was empirically found to depend on the stellar properties of the maximum-mass non-rotating neutron star model. Here we present a semi-analytic derivation of this empirical relation which suggests that it is rather insensitive to thermal effects, to deviations from axisymmetry and to the exact rotation law in merger remnants. We utilize axisymmetric, cold equilibrium models with differential rotation and determine the threshold mass for collapse from the comparison between an empirical relation that describes the angular momentum in the remnant for a given total binary mass and the sequence of rotating equilibrium models at the threshold to collapse (the latter assumed to be near the turning point of fixed-angular-momentum sequences). In spite of the various simplifying assumptions, the empirical relation for prompt collapse is reproduced with good accuracy, which demonstrates its robustness. We discuss implications of our methodology and results for understanding other empirical relations satisfied by neutron-star merger remnants that have been discovered by numerical simulations and that play a key role in constraining the high-density equation of state through gravitational-wave observations.",
+      "submitted": "2017-02-08T14:24:14Z",
+      "last_revised": "2017-08-03T15:40:24Z",
+      "doi": "10.1093/mnras/stx1983",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "astro-ph.SR",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/1702.02567v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1702.02567v2",
+      "source_url": "https://export.arxiv.org/src/1702.02567v2",
+      "publication_date": "2017-11",
+      "publication_year": 2017,
+      "publication_date_source": "Crossref:published-print",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Monthly Notices of the Royal Astronomical Society",
+      "categories": [
+        "collapse_threshold",
+        "eos"
+      ],
+      "seed_group": "C",
+      "directory": "1702.02567_bauswein_2017",
+      "accessed_at": "2026-10-22T17:42:19.839220Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/mnras_template-arxiv.tex",
+      "main_tex_candidates": [
+        {
+          "path": "mnras_template-arxiv.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "table1.tex"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "a9c592d8e88e6b4253b258400e238193d5b75ab557c82d7ed4cc3861c0e3bd9a",
+        "source_sha256": "699e8222389ebb8cc098cad8c8e1cf3a9e59bf7be517c207095e09772c797d6d"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1702.02567v2",
+      "pdf_bytes": 430762,
+      "source_final_url": "https://export.arxiv.org/src/1702.02567v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 665418,
+      "source_inventory": {
+        "tex": [
+          "mnras_template-arxiv.tex",
+          "table1.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "mnras.cls"
+        ],
+        "figures": [
+          "Intersections_for_Mstab_oppoaxes_wJmerger.eps",
+          "Jconstsequences_fitwodia.eps",
+          "Mmax-Cmax.eps",
+          "Rthres-Mthres_plot_eos-corrected.eps",
+          "fit_a-Mmax2Rmax-1.eps",
+          "fit_b-Mmax.eps",
+          "k_plot_eos-corrected.eps",
+          "stablimit_maxima_fitpa.eps",
+          "tovplot3.eps"
+        ],
+        "other": [
+          "mnras_template-arxiv.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2210.16366",
+      "resolved_version": "2210.16366v2",
+      "version": 2,
+      "title": "Second release of the CoRe database of binary neutron star merger waveforms",
+      "authors": [
+        "Alejandra Gonzalez",
+        "Francesco Zappa",
+        "Matteo Breschi",
+        "Sebastiano Bernuzzi",
+        "David Radice",
+        "Ananya Adhikari",
+        "Alessandro Camilletti",
+        "Swami Vivekanandji Chaurasia",
+        "Georgios Doulis",
+        "Surendra Padamata",
+        "Alireza Rashti",
+        "Maximiliano Ujevic",
+        "Bernd Brügmann",
+        "William Cook",
+        "Tim Dietrich",
+        "Albino Perego",
+        "Amit Poudel",
+        "Wolfgang Tichy"
+      ],
+      "abstract": "We present the second data release of gravitational waveforms from binary neutron star merger simulations performed by the Computational Relativity (CoRe) collaboration. The current database consists of 254 different binary neutron star configurations and a total of 590 individual numerical-relativity simulations using various grid resolutions. The released waveform data contain the strain and the Weyl curvature multipoles up to $\\ell=m=4$. They span a significant portion of the mass, mass-ratio,spin and eccentricity parameter space and include targeted configurations to the events GW170817 and GW190425. CoRe simulations are performed with 18 different equations of state, seven of which are finite temperature models, and three of which account for non-hadronic degrees of freedom. About half of the released data are computed with high-order hydrodynamics schemes for tens of orbits to merger; the other half is computed with advanced microphysics. We showcase a standard waveform error analysis and discuss the accuracy of the database in terms of faithfulness. We present ready-to-use fitting formulas for equation of state-insensitive relations at merger (e.g. merger frequency), luminosity peak, and post-merger spectrum.",
+      "submitted": "2022-10-28T19:01:58Z",
+      "last_revised": "2023-03-28T12:40:25Z",
+      "doi": "10.1088/1361-6382/acc231",
+      "journal_reference": "Class. Quantum Grav. 40 085011 (2023)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2210.16366v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2210.16366v2",
+      "source_url": "https://export.arxiv.org/src/2210.16366v2",
+      "publication_date": "2023-04-20",
+      "publication_year": 2023,
+      "publication_date_source": "Crossref:published-print",
+      "publisher": "IOP Publishing",
+      "container_title": "Classical and Quantum Gravity",
+      "categories": [
+        "core_database",
+        "waveforms",
+        "empirical_relations"
+      ],
+      "seed_group": "C",
+      "directory": "2210.16366_gonzalez_2023",
+      "accessed_at": "2026-10-22T17:42:19.847609Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper20230323.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper20230323.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "paper20230323.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "7fc211e4be5de2081c80e9e32fd8e373b396f69ce11c9e20531c784f0c4c5061",
+        "source_sha256": "60ce3331bb69a96f499625d4fb9e462e5c0d363e222348da949132fbfeda8914"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2210.16366v2",
+      "pdf_bytes": 2809736,
+      "source_final_url": "https://export.arxiv.org/src/2210.16366v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4384574,
+      "source_inventory": {
+        "tex": [
+          "paper20230323.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "iopams.sty",
+          "iopart.cls"
+        ],
+        "figures": [
+          "fig01.pdf",
+          "fig02.pdf",
+          "fig03.pdf",
+          "fig04.pdf",
+          "fig05.pdf",
+          "fig06.pdf",
+          "fig07.pdf",
+          "fig08.pdf",
+          "fig09a.pdf",
+          "fig09b.pdf",
+          "fig10.pdf",
+          "fig11.pdf",
+          "fig12.pdf",
+          "fig13.pdf",
+          "fig14.pdf"
+        ],
+        "other": [
+          "iopart10.clo",
+          "iopart12.clo",
+          "paper20230323.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2301.09672",
+      "resolved_version": "2301.09672v1",
+      "version": 1,
+      "title": "Pre/post-merger consistency test for gravitational signals from binary neutron star mergers",
+      "authors": [
+        "Matteo Breschi",
+        "Gregorio Carullo",
+        "Sebastiano Bernuzzi"
+      ],
+      "abstract": "Gravitational waves from binary neutron star (BNS) mergers can constrain nuclear matter models predicting the neutron star's equation of state (EOS). Matter effects on the inspiral-merger signal are encoded in the multipolar tidal polarizability parameters, whose leading order combination is sufficient to capture to high accuracy the key features of the merger waveform (e.g.~the merger frequency). Similar EOS-insensitive relations exist for the post-merger signal and can be used to model the emission from the remnant. Several works suggested that the appearance of new degrees of freedom or phase transitions in high-density post-merger matter can be inferred by observing a violation of these EOS-insensitive relations. Here, we demonstrate a Bayesian method to test such an EOS-insensitive relation between the tidal polarizability parameters (or any other equivalent parameter) and the dominant post-merger frequency, using information either up to merger or from the post-merger signal. Technically, the method is similar to tests of General Relativity with binary black holes that verify the inspiral-merger-ringdown consistency. However, differently from the latter, BNS pre/post-merger consistency tests are conceptually less informative and they only address the consistency (or the breaking) of the assumed EOS-insensitive relation. Specifically, we discuss how such tests cannot conclusively discriminate between an EOS not respecting such relation and the appearance of new degrees of freedom (or phase transitions) in high-density matter.",
+      "submitted": "2023-01-23T19:12:04Z",
+      "last_revised": "2023-01-23T19:12:04Z",
+      "doi": null,
+      "journal_reference": null,
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2301.09672v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2301.09672v1",
+      "source_url": "https://export.arxiv.org/src/2301.09672v1",
+      "publication_date": null,
+      "publication_year": 2023,
+      "publication_date_source": null,
+      "publisher": null,
+      "container_title": null,
+      "categories": [
+        "consistency_test",
+        "parameter_inference"
+      ],
+      "seed_group": "C",
+      "directory": "2301.09672_breschi_2023",
+      "accessed_at": "2026-10-22T17:42:19.874731Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper20230123.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper20230123.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "paper20230123.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "5bde6bdeec1edbc1d4fa92ec528c083fccce4a57cbaf6141bdfc5f2a22c15feb",
+        "source_sha256": "b006ffc1df10829a28b95f6cbd2bc817a3501ac76e1af1c7a0f305d14d28f091"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2301.09672v1",
+      "pdf_bytes": 699818,
+      "source_final_url": "https://export.arxiv.org/src/2301.09672v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 528256,
+      "source_inventory": {
+        "tex": [
+          "paper20230123.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig01a.pdf",
+          "fig01b.pdf",
+          "fig02.pdf"
+        ],
+        "other": [
+          "paper20230123.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2302.11359",
+      "resolved_version": "2302.11359v2",
+      "version": 2,
+      "title": "Thermal Effects in Binary Neutron Star Mergers",
+      "authors": [
+        "Jacob Fields",
+        "Aviral Prakash",
+        "Matteo Breschi",
+        "David Radice",
+        "Sebastiano Bernuzzi",
+        "André da Silva Schneider"
+      ],
+      "abstract": "We study the impact of finite-temperature effects in numerical-relativity simulations of binary neutron star mergers with microphysical equations of state and neutrino transport in which we vary the effective nucleon masses in a controlled way. We find that, as the specific heat is increased, the merger remnants become colder and more compact due to the reduced thermal pressure support. Using a full Bayesian analysis, we demonstrate that this effect will be measurable in the postmerger gravitational wave signal with next-generation observatories at signal-to-noise ratios of 15.",
+      "submitted": "2023-02-22T13:14:26Z",
+      "last_revised": "2023-07-10T17:01:19Z",
+      "doi": "10.3847/2041-8213/ace5b2",
+      "journal_reference": "ApJL, 952, L36 (2023)",
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2302.11359v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2302.11359v2",
+      "source_url": "https://export.arxiv.org/src/2302.11359v2",
+      "publication_date": "2023-08-01",
+      "publication_year": 2023,
+      "publication_date_source": "Crossref:published-print",
+      "publisher": "American Astronomical Society",
+      "container_title": "The Astrophysical Journal Letters",
+      "categories": [
+        "thermal_physics",
+        "systematics"
+      ],
+      "seed_group": "C",
+      "directory": "2302.11359_fields_2023",
+      "accessed_at": "2026-10-22T17:42:19.881737Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper_apjl.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper_apjl.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "71bb9b5fb73a2da5cdc094218c08899877c6e0d1403ffd62a61a2b87ca17b68d",
+        "source_sha256": "f3790c4372fbc886ce4706f5e7667658385f3153a216b5d150dedfe230b417cc"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2302.11359v2",
+      "pdf_bytes": 5709356,
+      "source_final_url": "https://export.arxiv.org/src/2302.11359v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4465597,
+      "source_inventory": {
+        "tex": [
+          "paper_apjl.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "avg_temp_m0.pdf",
+          "avg_temp_m1.pdf",
+          "mu_nue_meff_055_m0.pdf",
+          "mu_nue_meff_055_m1.pdf",
+          "mu_nue_meff_075_m0.pdf",
+          "mu_nue_meff_075_m1.pdf",
+          "mu_nue_meff_095_m0.pdf",
+          "mu_nue_meff_095_m1.pdf",
+          "reconstructed_spectra_SNR15.pdf",
+          "rho_temp_xy.pdf",
+          "strain_m0_m1.pdf",
+          "strain_rho_sr.pdf"
+        ],
+        "other": [
+          "paper_apjl.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2304.01971",
+      "resolved_version": "2304.01971v2",
+      "version": 2,
+      "title": "Exploring thermal effects of the hadron-quark matter transition in neutron star mergers",
+      "authors": [
+        "Sebastian Blacker",
+        "Andreas Bauswein",
+        "Stefan Typel"
+      ],
+      "abstract": "We study the importance of the thermal behavior of the hadron-quark phase transition in neutron star (NS) mergers. To this end, we devise a new scheme approximating thermal effects to supplement any cold, barotropic hybrid equation of state (EoS) model, i.e. two-phase EoS constructions with a hadronic regime and a phase of deconfined quark matter. The consideration of temperature-dependent phase boundaries turns out to be critical for a quantitative description of quark matter effects in NS mergers, since the coexistence phase can introduce a strong softening of the EoS at finite temperature, which is even more significant than the change of the EoS by the phase transition at T=0. We validate our approach by comparing to existing fully temperature-dependent EoS models and find a very good quantitative agreement of postmerger gravitational-wave (GW) features. Simulations with the commonly-used thermal ideal-gas approach exhibit sizable differences compared to full hybrid models implying that its use in NS merger simulations with quark matter is problematic. Our new scheme provides the means to isolate thermal effects of quark matter from the properties of the cold hybrid EoS and thus allows an assessment of the thermal behavior alone. We show that different shapes of the phase boundaries at finite temperature can have a large impact on the postmerger dynamics and GW signal for the same cold hybrid model. This finding demonstrates that postmerger GW emission contains important complementary information compared to properties extracted from cold stars. We also show by concrete examples that it is even possible for quark matter to only occur and thus be detectable in finite-temperature systems like merger remnants but not in cold NSs (abbreviated).",
+      "submitted": "2023-04-04T17:28:42Z",
+      "last_revised": "2023-09-29T13:24:25Z",
+      "doi": "10.1103/PhysRevD.108.063032",
+      "journal_reference": "Phys.Rev.D 108 (2023) 6, 063032",
+      "arxiv_categories": [
+        "astro-ph.HE"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2304.01971v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2304.01971v2",
+      "source_url": "https://export.arxiv.org/src/2304.01971v2",
+      "publication_date": "2023-09-28",
+      "publication_year": 2023,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "phase_transition",
+        "thermal_physics"
+      ],
+      "seed_group": "C",
+      "directory": "2304.01971_blacker_2023",
+      "accessed_at": "2026-10-22T17:42:19.916333Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/main.tex",
+      "main_tex_candidates": [
+        {
+          "path": "main.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "journalheader.tex"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "43c494cfb1575ffb312c70b8d8dd037c78d9b915fa8c73f0e801e92d202fc4c0",
+        "source_sha256": "9e209a0d26924728340ca61001392eb222923ba2ebf5493297c15adaade2f8ec"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2304.01971v2",
+      "pdf_bytes": 1212321,
+      "source_final_url": "https://export.arxiv.org/src/2304.01971v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 3072279,
+      "source_inventory": {
+        "tex": [
+          "journalheader.tex",
+          "main.tex"
+        ],
+        "bibliography": [
+          "mainNotes.bib",
+          "references.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "Plots/AllPhaseBoundaries.pdf",
+          "Plots/DD2FQuark41_135135rhomax.pdf",
+          "Plots/DD2FQuark484NewBounds.pdf",
+          "Plots/DiffsQuark41.pdf",
+          "Plots/FujimotoRelations.pdf",
+          "Plots/FujimotoTOV.pdf",
+          "Plots/Rhomax_Weihpp_fmaxTwoPanel.pdf",
+          "Plots/SpectraDD2F-SF-1.pdf",
+          "Plots/SpectraWeihppNew.pdf",
+          "Plots/Spectradd2fQuark484ShiftedBoundsNew.pdf",
+          "Plots/ToyBounds.pdf",
+          "Plots/dd2fQuark41ConstTEoS.pdf",
+          "Plots/dd2fQuark41DiagramEth.pdf",
+          "Plots/dd2fQuark41DiagramT.pdf",
+          "Plots/dd2fQuark41EoSAll.pdf",
+          "Plots/dd2fQuark41EoSSketch.pdf",
+          "Plots/dd2fQuark41Gammath.pdf",
+          "Plots/dd2fQuark484ShiftedBounds_135135rhomax.pdf",
+          "Plots/fPeakMtotQuark483.pdf"
+        ],
+        "other": [
+          "main.bbl",
+          "main.out",
+          "main.synctex"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2310.06025",
+      "resolved_version": "2310.06025v1",
+      "version": 1,
+      "title": "Detectability of QCD phase transitions in binary neutron star mergers: Bayesian inference with the next generation gravitational wave detectors",
+      "authors": [
+        "Aviral Prakash",
+        "Ish Gupta",
+        "Matteo Breschi",
+        "Rahul Kashyap",
+        "David Radice",
+        "Sebastiano Bernuzzi",
+        "Domenico Logoteta",
+        "B. S. Sathyaprakash"
+      ],
+      "abstract": "We study the detectability of postmerger QCD phase transitions in neutron star binaries with next-generation gravitational-wave detectors Cosmic Explorer and Einstein Telescope. We perform numerical relativity simulations of neutron star mergers with equations of state that include a quark deconfinement phase transition through either a Gibbs or Maxwell construction. These are followed by Bayesian parameter estimation of the associated gravitational-wave signals using the $\\tt{NRPMw}$ waveform model, with priors inferred from the analysis of the inspiral signal. We assess the ability of the model to measure the postmerger peak frequency $f_2^{\\rm peak}$ and identify aspects that should be improved in the model. We show that, even at postmerger signal to noise ratios as low as 10, the model can distinguish (at the 90% level) $f_2^{\\rm peak}$ between binaries with and without a phase transition in most cases. Phase-transition induced deviations in the $f_2^{\\rm peak}$ from the predictions of equation-of-state insensitive relations can also be detected if they exceed $1.6\\,σ$. Our results suggest that next-generation gravitational wave detectors can measure phase transition effects in binary neutron star mergers. However, unless the phase transition is ``strong'', disentangling it from other hadronic physics uncertainties will require significant theory improvements.",
+      "submitted": "2023-10-09T18:00:01Z",
+      "last_revised": "2023-10-09T18:00:01Z",
+      "doi": "10.1103/PhysRevD.109.103008",
+      "journal_reference": null,
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2310.06025v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2310.06025v1",
+      "source_url": "https://export.arxiv.org/src/2310.06025v1",
+      "publication_date": "2024-05-06",
+      "publication_year": 2024,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "phase_transition",
+        "detectability"
+      ],
+      "seed_group": "C",
+      "directory": "2310.06025_prakash_2024",
+      "accessed_at": "2026-10-22T17:42:19.937021Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/PTdet.tex",
+      "main_tex_candidates": [
+        {
+          "path": "PTdet.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "NR_Simulation_Summary.tex",
+            "Inspiral_Agnostic_Priors.tex",
+            "Inspiral_Informed_Priors.tex",
+            "Injection_Property_II.tex",
+            "Injection_Property_IA.tex",
+            "acronyms.inc"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "f9d24b00dfcaf306ee42374f0f438b05f2f8682ef2e1b13e371ab22c2f68f3c2",
+        "source_sha256": "fdd98dce9d1c675f43ff62d9ab1106dae0466074dc3507da623288a278354ac9"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2310.06025v1",
+      "pdf_bytes": 10248193,
+      "source_final_url": "https://export.arxiv.org/src/2310.06025v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 21799883,
+      "source_inventory": {
+        "tex": [
+          "Injection_Property_IA.tex",
+          "Injection_Property_II.tex",
+          "Inspiral_Agnostic_Priors.tex",
+          "Inspiral_Informed_Priors.tex",
+          "NR_Simulation_Summary.tex",
+          "PTdet.tex"
+        ],
+        "bibliography": [
+          "PTdetNotes.bib",
+          "references.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "figures/Appendix_Inspiral_Informed_PE/inspiral_selected_PE_few_1.pdf",
+          "figures/Appendix_f2f0_unconstrained_model/f2_k2T.pdf",
+          "figures/Appendix_f2f0_unconstrained_model/reconstruct_spectrum.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_1.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_10.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_2.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_3.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_4.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_5.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_6.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_7.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_8.pdf",
+          "figures/Inspiral_Agnostic_PE/f2_k2T_9.pdf",
+          "figures/Inspiral_Agnostic_PE/reconstructed_spectra_1_2.pdf",
+          "figures/Inspiral_Agnostic_PE/reconstructed_spectra_3_4.pdf",
+          "figures/Inspiral_Agnostic_PE/reconstructed_spectra_5_6.pdf",
+          "figures/Inspiral_Agnostic_PE/reconstructed_spectra_7_8.pdf",
+          "figures/Inspiral_Agnostic_PE/reconstructed_spectra_9_10.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_1.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_10.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_2.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_3.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_4.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_5.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_6.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_7.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_8.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_9.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_BLQ_IA.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_BLQ_II.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_BLh_IA.pdf",
+          "figures/Inspiral_Informed_PE/f2_k2T_BLh_II.pdf",
+          "figures/Inspiral_Informed_PE/histogram_masses.pdf",
+          "figures/Inspiral_Informed_PE/histogram_tides.pdf",
+          "figures/Inspiral_Informed_PE/inspiral_selected_PE_few_3.pdf",
+          "figures/Inspiral_Informed_PE/inspiral_selected_PE_few_5.pdf",
+          "figures/Inspiral_Informed_PE/reconstructed_spectra_1_2.pdf",
+          "figures/Inspiral_Informed_PE/reconstructed_spectra_3_4.pdf",
+          "figures/Inspiral_Informed_PE/reconstructed_spectra_5_6.pdf",
+          "figures/Inspiral_Informed_PE/reconstructed_spectra_7_8.pdf",
+          "figures/Inspiral_Informed_PE/reconstructed_spectra_9_10.pdf",
+          "figures/Inspiral_Informed_PE/reconstructed_waveform.pdf",
+          "figures/Postmerger_PE_with_CE/reconstructed_spectra_CE.pdf",
+          "figures/Postmerger_PE_with_CE/reconstructed_spectra_filtered_CE_9.pdf",
+          "figures/Postmerger_PE_with_CE/reconstructed_spectra_unfiltered_CE_9.pdf",
+          "figures/QUR/QUR_f2_free_1.pdf",
+          "figures/QUR/QUR_f2_free_3.pdf",
+          "figures/QUR/QUR_f2f0_free.pdf",
+          "figures/QUR/f2_k2T_part1.pdf",
+          "figures/QUR/f2_k2T_part2.pdf",
+          "figures/QUR/f2_k2T_part3.pdf",
+          "figures/QUR/f2_k2T_part4.pdf",
+          "figures/TOV/p_rho_BLh.pdf",
+          "figures/TOV/p_rho_DD2F.pdf",
+          "figures/injection.pdf",
+          "figures/multi_amp_modulations/freq_waveform.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_filtered.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_filtered_1.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_filtered_5.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_filtered_9.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_unfiltered.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_unfiltered_1.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_unfiltered_5.pdf",
+          "figures/multi_amp_modulations/reconstructed_spectra_unfiltered_9.pdf",
+          "figures/multi_amp_modulations/time_waveform.pdf"
+        ],
+        "other": [
+          "GenerateSubmitTarb.py",
+          "Makefile",
+          "PTdet.bbl",
+          "PTdet.out",
+          "acronyms.inc",
+          "fillbib.py"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2411.00943",
+      "resolved_version": "2411.00943v2",
+      "version": 2,
+      "title": "Postmerger multimessenger analysis of binary neutron stars: Effect of the magnetic field strength and topology",
+      "authors": [
+        "Jamie Bamber",
+        "Antonios Tsokaros",
+        "Milton Ruiz",
+        "Stuart L. Shapiro"
+      ],
+      "abstract": "The oscillation modes of neutron star (NS) merger remnants, as encoded by the kHz postmerger gravitational wave (GW) signal, hold great potential for constraining the as-yet undetermined equation of state (EOS) of dense nuclear matter. Previous works have used numerical relativity simulations to derive quasi-universal relations for the key oscillation frequencies, but most of them omit the effects of a magnetic field. We conduct full general-relativistic magnetohydrodynamics simulations of NSNS mergers with two different masses and two different EOSs (SLy and ALF2) with three different initial magnetic field topologies (poloidal and toroidal only, confined to the interior, and \"pulsar-like\": dipolar poloidal extending from the interior to the exterior), with four different magnetic field strengths with maximum values ranging from from $5.5\\times 10^{15}G$ to $2.2\\times 10^{17}G$ at the time of insertion. We find that magnetic braking and magnetic effective turbulent viscosity drives the merger remnants towards uniform rotation and increases their overall angular momentum loss. As a result, the $f_2$ frequency of the dominant postmerger GW mode shifts upwards over time. The overall shift is up to $\\sim 200$Hz for the strongest magnetic field we consider and $\\sim 50$Hz for the median case and is therefore detectable in principle by future GW observatories, which should include the magnetic field in their analyses. We also explore the impact of the magnetic field on the postmerger electromagnetic emission, and demonstrate that an extremely large magnetic field, or alternatively a significant shear viscosity mechanism, can cause a supramassive NS remnant to collapse to a BH in less than 100ms and lead to jet formation, although we do not expect the conditions for such an outcome to be realistic.",
+      "submitted": "2024-11-01T18:00:04Z",
+      "last_revised": "2025-02-27T01:40:34Z",
+      "doi": "10.1103/PhysRevD.111.044038",
+      "journal_reference": "Phys. Rev. D 111, 044038 (2025)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "nucl-th"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2411.00943v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2411.00943v2",
+      "source_url": "https://export.arxiv.org/src/2411.00943v2",
+      "publication_date": "2025-02-12",
+      "publication_year": 2025,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "magnetic_fields",
+        "systematics"
+      ],
+      "seed_group": "C",
+      "directory": "2411.00943_bamber_2025",
+      "accessed_at": "2026-10-22T17:42:20.052690Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/apssamp.tex",
+      "main_tex_candidates": [
+        {
+          "path": "apssamp.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "42088c9c252cc6c08b7a4e1a47ba9a26181c4fa8a60714e0667cb696acc4c9fe",
+        "source_sha256": "c287f983e884e7f3f47f322ffe0e3148045abc53766fe380cfdd247e87bfd501"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2411.00943v2",
+      "pdf_bytes": 32154797,
+      "source_final_url": "https://export.arxiv.org/src/2411.00943v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 32757630,
+      "source_inventory": {
+        "tex": [
+          "apssamp.tex"
+        ],
+        "bibliography": [
+          "apssamp.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "figures/ALF2_2.57_B2.2E17_final.png",
+          "figures/EOS_M_M0_R_curves.png",
+          "figures/IRE3.0_ALF2_ALF2_030_M2.57_B2.20E17_mass_conservation_v6_jon3.png",
+          "figures/IRE3.0_SLy_SLy_010_M2.57_B1.38E16_mri_xy_084864.png",
+          "figures/IRE3.0_SLy_SLy_010_M2.57_B2.20E17_mri_xz_084864.png",
+          "figures/IRE3.0_SLy_SLy_010_M2.57_B5.50E15_mri_xy_084864.png",
+          "figures/M0_vs_rho_c_ALF2_zoom.png",
+          "figures/M0_vs_rho_c_SLy_zoom.png",
+          "figures/Max_Lorentz_vs_z_t_last_5ms_ALF2_M2.57.png",
+          "figures/Omega_vs_r_combined.png",
+          "figures/SLy_2.57_B5.50E16_convergence_test.png",
+          "figures/SLy_pol_contact.png",
+          "figures/SLy_pol_final.png",
+          "figures/SLy_pol_initial.png",
+          "figures/SLy_pol_merger.png",
+          "figures/SLy_pulsar_contact.png",
+          "figures/SLy_pulsar_final.png",
+          "figures/SLy_pulsar_initial.png",
+          "figures/SLy_pulsar_merge.png",
+          "figures/SLy_tor_contact.png",
+          "figures/SLy_tor_final.png",
+          "figures/SLy_tor_initial.png",
+          "figures/SLy_tor_merger.png",
+          "figures/combined_EMF_energy_integral_growth_ALF2_M2.57.png",
+          "figures/combined_EM_energy_tor_pol_ALF2_M2.57.png",
+          "figures/combined_FFTs_grid.png",
+          "figures/combined_GW_signals.png",
+          "figures/combined_J_vs_M_ALF2.png",
+          "figures/combined_Mdot_M_ouside_AH.png",
+          "figures/combined_alpha_SS_ALF2_M2.57.png",
+          "figures/combined_f_vs_Bfield.png",
+          "figures/combined_luminosity_jon3_ALF2_M2.57.png",
+          "figures/combined_rho_Gamma_bsqrd2rho_Bpol_Btor_ALF2_M2.57_25ms.png",
+          "figures/combined_rho_Gamma_bsqrd2rho_Bpol_Btor_ALF2_M2.70_fixed.png",
+          "figures/poloidal_ID_v2.PNG",
+          "figures/pulsar_ID_v2.PNG",
+          "figures/t_BH_vs_Bfield.png",
+          "figures/toroidal_ID_v2.PNG"
+        ],
+        "other": [
+          "apssamp.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1402.6244",
+      "resolved_version": "1402.6244v2",
+      "version": 2,
+      "title": "Quasiuniversal properties of neutron star mergers",
+      "authors": [
+        "Sebastiano Bernuzzi",
+        "Alessandro Nagar",
+        "Simone Balmelli",
+        "Tim Dietrich",
+        "Maximiliano Ujevic"
+      ],
+      "abstract": "Binary neutron star mergers are studied using nonlinear 3+1 numerical relativity simulations and the analytical effective-one-body (EOB) model. The EOB model predicts quasiuniversal relations between the mass-rescaled gravitational wave frequency and the binding energy at the moment of merger, and certain dimensionless binary tidal coupling constants depending on the stars Love numbers, compactnesses and the binary mass ratio. These relations are quasiuniversal in the sense that, for a given value of the tidal coupling constant, they depend significantly neither on the equation of state nor on the mass ratio, though they do depend on stars spins. The spin dependence is approximately linear for small spins aligned with the orbital angular momentum. The quasiuniversality is a property of the conservative dynamics; nontrivial relations emerge as the binary interaction becomes tidally dominated. This analytical prediction is qualitatively consistent with new, multi-orbit numerical relativity results for the relevant case of equal-mass irrotational binaries. Universal relations are thus expected to characterize neutron star mergers dynamics. In the context of gravitational wave astronomy, these universal relations may be used to constrain the neutron star equation of state using waveforms that model the merger accurately.",
+      "submitted": "2014-02-25T17:07:42Z",
+      "last_revised": "2014-06-06T16:44:21Z",
+      "doi": "10.1103/PhysRevLett.112.201101",
+      "journal_reference": "Phys. Rev. Lett. 112, 201101 (2014)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1402.6244v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1402.6244v2",
+      "source_url": "https://export.arxiv.org/src/1402.6244v2",
+      "publication_date": "2014-05-20",
+      "publication_year": 2014,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review Letters",
+      "categories": [
+        "quasi_universal_relations",
+        "tidal_coupling",
+        "merger_frequency"
+      ],
+      "seed_group": "D",
+      "directory": "1402.6244_bernuzzi_2014",
+      "accessed_at": "2026-10-22T17:42:20.272081Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper20140606.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper20140606.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "paper20140606.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "6a59b6193042622c71c13a9e0572ae1497f8ef733c61987a020143fe75fbdd25",
+        "source_sha256": "0292a325fd0815d9f4be9a04adb2a15a85bb2cf51bbb6098ed5e343a438537f1"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1402.6244v2",
+      "pdf_bytes": 1416110,
+      "source_final_url": "https://export.arxiv.org/src/1402.6244v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 1100782,
+      "source_inventory": {
+        "tex": [
+          "paper20140606.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig01a.pdf",
+          "fig01b.pdf",
+          "fig02.pdf"
+        ],
+        "other": [
+          "paper20140606.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1504.01764",
+      "resolved_version": "1504.01764v3",
+      "version": 3,
+      "title": "Modeling the complete gravitational wave spectrum of neutron star mergers",
+      "authors": [
+        "Sebastiano Bernuzzi",
+        "Tim Dietrich",
+        "Alessandro Nagar"
+      ],
+      "abstract": "In the context of neutron star mergers, we study the gravitational wave spectrum of the merger remnant using numerical relativity simulations. Postmerger spectra are characterized by a main peak frequency $f_2$ related to the particular structure and dynamics of the remnant hot hypermassive neutron star. We show that $f_2$ is correlated with the tidal coupling constant $κ^T_2$ that characterizes the binary tidal interactions during the late-inspiral--merger. The relation $f_2(κ^T_2)$ depends very weakly on the binary total mass, mass-ratio, equation of state, and thermal effects. This observation opens up the possibility of developing a model of the gravitational spectrum of every merger unifying the late-inspiral and postmerger descriptions.",
+      "submitted": "2015-04-07T21:51:13Z",
+      "last_revised": "2015-08-17T20:40:58Z",
+      "doi": "10.1103/PhysRevLett.115.091101",
+      "journal_reference": "Phys. Rev. Lett. 115, 091101 (2015)",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/1504.01764v3",
+      "pdf_url": "https://export.arxiv.org/pdf/1504.01764v3",
+      "source_url": "https://export.arxiv.org/src/1504.01764v3",
+      "publication_date": "2015-08-27",
+      "publication_year": 2015,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review Letters",
+      "categories": [
+        "explicit_fit",
+        "tidal_coupling",
+        "postmerger_spectrum"
+      ],
+      "seed_group": "D",
+      "directory": "1504.01764_bernuzzi_2015",
+      "accessed_at": "2026-10-22T17:42:20.284158Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper20150817.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper20150817.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "f5de6b1629df7a3cba8207720dab398a7c465f657d61a5d5e3fcc1f7ddb42028",
+        "source_sha256": "fe5384efbdf43d3eba00f044908081aec25d6ee1157a2262bbb36258356462d7"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1504.01764v3",
+      "pdf_bytes": 2492251,
+      "source_final_url": "https://export.arxiv.org/src/1504.01764v3",
+      "source_content_type": "application/gzip",
+      "source_bytes": 2188388,
+      "source_inventory": {
+        "tex": [
+          "paper20150817.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig01.pdf",
+          "fig02.pdf",
+          "fig03.pdf"
+        ],
+        "other": [
+          "paper20150817.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "1907.03790",
+      "resolved_version": "1907.03790v2",
+      "version": 2,
+      "title": "Sub-radian-accuracy gravitational waves from coalescing binary neutron stars II: Systematic study on the equation of state, binary mass, and mass ratio",
+      "authors": [
+        "Kenta Kiuchi",
+        "Kyohei Kawaguchi",
+        "Koutarou Kyutoku",
+        "Yuichiro Sekiguchi",
+        "Masaru Shibata"
+      ],
+      "abstract": "We report results of numerical relativity simulations for {\\it new} 26 non-spinning binary neutron star systems with 6 grid resolutions using an adaptive mesh refinement numerical re\\ lativity code {\\tt SACRA-MPI}. The finest grid spacing is $\\approx 64$--$85$ m, depending on the systems. First, we derive long-term high-precision inspiral gravitational waveforms and show that the accumulated gravitational-wave phase error due to the finite grid resolution is less than $0.5$ rad during more than $200$ rad phase evolution irrespective of the systems. We also find that the gravitational-wave phase error for a binary system with a tabulated equation of state (EOS) is comparable to that for a piecewise polytropic EOS. Then we validate the SACRA inspiral gravitational waveform template, which will be used to extract tidal deformability from gravitational wave observation, and find that accuracy of \\ our waveform modeling is $\\lesssim 0.1$ rad in the gravitational-wave phase and $\\lesssim 20 \\%$ in the gravitational-wave amplitude up to the gravitational-wave frequency $1000$ Hz.\\ Finally, we calibrate the proposed universal relations between a post-merger gravitational wave signal and tidal deformability/neutron star radius in the literature and show that th\\ ey suffer from systematics and many relations proposed as universal are not very universal. Improved fitting formulae are also proposed.",
+      "submitted": "2019-07-08T18:05:46Z",
+      "last_revised": "2020-03-12T08:01:17Z",
+      "doi": "10.1103/PhysRevD.101.084006",
+      "journal_reference": "Phys. Rev. D 101, 084006 (2020)",
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "astro-ph.SR",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/1907.03790v2",
+      "pdf_url": "https://export.arxiv.org/pdf/1907.03790v2",
+      "source_url": "https://export.arxiv.org/src/1907.03790v2",
+      "publication_date": "2020-04-02",
+      "publication_year": 2020,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "systematics",
+        "tidal_deformability",
+        "numerical_resolution"
+      ],
+      "seed_group": "D",
+      "directory": "1907.03790_kiuchi_2020",
+      "accessed_at": "2026-10-22T17:42:20.301079Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/paper.tex",
+      "main_tex_candidates": [
+        {
+          "path": "paper.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "c83153e2fecf307b379681a48797a296831664ca9a6a6dd451a65b397208acea",
+        "source_sha256": "feaa377933a19dab8f21d3e1bd3e46fb7441872b2ab803a99d135c9d88af3ff7"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/1907.03790v2",
+      "pdf_bytes": 5397160,
+      "source_final_url": "https://export.arxiv.org/src/1907.03790v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4541264,
+      "source_inventory": {
+        "tex": [
+          "paper.tex"
+        ],
+        "bibliography": [],
+        "styles": [],
+        "figures": [
+          "fig1.pdf",
+          "fig10.pdf",
+          "fig11a.pdf",
+          "fig11aa.pdf",
+          "fig11ab.pdf",
+          "fig11ac.pdf",
+          "fig11ad.pdf",
+          "fig11b.pdf",
+          "fig11c.pdf",
+          "fig11d.pdf",
+          "fig11e.pdf",
+          "fig11f.pdf",
+          "fig11g.pdf",
+          "fig11h.pdf",
+          "fig11i.pdf",
+          "fig11j.pdf",
+          "fig11k.pdf",
+          "fig11l.pdf",
+          "fig11m.pdf",
+          "fig11n.pdf",
+          "fig11o.pdf",
+          "fig11p.pdf",
+          "fig11q.pdf",
+          "fig11r.pdf",
+          "fig11s.pdf",
+          "fig11t.pdf",
+          "fig11u.pdf",
+          "fig11v.pdf",
+          "fig11w.pdf",
+          "fig11x.pdf",
+          "fig11y.pdf",
+          "fig11z.pdf",
+          "fig12a.pdf",
+          "fig12b.pdf",
+          "fig12c.pdf",
+          "fig12d.pdf",
+          "fig12e.pdf",
+          "fig12f.pdf",
+          "fig12g.pdf",
+          "fig12h.pdf",
+          "fig12i.pdf",
+          "fig12j.pdf",
+          "fig12k.pdf",
+          "fig12l.pdf",
+          "fig12m.pdf",
+          "fig12n.pdf",
+          "fig12o.pdf",
+          "fig13.pdf",
+          "fig14a.pdf",
+          "fig14b.pdf",
+          "fig15.pdf",
+          "fig16a.pdf",
+          "fig16b.pdf",
+          "fig17a.pdf",
+          "fig17b.pdf",
+          "fig18a.pdf",
+          "fig18b.pdf",
+          "fig19a.pdf",
+          "fig19b.pdf",
+          "fig20a.pdf",
+          "fig20aa.pdf",
+          "fig20ab.pdf",
+          "fig20ac.pdf",
+          "fig20ad.pdf",
+          "fig20b.pdf",
+          "fig20c.pdf",
+          "fig20d.pdf",
+          "fig20e.pdf",
+          "fig20f.pdf",
+          "fig20g.pdf",
+          "fig20h.pdf",
+          "fig20i.pdf",
+          "fig20j.pdf",
+          "fig20k.pdf",
+          "fig20l.pdf",
+          "fig20m.pdf",
+          "fig20n.pdf",
+          "fig20o.pdf",
+          "fig20p.pdf",
+          "fig20q.pdf",
+          "fig20r.pdf",
+          "fig20s.pdf",
+          "fig20t.pdf",
+          "fig20u.pdf",
+          "fig20v.pdf",
+          "fig20w.pdf",
+          "fig20x.pdf",
+          "fig20y.pdf",
+          "fig20z.pdf",
+          "fig21a.pdf",
+          "fig21b.pdf",
+          "fig21c.pdf",
+          "fig21d.pdf",
+          "fig21e.pdf",
+          "fig21f.pdf",
+          "fig21g.pdf",
+          "fig21h.pdf",
+          "fig21i.pdf",
+          "fig21j.pdf",
+          "fig21k.pdf",
+          "fig21l.pdf",
+          "fig21m.pdf",
+          "fig21n.pdf",
+          "fig21o.pdf",
+          "fig22.pdf",
+          "fig23a.pdf",
+          "fig23b.pdf",
+          "fig2a.pdf",
+          "fig2b.pdf",
+          "fig3a.pdf",
+          "fig3b.pdf",
+          "fig4a.pdf",
+          "fig4b.pdf",
+          "fig5a.pdf",
+          "fig5b.pdf",
+          "fig6a.pdf",
+          "fig6b.pdf",
+          "fig7a.pdf",
+          "fig7b.pdf",
+          "fig8.pdf",
+          "fig9a.pdf",
+          "fig9b.pdf"
+        ],
+        "other": []
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2310.10728",
+      "resolved_version": "2310.10728v1",
+      "version": 1,
+      "title": "Post-merger gravitational-wave signal from neutron-star binaries: a new look at an old problem",
+      "authors": [
+        "Konrad Topolski",
+        "Samuel Tootle",
+        "Luciano Rezzolla"
+      ],
+      "abstract": "The spectral properties of the post-merger gravitational-wave signal from a binary of neutron stars encode a variety of information about the features of the system and of the equation of state describing matter around and above nuclear saturation density. Characterising the properties of such a signal is an ``old'' problem, which first emerged when a number of frequencies were shown to be related to the properties of the binary through ``quasi-universal'' relations. Here we take a new look at this old problem by computing the properties of the signal in terms of the Weyl scalar $ψ_4$. In this way, and using a database of more than 100 simulations, we provide the first evidence for a new instantaneous frequency, $f^{ψ_4}_0$, associated with the instant of quasi time-symmetry in the postmerger dynamics, and which also follows a quasi-universal relation. We also derive a new quasi-universal relation for the merger frequency $f^{h}_{\\rm mer}$, which provides a description of the data that is four times more accurate than previous expressions while requiring fewer fitting coefficients. Finally, consistently with the findings of numerous studies before ours, and using an enlarged ensamble of binary systems we point out that the $\\ell=2, m=1$ gravitational-wave mode could become comparable with the traditional $\\ell=2, m=2$ mode on sufficiently long timescales, with strain amplitudes in a ratio $|h^{21}|/|h^{22}| \\sim 0.1-1$ under generic orientations of the binary, which could be measured by present detectors for signals with large signal-to-noise ratio or by third-generation detectors for generic signals should no collapse occur.",
+      "submitted": "2023-10-16T18:00:05Z",
+      "last_revised": "2023-10-16T18:00:05Z",
+      "doi": null,
+      "journal_reference": null,
+      "arxiv_categories": [
+        "gr-qc"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2310.10728v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2310.10728v1",
+      "source_url": "https://export.arxiv.org/src/2310.10728v1",
+      "publication_date": null,
+      "publication_year": 2023,
+      "publication_date_source": null,
+      "publisher": null,
+      "container_title": null,
+      "categories": [
+        "explicit_fit",
+        "instantaneous_frequency",
+        "merger_frequency"
+      ],
+      "seed_group": "D",
+      "directory": "2310.10728_topolski_2023",
+      "accessed_at": "2026-10-22T17:42:20.338100Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/main.tex",
+      "main_tex_candidates": [
+        {
+          "path": "main.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "main.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "48ef8d550385ca28d3dad581c96c2e8c564bc84dc77fbab0541d05e7477026fa",
+        "source_sha256": "2de30f7afc28bd8e3ede444c509685c8961f16f53a647e3b7aeee8d725eaa36f"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2310.10728v1",
+      "pdf_bytes": 4908058,
+      "source_final_url": "https://export.arxiv.org/src/2310.10728v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 4854733,
+      "source_inventory": {
+        "tex": [
+          "main.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "aastex631.cls"
+        ],
+        "figures": [
+          "Fig1_h.pdf",
+          "Fig1_psi4.pdf",
+          "Fig2_f0_Psi4.pdf",
+          "Fig2_f2_Psi4.pdf",
+          "Fig2_fmer_Psi4.pdf",
+          "Fig2_fmer_h.pdf",
+          "Fig2_legend.pdf",
+          "Fig3.pdf",
+          "Fig4.pdf",
+          "Fig4_all_datasets.pdf",
+          "Fig5_left.pdf",
+          "Fig5_right.pdf",
+          "SNR_ratio_full.pdf",
+          "SNR_ratio_inst.pdf"
+        ],
+        "other": [
+          "main.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2401.02493",
+      "resolved_version": "2401.02493v4",
+      "version": 4,
+      "title": "Identifying thermal effects in neutron star merger remnants with model-agnostic waveform reconstructions and third-generation detectors",
+      "authors": [
+        "Miquel Miravet-Tenés",
+        "Davide Guerra",
+        "Milton Ruiz",
+        "Pablo Cerdá-Durán",
+        "José A. Font"
+      ],
+      "abstract": "We probe the intrinsic differences in simulated gravitational-wave signals from binary neutron star (BNS) mergers, arising from varying approaches to incorporating thermal effects in numerical-relativity modeling. We consider a hybrid approach in which the equation of state (EOS) comprises a cold, zero-temperature, piecewise-polytropic part and a thermal part described by an ideal gas, and a tabulated approach based on self-consistent, microphysical, finite-temperature EOS. We use time-domain waveforms corresponding to BNS merger simulations with four different EOSs. Those are injected into Gaussian noise given by the sensitivity of the third-generation detector Einstein Telescope and reconstructed using BayesWave, a Bayesian data-analysis algorithm that recovers the signals through a model-agnostic approach. The two representations of thermal effects result in different dominant peak frequencies in the spectra of the postmerger signals, for both the quadrupole fundamental mode and the late-time inertial modes. For some of the EOSs investigated those differences are large enough to be told apart, especially in the early postmerger phase when the signal amplitude is the loudest. Our results suggest that a self-consistent treatment of thermal effects in BNS postmerger modeling is essential to prevent significant parameter biases in upcoming gravitational-wave detections.",
+      "submitted": "2024-01-04T19:06:34Z",
+      "last_revised": "2025-03-03T13:17:51Z",
+      "doi": "10.1103/PhysRevD.111.043006",
+      "journal_reference": "Phys. Rev. D, 111, 2025, 043006",
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2401.02493v4",
+      "pdf_url": "https://export.arxiv.org/pdf/2401.02493v4",
+      "source_url": "https://export.arxiv.org/src/2401.02493v4",
+      "publication_date": "2025-02-05",
+      "publication_year": 2025,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "thermal_physics",
+        "systematics",
+        "inertial_modes"
+      ],
+      "seed_group": "D",
+      "directory": "2401.02493_miravettenes_2025",
+      "accessed_at": "2026-10-22T17:42:24.054607Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/apssamp.tex",
+      "main_tex_candidates": [
+        {
+          "path": "apssamp.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "d7d80762e9c4081239db16b08821c429b1dceb032e88acb09bfce1dd14ae926d",
+        "source_sha256": "5768be54cb94166caa687287d082318ed96b8cbee9aefc43b404c3c748dda936"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2401.02493v4",
+      "pdf_bytes": 34169236,
+      "source_final_url": "https://export.arxiv.org/src/2401.02493v4",
+      "source_content_type": "application/gzip",
+      "source_bytes": 32901663,
+      "source_inventory": {
+        "tex": [
+          "apssamp.tex"
+        ],
+        "bibliography": [
+          "refs.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "MG_Rcirc.pdf",
+          "SNR.pdf",
+          "fp_early.pdf",
+          "fp_late.pdf",
+          "fp_mid.pdf",
+          "lambda_early.pdf",
+          "lambda_mid.pdf",
+          "ov_all.pdf",
+          "ov_early_v2.pdf",
+          "ov_late_v2.pdf",
+          "ov_mid_v2.pdf",
+          "rec_early_HShen.pdf",
+          "rec_early_SLy4.pdf",
+          "rec_late_HShen.pdf",
+          "rec_late_SLy4.pdf",
+          "rec_mid_HShen.pdf",
+          "rec_mid_SLy4.pdf",
+          "spec_HShen.png",
+          "spec_LS220.png"
+        ],
+        "other": [
+          "apssamp.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2405.09468",
+      "resolved_version": "2405.09468v1",
+      "version": 1,
+      "title": "Predicting Binary Neutron Star Postmerger Spectra Using Artificial Neural Networks",
+      "authors": [
+        "Dimitrios Pesios",
+        "Ioannis Koutalios",
+        "Dimitris Kugiumtzis",
+        "Nikolaos Stergioulas"
+      ],
+      "abstract": "Gravitational waves in the postmerger phase of binary neutron star mergers may become detectable with planned upgrades of existing gravitational-wave detectors or with more sensitive next-generation detectors. The construction of template banks for the postmerger phase can facilitate signal detection and parameter estimation. Here, we investigate the performance of an artificial neural network in predicting simulation-based waveforms in the frequency domain (restricted to the magnitude of the frequency spectrum and to equal-mass models) that depend on three parameters that can be inferred through observations, neutron star mass, tidal deformability, and the gradient of radius versus mass. Compared to a baseline study using multiple linear regression, we find that the artificial neural network can predict waveforms with higher accuracy and more consistent performance in a cross-validation study. We also demonstrate, through a recalibration procedure, that future reduction of uncertainties in empirical relations that are used in our hierarchical scheme will result in more accurate predicted postmerger spectra.",
+      "submitted": "2024-05-15T16:03:51Z",
+      "last_revised": "2024-05-15T16:03:51Z",
+      "doi": null,
+      "journal_reference": null,
+      "arxiv_categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary_category": "gr-qc",
+      "abstract_url": "https://arxiv.org/abs/2405.09468v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2405.09468v1",
+      "source_url": "https://export.arxiv.org/src/2405.09468v1",
+      "publication_date": null,
+      "publication_year": 2024,
+      "publication_date_source": null,
+      "publisher": null,
+      "container_title": null,
+      "categories": [
+        "waveform_model",
+        "machine_learning",
+        "raw_frequency_data"
+      ],
+      "seed_group": "D",
+      "directory": "2405.09468_pesios_2024",
+      "accessed_at": "2026-10-22T17:42:24.288880Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/PKS2024.tex",
+      "main_tex_candidates": [
+        {
+          "path": "PKS2024.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "PKS2024.bbl"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "b2ec55979300c91d9c14514b84b2642bbd6b321dfe81e266a99d10d0f27afaad",
+        "source_sha256": "ff0c277b779dacc1a9580e014a0ed976dfe3eb291897bfc9ca434365d4c272cd"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2405.09468v1",
+      "pdf_bytes": 9492374,
+      "source_final_url": "https://export.arxiv.org/src/2405.09468v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 8242954,
+      "source_inventory": {
+        "tex": [
+          "PKS2024.tex"
+        ],
+        "bibliography": [],
+        "styles": [
+          "revsymb4-2.sty",
+          "revtex4-2.cls"
+        ],
+        "figures": [
+          "figs/Core_linreg.pdf",
+          "figs/Core_neural.pdf",
+          "figs/LS220_after.pdf",
+          "figs/LS220_before.pdf",
+          "figs/LossForFold1.pdf",
+          "figs/LossForFold2.pdf",
+          "figs/LossForFold3.pdf",
+          "figs/LossForFold4.pdf",
+          "figs/Soultanis_linreg.pdf",
+          "figs/Soultanis_neural.pdf",
+          "figs/Spectra_DD2_M13000.pdf",
+          "figs/Strain_DD2_M13000.pdf",
+          "figs/Takami_linreg.pdf",
+          "figs/Takami_neural.pdf",
+          "figs/calibrated.pdf",
+          "figs/histogram_linreg_calib_n.pdf",
+          "figs/histogram_linreg_calib_y.pdf",
+          "figs/histogram_neural_calib_n.pdf",
+          "figs/histogram_neural_calib_y.pdf",
+          "figs/original.pdf",
+          "figs/shifted.pdf",
+          "figs/violin_plots1_per_N_linreg_ann_derivatives_VERTICAL_calib.pdf",
+          "figs/violin_plots1_per_N_linreg_ann_derivatives_VERTICAL_no_calib.pdf"
+        ],
+        "other": [
+          "PKS2024.bbl",
+          "aps10pt4-2.rtx",
+          "aps4-2.rtx",
+          "revtex4-2.dtx"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2407.11143",
+      "resolved_version": "2407.11143v2",
+      "version": 2,
+      "title": "General relativistic hydrodynamic simulations of binary strange star mergers",
+      "authors": [
+        "Francesco Grippa",
+        "Aviral Prakash",
+        "Domenico Logoteta",
+        "David Radice",
+        "Ignazio Bombaci"
+      ],
+      "abstract": "We perform fully general-relativistic simulations of binary strange star mergers considering two different approaches for thermal effects. The first uses a cold equation of state (EOS) derived from a modified version of the MIT bag model which is then supplemented by a $Γ$-law correction. The second approach employs a microphysical description of the finite-temperature effects. We describe results obtained with the two treatments, highlighting the influence of thermal effects. We find that the postmerger dynamics differs significantly in the two cases, leading to quantitative differences in the postmerger gravitational-wave spectrum and ejecta mass. The peak frequency of the postmerger gravitational-wave emission is consistent with the established quasi-universal relations for binary neutron star mergers and as a result, our simulations cannot distinguish between mergers of neutron stars and those of strange stars. Our models with realistic treatment of finite-temperature effects produce a significant amount of ejecta $\\gtrsim 0.02\\ M_{\\odot}$. The resulting flux of strangelets near the Earth, computed assuming that all neutron star mergers are in fact strange-stars mergers and that the binary considered here is representative, is in tension with experimental upper limits. As such, our results tentatively disfavor a scenario in which strange-quark matter is the lowest energy state of matter.",
+      "submitted": "2024-07-15T18:08:31Z",
+      "last_revised": "2025-04-01T08:46:36Z",
+      "doi": "10.1103/PhysRevD.111.083009",
+      "journal_reference": "Phys. Rev. D 111, 083009 (2025)",
+      "arxiv_categories": [
+        "astro-ph.HE"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2407.11143v2",
+      "pdf_url": "https://export.arxiv.org/pdf/2407.11143v2",
+      "source_url": "https://export.arxiv.org/src/2407.11143v2",
+      "publication_date": "2025-04-04",
+      "publication_year": 2025,
+      "publication_date_source": "Crossref:published-online",
+      "publisher": "American Physical Society (APS)",
+      "container_title": "Physical Review D",
+      "categories": [
+        "strange_stars",
+        "systematics",
+        "raw_frequency_data"
+      ],
+      "seed_group": "D",
+      "directory": "2407.11143_grippa_2025",
+      "accessed_at": "2026-10-22T17:42:24.351535Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/main.tex",
+      "main_tex_candidates": [
+        {
+          "path": "main.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [
+            "Table_Summary.tex"
+          ],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "d51f267b4a13016e85c9bf773ce9584e41d1625ef6535ac6a1e10b4aa231b47e",
+        "source_sha256": "340e2ae9c07f2af2a54e6874bddc4e4976e8be33f0cb5e75e2e2ad81133d209a"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2407.11143v2",
+      "pdf_bytes": 3324801,
+      "source_final_url": "https://export.arxiv.org/src/2407.11143v2",
+      "source_content_type": "application/gzip",
+      "source_bytes": 2757003,
+      "source_inventory": {
+        "tex": [
+          "Table_Summary.tex",
+          "main.tex"
+        ],
+        "bibliography": [
+          "bibliography.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "Plots/2D/T_rem_fin_SR.png",
+          "Plots/2D/colorbar.png",
+          "Plots/2D/e_fin_SR_a.png",
+          "Plots/2D/e_fin_SR_b.png",
+          "Plots/2D/e_fin_SR_c.png",
+          "Plots/2D/e_fin_SR_d.png",
+          "Plots/2D/e_fin_SR_e.png",
+          "Plots/2D/e_fin_SR_f.png",
+          "Plots/2D/e_xz_fin.png",
+          "Plots/EOS/Mass_radius.png",
+          "Plots/EOS/P_dP_vs_e.png",
+          "Plots/EOS/P_rho_eos_thermal_new.png",
+          "Plots/SRs/SQM_QUR.png",
+          "Plots/SRs/asd.png",
+          "Plots/SRs/disk_mass_SRs.png",
+          "Plots/SRs/hist_theta.png",
+          "Plots/SRs/min_lapse_SRs.png",
+          "Plots/SRs/n_b_SRs.png",
+          "Plots/SRs/remnant_mass.png",
+          "Plots/SRs/strainfreq_SRs.png",
+          "Plots/SRs/total_outflowed_mass_det_0_SRs.png",
+          "Plots/Single_strange_star/colorbar_single.png",
+          "Plots/Single_strange_star/cons_dens_binary.png",
+          "Plots/Single_strange_star/cons_dens_single_star.png",
+          "Plots/Single_strange_star/e_new.png",
+          "Plots/Single_strange_star/e_old_1.png",
+          "Plots/Single_strange_star/e_old_2.png",
+          "Plots/Single_strange_star/e_old_3.png",
+          "Plots/Single_strange_star/e_old_colorbar.png",
+          "Plots/Single_strange_star/n_singlestars.png",
+          "Plots/Single_strange_star/p_colorbar.png",
+          "Plots/Single_strange_star/p_new.png",
+          "Plots/Single_strange_star/p_old_1.png",
+          "Plots/Single_strange_star/p_old_2.png",
+          "Plots/Single_strange_star/p_old_3.png",
+          "Plots/Single_strange_star/p_old_colorbar.png"
+        ],
+        "other": [
+          "main.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2505.21667",
+      "resolved_version": "2505.21667v1",
+      "version": 1,
+      "title": "Prospect of Constraining the EoS of Neutron Stars Using Post-Merger Signals",
+      "authors": [
+        "Soham Mitra",
+        "Praveer Tiwari",
+        "Archana Pai"
+      ],
+      "abstract": "Post-merger gravitational-wave emission from a binary neutron star merger carries crucial information about the equation of state (EoS) of matter at high temperatures. Current gravitational wave detectors have limited sensitivities at post-merger frequencies in the range [1.5, 4] kHz. Therefore, valuable inferences can only be made after combining information from multiple (BNS) events. Criswell et al. [Phys. Rev. D 107, 043021 (2023)] carries out an injection study to infer the radius posterior for a $1.6 M_{\\odot}$ NS by combining the information from injected BNS events via the hierarchical Bayesian inference (HBI) formulation. This formulation utilizes empirical relations that connect the peak frequency of the post-merger remnant with the chirp mass of the system, and the EoS proxy parameter $R_{1.6}$. In this work, we extend the HBI formulation to other EoS proxy parameters (i.e., the radius of (NS), $R_{1.X}$, with masses 1.2, 1.4, and 1.8 $M_{\\odot}$) and combine the four $R_{1.X}$ posteriors through the piecewise polytropic EoS model to obtain measurable constraints on the EoS of the NS. We show that the NS radii can be constrained to within $\\sim$1 km ( $\\sim$0.55 km) assuming uniform (astrophysical) prior on $R_{1.X}$ for injections in the A+ noise. We also study systematic biases in the analysis coming from the limitations of empirical relations.",
+      "submitted": "2025-05-27T18:46:45Z",
+      "last_revised": "2025-05-27T18:46:45Z",
+      "doi": null,
+      "journal_reference": null,
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc",
+        "hep-ph",
+        "nucl-th",
+        "physics.data-an"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2505.21667v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2505.21667v1",
+      "source_url": "https://export.arxiv.org/src/2505.21667v1",
+      "publication_date": null,
+      "publication_year": 2025,
+      "publication_date_source": null,
+      "publisher": null,
+      "container_title": null,
+      "categories": [
+        "indirect_application",
+        "radius_frequency",
+        "systematics"
+      ],
+      "seed_group": "D",
+      "directory": "2505.21667_mitra_2025",
+      "accessed_at": "2026-10-22T17:42:24.378714Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/Paper_Draft.tex",
+      "main_tex_candidates": [
+        {
+          "path": "Paper_Draft.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "79540ea09a57994f9e90b945b4f4fb0e11ba1169e42984da313cd9512d81182f",
+        "source_sha256": "e26eaddc0887fcccb1bf53183e3737f10ddec8d771bbfe5c1a95d38a55d8dd89"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2505.21667v1",
+      "pdf_bytes": 1352334,
+      "source_final_url": "https://export.arxiv.org/src/2505.21667v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 2373444,
+      "source_inventory": {
+        "tex": [
+          "Paper_Draft.tex"
+        ],
+        "bibliography": [
+          "references.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "Flow_Chart_EoS.pdf",
+          "Full_SFHx.pdf",
+          "Rlamda_M_Full.pdf",
+          "SFHx_SLy4.pdf",
+          "SFHx_SLy4_Fit_Accuracy.pdf"
+        ],
+        "other": [
+          "00README.json",
+          "Paper_Draft.bbl"
+        ]
+      },
+      "main_tex_ambiguous": false
+    },
+    {
+      "arxiv_id": "2602.23646",
+      "resolved_version": "2602.23646v1",
+      "version": 1,
+      "title": "Realistic Equations of State Informing Neutron Star Post-Merger Gravitational-Wave Frequencies",
+      "authors": [
+        "Spencer J. Magnall",
+        "Nilaksha Barman",
+        "Debarati Chatterjee",
+        "Paul D. Lasky",
+        "Simon Goode"
+      ],
+      "abstract": "Binary neutron star mergers are thought to produce hot, rapidly rotating neutron stars with masses that can far exceed their Tolman-Oppenheimer-Volkoff mass. The gravitational-wave emission from such remnants provides a unique opportunity to measure the nuclear equation of state at densities and temperatures not available to terrestrial experiments. Current detector design is informed by gravitational-wave signals from general relativistic hydrodynamics simulations of neutron star mergers, typically with hybrid thermal treatments for the equation of state, where a cold equation of state is modified by adding a thermal component. We use realistic equations of state based on the relativistic mean field model with consistent treatment of thermal effects to compute the distribution of expected peak gravitational-wave frequencies. Marginalising over equation of state and progenitor neutron star masses, we show the peak frequency of emission ranges from $\\sim2.5$ to 4 kHz. The width of this distribution suggests the need for broadband observatories with kHz sensitivity, and calls into question some of the so-called post-merger optimised configurations. We show the proposed KAGRA high-frequency design is well-suited to measuring post-merger remnants when compared to the KAGRA broadband design.",
+      "submitted": "2026-02-27T03:32:19Z",
+      "last_revised": "2026-02-27T03:32:19Z",
+      "doi": "10.1093/mnras/stag1184",
+      "journal_reference": "Mon Not R Astron Soc (2026)",
+      "arxiv_categories": [
+        "astro-ph.HE",
+        "gr-qc",
+        "nucl-th"
+      ],
+      "primary_category": "astro-ph.HE",
+      "abstract_url": "https://arxiv.org/abs/2602.23646v1",
+      "pdf_url": "https://export.arxiv.org/pdf/2602.23646v1",
+      "source_url": "https://export.arxiv.org/src/2602.23646v1",
+      "publication_date": "2026-07-03",
+      "publication_year": 2026,
+      "publication_date_source": "Crossref:published-print",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Monthly Notices of the Royal Astronomical Society",
+      "categories": [
+        "thermal_physics",
+        "rotating_stars",
+        "frequency_distribution"
+      ],
+      "seed_group": "D",
+      "directory": "2602.23646_magnall_2026",
+      "accessed_at": "2026-10-22T17:42:24.394384Z",
+      "pdf_status": "downloaded",
+      "source_status": "downloaded",
+      "tex_status": "extracted",
+      "main_tex": "source/Paper.tex",
+      "main_tex_candidates": [
+        {
+          "path": "Paper.tex",
+          "has_documentclass": true,
+          "has_begin_document": true,
+          "dependencies": [],
+          "score": 10
+        }
+      ],
+      "source_response_type": "gzip_tar",
+      "source_original_filename": "source.tar.gz",
+      "checksums": {
+        "pdf_sha256": "d569601a84421d8a69f1d61d91e84870e94b078bb975da17aa89e5fe3b82268d",
+        "source_sha256": "f8e74b43f3a0c883c6a06cc4e0e38656668d5932f3065891e7e6a1868f986d39"
+      },
+      "errors": [],
+      "pdf_final_url": "https://export.arxiv.org/pdf/2602.23646v1",
+      "pdf_bytes": 6458516,
+      "source_final_url": "https://export.arxiv.org/src/2602.23646v1",
+      "source_content_type": "application/gzip",
+      "source_bytes": 6450148,
+      "source_inventory": {
+        "tex": [
+          "Paper.tex"
+        ],
+        "bibliography": [
+          "Paper.bib"
+        ],
+        "styles": [],
+        "figures": [
+          "Figs/SNRS_detuned_normalised_two_panels.pdf",
+          "Figs/T_vs_nb_S_1_2.pdf",
+          "Figs/all_sensitivity_curves_with_peakfreq_asharp.pdf",
+          "Figs/f_peak_cold_hot.pdf",
+          "Figs/f_peak_hot_cold_posterior_total.pdf",
+          "Figs/mr_hot_cold.png"
+        ],
+        "other": [
+          "00README.json"
+        ]
+      },
+      "main_tex_ambiguous": false
+    }
+  ]
+}

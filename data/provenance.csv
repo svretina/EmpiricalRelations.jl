@@ -1,0 +1,870 @@
+record_type,record_id,source_id,source_path,source_line_start,source_line_end,table_label,raw_latex,extraction_method,review_status
+waveform,arxiv-1910-10856-cfc-sph-0001,arxiv-1910-10856,tables/bauswein_data.tex,10,11,table:cfc/sph-data,"\hline \hline
+apr   & 3.46            & 2.33           & 2.68              & 1.35 & 1.35 & 1.18   & 1.00 & nl3  & 2.13            & -              & 1.55              & 1.30 & 1.40 & 1.17   & 0.93",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0002,arxiv-1910-10856,tables/bauswein_data.tex,10,11,table:cfc/sph-data,"\hline \hline
+apr   & 3.46            & 2.33           & 2.68              & 1.35 & 1.35 & 1.18   & 1.00 & nl3  & 2.13            & -              & 1.55              & 1.30 & 1.40 & 1.17   & 0.93",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0003,arxiv-1910-10856,tables/bauswein_data.tex,11,12,table:cfc/sph-data,"\hline
+bhblp & 2.95            & -              & 2.05              & 1.50 & 1.50 & 1.31   & 1.00 & nl3  & 2.37            & 1.39           & 1.79              & 1.60 & 1.60 & 1.39   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0004,arxiv-1910-10856,tables/bauswein_data.tex,11,12,table:cfc/sph-data,"\hline
+bhblp & 2.95            & -              & 2.05              & 1.50 & 1.50 & 1.31   & 1.00 & nl3  & 2.37            & 1.39           & 1.79              & 1.60 & 1.60 & 1.39   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0005,arxiv-1910-10856,tables/bauswein_data.tex,12,13,table:cfc/sph-data,"\hline
+bhblp & 2.65            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & nl3  & 2.04            & -              & 1.47              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0006,arxiv-1910-10856,tables/bauswein_data.tex,12,13,table:cfc/sph-data,"\hline
+bhblp & 2.65            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & nl3  & 2.04            & -              & 1.47              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0007,arxiv-1910-10856,tables/bauswein_data.tex,13,14,table:cfc/sph-data,"\hline
+bhblp & 2.61            & 1.55           & 1.87              & 1.35 & 1.35 & 1.18   & 1.00 & nl3  & 2.07            & -              & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0008,arxiv-1910-10856,tables/bauswein_data.tex,13,14,table:cfc/sph-data,"\hline
+bhblp & 2.61            & 1.55           & 1.87              & 1.35 & 1.35 & 1.18   & 1.00 & nl3  & 2.07            & -              & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0009,arxiv-1910-10856,tables/bauswein_data.tex,14,15,table:cfc/sph-data,"\hline
+bhblp & 2.43            & -              & 1.81              & 1.20 & 1.20 & 1.04   & 1.00 & sfho & 3.07            & 1.85           & -                 & 1.20 & 1.35 & 1.11   & 0.89",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0010,arxiv-1910-10856,tables/bauswein_data.tex,14,15,table:cfc/sph-data,"\hline
+bhblp & 2.43            & -              & 1.81              & 1.20 & 1.20 & 1.04   & 1.00 & sfho & 3.07            & 1.85           & -                 & 1.20 & 1.35 & 1.11   & 0.89",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0011,arxiv-1910-10856,tables/bauswein_data.tex,15,16,table:cfc/sph-data,"\hline
+dd2   & 2.67            & 1.54           & 1.94              & 1.35 & 1.50 & 1.24   & 0.90 & sfho & 3.30            & 2.15           & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0012,arxiv-1910-10856,tables/bauswein_data.tex,15,16,table:cfc/sph-data,"\hline
+dd2   & 2.67            & 1.54           & 1.94              & 1.35 & 1.50 & 1.24   & 0.90 & sfho & 3.30            & 2.15           & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0013,arxiv-1910-10856,tables/bauswein_data.tex,16,17,table:cfc/sph-data,"\hline
+dd2   & 3.08            & 2.18           & -                 & 1.65 & 1.65 & 1.44   & 1.00 & sfho & 3.31            & 2.34           & -                 & 1.30 & 1.50 & 1.22   & 0.87",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0014,arxiv-1910-10856,tables/bauswein_data.tex,16,17,table:cfc/sph-data,"\hline
+dd2   & 3.08            & 2.18           & -                 & 1.65 & 1.65 & 1.44   & 1.00 & sfho & 3.31            & 2.34           & -                 & 1.30 & 1.50 & 1.22   & 0.87",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0015,arxiv-1910-10856,tables/bauswein_data.tex,17,18,table:cfc/sph-data,"\hline
+dd2   & 2.62            & -              & -                 & 1.20 & 1.80 & 1.27   & 0.67 & sfho & 3.24            & 2.21           & -                 & 1.30 & 1.40 & 1.17   & 0.93",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0016,arxiv-1910-10856,tables/bauswein_data.tex,17,18,table:cfc/sph-data,"\hline
+dd2   & 2.62            & -              & -                 & 1.20 & 1.80 & 1.27   & 0.67 & sfho & 3.24            & 2.21           & -                 & 1.30 & 1.40 & 1.17   & 0.93",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0017,arxiv-1910-10856,tables/bauswein_data.tex,18,19,table:cfc/sph-data,"\hline
+dd2   & 2.66            & 1.56           & 2.06              & 1.40 & 1.40 & 1.22   & 1.00 & sfho & 3.28            & 2.13           & 2.48              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0018,arxiv-1910-10856,tables/bauswein_data.tex,18,19,table:cfc/sph-data,"\hline
+dd2   & 2.66            & 1.56           & 2.06              & 1.40 & 1.40 & 1.22   & 1.00 & sfho & 3.28            & 2.13           & 2.48              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0019,arxiv-1910-10856,tables/bauswein_data.tex,19,20,table:cfc/sph-data,"\hline
+dd2   & 2.77            & 1.72           & 2.13              & 1.50 & 1.50 & 1.31   & 1.00 & sfho & 3.39            & -              & 2.51              & 1.40 & 1.40 & 1.22   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0020,arxiv-1910-10856,tables/bauswein_data.tex,19,20,table:cfc/sph-data,"\hline
+dd2   & 2.77            & 1.72           & 2.13              & 1.50 & 1.50 & 1.31   & 1.00 & sfho & 3.39            & -              & 2.51              & 1.40 & 1.40 & 1.22   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0021,arxiv-1910-10856,tables/bauswein_data.tex,20,21,table:cfc/sph-data,"\hline
+dd2   & 2.80            & 1.72           & -                 & 1.35 & 1.80 & 1.35   & 0.75 & sfho & 2.99            & 1.70           & 2.21              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0022,arxiv-1910-10856,tables/bauswein_data.tex,20,21,table:cfc/sph-data,"\hline
+dd2   & 2.80            & 1.72           & -                 & 1.35 & 1.80 & 1.35   & 0.75 & sfho & 2.99            & 1.70           & 2.21              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0023,arxiv-1910-10856,tables/bauswein_data.tex,21,22,table:cfc/sph-data,"\hline
+dd2   & 2.50            & -              & -                 & 1.20 & 1.60 & 1.20   & 0.75 & sfho & 3.13            & 1.96           & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0024,arxiv-1910-10856,tables/bauswein_data.tex,21,22,table:cfc/sph-data,"\hline
+dd2   & 2.50            & -              & -                 & 1.20 & 1.60 & 1.20   & 0.75 & sfho & 3.13            & 1.96           & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0025,arxiv-1910-10856,tables/bauswein_data.tex,22,23,table:cfc/sph-data,"\hline
+dd2   & 2.96            & 1.97           & 2.32              & 1.60 & 1.60 & 1.39   & 1.00 & sfhx & 3.41            & 2.31           & 2.56              & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0026,arxiv-1910-10856,tables/bauswein_data.tex,22,23,table:cfc/sph-data,"\hline
+dd2   & 2.96            & 1.97           & 2.32              & 1.60 & 1.60 & 1.39   & 1.00 & sfhx & 3.41            & 2.31           & 2.56              & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0027,arxiv-1910-10856,tables/bauswein_data.tex,23,24,table:cfc/sph-data,"\hline
+dd2   & 2.55            & 1.41           & 1.86              & 1.30 & 1.40 & 1.17   & 0.93 & sfhx & 3.31            & 2.23           & 2.56              & 1.45 & 1.45 & 1.26   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0028,arxiv-1910-10856,tables/bauswein_data.tex,23,24,table:cfc/sph-data,"\hline
+dd2   & 2.55            & 1.41           & 1.86              & 1.30 & 1.40 & 1.17   & 0.93 & sfhx & 3.31            & 2.23           & 2.56              & 1.45 & 1.45 & 1.26   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0029,arxiv-1910-10856,tables/bauswein_data.tex,24,25,table:cfc/sph-data,"\hline
+dd2   & 2.54            & 1.29           & 1.95              & 1.30 & 1.30 & 1.13   & 1.00 & sfhx & 2.91            & 1.81           & 2.06              & 1.20 & 1.35 & 1.11   & 0.89",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0030,arxiv-1910-10856,tables/bauswein_data.tex,24,25,table:cfc/sph-data,"\hline
+dd2   & 2.54            & 1.29           & 1.95              & 1.30 & 1.30 & 1.13   & 1.00 & sfhx & 2.91            & 1.81           & 2.06              & 1.20 & 1.35 & 1.11   & 0.89",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0031,arxiv-1910-10856,tables/bauswein_data.tex,25,26,table:cfc/sph-data,"\hline
+dd2   & 2.61            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & sfhx & 2.81            & 1.55           & 2.01              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0032,arxiv-1910-10856,tables/bauswein_data.tex,25,26,table:cfc/sph-data,"\hline
+dd2   & 2.61            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & sfhx & 2.81            & 1.55           & 2.01              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0033,arxiv-1910-10856,tables/bauswein_data.tex,26,27,table:cfc/sph-data,"\hline
+dd2   & 2.94            & 1.98           & -                 & 1.50 & 1.80 & 1.43   & 0.83 & sfhx & 2.85            & 1.86           & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0034,arxiv-1910-10856,tables/bauswein_data.tex,26,27,table:cfc/sph-data,"\hline
+dd2   & 2.94            & 1.98           & -                 & 1.50 & 1.80 & 1.43   & 0.83 & sfhx & 2.85            & 1.86           & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0035,arxiv-1910-10856,tables/bauswein_data.tex,27,28,table:cfc/sph-data,"\hline
+dd2   & 2.49            & 1.26           & 1.76              & 1.20 & 1.35 & 1.11   & 0.89 & sfhx & 3.06            & -              & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0036,arxiv-1910-10856,tables/bauswein_data.tex,27,28,table:cfc/sph-data,"\hline
+dd2   & 2.49            & 1.26           & 1.76              & 1.20 & 1.35 & 1.11   & 0.89 & sfhx & 3.06            & -              & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0037,arxiv-1910-10856,tables/bauswein_data.tex,28,29,table:cfc/sph-data,"\hline
+dd2   & 2.41            & 1.20           & 1.80              & 1.20 & 1.20 & 1.04   & 1.00 & sfhx & 3.20            & 2.11           & -                 & 1.35 & 1.50 & 1.24   & 0.90",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0038,arxiv-1910-10856,tables/bauswein_data.tex,28,29,table:cfc/sph-data,"\hline
+dd2   & 2.41            & 1.20           & 1.80              & 1.20 & 1.20 & 1.04   & 1.00 & sfhx & 3.20            & 2.11           & -                 & 1.35 & 1.50 & 1.24   & 0.90",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0039,arxiv-1910-10856,tables/bauswein_data.tex,29,30,table:cfc/sph-data,"\hline
+dd2   & 2.60            & 1.47           & 1.98              & 1.35 & 1.35 & 1.18   & 1.00 & sfhx & 3.16            & 2.02           & 2.43              & 1.40 & 1.40 & 1.22   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0040,arxiv-1910-10856,tables/bauswein_data.tex,29,30,table:cfc/sph-data,"\hline
+dd2   & 2.60            & 1.47           & 1.98              & 1.35 & 1.35 & 1.18   & 1.00 & sfhx & 3.16            & 2.02           & 2.43              & 1.40 & 1.40 & 1.22   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0041,arxiv-1910-10856,tables/bauswein_data.tex,30,31,table:cfc/sph-data,"\hline
+dd2   & 2.90            & 1.95           & -                 & 1.50 & 1.70 & 1.39   & 0.88 & sfhx & 3.08            & 1.86           & 2.34              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0042,arxiv-1910-10856,tables/bauswein_data.tex,30,31,table:cfc/sph-data,"\hline
+dd2   & 2.90            & 1.95           & -                 & 1.50 & 1.70 & 1.39   & 0.88 & sfhx & 3.08            & 1.86           & 2.34              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0043,arxiv-1910-10856,tables/bauswein_data.tex,31,32,table:cfc/sph-data,"\hline
+ls220 & 3.06            & 2.07           & 2.54              & 1.40 & 1.40 & 1.22   & 1.00 & shen & 2.19            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0044,arxiv-1910-10856,tables/bauswein_data.tex,31,32,table:cfc/sph-data,"\hline
+ls220 & 3.06            & 2.07           & 2.54              & 1.40 & 1.40 & 1.22   & 1.00 & shen & 2.19            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0045,arxiv-1910-10856,tables/bauswein_data.tex,32,33,table:cfc/sph-data,"\hline
+ls220 & 2.59            & 1.42           & 1.77              & 1.20 & 1.20 & 1.04   & 1.00 & sly4 & 3.33            & 2.18           & 2.55              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0046,arxiv-1910-10856,tables/bauswein_data.tex,32,33,table:cfc/sph-data,"\hline
+ls220 & 2.59            & 1.42           & 1.77              & 1.20 & 1.20 & 1.04   & 1.00 & sly4 & 3.33            & 2.18           & 2.55              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0047,arxiv-1910-10856,tables/bauswein_data.tex,33,34,table:cfc/sph-data,"\hline
+ls220 & 3.43            & 2.32           & 2.59              & 1.50 & 1.50 & 1.31   & 1.00 & tm1  & 2.23            & 1.16           & 1.43              & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0048,arxiv-1910-10856,tables/bauswein_data.tex,33,34,table:cfc/sph-data,"\hline
+ls220 & 3.43            & 2.32           & 2.59              & 1.50 & 1.50 & 1.31   & 1.00 & tm1  & 2.23            & 1.16           & 1.43              & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0049,arxiv-1910-10856,tables/bauswein_data.tex,34,35,table:cfc/sph-data,"\hline
+ls220 & 2.85            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & tm1  & 2.90            & 1.61           & 2.11              & 1.70 & 1.70 & 1.48   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0050,arxiv-1910-10856,tables/bauswein_data.tex,34,35,table:cfc/sph-data,"\hline
+ls220 & 2.85            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & tm1  & 2.90            & 1.61           & 2.11              & 1.70 & 1.70 & 1.48   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0051,arxiv-1910-10856,tables/bauswein_data.tex,35,36,table:cfc/sph-data,"\hline
+ls220 & 2.87            & 1.72           & 2.18              & 1.35 & 1.35 & 1.18   & 1.00 & tm1  & 2.44            & 1.32           & 1.64              & 1.20 & 1.80 & 1.27   & 0.67",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0052,arxiv-1910-10856,tables/bauswein_data.tex,35,36,table:cfc/sph-data,"\hline
+ls220 & 2.87            & 1.72           & 2.18              & 1.35 & 1.35 & 1.18   & 1.00 & tm1  & 2.44            & 1.32           & 1.64              & 1.20 & 1.80 & 1.27   & 0.67",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0053,arxiv-1910-10856,tables/bauswein_data.tex,36,37,table:cfc/sph-data,"\hline
+ls375 & 2.84            & 1.91           & -                 & 1.70 & 1.70 & 1.48   & 1.00 & tm1  & 2.61            & 1.67           & 2.01              & 1.60 & 1.60 & 1.39   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0054,arxiv-1910-10856,tables/bauswein_data.tex,36,37,table:cfc/sph-data,"\hline
+ls375 & 2.84            & 1.91           & -                 & 1.70 & 1.70 & 1.48   & 1.00 & tm1  & 2.61            & 1.67           & 2.01              & 1.60 & 1.60 & 1.39   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0055,arxiv-1910-10856,tables/bauswein_data.tex,37,38,table:cfc/sph-data,"\hline
+ls375 & 2.39            & 1.33           & 1.76              & 1.35 & 1.35 & 1.18   & 1.00 & tm1  & 2.56            & 1.30           & -                 & 1.35 & 1.80 & 1.35   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0056,arxiv-1910-10856,tables/bauswein_data.tex,37,38,table:cfc/sph-data,"\hline
+ls375 & 2.39            & 1.33           & 1.76              & 1.35 & 1.35 & 1.18   & 1.00 & tm1  & 2.56            & 1.30           & -                 & 1.35 & 1.80 & 1.35   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0057,arxiv-1910-10856,tables/bauswein_data.tex,38,39,table:cfc/sph-data,"\hline
+ls375 & 3.07            & 2.11           & 2.42              & 1.80 & 1.80 & 1.57   & 1.00 & tm1  & 2.73            & 1.83           & 2.10              & 1.65 & 1.65 & 1.44   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0058,arxiv-1910-10856,tables/bauswein_data.tex,38,39,table:cfc/sph-data,"\hline
+ls375 & 3.07            & 2.11           & 2.42              & 1.80 & 1.80 & 1.57   & 1.00 & tm1  & 2.73            & 1.83           & 2.10              & 1.65 & 1.65 & 1.44   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0059,arxiv-1910-10856,tables/bauswein_data.tex,39,40,table:cfc/sph-data,"\hline
+ls375 & 2.41            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & tm1  & 2.25            & -              & 1.65              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0060,arxiv-1910-10856,tables/bauswein_data.tex,39,40,table:cfc/sph-data,"\hline
+ls375 & 2.41            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & tm1  & 2.25            & -              & 1.65              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0061,arxiv-1910-10856,tables/bauswein_data.tex,40,41,table:cfc/sph-data,"\hline
+ls375 & 2.23            & -              & 1.65              & 1.20 & 1.20 & 1.04   & 1.00 & tm1  & 2.25            & 1.23           & 1.54              & 1.30 & 1.40 & 1.17   & 0.93",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0062,arxiv-1910-10856,tables/bauswein_data.tex,40,41,table:cfc/sph-data,"\hline
+ls375 & 2.23            & -              & 1.65              & 1.20 & 1.20 & 1.04   & 1.00 & tm1  & 2.25            & 1.23           & 1.54              & 1.30 & 1.40 & 1.17   & 0.93",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0063,arxiv-1910-10856,tables/bauswein_data.tex,41,42,table:cfc/sph-data,"\hline
+ls375 & 2.56            & 1.50           & 1.83              & 1.50 & 1.50 & 1.31   & 1.00 & tm1  & 2.12            & -              & 1.52              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0064,arxiv-1910-10856,tables/bauswein_data.tex,41,42,table:cfc/sph-data,"\hline
+ls375 & 2.56            & 1.50           & 1.83              & 1.50 & 1.50 & 1.31   & 1.00 & tm1  & 2.12            & -              & 1.52              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0065,arxiv-1910-10856,tables/bauswein_data.tex,42,43,table:cfc/sph-data,"\hline
+ls375 & 2.69            & 1.66           & 2.05              & 1.60 & 1.60 & 1.39   & 1.00 & tm1  & 2.52            & 1.49           & 1.79              & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0066,arxiv-1910-10856,tables/bauswein_data.tex,42,43,table:cfc/sph-data,"\hline
+ls375 & 2.69            & 1.66           & 2.05              & 1.60 & 1.60 & 1.39   & 1.00 & tm1  & 2.52            & 1.49           & 1.79              & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0067,arxiv-1910-10856,tables/bauswein_data.tex,43,44,table:cfc/sph-data,"\hline
+nl3   & 2.58            & -              & 1.81              & 1.80 & 1.80 & 1.57   & 1.00 & tm1  & 2.34            & 1.28           & 1.57              & 1.35 & 1.50 & 1.24   & 0.90",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0068,arxiv-1910-10856,tables/bauswein_data.tex,43,44,table:cfc/sph-data,"\hline
+nl3   & 2.58            & -              & 1.81              & 1.80 & 1.80 & 1.57   & 1.00 & tm1  & 2.34            & 1.28           & 1.57              & 1.35 & 1.50 & 1.24   & 0.90",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0069,arxiv-1910-10856,tables/bauswein_data.tex,44,45,table:cfc/sph-data,"\hline
+nl3   & 2.34            & 1.38           & -                 & 1.35 & 2.00 & 1.42   & 0.68 & tm1  & 2.26            & 1.18           & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0070,arxiv-1910-10856,tables/bauswein_data.tex,44,45,table:cfc/sph-data,"\hline
+nl3   & 2.34            & 1.38           & -                 & 1.35 & 2.00 & 1.42   & 0.68 & tm1  & 2.26            & 1.18           & -                 & 1.20 & 1.60 & 1.20   & 0.75",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0071,arxiv-1910-10856,tables/bauswein_data.tex,45,46,table:cfc/sph-data,"\hline
+nl3   & 2.08            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & tm1  & 2.17            & -              & 1.46              & 1.20 & 1.35 & 1.11   & 0.89",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0072,arxiv-1910-10856,tables/bauswein_data.tex,45,46,table:cfc/sph-data,"\hline
+nl3   & 2.08            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80 & tm1  & 2.17            & -              & 1.46              & 1.20 & 1.35 & 1.11   & 0.89",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0073,arxiv-1910-10856,tables/bauswein_data.tex,46,47,table:cfc/sph-data,"\hline
+nl3   & 2.20            & -              & 1.60              & 1.35 & 1.50 & 1.24   & 0.90 & tm1  & 2.74            & 1.71           & 1.87              & 1.50 & 1.80 & 1.43   & 0.83",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0074,arxiv-1910-10856,tables/bauswein_data.tex,46,47,table:cfc/sph-data,"\hline
+nl3   & 2.20            & -              & 1.60              & 1.35 & 1.50 & 1.24   & 0.90 & tm1  & 2.74            & 1.71           & 1.87              & 1.50 & 1.80 & 1.43   & 0.83",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0075,arxiv-1910-10856,tables/bauswein_data.tex,47,48,table:cfc/sph-data,"\hline
+nl3   & 2.19            & -              & -                 & 1.20 & 1.80 & 1.27   & 0.67 & tm1  & 2.33            & 1.20           & 1.73              & 1.40 & 1.40 & 1.22   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0076,arxiv-1910-10856,tables/bauswein_data.tex,47,48,table:cfc/sph-data,"\hline
+nl3   & 2.19            & -              & -                 & 1.20 & 1.80 & 1.27   & 0.67 & tm1  & 2.33            & 1.20           & 1.73              & 1.40 & 1.40 & 1.22   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0077,arxiv-1910-10856,tables/bauswein_data.tex,48,49,table:cfc/sph-data,"\hline
+nl3   & 2.15            & -              & 1.60              & 1.35 & 1.35 & 1.18   & 1.00 & tm1  & 2.20            & -              & 1.64              & 1.30 & 1.30 & 1.13   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0078,arxiv-1910-10856,tables/bauswein_data.tex,48,49,table:cfc/sph-data,"\hline
+nl3   & 2.15            & -              & 1.60              & 1.35 & 1.35 & 1.18   & 1.00 & tm1  & 2.20            & -              & 1.64              & 1.30 & 1.30 & 1.13   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0079,arxiv-1910-10856,tables/bauswein_data.tex,49,50,table:cfc/sph-data,"\hline
+nl3   & 2.27            & 1.33           & -                 & 1.35 & 1.80 & 1.35   & 0.75 & tma  & 2.15            & 1.15           & 1.64              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0080,arxiv-1910-10856,tables/bauswein_data.tex,49,50,table:cfc/sph-data,"\hline
+nl3   & 2.27            & 1.33           & -                 & 1.35 & 1.80 & 1.35   & 0.75 & tma  & 2.15            & 1.15           & 1.64              & 1.20 & 1.20 & 1.04   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0081,arxiv-1910-10856,tables/bauswein_data.tex,50,51,table:cfc/sph-data,"\hline
+nl3   & 2.07            & -              & 1.30              & 1.20 & 1.35 & 1.11   & 0.89 & tma  & 2.97            & 1.63           & 2.18              & 1.60 & 1.60 & 1.39   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0082,arxiv-1910-10856,tables/bauswein_data.tex,50,51,table:cfc/sph-data,"\hline
+nl3   & 2.07            & -              & 1.30              & 1.20 & 1.35 & 1.11   & 0.89 & tma  & 2.97            & 1.63           & 2.18              & 1.60 & 1.60 & 1.39   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0083,arxiv-1910-10856,tables/bauswein_data.tex,51,52,table:cfc/sph-data,"\hline
+nl3   & 2.69            & -              & 1.94              & 1.80 & 2.00 & 1.65   & 0.90 & tma  & 2.75            & 1.84           & 2.13              & 1.55 & 1.55 & 1.35   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0084,arxiv-1910-10856,tables/bauswein_data.tex,51,52,table:cfc/sph-data,"\hline
+nl3   & 2.69            & -              & 1.94              & 1.80 & 2.00 & 1.65   & 0.90 & tma  & 2.75            & 1.84           & 2.13              & 1.55 & 1.55 & 1.35   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0085,arxiv-1910-10856,tables/bauswein_data.tex,52,53,table:cfc/sph-data,"\hline
+nl3   & 2.36            & 1.45           & -                 & 1.50 & 1.80 & 1.43   & 0.83 & tma  & 2.33            & 1.26           & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0086,arxiv-1910-10856,tables/bauswein_data.tex,52,53,table:cfc/sph-data,"\hline
+nl3   & 2.36            & 1.45           & -                 & 1.50 & 1.80 & 1.43   & 0.83 & tma  & 2.33            & 1.26           & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0087,arxiv-1910-10856,tables/bauswein_data.tex,53,54,table:cfc/sph-data,"\hline
+nl3   & 2.79            & 1.83           & 2.10              & 1.90 & 1.90 & 1.65   & 1.00 & tma  & 2.38            & 1.21           & 1.76              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0088,arxiv-1910-10856,tables/bauswein_data.tex,53,54,table:cfc/sph-data,"\hline
+nl3   & 2.79            & 1.83           & 2.10              & 1.90 & 1.90 & 1.65   & 1.00 & tma  & 2.38            & 1.21           & 1.76              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0089,arxiv-1910-10856,tables/bauswein_data.tex,54,55,table:cfc/sph-data,"\hline
+nl3   & 2.33            & -              & 1.60              & 1.50 & 1.50 & 1.31   & 1.00 & tma  & 2.73            & 1.82           & 2.21              & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-cfc-sph-0090,arxiv-1910-10856,tables/bauswein_data.tex,54,55,table:cfc/sph-data,"\hline
+nl3   & 2.33            & -              & 1.60              & 1.50 & 1.50 & 1.31   & 1.00 & tma  & 2.73            & 1.82           & 2.21              & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0001,arxiv-1910-10856,tables/CORE_data.tex,12,13,table:CORE-data,"\hline
+ALF2 & 2.38  & 491.40 & 1.10 & 1.40 & 1.08   & 0.79",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0002,arxiv-1910-10856,tables/CORE_data.tex,13,14,table:CORE-data,"\hline
+ALF2 & 2.75  & 454.79 & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0003,arxiv-1910-10856,tables/CORE_data.tex,14,15,table:CORE-data,"\hline
+ALF2 & 2.75  & 419.69 & 1.22 & 1.53 & 1.19   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0004,arxiv-1910-10856,tables/CORE_data.tex,15,16,table:CORE-data,"\hline
+ALF2 & 2.75  & 422.82 & 1.38 & 1.38 & 1.20   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0005,arxiv-1910-10856,tables/CORE_data.tex,16,17,table:CORE-data,"\hline
+ENG  & 3.00  & 454.57 & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0006,arxiv-1910-10856,tables/CORE_data.tex,17,18,table:CORE-data,"\hline
+H4   & 2.54  & 410.94 & 1.00 & 1.75 & 1.14   & 0.57",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0007,arxiv-1910-10856,tables/CORE_data.tex,18,19,table:CORE-data,"\hline
+H4   & 2.56  & 410.86 & 1.10 & 1.65 & 1.17   & 0.67",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0008,arxiv-1910-10856,tables/CORE_data.tex,19,20,table:CORE-data,"\hline
+H4   & 2.41  & 454.55 & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0009,arxiv-1910-10856,tables/CORE_data.tex,20,21,table:CORE-data,"\hline
+H4   & 2.47  & 409.87 & 1.22 & 1.53 & 1.19   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0010,arxiv-1910-10856,tables/CORE_data.tex,21,22,table:CORE-data,"\hline
+H4   & 2.53  & 408.95 & 1.38 & 1.38 & 1.20   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0011,arxiv-1910-10856,tables/CORE_data.tex,22,23,table:CORE-data,"\hline
+H4   & 2.86  & 424.99 & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0012,arxiv-1910-10856,tables/CORE_data.tex,23,24,table:CORE-data,"\hline
+MPA1 & 2.81  & 454.55 & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0013,arxiv-1910-10856,tables/CORE_data.tex,24,25,table:CORE-data,"\hline
+MS1b & 1.88  & 389.50 & 1.00 & 1.50 & 1.06   & 0.67",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0014,arxiv-1910-10856,tables/CORE_data.tex,25,26,table:CORE-data,"\hline
+MS1b & 2.08  & 490.42 & 1.10 & 1.40 & 1.08   & 0.79",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0015,arxiv-1910-10856,tables/CORE_data.tex,26,27,table:CORE-data,"\hline
+MS1b & 1.96  & 406.44 & 1.00 & 1.75 & 1.14   & 0.57",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0016,arxiv-1910-10856,tables/CORE_data.tex,27,28,table:CORE-data,"\hline
+MS1b & 2.15  & 402.75 & 0.94 & 1.94 & 1.16   & 0.49",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0017,arxiv-1910-10856,tables/CORE_data.tex,28,29,table:CORE-data,"\hline
+MS1b & 1.97  & 406.58 & 1.10 & 1.65 & 1.17   & 0.67",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0018,arxiv-1910-10856,tables/CORE_data.tex,29,30,table:CORE-data,"\hline
+MS1b & 2.09  & 418.48 & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0019,arxiv-1910-10856,tables/CORE_data.tex,30,31,table:CORE-data,"\hline
+MS1b & 2.01  & 406.59 & 1.22 & 1.53 & 1.19   & 0.80",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0020,arxiv-1910-10856,tables/CORE_data.tex,31,32,table:CORE-data,"\hline
+MS1b & 2.09  & 407.98 & 1.38 & 1.38 & 1.20   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0021,arxiv-1910-10856,tables/CORE_data.tex,32,33,table:CORE-data,"\hline
+MS1b & 2.22  & 419.74 & 1.50 & 1.50 & 1.31   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0022,arxiv-1910-10856,tables/CORE_data.tex,33,34,table:CORE-data,"\hline
+SLy  & 2.94  & 407.76 & 1.00 & 1.50 & 1.06   & 0.67",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0023,arxiv-1910-10856,tables/CORE_data.tex,34,35,table:CORE-data,"\hline
+SLy  & 2.94  & 392.39 & 1.11 & 1.36 & 1.07   & 0.82",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0024,arxiv-1910-10856,tables/CORE_data.tex,35,36,table:CORE-data,"\hline
+SLy  & 2.79  & 491.39 & 1.10 & 1.40 & 1.08   & 0.79",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0025,arxiv-1910-10856,tables/CORE_data.tex,36,37,table:CORE-data,"\hline
+SLy  & 3.06  & 471.74 & 1.20 & 1.40 & 1.13   & 0.86",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0026,arxiv-1910-10856,tables/CORE_data.tex,37,38,table:CORE-data,"\hline
+SLy  & 3.40  & 453.15 & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+waveform,arxiv-1910-10856-core-0027,arxiv-1910-10856,tables/CORE_data.tex,38,39,table:CORE-data,"\hline
+SLy  & 3.46  & 426.13 & 1.22 & 1.53 & 1.19   & 0.80",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-apr,arxiv-1910-10856,tables/TOV_info.tex,6,7,table:TOV-info,"\hline
+APR          & 11.37           & 11.34           & 11.27           & 11.14",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-bhblp,arxiv-1910-10856,tables/TOV_info.tex,7,8,table:TOV-info,"\hline
+BHBLP        & 13.08           & 13.14           & 13.12           & 12.95",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-dd2,arxiv-1910-10856,tables/TOV_info.tex,8,9,table:TOV-info,"\hline
+DD2          & 13.08           & 13.15           & 13.18           & 13.16",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-ls220,arxiv-1910-10856,tables/TOV_info.tex,9,10,table:TOV-info,"\hline
+LS220        & 12.65           & 12.56           & 12.36           & 12.00",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-ls375,arxiv-1910-10856,tables/TOV_info.tex,10,11,table:TOV-info,"\hline
+LS375        & 13.43           & 13.57           & 13.67           & 13.72",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-nl3,arxiv-1910-10856,tables/TOV_info.tex,11,12,table:TOV-info,"\hline
+NL3          & 14.64           & 14.69           & 14.73           & 14.75",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-sfho,arxiv-1910-10856,tables/TOV_info.tex,12,13,table:TOV-info,"\hline
+SFHO         & 11.89           & 11.81           & 11.68           & 11.43",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-sfhx,arxiv-1910-10856,tables/TOV_info.tex,13,14,table:TOV-info,"\hline
+SFHX         & 11.87           & 11.92           & 11.90           & 11.79",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-tm1,arxiv-1910-10856,tables/TOV_info.tex,14,15,table:TOV-info,"\hline
+TM1          & 14.44           & 14.38           & 14.26           & 14.06",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-tma,arxiv-1910-10856,tables/TOV_info.tex,15,16,table:TOV-info,"\hline
+TMA          & 13.75           & 13.72           & 13.57           & 13.24",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-alf2,arxiv-1910-10856,tables/TOV_info.tex,16,17,table:TOV-info,"\hline
+ALF2         & 12.64           & 12.70           & 12.64           & 12.40",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-eng,arxiv-1910-10856,tables/TOV_info.tex,17,18,table:TOV-info,"\hline
+ENG          & 11.97           & 11.97           & 11.92           & 11.79",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-h4,arxiv-1910-10856,tables/TOV_info.tex,18,19,table:TOV-info,"\hline
+H4           & 14.04           & 13.95           & 13.74           & 13.32",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-mpa1,arxiv-1910-10856,tables/TOV_info.tex,19,20,table:TOV-info,"\hline
+MPA1         & 12.37           & 12.43           & 12.47           & 12.46",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-ms1b,arxiv-1910-10856,tables/TOV_info.tex,20,21,table:TOV-info,"\hline
+MS1b         & 14.43           & 14.53           & 14.60           & 14.65",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-sly,arxiv-1910-10856,tables/TOV_info.tex,21,22,table:TOV-info,"\hline
+SLy          & 11.80           & 11.71           & 11.55           & 11.27",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-shen,arxiv-1910-10856,tables/bauswein_data.tex,31,32,table:cfc/sph-data,"\hline
+ls220 & 3.06            & 2.07           & 2.54              & 1.40 & 1.40 & 1.22   & 1.00 & shen & 2.19            & -              & -                 & 1.20 & 1.50 & 1.17   & 0.80",deterministic_latex_table_parser,verified
+eos,arxiv-1910-10856-eos-sly4,arxiv-1910-10856,tables/bauswein_data.tex,32,33,table:cfc/sph-data,"\hline
+ls220 & 2.59            & 1.42           & 1.77              & 1.20 & 1.20 & 1.04   & 1.00 & sly4 & 3.33            & 2.18           & 2.55              & 1.35 & 1.35 & 1.18   & 1.00",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-2-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,7,8,table:fRM,"\hline
+\textbf{$R_{1.2}$} &   18.203   &   -1.505   &  -1.944  &   -0.16   &   0.107   &  0.057   &  0.893   &  0.257  &  0.092  &  0.06",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-4-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,8,9,table:fRM,"\hline
+\textbf{$R_{1.4}$} &   16.013   &   -1.092   &  -1.649  &   0.104   &   0.031   &  0.049   &  0.93   &  0.227  &  0.073  &  0.052",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-6-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,9,10,table:fRM,"\hline
+\textbf{$R_{1.6}$} &   13.822   &   -0.576   &  -1.375  &   0.479   &   -0.073   &  0.044   &  0.956   &  0.196  &  0.056  &  0.044",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-8-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,10,11,table:fRM,"\hline
+\textbf{$R_{1.8}$} &   12.168   &   -0.049   &  -1.205  &   0.954   &   -0.197   &  0.044   &  0.953   &  0.215  &  0.055  &  0.048",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-2-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,13,14,table:fRM,"\hline
+\textbf{$R_{1.2}$} &   16.91   &   -1.896   &  -1.708  &   0.2   &   0.068   &  0.05   &  0.88   &  0.374  &  0.096  &  0.07",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-4-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,14,15,table:fRM,"\hline
+\textbf{$R_{1.4}$} &   14.819   &   -1.474   &  -1.43  &   0.414   &   -0.0   &  0.043   &  0.916   &  0.337  &  0.078  &  0.062",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-6-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,15,16,table:fRM,"\hline
+\textbf{$R_{1.6}$} &   12.696   &   -0.935   &  -1.17  &   0.713   &   -0.092   &  0.037   &  0.943   &  0.298  &  0.062  &  0.053",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-8-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,16,17,table:fRM,"\hline
+\textbf{$R_{1.8}$} &   10.942   &   -0.369   &  -0.987  &   1.095   &   -0.201   &  0.036   &  0.948   &  0.247  &  0.06  &  0.05",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-2-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,19,20,table:fRM,"\hline
+\textbf{$R_{1.2}$} &   12.607   &   3.074   &  -1.791  &   -0.928   &   -0.012   &  0.058   &  0.718   &  0.366  &  0.114  &  0.077",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-4-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,20,21,table:fRM,"\hline
+\textbf{$R_{1.4}$} &   10.859   &   3.586   &  -1.571  &   -0.706   &   -0.087   &  0.053   &  0.79   &  0.306  &  0.096  &  0.069",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-6-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,21,22,table:fRM,"\hline
+\textbf{$R_{1.6}$} &   8.943   &   4.059   &  -1.332  &   -0.358   &   -0.182   &  0.048   &  0.849   &  0.229  &  0.08  &  0.061",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-8-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,22,23,table:fRM,"\hline
+\textbf{$R_{1.8}$} &   7.797   &   4.773   &  -1.256  &   0.285   &   -0.357   &  0.055   &  0.86   &  0.269  &  0.075  &  0.061",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-2-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,25,26,table:fRM,"\hline
+\textbf{$R_{1.2}$} &   13.237   &   3.278   &  -1.894  &   -0.504   &   -0.107   &  0.066   &  0.785   &  0.383  &  0.105  &  0.081",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-4-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,26,27,table:fRM,"\hline
+\textbf{$R_{1.4}$} &   11.549   &   3.76   &  -1.683  &   -0.26   &   -0.184   &  0.061   &  0.841   &  0.324  &  0.088  &  0.072",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-6-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,27,28,table:fRM,"\hline
+\textbf{$R_{1.6}$} &   9.586   &   4.09   &  -1.427  &   0.048   &   -0.261   &  0.055   &  0.885   &  0.252  &  0.075  &  0.061",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-2-0-khz-r1-8-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,28,29,table:fRM,"\hline
+\textbf{$R_{1.8}$} &   8.007   &   4.356   &  -1.241  &   0.558   &   -0.375   &  0.054   &  0.896   &  0.258  &  0.072  &  0.057",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-2-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,31,32,table:fRM,"\hline
+\textbf{$R_{1.2}$} &   10.565   &   1.013   &  -1.185  &   -0.184   &   -0.052   &  0.038   &  0.788   &  0.422  &  0.097  &  0.081",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-4-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,32,33,table:fRM,"\hline
+\textbf{$R_{1.4}$} &   8.687   &   1.398   &  -0.934  &   0.096   &   -0.13   &  0.032   &  0.835   &  0.37  &  0.083  &  0.075",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-6-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,33,34,table:fRM,"\hline
+\textbf{$R_{1.6}$} &   7.019   &   1.756   &  -0.721  &   0.468   &   -0.222   &  0.028   &  0.872   &  0.306  &  0.074  &  0.065",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-8-equal-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,34,35,table:fRM,"\hline
+\textbf{$R_{1.8}$} &   6.264   &   1.929   &  -0.645  &   0.881   &   -0.311   &  0.03   &  0.877   &  0.286  &  0.075  &  0.061",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-2-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,37,38,table:fRM,"\hline
+\textbf{$R_{1.2}$} &   8.942   &   0.926   &  -0.926  &   -0.069   &   -0.061   &  0.028   &  0.773   &  0.438  &  0.109  &  0.079",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-4-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,38,39,table:fRM,"\hline
+\textbf{$R_{1.4}$} &   7.356   &   1.321   &  -0.719  &   0.218   &   -0.141   &  0.024   &  0.814   &  0.383  &  0.1  &  0.07",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-6-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,39,40,table:fRM,"\hline
+\textbf{$R_{1.6}$} &   6.107   &   1.666   &  -0.567  &   0.596   &   -0.234   &  0.022   &  0.845   &  0.316  &  0.092  &  0.063",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-frequency-from-radius-f-spiral-khz-r1-8-all-masses,arxiv-1910-10856,tables/tables_combined_fRM.tex,40,41,table:fRM,"\hline
+\textbf{$R_{1.8}$} &   5.846   &   1.75   &  -0.555  &   1.002   &   -0.316   &  0.026   &  0.846   &  0.27  &  0.089  &  0.066",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-2-f-peak-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,7,8,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$} &   52.201   &   -29.769   &  -15.398  &   8.918   &   3.333   &  1.832   &  0.945   &  0.52  &  0.191  &  0.131",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-2-f-2-0-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,8,9,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &   29.638   &   -19.343   &  -7.525  &   9.087   &   0.521   &  1.454   &  0.871   &  0.595  &  0.259  &  0.157",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-2-f-spiral-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,9,10,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   41.603   &   -14.538   &  -19.426  &   0.955   &   6.832   &  2.257   &  0.905   &  0.803  &  0.245  &  0.181",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-2-f-peak-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,11,12,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$ } &   56.906   &   -37.252   &  -15.701  &   11.756   &   3.638   &  1.83   &  0.951   &  0.526  &  0.19  &  0.134",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-2-f-2-0-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,12,13,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &   31.374   &   -19.386   &  -9.852  &   9.845   &   -0.763   &  2.753   &  0.918   &  0.646  &  0.218  &  0.167",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-2-f-spiral-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,13,14,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   38.805   &   -20.695   &  -12.612  &   5.561   &   4.366   &  1.212   &  0.898   &  0.737  &  0.275  &  0.18",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-4-f-peak-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,15,16,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$} &    51.229   &   -30.463   &  -14.143  &   9.46   &   3.09   &  1.612   &  0.966   &  0.412  &  0.147  &  0.108",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-4-f-2-0-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,16,17,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &    28.249   &   -17.137   &  -7.399  &   7.988   &   0.9   &  1.22   &  0.912   &  0.506  &  0.205  &  0.147",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-4-f-spiral-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,17,18,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   40.407   &   -14.521   &  -17.99  &   1.256   &   6.435   &  1.958   &  0.926   &  0.731  &  0.212  &  0.167",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-4-f-peak-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,19,20,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$ } &    55.809   &   -37.642   &  -14.473  &   12.15   &   3.41   &  1.609   &  0.968   &  0.493  &  0.154  &  0.109",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-4-f-2-0-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,20,21,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &    30.105   &   -17.84   &  -9.364  &   8.874   &   -0.137   &  2.305   &  0.942   &  0.564  &  0.18  &  0.144",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-4-f-spiral-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,21,22,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   37.684   &   -20.594   &  -11.299  &   5.687   &   4.143   &  0.89   &  0.914   &  0.676  &  0.25  &  0.169",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-6-f-peak-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,23,24,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$} &   41.316   &   -16.654   &  -12.458  &   3.722   &   2.936   &  1.269   &  0.969   &  0.462  &  0.139  &  0.108",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-6-f-2-0-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,24,25,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &   15.271   &   4.123   &  -6.661  &   -1.188   &   1.23   &  0.783   &  0.942   &  0.465  &  0.186  &  0.13",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-6-f-spiral-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,25,26,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &  40.081   &   -18.359   &  -15.205  &   3.98   &   5.187   &  1.544   &  0.941   &  0.706  &  0.197  &  0.152",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-6-f-peak-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,27,28,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$ } &   43.796   &   -19.984   &  -12.921  &   4.674   &   3.371   &  1.26   &  0.969   &  0.526  &  0.144  &  0.117",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-6-f-2-0-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,28,29,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &   17.764   &   2.497   &  -8.797  &   -0.639   &   1.393   &  1.452   &  0.955   &  0.518  &  0.174  &  0.13",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-6-f-spiral-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,29,30,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   30.762   &   -12.647   &  -8.704  &   3.081   &   3.225   &  0.414   &  0.926   &  0.674  &  0.236  &  0.147",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-8-f-peak-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,31,32,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$} &   33.802   &   -3.069   &  -15.522  &   -1.439   &   4.112   &  1.605   &  0.951   &  0.276  &  0.107  &  0.067",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-8-f-2-0-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,32,33,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &    34.725   &   -15.096   &  -15.795  &   4.743   &   2.745   &  3.623   &  0.779   &  0.597  &  0.176  &  0.18",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-8-f-spiral-khz-equal-masses,arxiv-1910-10856,tables/tables_combined.tex,33,34,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   55.934   &   -37.162   &  -17.139  &   7.961   &   9.897   &  -0.382   &  0.951   &  0.212  &  0.117  &  0.05",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-8-f-peak-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,35,36,table:RfM,"\hline
+\textbf{$f_{\mathrm{peak}}$ } &    28.796   &   -7.668   &  -6.631  &   0.516   &   3.478   &  -0.492   &  0.958   &  0.275  &  0.11  &  0.067",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-8-f-2-0-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,36,37,table:RfM,"\hline
+\textbf{$f_{\mathrm{2-0}}$} &  0.747   &   24.015   &  -7.446  &   -6.192   &   -2.413   &  3.136   &  0.83   &  0.569  &  0.184  &  0.17",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-radius-from-frequency-r1-8-f-spiral-khz-all-masses,arxiv-1910-10856,tables/tables_combined.tex,37,38,table:RfM,"\hline
+\textbf{$f_{\mathrm{spiral}}$} &   54.468   &   -38.851   &  -13.993  &   9.305   &   8.453   &  -0.614   &  0.921   &  0.34  &  0.138  &  0.082",deterministic_latex_table_parser,verified
+relation,arxiv-1910-10856-fpeak-lambda-tilde-mchirp-all-masses,arxiv-1910-10856,article.tex,763,766,fpeak2DL,"f_{\rm peak}M_{\rm chirp} = 1.392 - 0.108 M_{\rm chirp} + 51.70 \tilde{\Lambda}^{-1/2},",reviewed_equation_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-sly4-1-35-1-35,arxiv-1106-1616,paper.tex,64,66,tab:models,"\hline
+Sly4  \cite{2001AA...380..151D}  $+\Gamma_{\mathrm{th}}$  & 2.05          &  10.01       & 3.32, 0.20 & 2.33",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-sly4,arxiv-1106-1616,paper.tex,64,66,tab:models,"\hline
+Sly4  \cite{2001AA...380..151D}  $+\Gamma_{\mathrm{th}}$  & 2.05          &  10.01       & 3.32, 0.20 & 2.33",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-apr-1-35-1-35,arxiv-1106-1616,paper.tex,66,67,tab:models,"APR   \cite{1998PhRvC..58.1804A} $+\Gamma_{\mathrm{th}}$  & 2.19          &  9.90        & 3.46, 0.18 & 2.45",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-apr,arxiv-1106-1616,paper.tex,66,67,tab:models,"APR   \cite{1998PhRvC..58.1804A} $+\Gamma_{\mathrm{th}}$  & 2.19          &  9.90        & 3.46, 0.18 & 2.45",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-fps-1-35-1-35,arxiv-1106-1616,paper.tex,67,68,tab:models,FPS   \cite{1981NuPhA.361..502F} $+\Gamma_{\mathrm{th}}$  & 1.80          &  9.30        & x          & x,reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-fps,arxiv-1106-1616,paper.tex,67,68,tab:models,FPS   \cite{1981NuPhA.361..502F} $+\Gamma_{\mathrm{th}}$  & 1.80          &  9.30        & x          & x,reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-bbb2-1-35-1-35,arxiv-1106-1616,paper.tex,68,69,tab:models,"BBB2  \cite{1997AA...328..274B}  $+\Gamma_{\mathrm{th}}$  & 1.92          &  9.55        & 3.73, 0.22 & 1.33",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-bbb2,arxiv-1106-1616,paper.tex,68,69,tab:models,"BBB2  \cite{1997AA...328..274B}  $+\Gamma_{\mathrm{th}}$  & 1.92          &  9.55        & 3.73, 0.22 & 1.33",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-glendnh3-1-35-1-35,arxiv-1106-1616,paper.tex,69,70,tab:models,"Glendnh3 \cite{1985ApJ...293..470G}$+\Gamma_{\mathrm{th}}$& 1.96          &  11.48       & 2.33, 0.13 & 1.27",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-glendnh3,arxiv-1106-1616,paper.tex,69,70,tab:models,"Glendnh3 \cite{1985ApJ...293..470G}$+\Gamma_{\mathrm{th}}$& 1.96          &  11.48       & 2.33, 0.13 & 1.27",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-eosau-1-35-1-35,arxiv-1106-1616,paper.tex,70,71,tab:models,eosAU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.14          &  9.45        & x          & x,reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-eosau,arxiv-1106-1616,paper.tex,70,71,tab:models,eosAU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.14          &  9.45        & x          & x,reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-eosc-1-35-1-35,arxiv-1106-1616,paper.tex,71,72,tab:models,"eosC  \cite{1974NuPhA.230....1B} $+\Gamma_{\mathrm{th}}$  & 1.87          &  9.89        & 3.33, 0.22 & 1.27",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-eosc,arxiv-1106-1616,paper.tex,71,72,tab:models,"eosC  \cite{1974NuPhA.230....1B} $+\Gamma_{\mathrm{th}}$  & 1.87          &  9.89        & 3.33, 0.22 & 1.27",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-eosl-1-35-1-35,arxiv-1106-1616,paper.tex,72,73,tab:models,"eosL  \cite{1975PhLB...59...15P} $+\Gamma_{\mathrm{th}}$  & 2.76          &  14.30       & 1.84, 0.10 & 1.38",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-eosl,arxiv-1106-1616,paper.tex,72,73,tab:models,"eosL  \cite{1975PhLB...59...15P} $+\Gamma_{\mathrm{th}}$  & 2.76          &  14.30       & 1.84, 0.10 & 1.38",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-eoso-1-35-1-35,arxiv-1106-1616,paper.tex,73,74,tab:models,"eosO  \cite{1975PhRvD..12.3043B} $+\Gamma_{\mathrm{th}}$  & 2.39          &  11.56       & 2.66, 0.11 & 2.30",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-eoso,arxiv-1106-1616,paper.tex,73,74,tab:models,"eosO  \cite{1975PhRvD..12.3043B} $+\Gamma_{\mathrm{th}}$  & 2.39          &  11.56       & 2.66, 0.11 & 2.30",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-eosuu-1-35-1-35,arxiv-1106-1616,paper.tex,74,75,tab:models,"eosUU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.21          &  9.84        & 3.50, 0.17 & 2.64",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-eosuu,arxiv-1106-1616,paper.tex,74,75,tab:models,"eosUU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.21          &  9.84        & 3.50, 0.17 & 2.64",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-eosws-1-35-1-35,arxiv-1106-1616,paper.tex,75,76,tab:models,eosWS \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 1.85          &  9.58        & x          & x,reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-eosws,arxiv-1106-1616,paper.tex,75,76,tab:models,eosWS \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 1.85          &  9.58        & x          & x,reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-ska-1-35-1-35,arxiv-1106-1616,paper.tex,76,77,tab:models,"SKA   \cite{1991NuPhA.535..331L} $+\Gamma_{\mathrm{th}}$  & 2.21          &  11.17       & 2.64, 0.13 & 1.96",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-ska,arxiv-1106-1616,paper.tex,76,77,tab:models,"SKA   \cite{1991NuPhA.535..331L} $+\Gamma_{\mathrm{th}}$  & 2.21          &  11.17       & 2.64, 0.13 & 1.96",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-shen-1-35-1-35,arxiv-1106-1616,paper.tex,77,78,tab:models,"Shen  \cite{1998NuPhA.637..435S}                          & 2.24          &  12.63       & 2.19, 0.15 & 1.43",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-shen,arxiv-1106-1616,paper.tex,77,78,tab:models,"Shen  \cite{1998NuPhA.637..435S}                          & 2.24          &  12.63       & 2.19, 0.15 & 1.43",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-ls180-1-35-1-35,arxiv-1106-1616,paper.tex,78,79,tab:models,"LS180 \cite{1991NuPhA.535..331L}                          & 1.83          &  10.04       & 3.26, 0.25 & 1.19",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-ls180,arxiv-1106-1616,paper.tex,78,79,tab:models,"LS180 \cite{1991NuPhA.535..331L}                          & 1.83          &  10.04       & 3.26, 0.25 & 1.19",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-ls220-1-35-1-35,arxiv-1106-1616,paper.tex,79,80,tab:models,"LS220 \cite{1991NuPhA.535..331L}                          & 2.04          &  10.61       & 2.89, 0.21 & 1.63",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-ls220,arxiv-1106-1616,paper.tex,79,80,tab:models,"LS220 \cite{1991NuPhA.535..331L}                          & 2.04          &  10.61       & 2.89, 0.21 & 1.63",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-ls375-1-35-1-35,arxiv-1106-1616,paper.tex,80,81,tab:models,"LS375 \cite{1991NuPhA.535..331L}                          & 2.71          &  12.34       & 2.40, 0.13 & 1.82",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-ls375,arxiv-1106-1616,paper.tex,80,81,tab:models,"LS375 \cite{1991NuPhA.535..331L}                          & 2.71          &  12.34       & 2.40, 0.13 & 1.82",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-gs1-1-35-1-35,arxiv-1106-1616,paper.tex,81,82,tab:models,"GS1   \cite{2011PhRvC..83c5802S}                          & 2.75          &  13.27       & 2.10, 0.12 & 1.46",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-gs1,arxiv-1106-1616,paper.tex,81,82,tab:models,"GS1   \cite{2011PhRvC..83c5802S}                          & 2.75          &  13.27       & 2.10, 0.12 & 1.46",reviewed_paper_table_adapter,verified
+waveform,arxiv-1106-1616-bauswein2012-gs2-1-35-1-35,arxiv-1106-1616,paper.tex,82,83,tab:models,"GS2   \cite{2011PhRvC..83f5808S}                          & 2.09          &  11.78       & 2.53, 0.12 & 2.15",reviewed_paper_table_adapter,verified
+eos,arxiv-1106-1616-eos-gs2,arxiv-1106-1616,paper.tex,82,83,tab:models,"GS2   \cite{2011PhRvC..83f5808S}                          & 2.09          &  11.78       & 2.53, 0.12 & 2.15",reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-sly-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,237,239,tab:conf,"\hline
+    SLy-135135    & SLy & 2.70  & 1.00  & 3.48  & 4.628  & 74",reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-sly-145125-1-45-1-25,arxiv-1504-01764,paper20150817.tex,239,240,tab:conf,SLy-145125    & SLy & 2.70  & 1.16  & 3.42  & 4.548 & 75,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-eng-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,240,241,tab:conf,ENG-135135    & ENG & 2.70  & 1.00  & 2.86  & 3.803 & 91,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-sly-140120-1-4018433179723502-1-19815668202765,arxiv-1504-01764,paper20150817.tex,241,242,tab:conf,SLy-140120    & SLy & 2.60  & 1.17  & 3.05  & 3.906 & 96,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-mpa1-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,242,243,tab:conf,MPA1-135135   & MPA1 & 2.70  & 1.00  & 2.57  & 3.418 & 115,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-sly-140110-1-3986784140969162-1-1013215859030836,arxiv-1504-01764,paper20150817.tex,243,244,tab:conf,SLy-140110    & SLy & 2.50  & 1.27  & 2.79  & 3.426 & 126,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-alf2-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,244,245,tab:conf,ALF2-135135   & ALF2 & 2.70  & 1.00  & 2.73  & 3.630 & 138,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-alf2-145125-1-45-1-25,arxiv-1504-01764,paper20150817.tex,245,246,tab:conf,ALF2-145125   & ALF2 & 2.70  & 1.16  & 2.66  & 3.537 & 140,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-h4-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,246,247,tab:conf,H4-135135     & H4 & 2.70  & 1.00  & 2.50  & 3.325 & 211,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-h4-145125-1-45-1-25,arxiv-1504-01764,paper20150817.tex,247,248,tab:conf,H4-145125     & H4 & 2.70  & 1.16  & 2.36  & 3.138 & 212,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-alf2-140110-1-3986784140969162-1-1013215859030836,arxiv-1504-01764,paper20150817.tex,248,249,tab:conf,ALF2-140110   & ALF2 & 2.50  & 1.27  & 2.38  & 2.931 & 216,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-ms1b-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,249,250,tab:conf,MS1b-135135$^*$   & MS1b & 2.70  & 1.00  & 2.00  & 2.660 & 290,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-ms1-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,250,251,tab:conf,MS1-135135$^*$    & MS1 & 2.70  & 1.00  & 1.95  & 2.593 & 327,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-ms1-145125-1-45-1-25,arxiv-1504-01764,paper20150817.tex,251,252,tab:conf,MS1-145125$^*$    & MS1 & 2.70  & 1.16  & 2.06  & 2.740 & 331,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-2h-135135-1-35-1-35,arxiv-1504-01764,paper20150817.tex,252,253,tab:conf,2H-135135$^*$     & 2H & 2.70  & 1.00  & 1.87  & 2.561 & 439,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-ms1b-140110-1-3986784140969162-1-1013215859030836,arxiv-1504-01764,paper20150817.tex,253,254,tab:conf,MS1b-140110$^*$   & MS1b & 2.50  & 1.27  & 2.08  & 2.487 & 441,reviewed_paper_table_adapter,verified
+waveform,arxiv-1504-01764-bernuzzi2015-ms1b-150100-1-5-1-0,arxiv-1504-01764,paper20150817.tex,254,255,tab:conf,MS1b-150100$^*$   & MS1b & 2.50  & 1.50  & 1.87  & 2.303 & 461,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h135-135-1-35-1-35,arxiv-1907-03790,paper.tex,761,763,tb:fpeak,"\hline\
+15H135-135   & 4.14 & 1503$\pm$30 & 0.226$\pm$0.005 & 2321$\pm$116 & (7.90$\pm 0.16)\times 10^{-3}$ & 1.35$\times 10^{-2}$ & 0.40  & 6.64$\pm 0.07$  & $1.65\times 10^{-2}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h135-135-1-35-1-35,arxiv-1907-03790,paper.tex,763,764,tb:fpeak,125H135-135  & 3.87 & 1652$\pm$33 & 0.236$\pm$0.005 & 2517$\pm$126 & (9.04$\pm 0.18)\times 10^{-3}$ & 1.76$\times 10^{-2}$ & 0.48  & 6.54$\pm 0.07$  & $1.64\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h135-135-1-35-1-35,arxiv-1907-03790,paper.tex,764,765,tb:fpeak,H135-135     & 3.60 & 1820$\pm$36 & 0.249$\pm$0.005 & 2790$\pm$139 & (1.03$\pm 0.02)\times 10^{-2}$ & 2.32$\times 10^{-2}$ & 0.56  & 6.46$\pm 0.06$  & $1.63\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb135-135-1-35-1-35,arxiv-1907-03790,paper.tex,765,766,tb:fpeak,HB135-135    & 3.35 & 1986$\pm$40 & 0.261$\pm$0.005 & 3243$\pm$162 & (1.17$\pm 0.02)\times 10^{-2}$ & 2.89$\times 10^{-2}$ & 0.59  & 6.39$\pm 0.06$  & $1.64\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b135-135-1-35-1-35,arxiv-1907-03790,paper.tex,766,767,tb:fpeak,B135-135     & 3.11 & 2133$\pm$43 & 0.274$\pm$0.005 & --           & (1.30$\pm 0.03)\times 10^{-2}$ & 7.39$\times 10^{-3}$ & 0.13  & 6.33$\pm 0.06$  & $1.65\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h121-151-1-21-1-51,arxiv-1907-03790,paper.tex,767,768,tb:fpeak,15H121-151   & 4.13 & 1356$\pm$27 & 0.212$\pm$0.004 & 2261$\pm$163 & (7.47$\pm 0.15)\times 10^{-3}$ & 5.47$\times 10^{-3}$ & 0.17  & 6.66$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h121-151-1-21-1-51,arxiv-1907-03790,paper.tex,768,769,tb:fpeak,125H121-151  & 3.86 & 1490$\pm$30 & 0.224$\pm$0.004 & 2379$\pm$119 & (8.53$\pm 0.17)\times 10^{-3}$ & 8.24$\times 10^{-3}$ & 0.23  & 6.57$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h121-151-1-21-1-51,arxiv-1907-03790,paper.tex,769,770,tb:fpeak,H121-151     & 3.60 & 1637$\pm$33 & 0.236$\pm$0.005 & 2749$\pm$137 & (9.70$\pm 0.19)\times 10^{-3}$ & 1.05$\times 10^{-2}$ & 0.26  & 6.49$\pm 0.06$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb121-151-1-21-1-51,arxiv-1907-03790,paper.tex,770,771,tb:fpeak,HB121-151    & 3.35 & 1809$\pm$36 & 0.249$\pm$0.005 & 3268$\pm$161 & (1.10$\pm 0.02)\times 10^{-2}$ & 2.26$\times 10^{-2}$ & 0.48  & 6.41$\pm 0.06$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b121-151-1-21-1-51,arxiv-1907-03790,paper.tex,771,772,tb:fpeak,B121-151     & 3.11 & 1994$\pm$40 & 0.263$\pm$0.005 & --           & (1.23$\pm 0.02)\times 10^{-2}$ & 6.85$\times 10^{-3}$ & 0.13  & 6.35$\pm 0.06$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h125-125-1-25-1-25,arxiv-1907-03790,paper.tex,772,773,tb:fpeak,15H125-125   & 4.51 & 1450$\pm$29 & 0.211$\pm$0.004 & 2159$\pm$108 & (6.26$\pm 0.13)\times 10^{-3}$ & 7.98$\times 10^{-3}$ & 0.25  & 5.95$\pm 0.06$  & $1.53\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h125-125-1-25-1-25,arxiv-1907-03790,paper.tex,773,774,tb:fpeak,125H125-125  & 4.23 & 1568$\pm$31 & 0.222$\pm$0.004 & 2350$\pm$118 & (7.19$\pm 0.14)\times 10^{-3}$ & 9.29$\times 10^{-3}$ & 0.27  & 5.87$\pm 0.06$  & $1.53\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h125-125-1-25-1-25,arxiv-1907-03790,paper.tex,774,775,tb:fpeak,H125-125     & 3.95 & 1710$\pm$34 & 0.234$\pm$0.005 & 2749$\pm$137 & (8.15$\pm 0.16)\times 10^{-3}$ & 1.67$\times 10^{-2}$ & 0.42  & 5.80$\pm 0.06$  & $1.52\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb125-125-1-25-1-25,arxiv-1907-03790,paper.tex,775,776,tb:fpeak,HB125-125    & 3.69 & 1900$\pm$38 & 0.245$\pm$0.005 & 2873$\pm$144 & (9.35$\pm 0.19)\times 10^{-3}$ & 1.66$\times 10^{-2}$ & 0.39  & 5.74$\pm 0.06$  & $1.53\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b125-125-1-25-1-25,arxiv-1907-03790,paper.tex,776,777,tb:fpeak,B125-125     & 3.43 & 2099$\pm$42 & 0.257$\pm$0.005 & 3353$\pm$168 & (1.06$\pm 0.02))\times10^{-2}$ & 2.19$\times 10^{-2}$ & 0.44  & 5.69$\pm 0.06$  & $1.53\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h116-158-1-16-1-58,arxiv-1907-03790,paper.tex,777,778,tb:fpeak,15H116-158   & 4.12 & 1273$\pm$26 & 0.205$\pm$0.004 & 2148$\pm$107 & (7.19$\pm 0.14)\times 10^{-3}$ & 4.63$\times 10^{-3}$ & 0.15  & 6.84$\pm 0.07$  & $1.65\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h116-158-1-16-1-58,arxiv-1907-03790,paper.tex,778,779,tb:fpeak,125H116-158  & 3.85 & 1406$\pm$28 & 0.214$\pm$0.004 & 2276$\pm$124 & (8.20$\pm 0.16)\times 10^{-3}$ & 1.01$\times 10^{-2}$ & 0.28  & 6.76$\pm 0.07$  & $1.65\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h116-158-1-16-1-58,arxiv-1907-03790,paper.tex,779,780,tb:fpeak,H116-158     & 3.60 & 1540$\pm$31 & 0.227$\pm$0.005 & 2767$\pm$138 & (9.30$\pm 0.19)\times 10^{-3}$ & 1.23$\times 10^{-2}$ & 0.31  & 6.69$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb116-158-1-16-1-58,arxiv-1907-03790,paper.tex,780,781,tb:fpeak,HB116-158    & 3.35 & 1709$\pm$34 & 0.240$\pm$0.005 & 3242$\pm$162 & (1.05$\pm 0.02)\times 10^{-2}$ & 1.40$\times 10^{-2}$ & 0.30  & 6.63$\pm 0.06$  & $1.65\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b116-158-1-16-1-58,arxiv-1907-03790,paper.tex,781,782,tb:fpeak,B116-158     & 3.11 & 1885$\pm$37 & 0.254$\pm$0.005 & --           & (1.18$\pm 0.02)\times 10^{-2}$ & 4.64$\times 10^{-3}$ & 0.10  & 6.58$\pm 0.07$  & $1.65\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h125-146-1-25-1-46,arxiv-1907-03790,paper.tex,782,783,tb:fpeak,15H125-146   & 4.13 & 1401$\pm$28 & 0.214$\pm$0.004 & 2336$\pm$117 & (7.62$\pm 0.02)\times 10^{-3}$ & 1.01$\times 10^{-2}$ & 0.30  & 6.81$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h125-146-1-25-1-46,arxiv-1907-03790,paper.tex,783,784,tb:fpeak,125H125-146  & 3.86 & 1560$\pm$31 & 0.226$\pm$0.005 & 2576$\pm$129 & (8.77$\pm 0.18)\times 10^{-3}$ & 1.26$\times 10^{-2}$ & 0.34  & 6.73$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h125-146-1-25-1-46,arxiv-1907-03790,paper.tex,784,785,tb:fpeak,H125-146     & 3.60 & 1691$\pm$34 & 0.238$\pm$0.003 & 2827$\pm$141 & (9.91$\pm 0.20)\times 10^{-3}$ & 1.89$\times 10^{-2}$ & 0.45  & 6.66$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb125-146-1-25-1-46,arxiv-1907-03790,paper.tex,785,786,tb:fpeak,HB125-146    & 3.35 & 1856$\pm$37 & 0.252$\pm$0.005 & 3251$\pm$163 & (1.12$\pm 0.20)\times 10^{-2}$ & 2.50$\times 10^{-2}$ & 0.52  & 6.60$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b125-146-1-25-1-46,arxiv-1907-03790,paper.tex,786,787,tb:fpeak,B125-146     & 3.11 & 2039$\pm$41 & 0.265$\pm$0.005 & --           & (1.26$\pm 0.25)\times 10^{-2}$ & 7.99$\times 10^{-3}$ & 0.14  & 6.56$\pm 0.06$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h118-155-1-18-1-55,arxiv-1907-03790,paper.tex,787,788,tb:fpeak,15H118-155   & 4.12 & 1308$\pm$26 & 0.206$\pm$0.004 & 2161$\pm$108 & (7.31$\pm 0.15)\times 10^{-3}$ & 5.72$\times 10^{-3}$ & 0.18  & 6.83$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h118-155-1-18-1-55,arxiv-1907-03790,paper.tex,788,789,tb:fpeak,125H118-155  & 3.86 & 1441$\pm$29 & 0.218$\pm$0.004 & 2358$\pm$118 & (8.35$\pm 0.17)\times 10^{-3}$ & 7.12$\times 10^{-3}$ & 0.21  & 6.75$\pm 0.07$  & $1.67\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h118-155-1-18-1-55,arxiv-1907-03790,paper.tex,789,790,tb:fpeak,H118-155     & 3.60 & 1590$\pm$32 & 0.230$\pm$0.005 & 2782$\pm$139 & (9.49$\pm 0.19)\times 10^{-3}$ & 1.59$\times 10^{-2}$ & 0.39  & 6.68$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb118-155-1-18-1-55,arxiv-1907-03790,paper.tex,790,791,tb:fpeak,HB118-155    & 3.35 & 1759$\pm$35 & 0.243$\pm$0.005 & 3259$\pm$163 & (1.08$\pm 0.02)\times 10^{-2}$ & 2.03$\times 10^{-2}$ & 0.43  & 6.62$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b118-155-1-18-1-55,arxiv-1907-03790,paper.tex,791,792,tb:fpeak,B118-155     & 3.11 & 1942$\pm$39 & 0.257$\pm$0.005 & --           & (1.20$\pm 0.02)\times 10^{-2}$ & 5.54$\times 10^{-3}$ & 0.11  & 6.66$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h117-156-1-17-1-56,arxiv-1907-03790,paper.tex,792,793,tb:fpeak,15H117-156   & 4.11 & 1293$\pm$26 & 0.204$\pm$0.004 & 2161$\pm$108 & (7.26$\pm 0.15)\times 10^{-3}$ & 5.09$\times 10^{-3}$ & 0.17  & 6.83$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h117-156-1-17-1-56,arxiv-1907-03790,paper.tex,793,794,tb:fpeak,125H117-156  & 3.84 & 1425$\pm$29 & 0.216$\pm$0.004 & 2416$\pm$121 & (8.30$\pm 0.17)\times 10^{-3}$ & 8.09$\times 10^{-3}$ & 0.23  & 6.76$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h117-156-1-17-1-56,arxiv-1907-03790,paper.tex,794,795,tb:fpeak,H117-156     & 3.58 & 1574$\pm$32 & 0.229$\pm$0.005 & 2775$\pm$139 & (9.43$\pm 0.19)\times 10^{-3}$ & 1.39$\times 10^{-2}$ & 0.34  & 6.69$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb117-156-1-17-1-56,arxiv-1907-03790,paper.tex,795,796,tb:fpeak,HB117-156    & 3.34 & 1724$\pm$35 & 0.242$\pm$0.005 & 3201$\pm$160 & (1.06$\pm 0.02)\times 10^{-2}$ & 1.61$\times 10^{-2}$ & 0.35  & 6.62$\pm 0.07$  & $1.66\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b117-156-1-17-1-56,arxiv-1907-03790,paper.tex,796,797,tb:fpeak,B117-156     & 3.10 & 1933$\pm$38 & 0.256$\pm$0.005 & --           & (1.20$\pm 0.02)\times 10^{-2}$ & 5.26$\times 10^{-3}$ & 0.11  & 6.58$\pm 0.06$  & $1.64\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h112-140-1-12-1-4,arxiv-1907-03790,paper.tex,797,798,tb:fpeak,15H112-140   & 4.50 & 1281$\pm$26 & 0.197$\pm$0.004 & 2188$\pm$109 & (5.91$\pm 0.12)\times 10^{-3}$ & 5.37$\times 10^{-3}$ & 0.17  & 5.97$\pm 0.06$  & $1.49\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h112-140-1-12-1-4,arxiv-1907-03790,paper.tex,798,799,tb:fpeak,125H112-140  & 4.21 & 1412$\pm$28 & 0.208$\pm$0.004 & 2269$\pm$113 & (6.80$\pm 0.14)\times 10^{-3}$ & 4.80$\times 10^{-3}$ & 0.15  & 5.89$\pm 0.06$  & $1.49\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h112-140-1-12-1-4,arxiv-1907-03790,paper.tex,799,800,tb:fpeak,H112-140     & 3.94 & 1558$\pm$31 & 0.220$\pm$0.004 & 2470$\pm$123 & (7.78$\pm 0.16)\times 10^{-3}$ & 6.18$\times 10^{-3}$ & 0.17  & 5.82$\pm 0.06$  & $1.50\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb112-140-1-12-1-4,arxiv-1907-03790,paper.tex,800,801,tb:fpeak,HB112-140    & 3.68 & 1717$\pm$34 & 0.231$\pm$0.005 & 2791$\pm$140 & (8.84$\pm 0.18)\times 10^{-3}$ & 9.52$\times 10^{-3}$ & 0.23  & 5.76$\pm 0.06$  & $1.50\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b112-140-1-12-1-4,arxiv-1907-03790,paper.tex,801,802,tb:fpeak,B112-140     & 3.43 & 1890$\pm$38 & 0.244$\pm$0.005 & 3271$\pm$164 & (9.98$\pm 0.20)\times 10^{-3}$ & 1.59$\times 10^{-2}$ & 0.33  & 5.71$\pm 0.06$  & $1.52\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-15h107-146-1-07-1-46,arxiv-1907-03790,paper.tex,802,803,tb:fpeak,15H107-146   & 4.50 & 1203$\pm$24 & 0.189$\pm$0.004 & 2054$\pm$103 & (5.70$\pm 0.11)\times 10^{-3}$ & 3.63$\times 10^{-3}$ & 0.13  & 5.99$\pm 0.06$  & $1.51\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-125h107-146-1-07-1-46,arxiv-1907-03790,paper.tex,803,804,tb:fpeak,125H107-146  & 4.22 & 1328$\pm$27 & 0.200$\pm$0.004 & 2291$\pm$115 & (6.57$\pm 0.13)\times 10^{-3}$ & 4.56$\times 10^{-3}$ & 0.14  & 5.91$\pm 0.06$  & $1.50\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-h107-146-1-07-1-46,arxiv-1907-03790,paper.tex,804,805,tb:fpeak,H107-146     & 3.94 & 1475$\pm$30 & 0.212$\pm$0.004 & 2546$\pm$127 & (7.49$\pm 0.15)\times 10^{-3}$ & 7.82$\times 10^{-3}$ & 0.21  & 5.84$\pm 0.06$  & $1.49\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-hb107-146-1-07-1-46,arxiv-1907-03790,paper.tex,805,806,tb:fpeak,HB107-146    & 3.69 & 1620$\pm$32 & 0.224$\pm$0.004 & 2870$\pm$143 & (8.51$\pm 0.17)\times 10^{-3}$ & 1.02$\times 10^{-2}$ & 0.25  & 5.78$\pm 0.06$  & $1.50\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-b107-146-1-07-1-46,arxiv-1907-03790,paper.tex,806,807,tb:fpeak,B107-146     & 3.44 & 1786$\pm$36 & 0.237$\pm$0.005 & 3298$\pm$165 & (9.60$\pm 0.19)\times 10^{-3}$ & 1.29$\times 10^{-2}$ & 0.27  & 5.73$\pm 0.06$  & $1.51\times 10^{-2}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1907-03790-kiuchi2020-sfho135-135-1-35-1-35,arxiv-1907-03790,paper.tex,807,808,tb:fpeak,SFHo135-135  & 3.41 & 1987$\pm$40 & 0.261$\pm$0.005 & 3250$\pm$163 & (1.17$\pm 0.02)\times 10^{-2}$ & 2.91$\times 10^{-3}$ & 0.61  & 6.60$\pm 0.07$  & $1.68\times 10^{-2}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-eos,arxiv-1907-03790,paper.tex,327,327,tb:eos_model,EOS             & $R_{1.07}$ & $R_{1.12}$ & $R_{1.17}$& $R_{1.18}$ & $R_{1.25}$ & $R_{1.35}$ & $R_{1.40}$ &$~R_{1.46}$& $~R_{1.55}$& $~R_{1.56}$ & $M_\text{max}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-15h,arxiv-1907-03790,paper.tex,327,328,tb:eos_model,"\hline
+15H 		& 13.54 & 13.58 & 13.61 & 13.62 & 13.65 & 13.69 & 13.71 & 13.72 & 13.74 & 13.74 & 2.53",reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-125h,arxiv-1907-03790,paper.tex,328,329,tb:eos_model,125H            & 12.86 & 12.89 & 12.91 & 12.92 & 12.94 & 12.97 & 12.98 & 12.99 & 12.98 & 12.98 & 2.38,reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-h,arxiv-1907-03790,paper.tex,329,330,tb:eos_model,H 		& 12.22 & 12.23 & 12.24 & 12.24 & 12.26 & 12.27 & 12.28 & 12.18 & 12.26 & 12.25 & 2.25,reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-hb,arxiv-1907-03790,paper.tex,330,331,tb:eos_model,HB 		& 11.60 & 11.59 & 11.60 & 11.60 & 11.61 & 11.61 & 11.60 & 11.59 & 11.55 & 11.55 & 2.12,reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-b,arxiv-1907-03790,paper.tex,331,332,tb:eos_model,B 		& 10.97 & 10.97 & 10.98 & 10.98 & 10.98 & 10.96 & 10.95 & 10.92 & 10.87 & 10.86 & 2.00,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gam2-q10-m1350-1-35-1-35,arxiv-1412-3240,manuscript.tex,576,579,tab:models,"\hline
+\mn{GAM2-q10-M1350} & $\Gamma=2$ & $1$ & $1.350$ & $16.774$ & $2.6748$ & $1.4336$ & $0.11883$ & $282.47$ & $7.3039$ & $21.158$ & $0.097945$ & $2755.3$ & $980.58$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gam2-q10-m1375-1-375-1-375,arxiv-1412-3240,manuscript.tex,579,580,tab:models,\mn{GAM2-q10-M1375} & $\Gamma=2$ & $1$ & $1.375$ & $16.664$ & $2.7239$ & $1.4623$ & $0.12183$ & $284.37$ & $7.5274$ & $20.203$ & $0.095091$ & $2361.6$ & $999.43$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gam2-q10-m1400-1-4-1-4,arxiv-1412-3240,manuscript.tex,580,581,tab:models,\mn{GAM2-q10-M1400} & $\Gamma=2$ & $1$ & $1.400$ & $16.550$ & $2.7730$ & $1.4911$ & $0.12490$ & $286.25$ & $7.7540$ & $19.296$ & $0.092229$ & $2023.0$ & $1018.8$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gam2-q10-m1425-1-425-1-425,arxiv-1412-3240,manuscript.tex,581,582,tab:models,\mn{GAM2-q10-M1425} & $\Gamma=2$ & $1$ & $1.425$ & $16.434$ & $2.8221$ & $1.5200$ & $0.12803$ & $288.10$ & $7.9838$ & $18.434$ & $0.089356$ & $1731.5$ & $1038.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gam2-q10-m1450-1-45-1-45,arxiv-1412-3240,manuscript.tex,582,583,tab:models,\mn{GAM2-q10-M1450} & $\Gamma=2$ & $1$ & $1.450$ & $16.313$ & $2.8712$ & $1.5491$ & $0.13125$ & $289.93$ & $8.2167$ & $17.612$ & $0.086470$ & $1480.3$ & $1059.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gnh3-q10-m1250-1-25-1-25,arxiv-1412-3240,manuscript.tex,583,586,tab:models,"\hline
+\mn{GNH3-q10-M1250} & GNH3 & $1$ & $1.250$ & $13.817$ & $2.4780$ & $1.3464$ & $0.13358$ & $273.29$ & $6.4067$ & $18.890$ & $0.11753$  & $1842.4$ & $1262.1$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gnh3-q10-m1275-1-275-1-275,arxiv-1412-3240,manuscript.tex,586,587,tab:models,\mn{GNH3-q10-M1275} & GNH3 & $1$ & $1.275$ & $13.810$ & $2.5271$ & $1.3756$ & $0.13632$ & $275.38$ & $6.6187$ & $18.237$ & $0.11531$  & $1633.0$ & $1275.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gnh3-q10-m1300-1-3-1-3,arxiv-1412-3240,manuscript.tex,587,588,tab:models,\mn{GNH3-q10-M1300} & GNH3 & $1$ & $1.300$ & $13.801$ & $2.5763$ & $1.4050$ & $0.13908$ & $277.44$ & $6.8340$ & $17.614$ & $0.11305$  & $1448.1$ & $1289.4$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gnh3-q10-m1325-1-325-1-325,arxiv-1412-3240,manuscript.tex,588,589,tab:models,\mn{GNH3-q10-M1325} & GNH3 & $1$ & $1.325$ & $13.790$ & $2.6255$ & $1.4345$ & $0.14187$ & $279.53$ & $7.0538$ & $17.019$ & $0.11075$  & $1284.7$ & $1303.2$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gnh3-q10-m1350-1-35-1-35,arxiv-1412-3240,manuscript.tex,589,590,tab:models,\mn{GNH3-q10-M1350} & GNH3 & $1$ & $1.350$ & $13.777$ & $2.6746$ & $1.4641$ & $0.14468$ & $281.58$ & $7.2766$ & $16.450$ & $0.10841$  & $1139.9$ & $1317.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-gnh3-q09-m1300-1-3499971442368102-1-2500028557631897,arxiv-1412-3240,manuscript.tex,590,592,tab:models,\mn{GNH3-q09-M1300} & GNH3 & $0.92593$ & $1.300$ & $13.797$ & $2.5763$ & $1.4052$ & $0.13912$ & $277.51$ & $6.8255$ & $17.607$ & $0.11297$ & $1445.2$ & $1289.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-h4-q10-m1250-1-25-1-25,arxiv-1412-3240,manuscript.tex,592,595,tab:models,"\hline
+\mn{H4-q10-M1250}   & H4   & $1$ & $1.250$ & $13.533$ & $2.4780$ & $1.3506$ & $0.13638$ & $273.25$ & $6.4058$ & $18.610$ & $0.12361$  & $1746.5$ & $1302.1$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-h4-q10-m1275-1-275-1-275,arxiv-1412-3240,manuscript.tex,595,596,tab:models,\mn{H4-q10-M1275}   & H4   & $1$ & $1.275$ & $13.539$ & $2.5271$ & $1.3799$ & $0.13904$ & $275.40$ & $6.6191$ & $18.004$ & $0.12147$  & $1558.3$ & $1314.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-h4-q10-m1300-1-3-1-3,arxiv-1412-3240,manuscript.tex,596,597,tab:models,\mn{H4-q10-M1300}   & H4   & $1$ & $1.300$ & $13.544$ & $2.5763$ & $1.4094$ & $0.14172$ & $277.52$ & $6.8356$ & $17.426$ & $0.11930$  & $1391.4$ & $1326.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-h4-q10-m1325-1-325-1-325,arxiv-1412-3240,manuscript.tex,597,598,tab:models,\mn{H4-q10-M1325}   & H4   & $1$ & $1.325$ & $13.548$ & $2.6255$ & $1.4390$ & $0.14440$ & $279.60$ & $7.0552$ & $16.873$ & $0.11708$  & $1243.1$ & $1338.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-h4-q10-m1350-1-35-1-35,arxiv-1412-3240,manuscript.tex,598,599,tab:models,\mn{H4-q10-M1350}   & H4   & $1$ & $1.350$ & $13.550$ & $2.6746$ & $1.4687$ & $0.14711$ & $281.61$ & $7.2770$ & $16.344$ & $0.11483$  & $1111.1$ & $1350.6$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-alf2-q10-m1225-1-225-1-225,arxiv-1412-3240,manuscript.tex,599,602,tab:models,"\hline
+\mn{ALF2-q10-M1225} & ALF2 & $1$ & $1.225$ & $12.252$ & $2.4288$ & $1.3373$ & $0.14762$ & $271.00$ & $6.1923$ & $16.975$ & $0.13290$  & $1263.8$ & $1496.2$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-alf2-q10-m1250-1-25-1-25,arxiv-1412-3240,manuscript.tex,602,603,tab:models,\mn{ALF2-q10-M1250} & ALF2 & $1$ & $1.250$ & $12.276$ & $2.4779$ & $1.3672$ & $0.15034$ & $273.16$ & $6.4014$ & $16.455$ & $0.13049$  & $1132.6$ & $1507.0$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-alf2-q10-m1275-1-275-1-275,arxiv-1412-3240,manuscript.tex,603,604,tab:models,\mn{ALF2-q10-M1275} & ALF2 & $1$ & $1.275$ & $12.298$ & $2.5271$ & $1.3971$ & $0.15307$ & $275.12$ & $6.6103$ & $15.957$ & $0.12803$  & $1015.6$ & $1517.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-alf2-q10-m1300-1-3-1-3,arxiv-1412-3240,manuscript.tex,604,605,tab:models,\mn{ALF2-q10-M1300} & ALF2 & $1$ & $1.300$ & $12.319$ & $2.5763$ & $1.4272$ & $0.15582$ & $277.26$ & $6.8274$ & $15.480$ & $0.12552$  & $911.00$ & $1529.0$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-alf2-q10-m1325-1-325-1-325,arxiv-1412-3240,manuscript.tex,605,606,tab:models,\mn{ALF2-q10-M1325} & ALF2 & $1$ & $1.325$ & $12.337$ & $2.6254$ & $1.4574$ & $0.15858$ & $279.36$ & $7.0475$ & $15.021$ & $0.12297$  & $817.44$ & $1540.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-sly-q10-m1250-1-25-1-25,arxiv-1412-3240,manuscript.tex,606,609,tab:models,"\hline
+\mn{SLy-q10-M1250}  & SLy  & $1$ & $1.250$ & $11.469$ & $2.4779$ & $1.3720$ & $0.16092$ & $273.04$ & $6.3977$ & $14.000$ & $0.10266$  & $634.27$ & $1668.8$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-sly-q10-m1275-1-275-1-275,arxiv-1412-3240,manuscript.tex,609,610,tab:models,\mn{SLy-q10-M1275}  & SLy  & $1$ & $1.275$ & $11.470$ & $2.5271$ & $1.4024$ & $0.16413$ & $275.20$ & $6.6110$ & $13.545$ & $0.10025$  & $561.11$ & $1685.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-sly-q10-m1300-1-3-1-3,arxiv-1412-3240,manuscript.tex,610,611,tab:models,\mn{SLy-q10-M1300}  & SLy  & $1$ & $1.300$ & $11.469$ & $2.5763$ & $1.4330$ & $0.16736$ & $277.34$ & $6.8275$ & $13.113$ & $0.097835$ & $496.81$ & $1701.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-sly-q10-m1325-1-325-1-325,arxiv-1412-3240,manuscript.tex,611,612,tab:models,\mn{SLy-q10-M1325}  & SLy  & $1$ & $1.325$ & $11.468$ & $2.6254$ & $1.4637$ & $0.17060$ & $279.36$ & $7.0455$ & $12.702$ & $0.095415$ & $440.20$ & $1718.5$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-sly-q10-m1350-1-35-1-35,arxiv-1412-3240,manuscript.tex,612,613,tab:models,\mn{SLy-q10-M1350}  & SLy  & $1$ & $1.350$ & $11.465$ & $2.6745$ & $1.4946$ & $0.17386$ & $281.34$ & $7.2663$ & $12.309$ & $0.092993$ & $390.29$ & $1735.2$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-sly-q09-m1300-1-3499971442368102-1-2500028557631897,arxiv-1412-3240,manuscript.tex,613,615,tab:models,\mn{SLy-q09-M1300}  & SLy  & $0.92593$ & $1.300$ & $11.467$ & $2.5763$ & $1.4333$ & $0.16739$ & $277.23$ & $6.8154$ & $13.115$ & $0.097828$ & $496.28$ & $1702.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-apr4-q10-m1275-1-275-1-275,arxiv-1412-3240,manuscript.tex,615,618,tab:models,"\hline
+\mn{APR4-q10-M1275} & APR4 & $1$ & $1.275$ & $11.060$ & $2.5271$ & $1.4090$ & $0.17022$ & $275.22$ & $6.6107$ & $12.821$ & $0.097595$ & $455.30$ & $1779.9$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-apr4-q10-m1300-1-3-1-3,arxiv-1412-3240,manuscript.tex,618,619,tab:models,\mn{APR4-q10-M1300} & APR4 & $1$ & $1.300$ & $11.067$ & $2.5763$ & $1.4399$ & $0.17344$ & $277.24$ & $6.8245$ & $12.436$ & $0.095396$ & $405.19$ & $1795.5$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-apr4-q10-m1325-1-325-1-325,arxiv-1412-3240,manuscript.tex,619,620,tab:models,\mn{APR4-q10-M1325} & APR4 & $1$ & $1.325$ & $11.073$ & $2.6254$ & $1.4709$ & $0.17667$ & $279.31$ & $7.0437$ & $12.070$ & $0.093194$ & $360.93$ & $1811.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-apr4-q10-m1350-1-35-1-35,arxiv-1412-3240,manuscript.tex,620,621,tab:models,\mn{APR4-q10-M1350} & APR4 & $1$ & $1.350$ & $11.079$ & $2.6746$ & $1.5020$ & $0.17992$ & $281.37$ & $7.2665$ & $11.720$ & $0.090990$ & $321.78$ & $1826.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1412-3240-takami2015-apr4-q10-m1375-1-375-1-375,arxiv-1412-3240,manuscript.tex,621,622,tab:models,\mn{APR4-q10-M1375} & APR4 & $1$ & $1.375$ & $11.084$ & $2.7237$ & $1.5334$ & $0.18317$ & $283.39$ & $7.4924$ & $11.387$ & $0.088786$ & $287.10$ & $1842.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1200-1-2-1-2,arxiv-1604-00246,manuscript.tex,1581,1584,tab:models,"\hline
+\mn{GNH3-q10-M1200} & GNH3 & $1.000$ & $1.200$ & $13.827$ & $2.3796$ & $1.2882$ & $0.12814$ & $268.89$ & $5.9899$ & $1.0579$ & $20.298$ & $0.12184$  & $2351.1$ & $1235.2$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1225-1-225-1-225,arxiv-1604-00246,manuscript.tex,1584,1585,tab:models,\mn{GNH3-q10-M1225} & GNH3 & $1.000$ & $1.225$ & $13.823$ & $2.4288$ & $1.3172$ & $0.13085$ & $2.7111$ & $6.1967$ & $1.0505$ & $19.575$ & $0.11970$  & $2080.2$ & $1248.6$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1250-1-25-1-25,arxiv-1604-00246,manuscript.tex,1585,1586,tab:models,\mn{GNH3-q10-M1250} & GNH3 & $1.000$ & $1.250$ & $13.817$ & $2.4780$ & $1.3464$ & $0.13358$ & $273.29$ & $6.4067$ & $1.0434$ & $18.890$ & $0.11753$  & $1842.4$ & $1262.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1275-1-275-1-275,arxiv-1604-00246,manuscript.tex,1586,1587,tab:models,\mn{GNH3-q10-M1275} & GNH3 & $1.000$ & $1.275$ & $13.810$ & $2.5271$ & $1.3756$ & $0.13632$ & $275.38$ & $6.6187$ & $1.0364$ & $18.237$ & $0.11531$  & $1633.0$ & $1275.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1300-1-3-1-3,arxiv-1604-00246,manuscript.tex,1587,1588,tab:models,\mn{GNH3-q10-M1300} & GNH3 & $1.000$ & $1.300$ & $13.801$ & $2.5763$ & $1.4050$ & $0.13908$ & $277.44$ & $6.8340$ & $1.0296$ & $17.614$ & $0.11305$  & $1448.1$ & $1289.4$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1325-1-325-1-325,arxiv-1604-00246,manuscript.tex,1588,1589,tab:models,\mn{GNH3-q10-M1325} & GNH3 & $1.000$ & $1.325$ & $13.790$ & $2.6255$ & $1.4345$ & $0.14187$ & $279.53$ & $7.0538$ & $1.0233$ & $17.019$ & $0.11075$  & $1284.7$ & $1303.2$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1350-1-35-1-35,arxiv-1604-00246,manuscript.tex,1589,1590,tab:models,\mn{GNH3-q10-M1350} & GNH3 & $1.000$ & $1.350$ & $13.777$ & $2.6746$ & $1.4641$ & $0.14468$ & $281.58$ & $7.2766$ & $1.0172$ & $16.450$ & $0.10841$  & $1139.9$ & $1317.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1375-1-375-1-375,arxiv-1604-00246,manuscript.tex,1590,1592,tab:models,\mn{GNH3-q10-M1375} & GNH3 & $1.000$ & $1.375$ & $13.762$ & $2.7237$ & $1.4938$ & $0.14753$ & $283.58$ & $7.5023$ & $1.0113$ & $15.904$ & $0.10602$  & $1011.5$ & $1331.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1400-1-4-1-4,arxiv-1604-00246,manuscript.tex,1592,1593,tab:models,\mn{GNH3-q10-M1400} & GNH3 & $1.000$ & $1.400$ & $13.744$ & $2.7729$ & $1.5236$ & $0.15040$ & $285.56$ & $7.7311$ & $1.0055$ & $15.381$ & $0.10359$  & $897.44$ & $1346.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q10-m1500-1-5-1-5,arxiv-1604-00246,manuscript.tex,1593,1594,tab:models,\mn{GNH3-q10-M1500} & GNH3 & $1.000$ & $1.500$ & $13.648$ & $2.9692$ & $1.6442$ & $0.16228$ & $293.15$ & $8.6778$ & $0.9843$ & $13.479$ & $0.09347$  & $553.71$ & $1408.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q09-m1300-1-3499480789200415-1-2500519210799586,arxiv-1604-00246,manuscript.tex,1594,1596,tab:models,\mn{GNH3-q09-M1300} & GNH3 & $0.926$ & $1.300$ & $13.797$ & $2.5763$ & $1.4052$ & $0.13912$ & $277.51$ & $6.8255$ & $1.0283$ & $17.607$ & $0.11297$  & $1445.0$ & $1289.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-gnh3-q08-m1275-1-400329489291598-1-1496705107084018,arxiv-1604-00246,manuscript.tex,1596,1597,tab:models,\mn{GNH3-q08-M1275} & GNH3 & $0.821$ & $1.275$ & $13.789$ & $2.5274$ & $1.3770$ & $0.13653$ & $275.37$ & $6.5564$ & $1.0264$ & $18.205$ & $0.11483$  & $1613.6$ & $1278.6$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1200-1-2-1-2,arxiv-1604-00246,manuscript.tex,1597,1600,tab:models,"\hline
+\mn{H4-q10-M1200}   & H4   & $1.000$ & $1.200$ & $13.516$ & $2.3796$ & $1.2922$ & $0.13109$ & $268.83$ & $5.9885$ & $1.0576$ & $19.918$ & $0.12779$  & $2200.9$ & $1278.1$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1225-1-225-1-225,arxiv-1604-00246,manuscript.tex,1600,1601,tab:models,\mn{H4-q10-M1225}   & H4   & $1.000$ & $1.225$ & $13.525$ & $2.4288$ & $1.3213$ & $0.13373$ & $271.05$ & $6.1956$ & $1.0503$ & $19.247$ & $0.12571$  & $1959.3$ & $1290.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1250-1-25-1-25,arxiv-1604-00246,manuscript.tex,1601,1602,tab:models,\mn{H4-q10-M1250}   & H4   & $1.000$ & $1.250$ & $13.533$ & $2.4780$ & $1.3506$ & $0.13638$ & $273.25$ & $6.4058$ & $1.0432$ & $18.610$ & $0.12361$  & $1746.5$ & $1302.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1275-1-275-1-275,arxiv-1604-00246,manuscript.tex,1602,1603,tab:models,\mn{H4-q10-M1275}   & H4   & $1.000$ & $1.275$ & $13.539$ & $2.5271$ & $1.3799$ & $0.13904$ & $275.40$ & $6.6191$ & $1.0364$ & $18.004$ & $0.12147$  & $1558.3$ & $1314.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1300-1-3-1-3,arxiv-1604-00246,manuscript.tex,1603,1604,tab:models,\mn{H4-q10-M1300}   & H4   & $1.000$ & $1.300$ & $13.544$ & $2.5763$ & $1.4094$ & $0.14172$ & $277.52$ & $6.8356$ & $1.0299$ & $17.426$ & $0.11930$  & $1391.4$ & $1326.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1325-1-325-1-325,arxiv-1604-00246,manuscript.tex,1604,1605,tab:models,\mn{H4-q10-M1325}   & H4   & $1.000$ & $1.325$ & $13.548$ & $2.6255$ & $1.4390$ & $0.14440$ & $279.60$ & $7.0552$ & $1.0235$ & $16.873$ & $0.11708$  & $1243.1$ & $1338.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1350-1-35-1-35,arxiv-1604-00246,manuscript.tex,1605,1606,tab:models,\mn{H4-q10-M1350}   & H4   & $1.000$ & $1.350$ & $13.550$ & $2.6746$ & $1.4687$ & $0.14711$ & $281.61$ & $7.2770$ & $1.0173$ & $16.344$ & $0.11483$  & $1111.1$ & $1350.6$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1375-1-375-1-375,arxiv-1604-00246,manuscript.tex,1606,1608,tab:models,\mn{H4-q10-M1375}   & H4   & $1.000$ & $1.375$ & $13.550$ & $2.7237$ & $1.4985$ & $0.14983$ & $283.55$ & $7.5010$ & $1.0111$ & $15.837$ & $0.11253$  & $993.41$ & $1363.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1400-1-4-1-4,arxiv-1604-00246,manuscript.tex,1608,1609,tab:models,\mn{H4-q10-M1400}   & H4   & $1.000$ & $1.400$ & $13.548$ & $2.7728$ & $1.5284$ & $0.15258$ & $285.50$ & $7.7293$ & $1.0053$ & $15.350$ & $0.11019$  & $888.32$ & $1375.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-h4-q10-m1500-1-5-1-5,arxiv-1604-00246,manuscript.tex,1609,1610,tab:models,\mn{H4-q10-M1500}   & H4   & $1.000$ & $1.500$ & $13.518$ & $2.9692$ & $1.6494$ & $0.16384$ & $293.13$ & $8.6772$ & $0.9842$ & $13.580$ & $0.10046$  & $567.34$ & $1428.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1200-1-2-1-2,arxiv-1604-00246,manuscript.tex,1610,1613,tab:models,"\hline
+\mn{ALF2-q10-M1200} & ALF2 & $1.000$ & $1.200$ & $12.227$ & $2.3795$ & $1.3076$ & $0.14491$ & $268.76$ & $5.9850$ & $1.0570$ & $17.519$ & $0.13524$  & $1410.9$ & $1485.5$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1225-1-225-1-225,arxiv-1604-00246,manuscript.tex,1613,1614,tab:models,\mn{ALF2-q10-M1225} & ALF2 & $1.000$ & $1.225$ & $12.252$ & $2.4288$ & $1.3373$ & $0.14762$ & $271.00$ & $6.1923$ & $1.0497$ & $16.975$ & $0.13290$  & $1263.8$ & $1496.2$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1250-1-25-1-25,arxiv-1604-00246,manuscript.tex,1614,1615,tab:models,\mn{ALF2-q10-M1250} & ALF2 & $1.000$ & $1.250$ & $12.276$ & $2.4779$ & $1.3672$ & $0.15034$ & $273.16$ & $6.4014$ & $1.0425$ & $16.455$ & $0.13049$  & $1132.6$ & $1507.0$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1275-1-275-1-275,arxiv-1604-00246,manuscript.tex,1615,1616,tab:models,\mn{ALF2-q10-M1275} & ALF2 & $1.000$ & $1.275$ & $12.298$ & $2.5271$ & $1.3971$ & $0.15307$ & $275.12$ & $6.6103$ & $1.0351$ & $15.957$ & $0.12803$  & $1015.6$ & $1517.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1300-1-3-1-3,arxiv-1604-00246,manuscript.tex,1616,1617,tab:models,\mn{ALF2-q10-M1300} & ALF2 & $1.000$ & $1.300$ & $12.319$ & $2.5763$ & $1.4272$ & $0.15582$ & $277.26$ & $6.8274$ & $1.0287$ & $15.480$ & $0.12552$  & $911.00$ & $1529.0$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1325-1-325-1-325,arxiv-1604-00246,manuscript.tex,1617,1618,tab:models,\mn{ALF2-q10-M1325} & ALF2 & $1.000$ & $1.325$ & $12.337$ & $2.6254$ & $1.4574$ & $0.15858$ & $279.36$ & $7.0475$ & $1.0224$ & $15.021$ & $0.12297$  & $817.44$ & $1540.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1350-1-35-1-35,arxiv-1604-00246,manuscript.tex,1618,1619,tab:models,\mn{ALF2-q10-M1350} & ALF2 & $1.000$ & $1.350$ & $12.353$ & $2.6746$ & $1.4877$ & $0.16136$ & $281.42$ & $7.2708$ & $1.0164$ & $14.581$ & $0.12037$  & $733.63$ & $1551.5$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1375-1-375-1-375,arxiv-1604-00246,manuscript.tex,1619,1621,tab:models,\mn{ALF2-q10-M1375} & ALF2 & $1.000$ & $1.375$ & $12.368$ & $2.7237$ & $1.5181$ & $0.16415$ & $283.45$ & $7.4970$ & $1.0106$ & $14.158$ & $0.11773$  & $658.50$ & $1563.0$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1400-1-4-1-4,arxiv-1604-00246,manuscript.tex,1621,1622,tab:models,\mn{ALF2-q10-M1400} & ALF2 & $1.000$ & $1.400$ & $12.380$ & $2.7728$ & $1.5487$ & $0.16697$ & $285.44$ & $7.7266$ & $1.0049$ & $13.750$ & $0.11505$  & $591.07$ & $1574.8$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-alf2-q10-m1500-1-5-1-5,arxiv-1604-00246,manuscript.tex,1622,1623,tab:models,\mn{ALF2-q10-M1500} & ALF2 & $1.000$ & $1.500$ & $12.409$ & $2.9692$ & $1.6723$ & $0.17847$ & $293.14$ & $8.6758$ & $0.9841$ & $12.261$ & $0.10404$  & $383.01$ & $1624.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1200-1-2-1-2,arxiv-1604-00246,manuscript.tex,1623,1626,tab:models,"\hline
+\mn{SLy-q10-M1200}  & SLy  & $1.000$ & $1.200$ & $11.465$ & $2.3795$ & $1.3116$ & $0.15454$ & $268.59$ & $5.9804$ & $1.0562$ & $14.981$ & $0.10746$  & $812.79$ & $1636.0$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1225-1-225-1-225,arxiv-1604-00246,manuscript.tex,1626,1627,tab:models,\mn{SLy-q10-M1225}  & SLy  & $1.000$ & $1.225$ & $11.468$ & $2.4287$ & $1.3417$ & $0.15772$ & $2.7084$ & $6.1874$ & $1.0489$ & $14.478$ & $0.10507$  & $717.63$ & $1652.4$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1250-1-25-1-25,arxiv-1604-00246,manuscript.tex,1627,1628,tab:models,\mn{SLy-q10-M1250}  & SLy  & $1.000$ & $1.250$ & $11.469$ & $2.4779$ & $1.3720$ & $0.16092$ & $273.04$ & $6.3977$ & $1.0420$ & $14.000$ & $0.10266$  & $634.27$ & $1668.8$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1275-1-275-1-275,arxiv-1604-00246,manuscript.tex,1628,1629,tab:models,\mn{SLy-q10-M1275}  & SLy  & $1.000$ & $1.275$ & $11.470$ & $2.5271$ & $1.4024$ & $0.16413$ & $275.20$ & $6.6110$ & $1.0352$ & $13.545$ & $0.10025$  & $561.11$ & $1685.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1300-1-3-1-3,arxiv-1604-00246,manuscript.tex,1629,1630,tab:models,\mn{SLy-q10-M1300}  & SLy  & $1.000$ & $1.300$ & $11.469$ & $2.5763$ & $1.4330$ & $0.16736$ & $277.34$ & $6.8275$ & $1.0287$ & $13.113$ & $0.097835$ & $496.81$ & $1701.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1325-1-325-1-325,arxiv-1604-00246,manuscript.tex,1630,1631,tab:models,\mn{SLy-q10-M1325}  & SLy  & $1.000$ & $1.325$ & $11.468$ & $2.6254$ & $1.4637$ & $0.17060$ & $279.36$ & $7.0455$ & $1.0221$ & $12.702$ & $0.095415$ & $440.20$ & $1718.5$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1350-1-35-1-35,arxiv-1604-00246,manuscript.tex,1631,1632,tab:models,\mn{SLy-q10-M1350}  & SLy  & $1.000$ & $1.350$ & $11.465$ & $2.6745$ & $1.4946$ & $0.17386$ & $281.34$ & $7.2663$ & $1.0158$ & $12.309$ & $0.092993$ & $390.29$ & $1735.2$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1375-1-375-1-375,arxiv-1604-00246,manuscript.tex,1632,1634,tab:models,\mn{SLy-q10-M1375}  & SLy  & $1.000$ & $1.375$ & $11.461$ & $2.7237$ & $1.5256$ & $0.17714$ & $283.37$ & $7.4923$ & $1.0100$ & $11.935$ & $0.090570$ & $346.23$ & $1752.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1400-1-4-1-4,arxiv-1604-00246,manuscript.tex,1634,1635,tab:models,\mn{SLy-q10-M1400}  & SLy  & $1.000$ & $1.400$ & $11.456$ & $2.7728$ & $1.5568$ & $0.18043$ & $285.36$ & $7.7215$ & $1.0043$ & $11.577$ & $0.088149$ & $307.28$ & $1769.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q10-m1500-1-5-1-5,arxiv-1604-00246,manuscript.tex,1635,1636,tab:models,\mn{SLy-q10-M1500}  & SLy  & $1.000$ & $1.500$ & $11.424$ & $2.9692$ & $1.6832$ & $0.19387$ & $293.05$ & $8.6705$ & $0.9835$ & $10.292$ & $0.007850$ & $191.10$ & $1838.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q09-m1300-1-3499480789200415-1-2500519210799586,arxiv-1604-00246,manuscript.tex,1636,1638,tab:models,\mn{SLy-q09-M1300}  & SLy  & $0.926$ & $1.300$ & $11.467$ & $2.5763$ & $1.4333$ & $0.16739$ & $277.23$ & $6.8154$ & $1.0268$ & $13.115$ & $0.097828$ & $496.31$ & $1702.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-sly-q08-m1275-1-400329489291598-1-1496705107084018,arxiv-1604-00246,manuscript.tex,1638,1639,tab:models,\mn{SLy-q08-M1275}  & SLy  & $0.821$ & $1.275$ & $11.457$ & $2.5273$ & $1.4043$ & $0.16432$ & $275.08$ & $6.5460$ & $1.0249$ & $13.560$ & $0.10018$  & $557.53$ & $1688.2$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1200-1-2-1-2,arxiv-1604-00246,manuscript.tex,1639,1642,tab:models,"\hline
+\mn{APR4-q10-M1200} & APR4 & $1.000$ & $1.200$ & $11.034$ & $2.3795$ & $1.3173$ & $0.16058$ & $268.60$ & $5.9801$ & $1.0562$ & $14.100$ & $0.10415$  & $650.23$ & $1732.9$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1225-1-225-1-225,arxiv-1604-00246,manuscript.tex,1642,1643,tab:models,\mn{APR4-q10-M1225} & APR4 & $1.000$ & $1.225$ & $11.043$ & $2.4287$ & $1.3478$ & $0.16379$ & $270.85$ & $6.1870$ & $1.0489$ & $13.651$ & $0.10197$  & $576.72$ & $1748.6$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1250-1-25-1-25,arxiv-1604-00246,manuscript.tex,1643,1644,tab:models,\mn{APR4-q10-M1250} & APR4 & $1.000$ & $1.250$ & $11.052$ & $2.4779$ & $1.3783$ & $0.16700$ & $273.05$ & $6.3973$ & $1.0419$ & $13.226$ & $0.099787$ & $512.14$ & $1764.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1275-1-275-1-275,arxiv-1604-00246,manuscript.tex,1644,1645,tab:models,\mn{APR4-q10-M1275} & APR4 & $1.000$ & $1.275$ & $11.060$ & $2.5271$ & $1.4090$ & $0.17022$ & $275.22$ & $6.6107$ & $1.0351$ & $12.821$ & $0.097595$ & $455.30$ & $1779.9$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1300-1-3-1-3,arxiv-1604-00246,manuscript.tex,1645,1646,tab:models,\mn{APR4-q10-M1300} & APR4 & $1.000$ & $1.300$ & $11.067$ & $2.5763$ & $1.4399$ & $0.17344$ & $277.24$ & $6.8245$ & $1.0282$ & $12.436$ & $0.095396$ & $405.19$ & $1795.5$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1325-1-325-1-325,arxiv-1604-00246,manuscript.tex,1646,1647,tab:models,\mn{APR4-q10-M1325} & APR4 & $1.000$ & $1.325$ & $11.073$ & $2.6254$ & $1.4709$ & $0.17667$ & $279.31$ & $7.0437$ & $1.0219$ & $12.070$ & $0.093194$ & $360.93$ & $1811.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1350-1-35-1-35,arxiv-1604-00246,manuscript.tex,1647,1648,tab:models,\mn{APR4-q10-M1350} & APR4 & $1.000$ & $1.350$ & $11.079$ & $2.6746$ & $1.5020$ & $0.17992$ & $281.37$ & $7.2665$ & $1.0158$ & $11.720$ & $0.090990$ & $321.78$ & $1826.7$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1375-1-375-1-375,arxiv-1604-00246,manuscript.tex,1648,1650,tab:models,\mn{APR4-q10-M1375} & APR4 & $1.000$ & $1.375$ & $11.084$ & $2.7237$ & $1.5334$ & $0.18317$ & $283.39$ & $7.4924$ & $1.0100$ & $11.387$ & $0.088786$ & $287.10$ & $1842.3$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1400-1-4-1-4,arxiv-1604-00246,manuscript.tex,1650,1651,tab:models,\mn{APR4-q10-M1400} & APR4 & $1.000$ & $1.400$ & $11.088$ & $2.7728$ & $1.5649$ & $0.18643$ & $285.39$ & $7.7218$ & $1.0043$ & $11.068$ & $0.086582$ & $256.33$ & $1858.0$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1500-1-5-1-5,arxiv-1604-00246,manuscript.tex,1651,1652,tab:models,\mn{APR4-q10-M1500} & APR4 & $1.000$ & $1.500$ & $11.096$ & $2.9692$ & $1.6925$ & $0.19960$ & $293.09$ & $8.6708$ & $0.9835$ & $9.9256$ & $0.077808$ & $163.73$ & $1921.1$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-ls220-q10-m1338-1-338-1-338,arxiv-1604-00246,manuscript.tex,1652,1655,tab:models,"\hline
+\mn{LS220-q10-M1338}& LS220& $1.000$ & $1.338$ & $12.754$ & $2.6737$ & $1.4733$ & $0.15491$ & $2.8129$ & $7.2656$ & $1.0163$ & $14.489$ & $0.096525$ & $721.43$ & $1472.4$",reviewed_paper_table_adapter,verified
+waveform,arxiv-1604-00246-rezzollatakami2016-ls220-q10-m1372-1-372-1-372,arxiv-1604-00246,manuscript.tex,1655,1656,tab:models,\mn{LS220-q10-M1372}& LS220& $1.000$ & $1.372$ & $12.732$ & $2.7414$ & $1.5150$ & $0.15910$ & $2.8404$ & $7.5772$ & $1.0082$ & $13.859$ & $0.093518$ & $611.61$ & $1494.8$,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-eos,arxiv-1509-08522,pmns_pca.tex,540,541,tab1,"\hline    
+EoS & Ref. & $R_{1.35}$ [km]",reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-nl3,arxiv-1509-08522,pmns_pca.tex,541,544,tab1,"\hline    
+
+NL3   & \cite{1997PhRvC..55..540L,2010NuPhA.837..210H}   &  14.75",reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-ls375,arxiv-1509-08522,pmns_pca.tex,544,545,tab1,LS375 & \cite{1991NuPhA.535..331L}                       &  13.65,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-dd2,arxiv-1509-08522,pmns_pca.tex,545,546,tab1,"DD2   & \cite{2010PhRvC..81a5803T,2010NuPhA.837..210H}   &  13.21",reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-tm1,arxiv-1509-08522,pmns_pca.tex,546,547,tab1,"TM1   & \cite{1994NuPhA.579..557S,2012ApJ...748...70H}   &  14.49",reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-sfhx,arxiv-1509-08522,pmns_pca.tex,547,548,tab1,SFHX  & \cite{2012arXiv1207.2184S}                       &  11.98,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-gs2,arxiv-1509-08522,pmns_pca.tex,548,549,tab1,GS2   & \cite{2011arXiv1103.5174S}                       &  13.38,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-sfho,arxiv-1509-08522,pmns_pca.tex,549,550,tab1,SFHO  & \cite{2012arXiv1207.2184S}                       &  11.92,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-ls220,arxiv-1509-08522,pmns_pca.tex,550,551,tab1,LS220 & \cite{1991NuPhA.535..331L}                       &  12.73,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-tma,arxiv-1509-08522,pmns_pca.tex,551,552,tab1,"TMA   & \cite{1995NuPhA.588..357T,2012ApJ...748...70H}   &  13.86",reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-apr,arxiv-1509-08522,pmns_pca.tex,552,553,tab1,APR   & \cite{1998PhRvC..58.1804A}                       &  11.33,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-bhblp,arxiv-1509-08522,pmns_pca.tex,553,554,tab1,BHBLP & \cite{2014ApJS..214...22B}                       &  13.21,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-shen,arxiv-1509-08522,pmns_pca.tex,554,555,tab1,Shen  & \cite{1998NuPhA.637..435S}                       &  14.64,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-heb6,arxiv-1509-08522,pmns_pca.tex,555,556,tab1,Heb6  & \cite{2010PhRvC..82a4314H}                       &  13.33,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-heb5,arxiv-1509-08522,pmns_pca.tex,556,557,tab1,Heb5  & \cite{2010PhRvC..82a4314H}                       &  12.38,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-heb4,arxiv-1509-08522,pmns_pca.tex,557,558,tab1,Heb4  & \cite{2010PhRvC..82a4314H}                       &  12.51,reviewed_paper_table_adapter,verified
+eos,arxiv-1509-08522-eos-heb3,arxiv-1509-08522,pmns_pca.tex,558,559,tab1,Heb3  & \cite{2010PhRvC..82a4314H}                       &  12.03,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-04-1-35-1-35,arxiv-1908-11418,ms.tex,793,795,tab:valbns,"\hline
+    2B&1.78&8.47&1.35&1.35&23.6&---& \cite{Bernuzzi:2014owa}&---&---&---&---&---&---&---",reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-05-1-364-1-364,arxiv-1908-11418,ms.tex,795,796,tab:valbns,SLy4& 2.06&9.97&1.364&1.364&75.2&3.65&\cite{Perego:2019adq}&12&22&$1.79^{+0.46}_{-0.17}$&$1.33^{+0.11}_{-0.07}$&$74^{+151}_{-4}$&$5.22^{+0.03}_{-2.30}$&${6.5}^{+3.4}_{-0.3}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-06-1-5-1-5,arxiv-1908-11418,ms.tex,796,797,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.50&1.50&90.0&3.39&\cite{Radice:2016rys}&10&13&$2.50^{+0.10}_{-0.25}$&$1.03^{+0.07}_{-0.03}$&$79^{+28}_{-8}$&$3.60^{+0.14}_{-0.07}$&${9.3}^{+0.2}_{-0.5}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-07-1-5-1-5,arxiv-1908-11418,ms.tex,797,798,tab:valbns,DD2 &2.42 &11.93&1.50&1.50&91.1&2.76&\cite{Radice:2016rys}&9&13&$2.39^{+0.35}_{-0.29}$&$1.10^{+0.13}_{-0.09}$& $196^{+79}_{-68}$&$2.74^{+0.02}_{-0.02}$ &${10.6}^{+0.7}_{-0.7}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-08-1-3-1-3,arxiv-1908-11418,ms.tex,798,799,tab:valbns,SLy4&2.06&9.97&1.30&1.30&93.1&3.13&This work &8 &13&$2.40^{+0.26}_{-0.28}$&$ 1.09^{+0.07}_{-0.08}$&$137^{+54}_{-35}$&$3.11^{+0.02}_{-0.02}$&${9.9}^{+0.5}_{-0.6}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-09-1-364-1-364,arxiv-1908-11418,ms.tex,799,800,tab:valbns,LS220& 2.04&10.67&1.364&1.364&133.9&2.97&\cite{Perego:2019adq}&8 &13&$2.30^{+2.38}_{-0.44}$&$1.28^{+0.17}_{-0.22}$&$218^{+500}_{-99}$&$2.95^{+0.03}_{-2.07}$&${9.9}^{+7.3}_{-0.7}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-10-1-4-1-33,arxiv-1908-11418,ms.tex,800,801,tab:valbns,LS220& 2.04&10.67&1.4&1.33&133.9&3.03&This work&9 &14&$2.32^{+0.34}_{-0.25}$&$1.25^{+0.09}_{-0.08}$&$168^{+60}_{-54}$&$3.00^{+0.02}_{-0.02}$&$10.0^{+0.7}_{-0.5}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-11-1-364-1-364,arxiv-1908-11418,ms.tex,801,802,tab:valbns,DD2&2.42 &11.93&1.364&1.364&157.5&2.39&\cite{Perego:2019adq}&7&12&$1.94^{+2.75}_{-0.43}$&$1.06^{+0.34}_{-0.06}$&$414^{+252}_{-332}$&$2.30^{+0.88}_{-1.42}$&$10.9^{+10.9}_{-5.0}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-12-1-45-1-25,arxiv-1908-11418,ms.tex,802,803,tab:valbns,H4&2.03&11.66&1.45&1.25&210.7&2.33&\cite{Dietrich:2015iva}&6& 8 & $4.01^{+0.97}_{-2.25}$&$1.27^{+0.19}_{-0.24}$&$183^{+554}_{-107}$&$1.85^{+0.88}_{-0.99}$&$16.8^{+2.3}_{-7.1}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1908-11418-nrpm-validation-validation-13-1-25-1-25,arxiv-1908-11418,ms.tex,803,804,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.25&1.25&256.1&2.36&\cite{Radice:2016rys}&8&9&$2.41^{+0.42}_{-0.26}$&$1.07^{+0.15}_{-0.07}$&$281^{+88}_{95}$&$2.35^{+0.02}_{-0.02}$&${11.5}^{+0.9}_{-0.5}$,reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-02-1-0-2-0,arxiv-2310-06025,NR_Simulation_Summary.tex,8,9,tab:NR_Simulation_Summary,$\mathrm{EOS}$ & $m_1\;[M_{\odot}]$ & $m_2\;[M_{\odot}]$  & $q$ & $\Lambda_1$ & $\Lambda_2$ & $t_{\mathrm{BH}} - t_{\mathrm{merg}}\;[\mathrm{ms}]$,reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-03-1-298-1-298,arxiv-2310-06025,NR_Simulation_Summary.tex,9,12,tab:NR_Simulation_Summary,"\hline
+\hline
+$\mathrm{BLh}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & HMNS",reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-04-1-298-1-298,arxiv-2310-06025,NR_Simulation_Summary.tex,12,13,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & 15.95,reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-05-1-481-1-257,arxiv-2310-06025,NR_Simulation_Summary.tex,13,15,tab:NR_Simulation_Summary,"\hline
+$\mathrm{BLh}$ & 1.481 & 1.257 & 1.178 & 295.467 & 856.064 & HMNS",reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-06-1-481-1-257,arxiv-2310-06025,NR_Simulation_Summary.tex,15,16,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.481 & 1.257 & 1.178 & 295.467 & 856.064 & 3.54,reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-07-1-398-1-198,arxiv-2310-06025,NR_Simulation_Summary.tex,16,18,tab:NR_Simulation_Summary,"\hline
+$\mathrm{BLh}$ & 1.398 & 1.198 & 1.167 & 435.735 & 1145.850 & HMNS",reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-08-1-398-1-198,arxiv-2310-06025,NR_Simulation_Summary.tex,18,19,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.398 & 1.198 & 1.167 & 435.735 & 1145.850 & 17.2,reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-09-1-363-1-363,arxiv-2310-06025,NR_Simulation_Summary.tex,19,21,tab:NR_Simulation_Summary,"\hline
+$\mathrm{BLh}$ & 1.363 & 1.363 & 1.0 & 515.379 & 515.379 & HMNS",reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-10-1-363-1-363,arxiv-2310-06025,NR_Simulation_Summary.tex,21,22,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.363 & 1.363 & 1.0 & 515.379 & 515.379 & 4.1,reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-11-1-289-1-289,arxiv-2310-06025,NR_Simulation_Summary.tex,22,24,tab:NR_Simulation_Summary,"\hline
+$\mathrm{DD2F}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & HMNS",reviewed_paper_table_adapter,verified
+waveform,arxiv-2310-06025-prakash2024-nr-nr-12-1-289-1-289,arxiv-2310-06025,NR_Simulation_Summary.tex,24,25,tab:NR_Simulation_Summary,$\mathrm{DD2F-SF1}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & 42.36,reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-0-1-285-1-285,arxiv-2411-00943,apssamp.tex,904,906,tab:GW_freqs,"\hline
+SLy & 2.57 &   0 & 3.224(7) & 2.1(2) & 4.36(10) & 2.244(14) & 1.194(18) \Tstrut",reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc0pu-5-5-times-10-15-1-285-1-285,arxiv-2411-00943,apssamp.tex,906,907,tab:GW_freqs,SLy & 2.57 & \textcolor{C0}{PU $5.5\times 10^{15}$} & 3.225(4) & 2.0(2) & 4.36(5) & 2.4(2) & 1.194(18),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc1pu-1-4-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,907,908,tab:GW_freqs,SLy & 2.57 & \textcolor{C1}{PU $1.4\times 10^{16}$} & 3.229(6) & 2.11(12) & 4.39(8) & 2.4(3) & 1.20(4),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc2pu-5-5-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,908,909,tab:GW_freqs,SLy & 2.57 & \textcolor{C2}{PU $5.5\times 10^{16}$} & 3.39(2) & 2.15(3) & 4.46(13) & 2.4(5) & 1.243(13),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc3pu-2-2-times-10-17-1-285-1-285,arxiv-2411-00943,apssamp.tex,909,910,tab:GW_freqs,SLy & 2.57 & \textcolor{C3}{PU $2.2\times 10^{17}$} & 3.434(17) & 2.20(3) & 4.51(15) & 2.4(2) & 1.19(4),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc4it-5-5-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,910,911,tab:GW_freqs,SLy & 2.57 & \textcolor{C4}{IT $5.5\times 10^{16}$} & 3.321(5) & 2.11(6) & 4.43(9) & 2.557(11) & 1.23(3),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc5ip-5-5-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,911,912,tab:GW_freqs,SLy & 2.57 & \textcolor{C5}{IP $5.5\times 10^{16}$} & 3.37(3) & 2.15(6) & 4.43(11) & 2.5(2) & 1.218(10),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-0-1-285-1-285,arxiv-2411-00943,apssamp.tex,912,914,tab:GW_freqs,"\hline
+ALF2 & 2.57 &   0 & 2.647(13) & 1.39(11) & 3.72(10) & 2.14(9) & 1.22(10) \Tstrut",reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-textcolorc0pu-5-5-times-10-15-1-285-1-285,arxiv-2411-00943,apssamp.tex,914,915,tab:GW_freqs,ALF2 & 2.57 & \textcolor{C0}{PU $5.5\times 10^{15}$} & 2.646(7) & 1.4(2) & 3.76(2) & 2.19(11) & 1.201(10),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-textcolorc1pu-1-4-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,915,916,tab:GW_freqs,ALF2 & 2.57 & \textcolor{C1}{PU $1.4\times 10^{16}$} & 2.685(8) & 1.48(8) & 3.80(11) & 2.15(11) & 1.199(10),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-textcolorc2pu-5-5-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,916,917,tab:GW_freqs,ALF2 & 2.57 & \textcolor{C2}{PU $5.5\times 10^{16}$} & 2.775(11) & 1.44(6) & 3.85(13) & 2.21(16) & 1.244(18),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-textcolorc3pu-2-2-times-10-17-1-285-1-285,arxiv-2411-00943,apssamp.tex,917,918,tab:GW_freqs,ALF2 & 2.57 & \textcolor{C3}{PU $2.2\times 10^{17}$} & 2.80(3) & 1.52(8) & 3.88(15) & 2.23(11) & 1.23(2),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-textcolorc4it-5-5-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,918,919,tab:GW_freqs,ALF2 & 2.57 & \textcolor{C4}{IT $5.5\times 10^{16}$} & 2.70(2) & 1.36(7) & 3.73(15) & 2.21(14) & 1.195(7),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-57-textcolorc5ip-5-5-times-10-16-1-285-1-285,arxiv-2411-00943,apssamp.tex,919,920,tab:GW_freqs,ALF2 & 2.57 & \textcolor{C5}{IP $5.5\times 10^{16}$} & 2.76(4) & 1.40(6) & 3.78(16) & 2.20(18) & 1.207(18),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-0-1-35-1-35,arxiv-2411-00943,apssamp.tex,920,922,tab:GW_freqs,"\hline
+ALF2 & 2.70 &   0 & 2.84(3) & 1.702(19) & 3.86(4) & 2.26(15) & 1.01(2) \Tstrut",reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc0pu-5-5-times-10-15-1-35-1-35,arxiv-2411-00943,apssamp.tex,922,923,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C0}{PU $5.5\times 10^{15}$} & 2.822(8) & 1.73(8) & 3.83(4) & 2.18(18) & 0.98(4),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc1pu-1-4-times-10-16-1-35-1-35,arxiv-2411-00943,apssamp.tex,923,924,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C1}{PU $1.4\times 10^{16}$} & 2.90(5) & 1.8(2) & 3.86(4) & 2.29(19) & 1.00(3),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc2pu-5-5-times-10-16-1-35-1-35,arxiv-2411-00943,apssamp.tex,924,925,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C2}{PU $5.5\times 10^{16}$} & 2.93(6) & 1.8(3) & 3.895(14) & 2.17(10) & 1.00(3),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc3pu-2-2-times-10-17-1-35-1-35,arxiv-2411-00943,apssamp.tex,925,926,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C3}{PU $2.2\times 10^{17}$} & 2.853(15) & 1.70(6) & 3.96(2) & 2.14(9) & 1.179(8),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc4it-5-5-times-10-16-1-35-1-35,arxiv-2411-00943,apssamp.tex,926,927,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C4}{IT $5.5\times 10^{16}$} & 2.90(5) & 1.8(3) & 3.90(7) & 2.2(2) & 1.00(3),reviewed_paper_table_adapter,verified
+waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc5ip-5-5-times-10-16-1-35-1-35,arxiv-2411-00943,apssamp.tex,927,928,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C5}{IP $5.5\times 10^{16}$} & 2.92(6) & 1.74(3) & 3.96(13) & 2.3(2) & 1.125(5),reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-thc-0036-r03-1-35-1-35,arxiv-2501-11518,main.tex,129,130,table:info,"\hline
+THC:0036:R03   & SLy          & 1.0        & 1.350        & \cite{Radice2016}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-thc-0019-r05-1-35-1-35,arxiv-2501-11518,main.tex,130,131,table:info,"\hline
+THC:0019:R05   & LS220        & 1.0        & 1.350        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0088-r01-1-5-1-5,arxiv-2501-11518,main.tex,131,132,table:info,"\hline
+BAM:0088:R01   & MS1b         & 1.0        & 1.500        & \cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-thc-0002-r01-1-3-1-3,arxiv-2501-11518,main.tex,132,133,table:info,"\hline
+THC:0002:R01   & BHBlp        & 1.0        & 1.300        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-thc-0011-r01-1-25-1-25,arxiv-2501-11518,main.tex,133,134,table:info,"\hline
+THC:0011:R01   & DD2          & 1.0        & 1.250        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0070-r01-1-375-1-375,arxiv-2501-11518,main.tex,134,135,table:info,"\hline
+BAM:0070:R01   & MS1b         & 1.0        & 1.375        & \cite{Dietrich2017}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0065-r03-1-35-1-35,arxiv-2501-11518,main.tex,135,136,table:info,"\hline
+BAM:0065:R03   & MS1b         & 1.0        & 1.350        & \cite{Bernuzzi2016}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-thc-0010-r01-1-2-1-2,arxiv-2501-11518,main.tex,136,137,table:info,"\hline
+THC:0010:R01   & DD2          & 1.0        & 1.200        &  \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0002-r02-1-35-1-35,arxiv-2501-11518,main.tex,137,138,table:info,"\hline
+BAM:0002:R02   & 2H           & 1.0        & 1.350        & \cite{Bernuzzi2016}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0053-r01-1-65-1-1,arxiv-2501-11518,main.tex,138,139,table:info,"\hline
+BAM:0053:R01   & H4           & 1.5        & 1.375        & \cite{Dietrich:2016hky}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0124-r01-1-5-1-0,arxiv-2501-11518,main.tex,139,140,table:info,"\hline
+BAM:0124:R01   & SLy          & 1.5        & 1.250       & \cite{Dietrich2017}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0090-r02-1-6-1-6,arxiv-2501-11518,main.tex,140,141,table:info,"\hline
+BAM:0090:R02   & MS1b         & 1.0        & 1.600       & \cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-bam-0092-r02-1-7-1-7,arxiv-2501-11518,main.tex,141,143,table:info,"\hline
+BAM:0092:R02   & MS1b         & 1.0        & 1.700    
+&\cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-soultanis-et-al-1-2-1-2,arxiv-2501-11518,main.tex,143,144,table:info,"\hline
+Soultanis et al.  & MPA1         & 1.0        & 1.200        & \cite{soultanis2022}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2501-11518-vretinaris2026-soultanis-et-al-1-55-1-55,arxiv-2501-11518,main.tex,144,145,table:info,"\hline
+Soultanis et al.  & MPA1         & 1.0        & 1.550         & \cite{soultanis2022}",reviewed_paper_table_adapter,verified
+waveform,arxiv-2407-11143-grippa2025-strange-star-cold-gamma-law-lr-1-36-1-36,arxiv-2407-11143,Table_Summary.tex,10,12,Table:summary,"\hline
+ Cold $\rm{+}$ $\Gamma$-Law & 1.36 & 1.36 & 2.72 & 723.34 & LR & 2.836 & Yes & 63.35",reviewed_paper_table_adapter,verified
+waveform,arxiv-2407-11143-grippa2025-strange-star-cold-gamma-law-sr-1-36-1-36,arxiv-2407-11143,Table_Summary.tex,12,13,Table:summary,Cold $\rm{+}$ $\Gamma$-Law & 1.36 & 1.36 & 2.72  & 723.34 & SR & 2.576 & No & ...,reviewed_paper_table_adapter,verified
+waveform,arxiv-2407-11143-grippa2025-strange-star-temperature-dependent-lr-1-36-1-36,arxiv-2407-11143,Table_Summary.tex,13,15,Table:summary,"\hline
+ Temperature dependent & 1.36 & 1.36 & 2.72 & 723.34 & LR & 2.668 & Yes & 9.00",reviewed_paper_table_adapter,verified
+waveform,arxiv-2407-11143-grippa2025-strange-star-temperature-dependent-sr-1-36-1-36,arxiv-2407-11143,Table_Summary.tex,15,16,Table:summary,Temperature dependent & 1.36 & 1.36 & 2.72 & 723.34 & SR & 2.682 & Yes & 65.40,reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-25-1-30-stiff-m125-1-25-1-25,arxiv-2606-08522,main.tex,132,133,tab:allmodels,"[-0.5em]
+    1.25-1.30-stiff-m125 & 1.25 & 1.35 & 6.40 & 13.23 & 1226 & 1499 & 1152 & $1830^{+10}_{-10}$ & $2458^{+10}_{-6}$ & $2910^{+9}_{-9}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-25-1-30-stiff-m130-1-3-1-3,arxiv-2606-08522,main.tex,133,134,tab:allmodels,"[0.5em]
+    1.25-1.30-stiff-m130 & 1.30 & 1.41 & 6.83 & 13.23 & 980  & 1565 & 1124 & $2071^{+109}_{-88}$ & $2664^{+55}_{-40}$ & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-35-1-40-stiff-m135-1-35-1-35,arxiv-2606-08522,main.tex,134,135,tab:allmodels,"[0.5em]
+    1.35-1.40-stiff-m135 & 1.35 & 1.47 & 7.27 & 13.24 & 863  & 1617 & 1072 & $1910^{+10}_{-9}$ & $2530^{+7}_{-7}$ & $2998^{+7}_{-7}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-35-1-40-stiff-m140-1-4-1-4,arxiv-2606-08522,main.tex,135,136,tab:allmodels,"[0.5em]
+    1.35-1.40-stiff-m140 & 1.40 & 1.53 & 7.73 & 13.25 & 701  & 1504 & 1090 & $1926^{+20}_{-18}$ & $2709^{+8}_{-7}$ & $3680^{+10}_{-10}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-25-1-40-soft-m125-1-25-1-25,arxiv-2606-08522,main.tex,136,137,tab:allmodels,"[0.5em]
+    1.25-1.40-soft-m125 & 1.25 & 1.37 & 6.40 & 11.68 & 611  & 1570  & 1310 & $2215^{+36}_{-28}$ & $3215^{+20}_{-23}$ & $4353^{+13}_{-13}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-25-1-40-soft-m130-1-3-1-3,arxiv-2606-08522,main.tex,137,138,tab:allmodels,"[0.5em]
+    1.25-1.40-soft-m130 & 1.30 & 1.43 & 6.83 & 11.69 & 490  & 1623 & 1266 & $2294^{+16}_{-16}$ & $3219^{+10}_{-9}$ & $4362^{+9}_{-9}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-25-1-40-soft-m135-1-35-1-35,arxiv-2606-08522,main.tex,138,139,tab:allmodels,"[0.5em]
+    1.25-1.40-soft-m135 & 1.35 & 1.49 & 7.26 & 11.70 & 393  & 1653 & 1197 & $2402^{+25}_{-24}$ & $3331^{+13}_{-13}$ & $4438^{+11}_{-11}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-1-25-1-40-soft-m140-1-4-1-4,arxiv-2606-08522,main.tex,139,140,tab:allmodels,"[0.5em]
+    1.25-1.40-soft-m140 & 1.40 & 1.55 & 7.72 & 11.71 & 318  & 1605 & 1085 & $2432^{+21}_{-16}$ & $3290^{+28}_{-17}$ & $4332^{+12}_{-9}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m125-softg16-1-25-1-25,arxiv-2606-08522,main.tex,140,141,tab:allmodels,"[0.5em]
+    M125-softG16  & 1.25 & 1.38 & 6.47 & 11.36 & 409 & 1693 & 1129 & $2921^{+16}_{-16}$ & $3936^{+8}_{-8}$ & $5012^{+5}_{-6}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m125-softg20-1-25-1-25,arxiv-2606-08522,main.tex,141,142,tab:allmodels,"[0.5em]
+    M125-softG20  &  &  &  &  &  &  & 988 & $2737^{+15}_{-14}$ & $3649^{+8}_{-8}$ & $4744^{+11}_{-10}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m125-stiffg16-1-25-1-25,arxiv-2606-08522,main.tex,142,143,tab:allmodels,"[0.5em]
+    M125-stiffG16 & 1.25 & 1.38 & 6.47 & 11.46 & 578 & 1671 & 1347 & $2467^{+21}_{-19}$ & $3270^{+16}_{-15}$ & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m125-stiffg20-1-25-1-25,arxiv-2606-08522,main.tex,143,144,tab:allmodels,"[0.5em]
+    M125-stiffG20 &  &  &  &  &  &  & 1351 & $2340^{+12}_{-10}$ & $3276^{+14}_{-13}$ & $4466^{+11}_{-11}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m130-softg16-1-3-1-3,arxiv-2606-08522,main.tex,144,145,tab:allmodels,"[0.5em]
+    M130-softG16  & 1.30 & 1.45 & 7.00 & 11.23 & 296 & 1756 & 908 & -- & -- & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m130-softg20-1-3-1-3,arxiv-2606-08522,main.tex,145,146,tab:allmodels,"[0.5em]
+    M130-softG20  & & &  & & &  & 1033 & $3044^{+14}_{-15}$ & $3920^{+13}_{-13}$ & $4927^{+7}_{-7}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m130-stiffg16-1-3-1-3,arxiv-2606-08522,main.tex,146,147,tab:allmodels,"[0.5em]
+    M130-stiffG16 & 1.30 & 1.44 & 6.90 & 11.50 & 470 & 1696 & 1404 & $2572^{+35}_{-36}$ & $3373^{+16}_{-17}$ & $4512^{+18}_{-17}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m130-stiffg20-1-3-1-3,arxiv-2606-08522,main.tex,147,148,tab:allmodels,"[0.5em]
+    M130-stiffG20 &  &  &  &  &  &  & 1380 & $2395^{+13}_{-14}$ & $3253^{+7}_{-18}$ & $4485^{+47}_{-46}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m135-softg16-1-35-1-35,arxiv-2606-08522,main.tex,148,149,tab:allmodels,"[0.5em]
+    M135-softG16  & 1.35 & 1.51 & 7.45 & 11.04 & 165 & 1837 & -- & -- & -- & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m135-softg20-1-35-1-35,arxiv-2606-08522,main.tex,149,150,tab:allmodels,"[0.5em]
+    M135-softG20  &  &  &  &  &  &  & -- & -- & -- & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m135-stiffg16-1-35-1-35,arxiv-2606-08522,main.tex,150,151,tab:allmodels,"[0.5em]
+    M135-stiffG16 & 1.35 & 1.50 & 7.34 & 11.53 & 383 & 1720 & 1305 & $2619^{+156}_{-115}$ & $3468^{+22}_{-20}$ & $4655^{+13}_{-14}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m135-stiffg20-1-35-1-35,arxiv-2606-08522,main.tex,151,152,tab:allmodels,"[0.5em]
+    M135-stiffG20 &  &  &  &  &  &  & 1348 & $2343^{+23}_{-23}$ & $3357^{+16}_{-16}$ & $4572^{+12}_{-12}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m140-softg16-1-4-1-4,arxiv-2606-08522,main.tex,152,153,tab:allmodels,"[0.5em]
+    M140-softG16  & 1.40 & 1.57 & 7.87 & 11.49 & 250 & 1762 & -- & -- & -- & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m140-softg20-1-4-1-4,arxiv-2606-08522,main.tex,153,154,tab:allmodels,"[0.5em]
+    M140-softG20  &  &  &  &  &  &  & -- & -- & -- & --",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m140-stiffg16-1-4-1-4,arxiv-2606-08522,main.tex,154,155,tab:allmodels,"[0.5em]
+    M140-stiffG16 & 1.40 & 1.56 & 7.78 & 11.57 & 317 & 1744 & -- & $2472^{+40}_{-34}$ & $3392^{+32}_{-26}$ & $4557^{+26}_{-25}$",reviewed_paper_table_adapter,verified
+waveform,arxiv-2606-08522-huang2026-m140-stiffg20-1-4-1-4,arxiv-2606-08522,main.tex,155,156,tab:allmodels,"[0.5em]
+    M140-stiffG20 &  &  &  &  &  &  & 1115 & $2446^{+19}_{-16}$ & $3375^{+18}_{-17}$ & $4611^{+14}_{-15}$",reviewed_paper_table_adapter,verified
+relation,arxiv-1504-01764-kappa2t-e-b-textmrg-2,arxiv-1504-01764,paper20150817.tex,439,441,tab:fit_coefs,"\hline
+    $E_b^\text{mrg}$         & $-0.1201$     & +2.9905 & $-1.3665$  & $+6.7484$",reviewed_paper_table_adapter,verified
+relation,arxiv-1504-01764-kappa2t-j-textmrg-3,arxiv-1504-01764,paper20150817.tex,441,442,tab:fit_coefs,$j^\text{mrg}$           &  $+2.8077$    & +4.0302 & +0.7538  & +3.1956,reviewed_paper_table_adapter,verified
+relation,arxiv-1504-01764-kappa2t-m-omega-22-textmrg-4,arxiv-1504-01764,paper20150817.tex,442,443,tab:fit_coefs,$M\omega_{22}^\text{mrg}$ & $+0.3596$     & +2.4384  & $-1.7167$ & $+6.8865$,reviewed_paper_table_adapter,verified
+relation,arxiv-1504-01764-kappa2t-mf-2-5,arxiv-1504-01764,paper20150817.tex,443,444,tab:fit_coefs,$Mf_{2}$                & $+0.053850$   & $+0.087434$ & 0      & +0.45500,reviewed_paper_table_adapter,verified
+relation,arxiv-1907-03790-eq-fpeak,arxiv-1907-03790,paper.tex,689,693,eq:fpeak,"&\log_{10}\left[\left(\frac{f_\text{peak}}{\rm Hz}\right)\left(\frac{m_0}{M_\odot}\right)\right] = a_0(\eta) + a_1(\eta) \tilde{\Lambda}^{1/5},\nonumber\\
+  &a_0(\eta) = 4.536 - 1.230 \eta,\nonumber\\
+  &a_1(\eta) = - 0.929 + 3.120 \eta.",reviewed_equation_adapter,verified
+relation,arxiv-1907-03790-eq-f2,arxiv-1907-03790,paper.tex,845,849,eq:f2,"&\log_{10}\left[\left(\frac{f_2}{\rm Hz}\right)\left(\frac{m_0}{M_\odot}\right)\right] = c_0(\eta) + c_1(\eta) \tilde{\Lambda}^{1/5},\nonumber\\
+  &c_0(\eta) = 11.363 - 27.418 \eta,\nonumber\\
+  &c_1(\eta) = -2.158 + 7.941 \eta.",reviewed_equation_adapter,verified
+relation,arxiv-2310-10728-f1-03,arxiv-2310-10728,main.tex,807,809,tab:fit_parameters,"\hline
+      $f^{\psi_{4}}_{\rm mer}$ & $4.589$ & $-0.581$ & $\phantom{-}0.543$ & $-0.236$ & $0.20\phantom{^{\dagger}}$  & $0.65$ & $4.52$ & $0.135$ & $1.19 $ & $0.934$",reviewed_paper_table_adapter,verified
+relation,arxiv-2310-10728-f1-04,arxiv-2310-10728,main.tex,809,810,tab:fit_parameters,$f^{h}_{\rm mer}$      & $4.201$ & $-0.330$ & $\phantom{-}0.198$ & $-0.067$ & $0.20\phantom{^{\dagger}}$  & $0.32$ & $2.99$ & $0.035$ & $0.30 $ & $0.957$,reviewed_paper_table_adapter,verified
+relation,arxiv-2310-10728-f1-05,arxiv-2310-10728,main.tex,810,811,tab:fit_parameters,$f^{\psi_{4}}_{\rm mer}$ & $6.067$ & $-2.142$ & $\phantom{-}0.970$ & $-0.410$ & $0.07^{\dagger}$            & $0.59$ & $4.24$ & $0.114$ & $1.00 $ & $0.938$,reviewed_paper_table_adapter,verified
+relation,arxiv-2310-10728-f1-06,arxiv-2310-10728,main.tex,811,812,tab:fit_parameters,$f^{h}_{\rm mer}$      & $4.457$ & $-0.578$ & $\phantom{-}0.262$ & $-0.087$ & $0.14^{\dagger}$           & $0.32$ & $2.94$ & $0.034$ & $0.30 $ & $0.957$,reviewed_paper_table_adapter,verified
+relation,arxiv-2310-10728-f1-07,arxiv-2310-10728,main.tex,812,813,tab:fit_parameters,$f^{\psi_{4}}_{0}$      & $6.550$ & $-2.099$ & $\phantom{-}0.518$ & $-0.304$ & $0.06^{\dagger}$            & $1.38$ & $4.22$ & $0.477$ & $4.92 $ & $0.611$,reviewed_paper_table_adapter,verified
+relation,arxiv-2310-10728-f1-08,arxiv-2310-10728,main.tex,813,814,tab:fit_parameters,$f_{2}$               & $4.617$ & $-0.170$ & $-0.264$ & $\phantom{-}0.160$ & $0.20^{\dagger}$            & $0.45$ & $1.34$ & $0.030$  & $0.48 $ & $0.926$,reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-colrule-vspace0-1cm-1-2-1-2-r-3,arxiv-2102-12455,draft_static_stars.tex,299,302,Fit_table_Mergers,"\colrule \vspace{0.1cm}
+
+$1.2+1.2$ & $R$                        &  $f_{\mathrm{peak}}  = 10.428  -8.347\times10^{-1}R_{1.4}        +1.749\times10^{-2}R_{1.4}^2$                                           & $41$ & $109$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-2-1-2-r-90-4,arxiv-2102-12455,draft_static_stars.tex,302,303,Fit_table_Mergers,"\vspace{0.1cm}
+$1.2+1.2$ & $R^{90\%}$                 &  $f_{\mathrm{peak}}  = 12.963  -1.449R_{1.4}^{90\%}              +4.604\times10^{-2}\left(R_{1.4}^{90\%}\right)^2$                       & $31$ & $58$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-2-1-2-r-cc-5,arxiv-2102-12455,draft_static_stars.tex,303,304,Fit_table_Mergers,"\vspace{0.1cm}
+$1.2+1.2$ & $R^{\mathrm{cc}}$ &  $f_{\mathrm{peak}}  = 16.526 -1.9593R_{1.4}^{\mathrm{cc}}       +6.568\times10^{-2}\left(R_{1.4}^{\mathrm{cc}}\right)^2$                & $45$ & $112$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-2-1-2-lambda-1-5-6,arxiv-2102-12455,draft_static_stars.tex,304,305,Fit_table_Mergers,"\vspace{0.1cm}
+$1.2+1.2$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}}  =  9.74  -2.994\Lambda^{1/5}_{1.4}          +2.767\times10^{-1}\Lambda^{2/5}_{1.4}$                                 & $18$ & $44$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-5cm-1-2-1-2-lambda-1-5-7,arxiv-2102-12455,draft_static_stars.tex,305,306,Fit_table_Mergers,"\vspace{0.5cm}
+$1.2+1.2$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}}  =  9.74  -2.432\Lambda^{1/5}_{1.2}          +1.771\times10^{-1}\Lambda^{2/5}_{1.2}$                                 & $39$ & $72$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-35-1-35-r-8,arxiv-2102-12455,draft_static_stars.tex,306,308,Fit_table_Mergers,"\vspace{0.1cm}
+
+$1.35+1.35$ & $R$                        &  $f_{\mathrm{peak}}  = 12.61 -1.134R_{1.6}                       +2.87\times10^{-2}R_{1.6}^2$                                            & $48$ & $84$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-35-1-35-r-90-9,arxiv-2102-12455,draft_static_stars.tex,308,309,Fit_table_Mergers,"\vspace{0.1cm}
+$1.35+1.35$ & $R^{90\%}$                 &  $f_{\mathrm{peak}}  = 12.63 -1.306R_{1.6}^{90\%}                +3.79\times10^{-2}\left(R_{1.6}^{90\%}\right)^2$                        & $31$ & $60$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-35-1-35-r-cc-10,arxiv-2102-12455,draft_static_stars.tex,309,310,Fit_table_Mergers,"\vspace{0.1cm}
+$1.35+1.35$ & $R^{\mathrm{cc}}$ &  $f_{\mathrm{peak}}  = 14.653 -1.5432R_{1.4}^{\mathrm{cc}}       +4.597\times10^{-2}\left(R_{1.4}^{\mathrm{cc}}\right)^2$                & $47$ & $110$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-35-1-35-lambda-1-5-11,arxiv-2102-12455,draft_static_stars.tex,310,311,Fit_table_Mergers,"\vspace{0.1cm}
+$1.35+1.35$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}}  = 9.063 -2.912\Lambda^{1/5}_{1.6}           +0.276\Lambda^{2/5}_{1.6}$                                              & $26$ & $61$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-5cm-1-35-1-35-lambda-1-5-12,arxiv-2102-12455,draft_static_stars.tex,311,312,Fit_table_Mergers,"\vspace{0.5cm}
+$1.35+1.35$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}}  = 8.886 -2.147\Lambda^{1/5}_{1.35}          +1.397\times10^{-1} \Lambda^{2/5}_{1.35}$                               & $46$ & $88$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-4-1-4-r-13,arxiv-2102-12455,draft_static_stars.tex,312,314,Fit_table_Mergers,"\vspace{0.1cm}
+
+$1.4+1.4$ & $R$                        &  $f_{\mathrm{peak}}  = 12.61 -1.085R_{1.7}                       +2.54\times10^{-2}R_{1.7}^2$                                            & $53$ & $151$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-4-1-4-r-90-14,arxiv-2102-12455,draft_static_stars.tex,314,315,Fit_table_Mergers,"\vspace{0.1cm}
+$1.4+1.4$ & $R^{90\%}$                 &  $f_{\mathrm{peak}}  = 15.16 -1.716R_{1.7}^{90\%}                +5.51\times10^{-2}\left(R_{1.7}^{90\%}\right)^2$                        & $38$ & $130$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-4-1-4-r-cc-15,arxiv-2102-12455,draft_static_stars.tex,315,316,Fit_table_Mergers,"\vspace{0.1cm}
+$1.4+1.4$ & $R^{\mathrm{cc}}$ &  $f_{\mathrm{peak}}  = 16.389 -1.7824R_{1.4}^{\mathrm{cc}}       +5.467\times10^{-2}\left(R_{1.4}^{\mathrm{cc}}\right)^2$                & $53$ & $148$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-4-1-4-lambda-1-5-16,arxiv-2102-12455,draft_static_stars.tex,316,317,Fit_table_Mergers,"\vspace{0.1cm}
+$1.4+1.4$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}}  = 11.11 -4.584\Lambda^{1/5}_{1.7}           +5.821\times10^{-1}\Lambda^{2/5}_{1.7}$                                 & $36$ & $124$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-5cm-1-4-1-4-lambda-1-5-17,arxiv-2102-12455,draft_static_stars.tex,317,318,Fit_table_Mergers,"\vspace{0.5cm}
+$1.4+1.4$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}}  = 9.34 -2.342\Lambda^{1/5}_{1.4}           +1.533\times10^{-1}\Lambda^{2/5}_{1.4}$                                  & $65$ & $159$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-5-1-5-r-18,arxiv-2102-12455,draft_static_stars.tex,318,320,Fit_table_Mergers,"\vspace{0.1cm}
+
+$1.5+1.5$ & $R$                        &  $f_{\mathrm{peak}} = -34.89 +6.19 R_{1.75}                      -2.519\times10^{-1}R_{1.75}^2$                                           & $29$ & $76$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-5-1-5-r-90-19,arxiv-2102-12455,draft_static_stars.tex,320,321,Fit_table_Mergers,"\vspace{0.1cm}
+$1.5+1.5$ & $R^{90\%}$                 &  $f_{\mathrm{peak}} = -7.534 +2.275R_{1.75}^{90\%}               -1.189\times10^{-1}\left(R_{1.75}^{90\%}\right)^2$                       & $25$ & $64$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-5-1-5-r-cc-20,arxiv-2102-12455,draft_static_stars.tex,321,322,Fit_table_Mergers,"\vspace{0.1cm}
+$1.5+1.5$ & $R^{\mathrm{cc}}$ &  $f_{\mathrm{peak}}  = -7.829 +2.1565R_{1.4}^{\mathrm{cc}}       -1.0424\times10^{-1}\left(R_{1.4}^{\mathrm{cc}}\right)^2$                & $41$ & $88$",reviewed_paper_table_adapter,verified
+relation,arxiv-2102-12455-fpeak-vspace0-1cm-1-5-1-5-lambda-1-5-21,arxiv-2102-12455,draft_static_stars.tex,322,323,Fit_table_Mergers,"\vspace{0.1cm}
+$1.5+1.5$ & $\Lambda^{1/5}$            &  $f_{\mathrm{peak}} =   3.74 +0.755 \Lambda^{1/5}_{1.75}         -3.798\times10^{-1} \Lambda^{2/5}_{1.75}$                                & $30$ & $73$",reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-sly,arxiv-1504-01764,paper20150817.tex,237,239,tab:conf,"\hline
+    SLy-135135    & SLy & 2.70  & 1.00  & 3.48  & 4.628  & 74",reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-eng,arxiv-1504-01764,paper20150817.tex,240,241,tab:conf,ENG-135135    & ENG & 2.70  & 1.00  & 2.86  & 3.803 & 91,reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-mpa1,arxiv-1504-01764,paper20150817.tex,242,243,tab:conf,MPA1-135135   & MPA1 & 2.70  & 1.00  & 2.57  & 3.418 & 115,reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-alf2,arxiv-1504-01764,paper20150817.tex,244,245,tab:conf,ALF2-135135   & ALF2 & 2.70  & 1.00  & 2.73  & 3.630 & 138,reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-h4,arxiv-1504-01764,paper20150817.tex,246,247,tab:conf,H4-135135     & H4 & 2.70  & 1.00  & 2.50  & 3.325 & 211,reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-ms1b,arxiv-1504-01764,paper20150817.tex,249,250,tab:conf,MS1b-135135$^*$   & MS1b & 2.70  & 1.00  & 2.00  & 2.660 & 290,reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-ms1,arxiv-1504-01764,paper20150817.tex,250,251,tab:conf,MS1-135135$^*$    & MS1 & 2.70  & 1.00  & 1.95  & 2.593 & 327,reviewed_paper_table_adapter,verified
+eos,arxiv-1504-01764-eos-2h,arxiv-1504-01764,paper20150817.tex,252,253,tab:conf,2H-135135$^*$     & 2H & 2.70  & 1.00  & 1.87  & 2.561 & 439,reviewed_paper_table_adapter,verified
+eos,arxiv-1907-03790-eos-sfho,arxiv-1907-03790,paper.tex,807,808,tb:fpeak,SFHo135-135  & 3.41 & 1987$\pm$40 & 0.261$\pm$0.005 & 3250$\pm$163 & (1.17$\pm 0.02)\times 10^{-2}$ & 2.91$\times 10^{-3}$ & 0.61  & 6.60$\pm 0.07$  & $1.68\times 10^{-2}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1412-3240-eos-,arxiv-1412-3240,manuscript.tex,576,579,tab:models,"\hline
+\mn{GAM2-q10-M1350} & $\Gamma=2$ & $1$ & $1.350$ & $16.774$ & $2.6748$ & $1.4336$ & $0.11883$ & $282.47$ & $7.3039$ & $21.158$ & $0.097945$ & $2755.3$ & $980.58$",reviewed_paper_table_adapter,verified
+eos,arxiv-1412-3240-eos-gnh3,arxiv-1412-3240,manuscript.tex,583,586,tab:models,"\hline
+\mn{GNH3-q10-M1250} & GNH3 & $1$ & $1.250$ & $13.817$ & $2.4780$ & $1.3464$ & $0.13358$ & $273.29$ & $6.4067$ & $18.890$ & $0.11753$  & $1842.4$ & $1262.1$",reviewed_paper_table_adapter,verified
+eos,arxiv-1412-3240-eos-h4,arxiv-1412-3240,manuscript.tex,592,595,tab:models,"\hline
+\mn{H4-q10-M1250}   & H4   & $1$ & $1.250$ & $13.533$ & $2.4780$ & $1.3506$ & $0.13638$ & $273.25$ & $6.4058$ & $18.610$ & $0.12361$  & $1746.5$ & $1302.1$",reviewed_paper_table_adapter,verified
+eos,arxiv-1412-3240-eos-alf2,arxiv-1412-3240,manuscript.tex,599,602,tab:models,"\hline
+\mn{ALF2-q10-M1225} & ALF2 & $1$ & $1.225$ & $12.252$ & $2.4288$ & $1.3373$ & $0.14762$ & $271.00$ & $6.1923$ & $16.975$ & $0.13290$  & $1263.8$ & $1496.2$",reviewed_paper_table_adapter,verified
+eos,arxiv-1412-3240-eos-sly,arxiv-1412-3240,manuscript.tex,606,609,tab:models,"\hline
+\mn{SLy-q10-M1250}  & SLy  & $1$ & $1.250$ & $11.469$ & $2.4779$ & $1.3720$ & $0.16092$ & $273.04$ & $6.3977$ & $14.000$ & $0.10266$  & $634.27$ & $1668.8$",reviewed_paper_table_adapter,verified
+eos,arxiv-1412-3240-eos-apr4,arxiv-1412-3240,manuscript.tex,615,618,tab:models,"\hline
+\mn{APR4-q10-M1275} & APR4 & $1$ & $1.275$ & $11.060$ & $2.5271$ & $1.4090$ & $0.17022$ & $275.22$ & $6.6107$ & $12.821$ & $0.097595$ & $455.30$ & $1779.9$",reviewed_paper_table_adapter,verified
+eos,arxiv-1604-00246-eos-gnh3,arxiv-1604-00246,manuscript.tex,1581,1584,tab:models,"\hline
+\mn{GNH3-q10-M1200} & GNH3 & $1.000$ & $1.200$ & $13.827$ & $2.3796$ & $1.2882$ & $0.12814$ & $268.89$ & $5.9899$ & $1.0579$ & $20.298$ & $0.12184$  & $2351.1$ & $1235.2$",reviewed_paper_table_adapter,verified
+eos,arxiv-1604-00246-eos-h4,arxiv-1604-00246,manuscript.tex,1597,1600,tab:models,"\hline
+\mn{H4-q10-M1200}   & H4   & $1.000$ & $1.200$ & $13.516$ & $2.3796$ & $1.2922$ & $0.13109$ & $268.83$ & $5.9885$ & $1.0576$ & $19.918$ & $0.12779$  & $2200.9$ & $1278.1$",reviewed_paper_table_adapter,verified
+eos,arxiv-1604-00246-eos-alf2,arxiv-1604-00246,manuscript.tex,1610,1613,tab:models,"\hline
+\mn{ALF2-q10-M1200} & ALF2 & $1.000$ & $1.200$ & $12.227$ & $2.3795$ & $1.3076$ & $0.14491$ & $268.76$ & $5.9850$ & $1.0570$ & $17.519$ & $0.13524$  & $1410.9$ & $1485.5$",reviewed_paper_table_adapter,verified
+eos,arxiv-1604-00246-eos-sly,arxiv-1604-00246,manuscript.tex,1623,1626,tab:models,"\hline
+\mn{SLy-q10-M1200}  & SLy  & $1.000$ & $1.200$ & $11.465$ & $2.3795$ & $1.3116$ & $0.15454$ & $268.59$ & $5.9804$ & $1.0562$ & $14.981$ & $0.10746$  & $812.79$ & $1636.0$",reviewed_paper_table_adapter,verified
+eos,arxiv-1604-00246-eos-apr4,arxiv-1604-00246,manuscript.tex,1639,1642,tab:models,"\hline
+\mn{APR4-q10-M1200} & APR4 & $1.000$ & $1.200$ & $11.034$ & $2.3795$ & $1.3173$ & $0.16058$ & $268.60$ & $5.9801$ & $1.0562$ & $14.100$ & $0.10415$  & $650.23$ & $1732.9$",reviewed_paper_table_adapter,verified
+eos,arxiv-1604-00246-eos-ls220,arxiv-1604-00246,manuscript.tex,1652,1655,tab:models,"\hline
+\mn{LS220-q10-M1338}& LS220& $1.000$ & $1.338$ & $12.754$ & $2.6737$ & $1.4733$ & $0.15491$ & $2.8129$ & $7.2656$ & $1.0163$ & $14.489$ & $0.096525$ & $721.43$ & $1472.4$",reviewed_paper_table_adapter,verified
+eos,arxiv-1908-11418-eos-2b,arxiv-1908-11418,ms.tex,793,795,tab:valbns,"\hline
+    2B&1.78&8.47&1.35&1.35&23.6&---& \cite{Bernuzzi:2014owa}&---&---&---&---&---&---&---",reviewed_paper_table_adapter,verified
+eos,arxiv-1908-11418-eos-sly4,arxiv-1908-11418,ms.tex,795,796,tab:valbns,SLy4& 2.06&9.97&1.364&1.364&75.2&3.65&\cite{Perego:2019adq}&12&22&$1.79^{+0.46}_{-0.17}$&$1.33^{+0.11}_{-0.07}$&$74^{+151}_{-4}$&$5.22^{+0.03}_{-2.30}$&${6.5}^{+3.4}_{-0.3}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1908-11418-eos-bhb-lambda-phi,arxiv-1908-11418,ms.tex,796,797,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.50&1.50&90.0&3.39&\cite{Radice:2016rys}&10&13&$2.50^{+0.10}_{-0.25}$&$1.03^{+0.07}_{-0.03}$&$79^{+28}_{-8}$&$3.60^{+0.14}_{-0.07}$&${9.3}^{+0.2}_{-0.5}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1908-11418-eos-dd2,arxiv-1908-11418,ms.tex,797,798,tab:valbns,DD2 &2.42 &11.93&1.50&1.50&91.1&2.76&\cite{Radice:2016rys}&9&13&$2.39^{+0.35}_{-0.29}$&$1.10^{+0.13}_{-0.09}$& $196^{+79}_{-68}$&$2.74^{+0.02}_{-0.02}$ &${10.6}^{+0.7}_{-0.7}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1908-11418-eos-ls220,arxiv-1908-11418,ms.tex,799,800,tab:valbns,LS220& 2.04&10.67&1.364&1.364&133.9&2.97&\cite{Perego:2019adq}&8 &13&$2.30^{+2.38}_{-0.44}$&$1.28^{+0.17}_{-0.22}$&$218^{+500}_{-99}$&$2.95^{+0.03}_{-2.07}$&${9.9}^{+7.3}_{-0.7}$,reviewed_paper_table_adapter,verified
+eos,arxiv-1908-11418-eos-h4,arxiv-1908-11418,ms.tex,802,803,tab:valbns,H4&2.03&11.66&1.45&1.25&210.7&2.33&\cite{Dietrich:2015iva}&6& 8 & $4.01^{+0.97}_{-2.25}$&$1.27^{+0.19}_{-0.24}$&$183^{+554}_{-107}$&$1.85^{+0.88}_{-0.99}$&$16.8^{+2.3}_{-7.1}$,reviewed_paper_table_adapter,verified
+eos,arxiv-2310-06025-eos-eos,arxiv-2310-06025,NR_Simulation_Summary.tex,8,9,tab:NR_Simulation_Summary,$\mathrm{EOS}$ & $m_1\;[M_{\odot}]$ & $m_2\;[M_{\odot}]$  & $q$ & $\Lambda_1$ & $\Lambda_2$ & $t_{\mathrm{BH}} - t_{\mathrm{merg}}\;[\mathrm{ms}]$,reviewed_paper_table_adapter,verified
+eos,arxiv-2310-06025-eos-blh,arxiv-2310-06025,NR_Simulation_Summary.tex,9,12,tab:NR_Simulation_Summary,"\hline
+\hline
+$\mathrm{BLh}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & HMNS",reviewed_paper_table_adapter,verified
+eos,arxiv-2310-06025-eos-blq,arxiv-2310-06025,NR_Simulation_Summary.tex,12,13,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & 15.95,reviewed_paper_table_adapter,verified
+eos,arxiv-2310-06025-eos-dd2f,arxiv-2310-06025,NR_Simulation_Summary.tex,22,24,tab:NR_Simulation_Summary,"\hline
+$\mathrm{DD2F}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & HMNS",reviewed_paper_table_adapter,verified
+eos,arxiv-2310-06025-eos-dd2f-sf1,arxiv-2310-06025,NR_Simulation_Summary.tex,24,25,tab:NR_Simulation_Summary,$\mathrm{DD2F-SF1}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & 42.36,reviewed_paper_table_adapter,verified
+eos,arxiv-2411-00943-eos-sly,arxiv-2411-00943,apssamp.tex,904,906,tab:GW_freqs,"\hline
+SLy & 2.57 &   0 & 3.224(7) & 2.1(2) & 4.36(10) & 2.244(14) & 1.194(18) \Tstrut",reviewed_paper_table_adapter,verified
+eos,arxiv-2411-00943-eos-alf2,arxiv-2411-00943,apssamp.tex,912,914,tab:GW_freqs,"\hline
+ALF2 & 2.57 &   0 & 2.647(13) & 1.39(11) & 3.72(10) & 2.14(9) & 1.22(10) \Tstrut",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-sly,arxiv-2501-11518,main.tex,129,130,table:info,"\hline
+THC:0036:R03   & SLy          & 1.0        & 1.350        & \cite{Radice2016}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-ls220,arxiv-2501-11518,main.tex,130,131,table:info,"\hline
+THC:0019:R05   & LS220        & 1.0        & 1.350        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-ms1b,arxiv-2501-11518,main.tex,131,132,table:info,"\hline
+BAM:0088:R01   & MS1b         & 1.0        & 1.500        & \cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-bhblp,arxiv-2501-11518,main.tex,132,133,table:info,"\hline
+THC:0002:R01   & BHBlp        & 1.0        & 1.300        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-dd2,arxiv-2501-11518,main.tex,133,134,table:info,"\hline
+THC:0011:R01   & DD2          & 1.0        & 1.250        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-2h,arxiv-2501-11518,main.tex,137,138,table:info,"\hline
+BAM:0002:R02   & 2H           & 1.0        & 1.350        & \cite{Bernuzzi2016}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-h4,arxiv-2501-11518,main.tex,138,139,table:info,"\hline
+BAM:0053:R01   & H4           & 1.5        & 1.375        & \cite{Dietrich:2016hky}",reviewed_paper_table_adapter,verified
+eos,arxiv-2501-11518-eos-mpa1,arxiv-2501-11518,main.tex,143,144,table:info,"\hline
+Soultanis et al.  & MPA1         & 1.0        & 1.200        & \cite{soultanis2022}",reviewed_paper_table_adapter,verified
+eos,arxiv-2407-11143-eos-strange-star,arxiv-2407-11143,Table_Summary.tex,10,12,Table:summary,"\hline
+ Cold $\rm{+}$ $\Gamma$-Law & 1.36 & 1.36 & 2.72 & 723.34 & LR & 2.836 & Yes & 63.35",reviewed_paper_table_adapter,verified
+eos,arxiv-2606-08522-eos-stiff,arxiv-2606-08522,main.tex,132,133,tab:allmodels,"[-0.5em]
+    1.25-1.30-stiff-m125 & 1.25 & 1.35 & 6.40 & 13.23 & 1226 & 1499 & 1152 & $1830^{+10}_{-10}$ & $2458^{+10}_{-6}$ & $2910^{+9}_{-9}$",reviewed_paper_table_adapter,verified
+eos,arxiv-2606-08522-eos-soft,arxiv-2606-08522,main.tex,136,137,tab:allmodels,"[0.5em]
+    1.25-1.40-soft-m125 & 1.25 & 1.37 & 6.40 & 11.68 & 611  & 1570  & 1310 & $2215^{+36}_{-28}$ & $3215^{+20}_{-23}$ & $4353^{+13}_{-13}$",reviewed_paper_table_adapter,verified

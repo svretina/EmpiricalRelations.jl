@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2606.08522",
+  "resolved_version": "2606.08522v3",
+  "version": 3,
+  "title": "Post-Merger Gravitational-Wave Uncertainties of Binary Neutron Stars under Multi-Messenger EOS Constraints",
+  "authors": [
+    "Yong-Jia Huang",
+    "Luca Baiotti"
+  ],
+  "abstract": "The high-frequency gravitational waves emitted by a binary neutron star merger remnant carry information on matter at densities and temperatures beyond those reached in isolated neutron stars. We quantify how tightly current multi-messenger constraints already determine the dominant post-merger frequency $f_{2,\\rm mean}$. Adopting a set of cold equations of state (EOSs) constrained jointly by gravitational-wave tidal deformability, NICER mass--radius measurements, massive-pulsar masses, chiral effective field theory at low density, and perturbative QCD at asymptotically high density, for each binary mass we select the softest and stiffest models of the multi-messenger posterior and follow their coalescence with fully general-relativistic hydrodynamics simulations. Together with a broad set of EOSs drawn from the literature ($82$ models in total), these simulations show that, once the binary mass and a single measure of the stellar compactness ($Λ$ or $R$) are held fixed, the residual spread of $f_{2,\\rm mean}$ is only $\\sim 100\\,{\\rm Hz}$, a factor of several below the $\\gtrsim 500\\,{\\rm Hz}$ range spanned by an EOSs set including those already disfavored by the data. This tight calibration of the cold-matter prediction implies that a future high-frequency detection departing from it would point directly to additional physics, such as a hadron--quark transition occurring at finite temperature. We further confirm the quasi-universal relation $(f_1+f_3)/2 \\approx f_{2,\\rm mean}$ to within $\\sim 116\\,{\\rm Hz}$, which provides a model-independent estimate of $f_{2,\\rm mean}$ from the secondary spectral peaks.",
+  "submitted": "2026-06-07T08:59:16Z",
+  "last_revised": "2026-07-31T05:24:40Z",
+  "doi": "10.1088/1361-6382/ae92c9",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "gr-qc",
+    "nucl-th"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2606.08522v3",
+  "pdf_url": "https://export.arxiv.org/pdf/2606.08522v3",
+  "source_url": "https://export.arxiv.org/src/2606.08522v3",
+  "publication_date": "2026-08-28",
+  "publication_year": 2026,
+  "publication_date_source": "Crossref:published-print",
+  "publisher": "IOP Publishing",
+  "container_title": "Classical and Quantum Gravity",
+  "categories": [
+    "empirical_relations",
+    "uncertainties",
+    "secondary_frequencies"
+  ],
+  "seed_group": "A",
+  "directory": "2606.08522_huang_2026",
+  "accessed_at": "2026-10-22T17:42:19.594231Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/main.tex",
+  "main_tex_candidates": [
+    {
+      "path": "main.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "3056dba8b97cdb3c49c5cb3ee80480484a6e8cead807c000be4f5253a51d2a3e",
+    "source_sha256": "10efd1174d39120d5d9e0033ef3c0497f5bf98b918779e0de5476187941ac501"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2606.08522v3",
+  "pdf_bytes": 642891,
+  "source_final_url": "https://export.arxiv.org/src/2606.08522v3",
+  "source_content_type": "application/gzip",
+  "source_bytes": 422753,
+  "source_inventory": {
+    "tex": [
+      "main.tex"
+    ],
+    "bibliography": [
+      "ref.bib"
+    ],
+    "styles": [],
+    "figures": [
+      "EOS_models.pdf",
+      "detrended_plane_statistical_eos_Han23.pdf",
+      "detrended_plane_statistical_eos_updated.pdf",
+      "f2m_vs_f1f3_relation.pdf",
+      "fundamental_plane_statistical_eos_Han23.pdf",
+      "fundamental_plane_statistical_eos_updated.pdf",
+      "rho_max1.pdf",
+      "rho_max2.pdf",
+      "rho_max3.pdf"
+    ],
+    "other": [
+      "00README.json"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

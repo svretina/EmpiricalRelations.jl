@@ -1,0 +1,78 @@
+{
+  "arxiv_id": "1504.01764",
+  "resolved_version": "1504.01764v3",
+  "version": 3,
+  "title": "Modeling the complete gravitational wave spectrum of neutron star mergers",
+  "authors": [
+    "Sebastiano Bernuzzi",
+    "Tim Dietrich",
+    "Alessandro Nagar"
+  ],
+  "abstract": "In the context of neutron star mergers, we study the gravitational wave spectrum of the merger remnant using numerical relativity simulations. Postmerger spectra are characterized by a main peak frequency $f_2$ related to the particular structure and dynamics of the remnant hot hypermassive neutron star. We show that $f_2$ is correlated with the tidal coupling constant $κ^T_2$ that characterizes the binary tidal interactions during the late-inspiral--merger. The relation $f_2(κ^T_2)$ depends very weakly on the binary total mass, mass-ratio, equation of state, and thermal effects. This observation opens up the possibility of developing a model of the gravitational spectrum of every merger unifying the late-inspiral and postmerger descriptions.",
+  "submitted": "2015-04-07T21:51:13Z",
+  "last_revised": "2015-08-17T20:40:58Z",
+  "doi": "10.1103/PhysRevLett.115.091101",
+  "journal_reference": "Phys. Rev. Lett. 115, 091101 (2015)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1504.01764v3",
+  "pdf_url": "https://export.arxiv.org/pdf/1504.01764v3",
+  "source_url": "https://export.arxiv.org/src/1504.01764v3",
+  "publication_date": "2015-08-27",
+  "publication_year": 2015,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review Letters",
+  "categories": [
+    "explicit_fit",
+    "tidal_coupling",
+    "postmerger_spectrum"
+  ],
+  "seed_group": "D",
+  "directory": "1504.01764_bernuzzi_2015",
+  "accessed_at": "2026-10-22T17:42:20.284158Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper20150817.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper20150817.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "f5de6b1629df7a3cba8207720dab398a7c465f657d61a5d5e3fcc1f7ddb42028",
+    "source_sha256": "fe5384efbdf43d3eba00f044908081aec25d6ee1157a2262bbb36258356462d7"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1504.01764v3",
+  "pdf_bytes": 2492251,
+  "source_final_url": "https://export.arxiv.org/src/1504.01764v3",
+  "source_content_type": "application/gzip",
+  "source_bytes": 2188388,
+  "source_inventory": {
+    "tex": [
+      "paper20150817.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "fig01.pdf",
+      "fig02.pdf",
+      "fig03.pdf"
+    ],
+    "other": [
+      "paper20150817.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

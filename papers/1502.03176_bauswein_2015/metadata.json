@@ -1,0 +1,84 @@
+{
+  "arxiv_id": "1502.03176",
+  "resolved_version": "1502.03176v2",
+  "version": 2,
+  "title": "A unified picture of the post-merger dynamics and gravitational wave emission in neutron-star mergers",
+  "authors": [
+    "A. Bauswein",
+    "N. Stergioulas"
+  ],
+  "abstract": "We introduce a classification scheme of the post-merger dynamics and gravitational-wave emission in binary neutron star mergers, after identifying a new mechanism by which a secondary peak in the gravitational-wave spectrum is produced. It is caused by a spiral deformation, the pattern of which rotates slower with respect to the double-core structure in center of the remnant. This secondary peak is typically well separated in frequency from the secondary peak produced by a nonlinear interaction between a quadrupole and a quasi-radial oscillation. The new mechanism allows for an explanation of low-frequency modulations seen in a number of physical characteristics of the remnant, such as the central lapse function, the maximum density and the separation between the two cores. We find empirical relations for both types of secondary peaks between their gravitational-wave frequency and the compactness of nonrotating individual neutron stars, that exist for fixed total binary masses. These findings are derived for equal-mass binaries without intrinsic neutron-star spin analyzing hydrodynamical simulations without magnetic field effects. Our classification scheme may form the basis for the construction of detailed gravitational-wave templates of the post-merger phase. We find that the quasi-radial oscillation frequency of the remnant decreases with the total binary mass. For a given merger event our classification scheme may allow to determine the proximity of the measured total binary mass to the threshold mass for prompt black hole formation, which can, in turn, yield an estimate of the maximum neutron-star mass.",
+  "submitted": "2015-02-11T02:27:43Z",
+  "last_revised": "2015-06-02T18:04:27Z",
+  "doi": null,
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.SR",
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "primary_category": "astro-ph.SR",
+  "abstract_url": "https://arxiv.org/abs/1502.03176v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1502.03176v2",
+  "source_url": "https://export.arxiv.org/src/1502.03176v2",
+  "publication_date": null,
+  "publication_year": 2015,
+  "publication_date_source": null,
+  "publisher": null,
+  "container_title": null,
+  "categories": [
+    "spectral_classification",
+    "mode_identification",
+    "secondary_frequencies"
+  ],
+  "seed_group": "A",
+  "directory": "1502.03176_bauswein_2015",
+  "accessed_at": "2026-10-22T17:42:19.414068Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "9724e0c823ee2cfec27a677041c7dc25dd47d3de060896e1d25db3c9dc579841",
+    "source_sha256": "e405306591aafb5dd9b72a236a3b5ae5a4c33c3fcf8cadf44ccfadd530875bff"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1502.03176v2",
+  "pdf_bytes": 472930,
+  "source_final_url": "https://export.arxiv.org/src/1502.03176v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 85843,
+  "source_inventory": {
+    "tex": [
+      "paper.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "fig1a.eps",
+      "fig1b.eps",
+      "fig2a.eps",
+      "fig2b.eps",
+      "fig2c.eps",
+      "fig2d.eps",
+      "fig3.eps",
+      "fig4a.eps",
+      "fig4b.eps",
+      "fig4c.eps",
+      "fig5.eps"
+    ],
+    "other": []
+  },
+  "main_tex_ambiguous": false
+}

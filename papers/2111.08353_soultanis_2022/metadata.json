@@ -1,0 +1,119 @@
+{
+  "arxiv_id": "2111.08353",
+  "resolved_version": "2111.08353v2",
+  "version": 2,
+  "title": "Analytic models of the spectral properties of gravitational waves from neutron star merger remnants",
+  "authors": [
+    "Theodoros Soultanis",
+    "Andreas Bauswein",
+    "Nikolaos Stergioulas"
+  ],
+  "abstract": "We present a new analytic model describing gravitational wave emission in the post-merger phase of binary neutron star mergers. The model is described by a number of physical parameters that are related to various oscillation modes, quasi-linear combination tones or non-linear features that appear in the post-merger phase. The time evolution of the main post-merger frequency peak is taken into account and it is described by a two-segment linear expression. The effectiveness of the model, in terms of the fitting factor or, equivalently, the reduction in the detection rate, is evaluated along a sequence of equal-mass simulations of varying mass. We find that all parameters of the analytic model correlate with the total binary mass of the system. For high masses, we identify new spectral features originating from the non-linear coupling between the quasi-radial oscillation and the antipodal tidal deformation, the inclusion of which significantly improves the fitting factors achieved by the model. We can thus model the post-merger gravitational-wave emission with an analytic model that achieves high fitting factors for a wide range of total binary masses. Our model can be used for the detection and parameter estimation of the post-merger phase in upcoming searches with upgraded second-generation detectors, such as aLIGO+ and aVirgo+, with future, third-generation detectors (Einstein Telescope and Cosmic Explorer) or with dedicated, high-frequency detectors.",
+  "submitted": "2021-11-16T10:54:07Z",
+  "last_revised": "2022-02-07T12:36:36Z",
+  "doi": "10.1103/PhysRevD.105.043020",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/2111.08353v2",
+  "pdf_url": "https://export.arxiv.org/pdf/2111.08353v2",
+  "source_url": "https://export.arxiv.org/src/2111.08353v2",
+  "publication_date": "2022-02-28",
+  "publication_year": 2022,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "waveform_model",
+    "time_domain",
+    "mode_coupling"
+  ],
+  "seed_group": "B",
+  "directory": "2111.08353_soultanis_2022",
+  "accessed_at": "2026-10-22T17:42:19.674424Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/main.tex",
+  "main_tex_candidates": [
+    {
+      "path": "main.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "journalheader.tex",
+        "main.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "04ed684687475e1adc520749ab7ace85a890b18a7597596a286b21deacdf47a5",
+    "source_sha256": "ea761cb3a800c3ed907841ffcde4054d91184477c02193156750337df5c1b69d"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2111.08353v2",
+  "pdf_bytes": 11852322,
+  "source_final_url": "https://export.arxiv.org/src/2111.08353v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 9866189,
+  "source_inventory": {
+    "tex": [
+      "journalheader.tex",
+      "main.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "ATpeak-TM.pdf",
+      "AcdotT-TM.pdf",
+      "Apeak-TM.pdf",
+      "Nfactor-TM.pdf",
+      "Tpeak-TM.pdf",
+      "amplitudes-TM.pdf",
+      "dumpFFT_HR_mpa1-m1_25.pdf",
+      "dumpFFT_allfreq_components_mpa1-m155.pdf",
+      "dumpFFT_eccruns_comparison.pdf",
+      "dumpFFT_evolution_mpa1-m125.pdf",
+      "dumpFFT_fsp0_mpa1-m150.pdf",
+      "dumpFFT_model_components_mpa1-m125.pdf",
+      "dumpFFT_model_mpa1-m125.pdf",
+      "dumpFFT_mthres_components_mpa1-m155.pdf",
+      "dumpFFT_nopi_mpa1-m1_50.pdf",
+      "dumpGW_model_mpa1-m125.pdf",
+      "dumpGW_sep_mpa1-m1_25.pdf",
+      "dumpSPEC_f0_from_ac_mpa1-m125.pdf",
+      "dumpSPEC_mpa1-m125.pdf",
+      "dump_Amp_of_t_m1_25_1.pdf",
+      "dump_Amp_of_t_m1_25_2.pdf",
+      "dump_Amp_of_t_m1_25_3.pdf",
+      "dump_phase_model_components_mpa1-m125.pdf",
+      "dump_specComp_HR_m1_25.pdf",
+      "dump_specComp_m125.pdf",
+      "fpeak-relations.pdf",
+      "lapses_all.pdf",
+      "sequence-Ac-sAc-match-ET.pdf",
+      "sequence-FFT-fullGW.pdf",
+      "sequence-FFT-model.pdf",
+      "sequence-FFT.pdf",
+      "sequence-GW-model.pdf",
+      "sequence-SPECs.pdf",
+      "sequence-SPECs_f0.pdf",
+      "sequence-lapse-FFT.pdf",
+      "sequence-match-ET.pdf",
+      "sequence_ecc_phi_of_phipeak.pdf",
+      "sequence_phi_of_Mtot.pdf",
+      "sequence_phi_of_phipeak.pdf",
+      "taus-TM.pdf"
+    ],
+    "other": [
+      "main.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

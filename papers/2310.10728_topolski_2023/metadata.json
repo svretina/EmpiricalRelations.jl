@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2310.10728",
+  "resolved_version": "2310.10728v1",
+  "version": 1,
+  "title": "Post-merger gravitational-wave signal from neutron-star binaries: a new look at an old problem",
+  "authors": [
+    "Konrad Topolski",
+    "Samuel Tootle",
+    "Luciano Rezzolla"
+  ],
+  "abstract": "The spectral properties of the post-merger gravitational-wave signal from a binary of neutron stars encode a variety of information about the features of the system and of the equation of state describing matter around and above nuclear saturation density. Characterising the properties of such a signal is an ``old'' problem, which first emerged when a number of frequencies were shown to be related to the properties of the binary through ``quasi-universal'' relations. Here we take a new look at this old problem by computing the properties of the signal in terms of the Weyl scalar $ψ_4$. In this way, and using a database of more than 100 simulations, we provide the first evidence for a new instantaneous frequency, $f^{ψ_4}_0$, associated with the instant of quasi time-symmetry in the postmerger dynamics, and which also follows a quasi-universal relation. We also derive a new quasi-universal relation for the merger frequency $f^{h}_{\\rm mer}$, which provides a description of the data that is four times more accurate than previous expressions while requiring fewer fitting coefficients. Finally, consistently with the findings of numerous studies before ours, and using an enlarged ensamble of binary systems we point out that the $\\ell=2, m=1$ gravitational-wave mode could become comparable with the traditional $\\ell=2, m=2$ mode on sufficiently long timescales, with strain amplitudes in a ratio $|h^{21}|/|h^{22}| \\sim 0.1-1$ under generic orientations of the binary, which could be measured by present detectors for signals with large signal-to-noise ratio or by third-generation detectors for generic signals should no collapse occur.",
+  "submitted": "2023-10-16T18:00:05Z",
+  "last_revised": "2023-10-16T18:00:05Z",
+  "doi": null,
+  "journal_reference": null,
+  "arxiv_categories": [
+    "gr-qc"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/2310.10728v1",
+  "pdf_url": "https://export.arxiv.org/pdf/2310.10728v1",
+  "source_url": "https://export.arxiv.org/src/2310.10728v1",
+  "publication_date": null,
+  "publication_year": 2023,
+  "publication_date_source": null,
+  "publisher": null,
+  "container_title": null,
+  "categories": [
+    "explicit_fit",
+    "instantaneous_frequency",
+    "merger_frequency"
+  ],
+  "seed_group": "D",
+  "directory": "2310.10728_topolski_2023",
+  "accessed_at": "2026-10-22T17:42:20.338100Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/main.tex",
+  "main_tex_candidates": [
+    {
+      "path": "main.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "main.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "48ef8d550385ca28d3dad581c96c2e8c564bc84dc77fbab0541d05e7477026fa",
+    "source_sha256": "2de30f7afc28bd8e3ede444c509685c8961f16f53a647e3b7aeee8d725eaa36f"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/2310.10728v1",
+  "pdf_bytes": 4908058,
+  "source_final_url": "https://export.arxiv.org/src/2310.10728v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 4854733,
+  "source_inventory": {
+    "tex": [
+      "main.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "aastex631.cls"
+    ],
+    "figures": [
+      "Fig1_h.pdf",
+      "Fig1_psi4.pdf",
+      "Fig2_f0_Psi4.pdf",
+      "Fig2_f2_Psi4.pdf",
+      "Fig2_fmer_Psi4.pdf",
+      "Fig2_fmer_h.pdf",
+      "Fig2_legend.pdf",
+      "Fig3.pdf",
+      "Fig4.pdf",
+      "Fig4_all_datasets.pdf",
+      "Fig5_left.pdf",
+      "Fig5_right.pdf",
+      "SNR_ratio_full.pdf",
+      "SNR_ratio_inst.pdf"
+    ],
+    "other": [
+      "main.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

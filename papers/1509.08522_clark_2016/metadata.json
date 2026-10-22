@@ -1,0 +1,105 @@
+{
+  "arxiv_id": "1509.08522",
+  "resolved_version": "1509.08522v1",
+  "version": 1,
+  "title": "Observing Gravitational Waves From The Post-Merger Phase Of Binary Neutron Star Coalescence",
+  "authors": [
+    "James Alexander Clark",
+    "Andreas Bauswein",
+    "Nikolaos Stergioulas",
+    "Deirdre Shoemaker"
+  ],
+  "abstract": "We present an effective, low-dimensionality frequency-domain template for the gravitational wave signal from the stellar remnants from binary neutron star coalescence. A principal component decomposition of a suite of numerical simulations of binary neutron star mergers is used to construct orthogonal basis functions for the amplitude and phase spectra of the waveforms for a variety of neutron star equations of state and binary mass configurations. We review the phenomenology of late merger / post-merger gravitational wave emission in binary neutron star coalescence and demonstrate how an understanding of the dynamics during and after the merger leads to the construction of a universal spectrum. We also provide a discussion of the prospects for detecting the post-merger signal in future gravitational wave detectors as a potential contribution to the science case for third generation instruments. The template derived in our analysis achieves $>90\\%$ match across a wide variety of merger waveforms and strain sensitivity spectra for current and potential gravitational wave detectors. A Fisher matrix analysis yields a preliminary estimate of the typical uncertainty in the determination of the dominant post-merger oscillation frequency $f_{\\mathrm{peak}}$ as $δf_{\\mathrm{peak}} \\sim 50$Hz. Using recently derived correlations between $f_{\\mathrm{peak}}$ and the neutron star radii, this suggests potential constraints on the radius of a fiducial neutron star of $\\sim 220$\\,m. Such measurements would only be possible for nearby ($\\sim 30$Mpc) sources with advanced LIGO but become more feasible for planned upgrades to advanced LIGO and other future instruments, leading to constraints on the high density neutron star equation of state which are independent and complementary to those inferred from the pre-merger inspiral gravitational wave signal.",
+  "submitted": "2015-09-28T22:07:01Z",
+  "last_revised": "2015-09-28T22:07:01Z",
+  "doi": "10.1088/0264-9381/33/8/085003",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "primary_category": "astro-ph.HE",
+  "abstract_url": "https://arxiv.org/abs/1509.08522v1",
+  "pdf_url": "https://export.arxiv.org/pdf/1509.08522v1",
+  "source_url": "https://export.arxiv.org/src/1509.08522v1",
+  "publication_date": "2016-04-21",
+  "publication_year": 2016,
+  "publication_date_source": "Crossref:published-print",
+  "publisher": "IOP Publishing",
+  "container_title": "Classical and Quantum Gravity",
+  "categories": [
+    "waveform_model",
+    "principal_components"
+  ],
+  "seed_group": "B",
+  "directory": "1509.08522_clark_2016",
+  "accessed_at": "2026-10-22T17:42:19.601712Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/pmns_pca.tex",
+  "main_tex_candidates": [
+    {
+      "path": "pmns_pca.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "92ccc066b426b5c749d7320f7fea8bde32ff79af1ce04d000af841b017c52305",
+    "source_sha256": "95b17071aaa100ba0cfafc359b7cc5a7b62fc1b39b93e5d0bf7717bcb54c2b11"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1509.08522v1",
+  "pdf_bytes": 2067811,
+  "source_final_url": "https://export.arxiv.org/src/1509.08522v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 2007811,
+  "source_inventory": {
+    "tex": [
+      "pmns_pca.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "iopams.sty",
+      "iopart.cls"
+    ],
+    "figures": [
+      "all_spectra.eps",
+      "first_magnitude_pc_alleos_allmass_lessvisc.eps",
+      "fpeakplot_pca.eps",
+      "frequencyrelations.eps",
+      "magnitude-explained_variance_alleos_allmass_lessvisc.eps",
+      "matches_ALL_aLIGO_targetsnr-5.00_eos-all_mass-all_viscosity-lessvisc_reduced.eps",
+      "matches_LOO_aLIGO_targetsnr-5.00_eos-all_mass-all_viscosity-lessvisc_reduced.eps",
+      "mean_all_spectra.eps",
+      "mean_spectrum_alleos_allmass_lessvisc.eps",
+      "multidet_deltaFpeak_summary.eps",
+      "multidet_deltaR16_summary.eps",
+      "multidet_match_summary.eps",
+      "noise_spectra.eps",
+      "phase-explained_variance_alleos_allmass_lessvisc.eps",
+      "pic132.eps",
+      "pic138.eps",
+      "pic153.eps",
+      "pic191.eps",
+      "sfho_example.eps",
+      "three_spectra.eps",
+      "three_spectra_align.eps",
+      "tm1_example.eps",
+      "tm1_rec_example_allpcs.eps",
+      "tm1_rec_example_onepc.eps",
+      "waveform_catalogue.eps"
+    ],
+    "other": [
+      "Makefile",
+      "iopart10.clo",
+      "pmns_pca.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

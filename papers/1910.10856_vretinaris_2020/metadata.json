@@ -1,0 +1,149 @@
+{
+  "arxiv_id": "1910.10856",
+  "resolved_version": "1910.10856v1",
+  "version": 1,
+  "title": "Empirical relations for gravitational-wave asteroseismology of binary neutron star mergers",
+  "authors": [
+    "Stamatis Vretinaris",
+    "Nikolaos Stergioulas",
+    "Andreas Bauswein"
+  ],
+  "abstract": "We construct new, multivariate empirical relations for measuring neutron star radii and tidal deformabilities from the dominant gravitational wave frequency in the post-merger phase of binary neutron star mergers. The relations determine neutron star radii and tidal deformabilities for specific neutron star masses with consistent accuracy and depend only on two observables: the post-merger peak frequency $f_{\\rm peak}$ and the chirp mass $M_{\\rm chirp}$. The former could be measured with good accuracy from gravitational waves emitted in the post-merger phase using next-generation detectors, whereas the latter is already obtained with good accuracy from the inspiral phase with present-day detectors. Our main data set consists of a gravitational wave catalogue obtained with CFC/SPH simulations. We also extract the $f_{\\rm peak}$ frequency from the publicly available CoRe data set, obtained through grid-based GRHD simulations and find good agreement between the extracted frequencies of the two data sets. As a result, we can construct empirical relations for the combined data sets. Furthermore, we investigate empirical relations for two secondary peaks, $f_{2-0}$ and $f_{\\rm spiral}$, and show that these relations are distinct in the whole parameter space, in agreement with a previously introduced spectral classification scheme. Finally, we show that the spectral classification scheme can be reproduced using machine-learning techniques.",
+  "submitted": "2019-10-24T00:32:54Z",
+  "last_revised": "2019-10-24T00:32:54Z",
+  "doi": "10.1103/PhysRevD.101.084039",
+  "journal_reference": "Phys. Rev. D 101, 084039 (2020)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1910.10856v1",
+  "pdf_url": "https://export.arxiv.org/pdf/1910.10856v1",
+  "source_url": "https://export.arxiv.org/src/1910.10856v1",
+  "publication_date": "2020-04-20",
+  "publication_year": 2020,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "empirical_relations",
+    "secondary_frequencies",
+    "spectral_classification"
+  ],
+  "seed_group": "A",
+  "directory": "1910.10856_vretinaris_2020",
+  "accessed_at": "2026-10-22T17:42:19.504198Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/article.tex",
+  "main_tex_candidates": [
+    {
+      "path": "article.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "tables/TOV_info.tex",
+        "tables/bauswein_data.tex",
+        "tables/CORE_data.tex",
+        "tables/tables_combined_fRM.tex",
+        "tables/tables_combined.tex"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "f93e42d050652db218298bb3ba03646f05ec45e2e35450adb6f3c4c0fe8cc444",
+    "source_sha256": "b61696f7a54b2c118caa76c8586de61a8beb044c402637d3b1cd73e51dcfad06"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1910.10856v1",
+  "pdf_bytes": 5893681,
+  "source_final_url": "https://export.arxiv.org/src/1910.10856v1",
+  "source_content_type": "application/gzip",
+  "source_bytes": 8272272,
+  "source_inventory": {
+    "tex": [
+      "article.tex",
+      "eoschirp.tex",
+      "eosconf.tex",
+      "firsthalf_freq_table.tex",
+      "secondhalf_freq_table.tex",
+      "tables/CORE_data.tex",
+      "tables/TOV_info.tex",
+      "tables/bauswein_data.tex",
+      "tables/table2_f=2-0_e=0.tex",
+      "tables/table2_f=2-0_e=0_fRM.tex",
+      "tables/table2_f=2-0_e=1.tex",
+      "tables/table2_f=2-0_e=1_fRM.tex",
+      "tables/table2_f=peak_e=0.tex",
+      "tables/table2_f=peak_e=0_fRM.tex",
+      "tables/table2_f=peak_e=1.tex",
+      "tables/table2_f=peak_e=1_fRM.tex",
+      "tables/table2_f=spiral_e=0.tex",
+      "tables/table2_f=spiral_e=0_fRM.tex",
+      "tables/table2_f=spiral_e=1.tex",
+      "tables/table2_f=spiral_e=1_fRM.tex",
+      "tables/tables_combined-backup.tex",
+      "tables/tables_combined.tex",
+      "tables/tables_combined_fRM.tex",
+      "tovplot.tex"
+    ],
+    "bibliography": [
+      "VSB.bib"
+    ],
+    "styles": [
+      "aas_macros.sty"
+    ],
+    "figures": [
+      "figures-final/3surfaces2gether_R16_R18_e0.png",
+      "figures-final/CORE_models.png",
+      "figures-final/CORE_models_chirp.png",
+      "figures-final/classification.png",
+      "figures-final/eoschirp.png",
+      "figures-final/eosconf.png",
+      "figures-final/histogram_e=1.png",
+      "figures-final/surfaceCombined_R16_fpeak_e0.pdf",
+      "figures-final/surfaceCombined_fRM_fpeak_R18_e0.pdf",
+      "figures-final/surface_LfM_L16_fpeak_e0-f.png",
+      "figures-final/surface_LfM_L16_fpeak_e0-fM1-2D.png",
+      "figures-final/surface_LfM_Ltilde_fpeak_e0-fM-2D.png",
+      "figures-final/surface_LfM_Ltilde_fpeak_e0-fM.png",
+      "figures-final/surface_LfM_all.png",
+      "figures-final/surface_R16_f2-0_R18_fspiral_e0.png",
+      "figures-final/surface_Rall_fpeak_e0.png",
+      "figures-final/surface_fLM_L16_fpeak_e0-fM.png",
+      "figures-final/surface_fLM_L18_fpeak_e0-fM.png",
+      "figures-final/surface_fLM_Ltilde_fpeak_e0-fM.pdf",
+      "figures-final/surface_fLM_Ltilde_fpeak_e1-fM.pdf",
+      "figures-final/surface_fRM_fpeak_Rall_e0.png",
+      "figures-final/tovplot3.pdf"
+    ],
+    "other": [
+      "article.bbl",
+      "figures-final/3surfaces2gether_R16_R18_e0.png.bb",
+      "figures-final/classification.png.bb",
+      "figures-final/histogram_e=1.png.bb",
+      "figures-final/surfaceCombined_R16_fpeak_e0.pdf.bb",
+      "figures-final/surfaceCombined_R16_fpeak_e0.png.bb",
+      "figures-final/surfaceCombined_fRM_fpeak_R18_e0.pdf.bb",
+      "figures-final/surfaceCombined_fRM_fpeak_R18_e0.png.bb",
+      "figures-final/surface_LfM_L16_fpeak_e0-f.png.bb",
+      "figures-final/surface_LfM_L16_fpeak_e0-fM1-2D.png.bb",
+      "figures-final/surface_LfM_Ltilde_fpeak_e0-fM-2D.png.bb",
+      "figures-final/surface_LfM_Ltilde_fpeak_e0-fM.png.bb",
+      "figures-final/surface_R16_f2-0_R18_fspiral_e0.png.bb",
+      "figures-final/surface_Rall_fpeak_e0.png.bb",
+      "figures-final/surface_fLM_L16_fpeak_e0-fM.png.bb",
+      "figures-final/surface_fLM_L18_fpeak_e0-fM.png.bb",
+      "figures-final/surface_fLM_Ltilde_fpeak_e0-fM.pdf.bb",
+      "figures-final/surface_fLM_Ltilde_fpeak_e0-fM.png.bb",
+      "figures-final/surface_fRM_fpeak_Rall_e0.png.bb",
+      "figures-final/tovplot3.pdf.bb"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

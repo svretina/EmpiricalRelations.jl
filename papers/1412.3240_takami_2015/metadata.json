@@ -1,0 +1,99 @@
+{
+  "arxiv_id": "1412.3240",
+  "resolved_version": "1412.3240v2",
+  "version": 2,
+  "title": "Spectral properties of the post-merger gravitational-wave signal from binary neutron stars",
+  "authors": [
+    "Kentaro Takami",
+    "Luciano Rezzolla",
+    "Luca Baiotti"
+  ],
+  "abstract": "Extending previous work by a number of authors, we have recently presented a new approach in which the detection of gravitational waves from merging neutron star binaries can be used to determine the equation of state of matter at nuclear density and hence the structure of neutron stars. In particular, after performing a large number of numerical-relativity simulations of binaries with nuclear equations of state, we have found that the post-merger emission is characterized by two distinct and robust spectral features. While the high-frequency peak was already shown to be associated with the oscillations of the hypermassive neutron star produced by the merger and to depend on the equation of state, we have highlighted that the low-frequency peak is related to the merger process and to the total compactness of the stars in the binary. This relation is essentially universal and provides a powerful tool to set tight constraints on the equation of state. We here provide additional information on the extensive analysis performed, illustrating the methods used, the tests considered, as well as the robustness of the results. We also discuss additional relations that can be deduced when exploring the data and how these correlate with various properties of the binary. Finally, we present a simple mechanical toy model that explains the main spectral features of the post-merger signal and can even reproduce analytically the complex waveforms emitted right after the merger.",
+  "submitted": "2014-12-10T09:54:23Z",
+  "last_revised": "2015-03-06T16:30:59Z",
+  "doi": "10.1103/PhysRevD.91.064001",
+  "journal_reference": "Phys. Rev. D 91, 064001 (2015)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE",
+    "astro-ph.SR"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1412.3240v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1412.3240v2",
+  "source_url": "https://export.arxiv.org/src/1412.3240v2",
+  "publication_date": "2015-03-02",
+  "publication_year": 2015,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "spectral_classification",
+    "secondary_frequencies"
+  ],
+  "seed_group": "A",
+  "directory": "1412.3240_takami_2015",
+  "accessed_at": "2026-10-22T17:42:19.374338Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/manuscript.tex",
+  "main_tex_candidates": [
+    {
+      "path": "manuscript.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "aeireferences.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "c19230467559f96853ac48e923364378d8cd2344bb9c0e37b1b44d1999a9e856",
+    "source_sha256": "b93ffd7b2283728e82094d02e650f8981bd77dc655640eb8a496a425779d5825"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1412.3240v2",
+  "pdf_bytes": 3806441,
+  "source_final_url": "https://export.arxiv.org/src/1412.3240v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 3954889,
+  "source_inventory": {
+    "tex": [
+      "manuscript.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "apsrev4-1-noeprint.bst"
+    ],
+    "figures": [
+      "figs/BNSs_snaps_xy_1x5.pdf",
+      "figs/Constr_M13000_1x5.pdf",
+      "figs/CorrFreq_Mf_3x4.pdf",
+      "figs/CorrFreq_f1_with_PT_UEM.pdf",
+      "figs/CorrFreq_f_3x4.pdf",
+      "figs/CorrFreq_for_Bauswein2012a.pdf",
+      "figs/CorrFreq_for_R16.pdf",
+      "figs/CorrFreq_fp_for_Lambda.pdf",
+      "figs/EoS__rho_vs_p_with_err.pdf",
+      "figs/HLLE_vs_Marq_2D_paper.pdf",
+      "figs/PSD_5x5.pdf",
+      "figs/PSD__DiffGamma_50Mpc_4models.pdf",
+      "figs/PSD__DiffGrid_50Mpc_etc.pdf",
+      "figs/PSD_fit_APR4_1375.pdf",
+      "figs/PSD_t+609_5000_1x5.pdf",
+      "figs/ToyModel_PSD.pdf",
+      "figs/ToyModel_fgw_Omg_GNH3_M1300.pdf",
+      "figs/ToyModel_waveforms_GNH3_M1300.pdf",
+      "figs/Waveform_5x5.pdf",
+      "figs/cartoon.pdf"
+    ],
+    "other": [
+      "aeireferences.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

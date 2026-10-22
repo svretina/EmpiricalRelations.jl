@@ -1,1 +1,20 @@
 /Manifest*.toml
+
+# Downloaded literature artifacts (retain metadata and catalogues in Git).
+/papers/*/paper.pdf
+/papers/*/source/
+/papers/*/source.*
+/papers/*/main.tex
+/papers/**/*.part
+
+# Python utility caches.
+__pycache__/
+*.py[cod]
+
+# Generated documentation output and browser data.
+/docs/build/
+/docs/src/assets/data/
+/docs/src/assets/downloads/
+/docs/src/database/methodology.md
+/docs/src/database/frequency_nomenclature.md
+/docs/src/database/schema.md

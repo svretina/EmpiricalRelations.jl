@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "1403.5301",
+  "resolved_version": "1403.5301v2",
+  "version": 2,
+  "title": "Revealing the high-density equation of state through binary neutron star mergers",
+  "authors": [
+    "A. Bauswein",
+    "N. Stergioulas",
+    "H. -T. Janka"
+  ],
+  "abstract": "We present a novel method for revealing the equation of state of high-density neutron star matter through gravitational waves emitted during the postmerger phase of a binary neutron star system. The method relies on a small number of detections of the peak frequency in the postmerger phase for binaries of different (relatively low) masses, in the most likely range of expected detections. From such observations, one can construct the derivative of the peak frequency versus the binary mass, in this mass range. Through a detailed study of binary neutron star mergers for a large sample of equations of state, we show that one can extrapolate the above information to the highest possible mass (the threshold mass for black hole formation in a binary neutron star merger). In turn, this allows for an empirical determination of the maximum mass of cold, nonrotating neutron stars to within 0.1 M_sun, while the corresponding radius is determined to within a few percent. Combining this with the determination of the radius of cold, nonrotating neutron stars of 1.6 M_sun (to within a few percent, as was demonstrated in Bauswein et al., PRD, 86, 063001, 2012), allows for a clear distinction of a particular candidate equation of state among a large set of other candidates. Our method is particularly appealing because it reveals simultaneously the moderate and very high-density parts of the equation of state, enabling the distinction of mass-radius relations even if they are similar at typical neutron star masses. Furthermore, our method also allows to deduce the maximum central energy density and maximum central rest-mass density of cold, nonrotating neutron stars with an accuracy of a few per cent.",
+  "submitted": "2014-03-20T21:24:51Z",
+  "last_revised": "2014-06-19T09:51:25Z",
+  "doi": "10.1103/PhysRevD.90.023002",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.SR",
+    "gr-qc",
+    "nucl-th"
+  ],
+  "primary_category": "astro-ph.SR",
+  "abstract_url": "https://arxiv.org/abs/1403.5301v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1403.5301v2",
+  "source_url": "https://export.arxiv.org/src/1403.5301v2",
+  "publication_date": "2014-07-01",
+  "publication_year": 2014,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "empirical_relations",
+    "dominant_frequency",
+    "eos"
+  ],
+  "seed_group": "A",
+  "directory": "1403.5301_bauswein_2014",
+  "accessed_at": "2026-10-22T17:42:19.360014Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "textable_formatted.tex"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "8e07eb14a5bce64e40366d6aa62aec4c0c774992f856898e3b2cc9c5a6c21c16",
+    "source_sha256": "7e1a79ce9a6031ea02ce67028fa4f336df2adeeb3e90cbe37bea3797178354d0"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1403.5301v2",
+  "pdf_bytes": 397770,
+  "source_final_url": "https://export.arxiv.org/src/1403.5301v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 233609,
+  "source_inventory": {
+    "tex": [
+      "paper.tex",
+      "textable_formatted.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "f1.eps",
+      "f10.eps",
+      "f11.eps",
+      "f12.eps",
+      "f2.eps",
+      "f3.eps",
+      "f4.eps",
+      "f5.eps",
+      "f6.eps",
+      "f7.eps",
+      "f8.eps",
+      "f9.eps"
+    ],
+    "other": []
+  },
+  "main_tex_ambiguous": false
+}

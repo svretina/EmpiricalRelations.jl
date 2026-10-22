@@ -1,0 +1,60 @@
+name: Documentation
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: julia-actions/setup-julia@v3
+        with:
+          version: '1.10'
+      - uses: julia-actions/cache@v2
+      - name: Install documentation dependencies
+        run: julia --project=docs -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+      - name: Validate canonical data and generate browser JSON
+        run: python3 docs/scripts/generate_explorer_data.py
+      - name: Test explorer generation and filtering
+        run: |
+          python3 -m unittest tests.test_docs_explorer -v
+          node tests/database-explorer.test.js
+      - name: Build documentation
+        env:
+          CI: 'true'
+        run: julia --project=docs docs/make.jl
+      - name: Verify static explorer assets
+        run: test -s docs/build/assets/data/waveforms.json && test -s docs/build/assets/data/relations.json && test -s docs/build/assets/js/database-explorer.js
+      - name: Configure GitHub Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        with:
+          path: docs/build
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

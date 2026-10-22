@@ -1,0 +1,78 @@
+{
+  "arxiv_id": "1106.1616",
+  "resolved_version": "1106.1616v2",
+  "version": 2,
+  "title": "Measuring neutron-star properties via gravitational waves from binary mergers",
+  "authors": [
+    "A. Bauswein",
+    "H. -Th. Janka"
+  ],
+  "abstract": "We demonstrate by a large set of merger simulations for symmetric binary neutron stars (NSs) that there is a tight correlation between the frequency peak of the postmerger gravitational-wave (GW) emission and the physical properties of the nuclear equation of state (EoS), e.g. expressed by the radius of the maximum-mass Tolman-Oppenheimer-Volkhoff configuration. Therefore, a single measurement of the peak frequency of the postmerger GW signal will constrain the NS EoS significantly. For plausible optimistic merger-rate estimates a corresponding detection with Advanced LIGO is likely to happen within an operation time of roughly a year.",
+  "submitted": "2011-06-08T18:30:14Z",
+  "last_revised": "2011-11-23T09:18:38Z",
+  "doi": "10.1103/PhysRevLett.108.011101",
+  "journal_reference": null,
+  "arxiv_categories": [
+    "astro-ph.SR",
+    "gr-qc"
+  ],
+  "primary_category": "astro-ph.SR",
+  "abstract_url": "https://arxiv.org/abs/1106.1616v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1106.1616v2",
+  "source_url": "https://export.arxiv.org/src/1106.1616v2",
+  "publication_date": "2012-01-05",
+  "publication_year": 2012,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review Letters",
+  "categories": [
+    "empirical_relations",
+    "dominant_frequency",
+    "eos"
+  ],
+  "seed_group": "A",
+  "directory": "1106.1616_bauswein_2012",
+  "accessed_at": "2026-10-22T17:42:19.354209Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "b8d0f9f8c8618dbff77ec191c09a60063c57ad395985d5c7eb05a57747b0c582",
+    "source_sha256": "8093ecece06147287fb069308bc0434186b28873de691391feb3a26911a2f3cb"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1106.1616v2",
+  "pdf_bytes": 204473,
+  "source_final_url": "https://export.arxiv.org/src/1106.1616v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 31087,
+  "source_inventory": {
+    "tex": [
+      "paper.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "fig1.eps",
+      "fig2.eps",
+      "fig3.eps",
+      "fig4.eps"
+    ],
+    "other": [
+      "paper.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

@@ -1,0 +1,82 @@
+{
+  "arxiv_id": "1402.6244",
+  "resolved_version": "1402.6244v2",
+  "version": 2,
+  "title": "Quasiuniversal properties of neutron star mergers",
+  "authors": [
+    "Sebastiano Bernuzzi",
+    "Alessandro Nagar",
+    "Simone Balmelli",
+    "Tim Dietrich",
+    "Maximiliano Ujevic"
+  ],
+  "abstract": "Binary neutron star mergers are studied using nonlinear 3+1 numerical relativity simulations and the analytical effective-one-body (EOB) model. The EOB model predicts quasiuniversal relations between the mass-rescaled gravitational wave frequency and the binding energy at the moment of merger, and certain dimensionless binary tidal coupling constants depending on the stars Love numbers, compactnesses and the binary mass ratio. These relations are quasiuniversal in the sense that, for a given value of the tidal coupling constant, they depend significantly neither on the equation of state nor on the mass ratio, though they do depend on stars spins. The spin dependence is approximately linear for small spins aligned with the orbital angular momentum. The quasiuniversality is a property of the conservative dynamics; nontrivial relations emerge as the binary interaction becomes tidally dominated. This analytical prediction is qualitatively consistent with new, multi-orbit numerical relativity results for the relevant case of equal-mass irrotational binaries. Universal relations are thus expected to characterize neutron star mergers dynamics. In the context of gravitational wave astronomy, these universal relations may be used to constrain the neutron star equation of state using waveforms that model the merger accurately.",
+  "submitted": "2014-02-25T17:07:42Z",
+  "last_revised": "2014-06-06T16:44:21Z",
+  "doi": "10.1103/PhysRevLett.112.201101",
+  "journal_reference": "Phys. Rev. Lett. 112, 201101 (2014)",
+  "arxiv_categories": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1402.6244v2",
+  "pdf_url": "https://export.arxiv.org/pdf/1402.6244v2",
+  "source_url": "https://export.arxiv.org/src/1402.6244v2",
+  "publication_date": "2014-05-20",
+  "publication_year": 2014,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review Letters",
+  "categories": [
+    "quasi_universal_relations",
+    "tidal_coupling",
+    "merger_frequency"
+  ],
+  "seed_group": "D",
+  "directory": "1402.6244_bernuzzi_2014",
+  "accessed_at": "2026-10-22T17:42:20.272081Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/paper20140606.tex",
+  "main_tex_candidates": [
+    {
+      "path": "paper20140606.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [
+        "paper20140606.bbl"
+      ],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "6a59b6193042622c71c13a9e0572ae1497f8ef733c61987a020143fe75fbdd25",
+    "source_sha256": "0292a325fd0815d9f4be9a04adb2a15a85bb2cf51bbb6098ed5e343a438537f1"
+  },
+  "errors": [],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1402.6244v2",
+  "pdf_bytes": 1416110,
+  "source_final_url": "https://export.arxiv.org/src/1402.6244v2",
+  "source_content_type": "application/gzip",
+  "source_bytes": 1100782,
+  "source_inventory": {
+    "tex": [
+      "paper20140606.tex"
+    ],
+    "bibliography": [],
+    "styles": [],
+    "figures": [
+      "fig01a.pdf",
+      "fig01b.pdf",
+      "fig02.pdf"
+    ],
+    "other": [
+      "paper20140606.bbl"
+    ]
+  },
+  "main_tex_ambiguous": false
+}

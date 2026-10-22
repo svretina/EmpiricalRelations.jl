@@ -1,0 +1,28 @@
+arxiv_id,arxiv_version,original_symbol,original_definition,canonical_quantity,mapping_status,source_location,notes
+1106.1616,1106.1616v2,f_peak,Dominant postmerger Fourier-spectrum peak,f_peak,verified,paper.tex:60-103,Direct source definition
+1412.3240,1412.3240v2,f_2,Dominant postmerger spectral peak,f_peak,verified,manuscript.tex:tab:SNRs,Table and surrounding definition
+1412.3240,1412.3240v2,f_1,Lower-frequency spectral feature,f_secondary_unknown,unresolved,manuscript.tex:tab:SNRs,Not automatically identified with f_spiral or f_2-0
+1412.3240,1412.3240v2,f_max,Frequency at maximum GW amplitude near merger,f_merger,verified,manuscript.tex:tab:SNRs,Distinct from postmerger f_2
+1504.01764,1504.01764v3,f_2,Main postmerger spectral peak,f_peak,verified,paper20150817.tex:393-461,Paper explicitly calls f_2 the main postmerger peak
+1604.00246,1604.00246v2,f_2,Quasi-stationary dominant postmerger peak,f_peak,verified,manuscript.tex:tab:SNRs,Source definition
+1604.00246,1604.00246v2,f_2i,Early transient dominant quadrupolar frequency,f_peak_early,verified,manuscript.tex:tab:SNRs,Kept distinct from the stationary peak
+1604.00246,1604.00246v2,f_1,Lower-frequency spectral feature,f_secondary_unknown,unresolved,manuscript.tex:tab:SNRs,Not automatically identified with f_spiral
+1907.03790,1907.03790v2,f_peak,Frequency at peak strain amplitude near merger,f_merger,verified,paper.tex:tb:fpeak,The paper's symbol is not the canonical postmerger f_peak
+1907.03790,1907.03790v2,f_2,Dominant postmerger Fourier-spectrum peak,f_peak,verified,paper.tex:tb:fpeak,Explicit postmerger definition
+1908.11418,1908.11418v2,f_2,Postmerger peak frequency,f_peak,verified,ms.tex:tab:valbns,NRPM validation table
+1910.10856,1910.10856v1,f_peak,Dominant postmerger spectral peak,f_peak,verified,article.tex and tables/bauswein_data.tex,Canonical reference usage
+1910.10856,1910.10856v1,f_2-0,Quadrupolar-quasiradial coupling peak,f_2_0,verified,article.tex,Canonical reference usage
+1910.10856,1910.10856v1,f_spiral,Transient spiral-deformation peak,f_spiral,verified,article.tex,Canonical reference usage
+2310.10728,2310.10728v1,f_2,Dominant full-signal PSD peak,f_peak,verified,main.tex:762-769,Explicitly defined as PSD peak
+2310.10728,2310.10728v1,f_0^psi4,Instantaneous quadrupolar frequency at time symmetry,f_peak_instantaneous,verified,main.tex:296-316,Not a static Fourier spectral maximum
+2310.10728,2310.10728v1,f_mer^h,Merger frequency extracted from strain,f_merger,verified,main.tex:296-312,Measurement channel retained
+2310.10728,2310.10728v1,f_mer^psi4,Merger frequency extracted from Weyl scalar,f_merger,verified,main.tex:296-312,Measurement channel retained
+2411.00943,2411.00943v2,f_2,Dominant postmerger spectral peak,f_peak,verified,apssamp.tex:tab:GW_freqs,Paper equates f_2 and f_peak
+2411.00943,2411.00943v2,f_2-0,Quadrupolar-quasiradial lower sideband,f_2_0,verified,apssamp.tex:tab:GW_freqs,Explicit mode definition
+2411.00943,2411.00943v2,f_spiral,Spiral-deformation spectral peak,f_spiral,verified,apssamp.tex:tab:GW_freqs,Explicit mode definition
+2411.00943,2411.00943v2,f_0,Quasiradial frequency measured from lapse minimum,f_radial,verified,apssamp.tex:tab:GW_freqs,Not a phenomenological waveform parameter
+2407.11143,2407.11143v2,f_2^peak,Dominant postmerger spectral peak,f_peak,verified,Table_Summary.tex:Table:summary,Source table definition
+2606.08522,2606.08522v3,f_2_mean,Time-mean dominant quadrupolar frequency,f_peak_mean,verified,main.tex:tab:allmodels,Not placed in static f_peak column
+2606.08522,2606.08522v3,f_0,Radial oscillation from maximum-density oscillations,f_radial,verified,main.tex:119-127,Does not itself appear as a GW spectral peak
+2606.08522,2606.08522v3,f_1,Secondary spectral peak in Takami convention,f_secondary_unknown,unresolved,main.tex:119-127,Not automatically mapped to f_spiral or f_2-0
+2606.08522,2606.08522v3,f_3,Upper secondary spectral peak,f_combination_other,verified,main.tex:119-127,Retained as a distinct combination-frequency measurement
