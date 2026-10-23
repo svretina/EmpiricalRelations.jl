@@ -1,10 +1,9 @@
 # Empirical and quasi-universal relations
 
-An empirical relation summarizes a trend measured in a finite calibration set. In the
-postmerger literature, relations connect characteristic frequencies to binary masses,
-tidal parameters, cold-star radii, compactness measures, or combinations of them. They
-can support inference and model construction, but they are neither raw simulation data
-nor exact identities.
+An empirical relation is fitted to a finite calibration set. Postmerger relations link
+characteristic frequencies to binary masses, tidal parameters, cold-star radii, or
+compactness measures. The resulting predictions are distinct from simulation
+measurements and exact identities.
 
 ## General form
 
@@ -45,10 +44,10 @@ standard deviation, root-mean-square error, relative error, or an adjusted coeff
 of determination. These metrics are not interchangeable. Their unit, sign convention,
 sample, and weighting must be taken from the original source.
 
-A small in-sample residual does not by itself demonstrate extrapolation accuracy,
-universality across numerical methods, or robustness to EOS physics absent from the
-calibration set. Correlated simulations from the same EOS family also do not
-necessarily constitute independent validation cases.
+A small in-sample residual does not establish extrapolation accuracy or agreement
+across numerical methods. It also gives no information about EOS physics absent from
+the calibration set. Simulations drawn from the same EOS family may be correlated and
+should not automatically be treated as independent validation cases.
 
 ## Applicability domain
 
@@ -62,13 +61,13 @@ treated as an extrapolation. Relevant restrictions can include:
 - a particular spectral definition or time interval;
 - source-specific radius or tidal conventions.
 
-The `applicability` and `calibration_population` fields summarize reported restrictions,
-while the paper remains authoritative. Missing restrictions are unknown, not evidence
-that a relation is universal.
+The `applicability` and `calibration_population` fields record restrictions stated in
+the publication. An empty restriction field means that no restriction was extracted;
+it does not establish universality.
 
 ## Measurements, fits, and predictions
 
-The project maintains a strict separation:
+The data model distinguishes:
 
 | Object | Meaning |
 |---|---|
@@ -81,11 +80,12 @@ Predictions are not inserted into missing measurement cells. Likewise, a relatio
 the catalogue is marked `catalogued` until a Julia implementation has been checked
 against the published expression, coefficients, units, and reference cases.
 
-## Responsible comparison
+## Comparing relations
 
 When comparing relations, first harmonize the dependent-variable definition and units,
 then inspect their calibration domains and residual definitions. A fit for a static
 ``f_{\mathrm{peak}}`` cannot be compared directly with one for a merger-time or
 instantaneous frequency merely because both use the symbol ``f_2``. The
-[interactive catalogue](../relations/catalogue.md) exposes the evidence needed for
-this comparison without evaluating arbitrary extracted expressions.
+[relations catalogue](../relations/catalogue.md) lists the definitions and calibration
+metadata used for this comparison. Extracted expressions are not evaluated by the web
+interface.

@@ -1430,72 +1430,72 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L114",
-      "id": "extract_reference_data_rationale_114",
       "community": 0,
-      "norm_label": "return every tabular/tabular* body, including tables with width arguments."
+      "norm_label": "return every tabular/tabular* body, including tables with width arguments.",
+      "id": "extract_reference_data_rationale_114"
     },
     {
       "label": "Split a tabular body on unescaped LaTeX row terminators.",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L123",
-      "id": "extract_reference_data_rationale_123",
       "community": 0,
-      "norm_label": "split a tabular body on unescaped latex row terminators."
+      "norm_label": "split a tabular body on unescaped latex row terminators.",
+      "id": "extract_reference_data_rationale_123"
     },
     {
       "label": "Extract a central numeric value while retaining the original cell separately.",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L192",
-      "id": "extract_reference_data_rationale_192",
       "community": 0,
-      "norm_label": "extract a central numeric value while retaining the original cell separately."
+      "norm_label": "extract a central numeric value while retaining the original cell separately.",
+      "id": "extract_reference_data_rationale_192"
     },
     {
       "label": "Convert structural records into lossless, source-linked public CSV rows.",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L709",
-      "id": "extract_reference_data_rationale_709",
       "community": 0,
-      "norm_label": "convert structural records into lossless, source-linked public csv rows."
+      "norm_label": "convert structural records into lossless, source-linked public csv rows.",
+      "id": "extract_reference_data_rationale_709"
     },
     {
       "label": "Normalize reviewed simulation tables that map safely to the public schema.",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L782",
-      "id": "extract_reference_data_rationale_782",
       "community": 0,
-      "norm_label": "normalize reviewed simulation tables that map safely to the public schema."
+      "norm_label": "normalize reviewed simulation tables that map safely to the public schema.",
+      "id": "extract_reference_data_rationale_782"
     },
     {
       "label": "Normalize reviewed coefficient/formula tables outside the reference paper.",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L1062",
-      "id": "extract_reference_data_rationale_1062",
       "community": 0,
-      "norm_label": "normalize reviewed coefficient/formula tables outside the reference paper."
+      "norm_label": "normalize reviewed coefficient/formula tables outside the reference paper.",
+      "id": "extract_reference_data_rationale_1062"
     },
     {
       "label": "Keep normalized waveform rows only when at least one frequency is reported.",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L1232",
-      "id": "extract_reference_data_rationale_1232",
       "community": 0,
-      "norm_label": "keep normalized waveform rows only when at least one frequency is reported."
+      "norm_label": "keep normalized waveform rows only when at least one frequency is reported.",
+      "id": "extract_reference_data_rationale_1232"
     },
     {
       "label": "Ensure each source-specific waveform EOS resolves without merging definitions ac",
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L1243",
-      "id": "extract_reference_data_rationale_1243",
       "community": 0,
-      "norm_label": "ensure each source-specific waveform eos resolves without merging definitions ac"
+      "norm_label": "ensure each source-specific waveform eos resolves without merging definitions ac",
+      "id": "extract_reference_data_rationale_1243"
     },
     {
       "label": "test_download_papers.py",

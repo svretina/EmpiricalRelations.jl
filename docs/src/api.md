@@ -4,6 +4,6 @@
 Modules = [EmpiricalRelations]
 ```
 
-The current package release provides the scientific data catalogue and documentation.
-Published relations remain explicitly catalogued until separately implemented and
-validated; consequently no relation-evaluation API is advertised here yet.
+No relation-evaluation functions are exported in the current release. Relations listed
+in the database have status `catalogued` until an implementation is tested against the
+published equation, coefficients, units, and reference values.

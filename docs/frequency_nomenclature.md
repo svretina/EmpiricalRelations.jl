@@ -39,8 +39,8 @@ names such as `f_secondary_unknown`, `f_inertial`, or `f_combination_other`.
    unless the paper defines it that way.
 5. Original symbols, cells, equations, units, source paths, and line numbers remain
    available in the lossless published-table/equation exports and provenance files.
-6. Different measurement channels and procedures—strain versus `Psi4`, Fourier
-   window, time interval, smoothing, or peak fitting—remain part of source notes
+6. Different measurement channels and procedures (strain versus `Psi4`, Fourier
+   window, time interval, smoothing, or peak fitting) remain part of source notes
    and must be considered before combining records.
 
 The convention follows the physical distinctions used in the

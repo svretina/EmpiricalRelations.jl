@@ -1,19 +1,19 @@
 # Database overview
 
-The public database contains normalized waveform configurations, source-specific EOS
-properties, publication metadata, provenance, and reviewed empirical relations. Its
-current size and data fingerprint are shown below.
+The database contains waveform frequencies, source-specific EOS properties,
+publication metadata, extraction provenance, and empirical relations. The counts and
+checksum below are computed during the documentation build.
 
 ```@raw html
 <div id="er-database-summary" class="er-stat-grid" aria-live="polite"></div>
 ```
 
-## Authority and versioning
+## Files and versioning
 
-The files under `data/` are authoritative. Browser JSON is regenerated during every
-documentation build, validated against required columns and foreign keys, and contains
-JSON `null` for missing values. The site does not impute data or alter precision in the
-canonical downloads.
+The published tables are the CSV files under `data/`. The documentation build validates
+their columns and foreign keys, then writes JSON for the database explorer. Empty CSV
+fields are represented by JSON `null`. Numerical text in the downloadable CSV files is
+not rewritten by the web interface.
 
 Masses use solar masses, normalized postmerger frequencies use kHz, radii use km, and
 the initial GW-frequency field uses Hz. The normalized mass ratio is
@@ -21,11 +21,12 @@ the initial GW-frequency field uses Hz. The normalized mass ratio is
 
 ## Missing values and uncertainty
 
-An empty numeric CSV cell is missing, not zero. Companion status fields describe
-unreported or unidentified secondary peaks when the source permits. Published
-uncertainties remain in source cells and provenance; no generic uncertainty is
-invented. Measurement channel, windowing, numerical method, and other limitations are
-retained in notes where available.
+An empty numeric CSV cell denotes missing data. Companion status fields distinguish
+unreported and unidentified secondary peaks where the publication supports that
+distinction. Published uncertainty notation is retained in the extracted source cell.
+Notes record the measurement channel, window, numerical method, and stated limitations
+when available.
 
-Use the [schema](schema.md), [methodology](methodology.md), and [provenance guide](provenance.md)
-before statistical reuse.
+Field definitions are listed in the [schema](schema.md). The
+[extraction methodology](methodology.md) and [provenance fields](provenance.md) describe
+how records can be checked against the publications.

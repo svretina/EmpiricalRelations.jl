@@ -1,11 +1,11 @@
 # Citations
 
-Each explorer record links to its original arXiv page and lists the publication title,
-authors, and DOI when available. Cite those original publications when using their
-measurements or relations.
+Explorer records link to the corresponding arXiv entry and list the title, authors, and
+DOI when available. Results derived from a measurement or relation should cite its
+original publication.
 
 The machine-readable bibliography is maintained in
 [`papers/bibliography.bib`](https://github.com/svretina/EmpiricalRelations.jl/blob/master/papers/bibliography.bib),
-and source metadata are available in the downloadable `sources.csv` file. Also identify
-the repository revision or release used so that the generated data fingerprint is
-recoverable.
+and publication metadata are available in `sources.csv`. Record the repository release
+or commit used for an analysis; each documentation build also reports a checksum of the
+input tables.

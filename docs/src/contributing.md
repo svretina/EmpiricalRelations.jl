@@ -1,8 +1,8 @@
 # Contributing
 
-Scientific additions should begin with preserved primary-source evidence and follow the
-[extraction conventions](database/methodology.md). Do not edit generated browser JSON;
-change the canonical extraction inputs or adapter and rebuild instead.
+Scientific records require a location in the preserved publication source and must
+follow the [extraction conventions](database/methodology.md). Generated JSON files are
+build artifacts. Changes belong in the extraction code or CSV-generating inputs.
 
 Before opening a pull request:
 
@@ -13,4 +13,5 @@ julia --project=. -e 'using Pkg; Pkg.test()'
 julia --project=docs docs/make.jl
 ```
 
-Report ambiguous notation as unresolved rather than forcing it into a canonical field.
+Mark ambiguous notation as `unresolved`; do not assign a normalized frequency without
+a definition or physical identification in the publication.

@@ -31,9 +31,9 @@ Its location depends on the analysis interval, window, signal channel, spectral
 resolution, and peak estimator. The database keeps these methodological details when
 the publication reports them.
 
-## Canonical frequency families
+## Normalized frequency fields
 
-The database follows the physical distinctions used in the
+The normalized fields follow the physical distinctions used in the
 Bauswein--Stergioulas--Vretinaris literature:
 
 - ``f_{\mathrm{peak}}`` is the dominant postmerger Fourier-spectrum peak, generally
@@ -80,5 +80,5 @@ Before combining frequencies across publications, check at least:
 - whether the remnant promptly collapses or the reported interval precedes collapse;
 - whether the value is a measured peak, a fitted centroid, or a model parameter.
 
-These distinctions are why the website exposes source notes and provenance rather than
-presenting all similarly named frequencies as homogeneous measurements.
+Source notes and provenance record these analysis choices. Frequencies with similar
+symbols but different definitions remain in separate fields.

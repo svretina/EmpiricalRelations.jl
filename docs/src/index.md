@@ -1,10 +1,9 @@
 # EmpiricalRelations.jl
 
-EmpiricalRelations.jl is a traceable scientific catalogue of binary-neutron-star
-postmerger gravitational-wave measurements and published empirical relations. It
-connects reviewed numerical values to their original papers, source tables, and
-extraction evidence without filling missing measurements or conflating incompatible
-frequency definitions.
+EmpiricalRelations.jl collects published numerical measurements and empirical
+relations for binary-neutron-star postmerger gravitational waves. Each normalized
+record includes a publication identifier and the location of the source table or
+equation from which it was extracted.
 
 ```@raw html
 <div class="er-hero-links">
@@ -14,13 +13,10 @@ frequency definitions.
 <div id="er-summary" class="er-stat-grid" aria-live="polite"></div>
 ```
 
-The project covers published numerical frequency measurements, EOS dependence,
-spectral classification, and empirical or quasi-universal fits. Future package work
-will build validated analytical waveform models and symbolic-regression workflows on
-this evidence base.
-
-The [canonical CSV files](database/overview.md) are the scientific source of truth.
-This website is a read-only, client-side view generated from those files.
+The collection includes postmerger frequencies, binary and EOS parameters, spectral
+classifications, and published fit coefficients. Data are distributed as CSV files in
+the repository. The documentation build converts these tables to JSON for the search
+interface.
 
 ## Scientific scope
 
@@ -29,5 +25,5 @@ This website is a read-only, client-side view generated from those files.
 - Published fit expressions, coefficients, applicability domains, and residuals.
 - Source-level provenance for every normalized record.
 
-Start with [frequency nomenclature](database/frequency_nomenclature.md) before
-combining measurements from different publications.
+Consult the [frequency nomenclature](database/frequency_nomenclature.md) when comparing
+measurements from different publications.

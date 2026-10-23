@@ -1,7 +1,8 @@
-# Interactive empirical-relations catalogue
+# Empirical-relations catalogue
 
-Filter published relations and inspect their coefficients, applicability, residuals,
-and original sources. Expressions are displayed but never executed in the browser.
+Search published relations by dependent variable, fit family, or publication. Record
+details include coefficients, applicability limits, reported residuals, and the source
+equation. Mathematical expressions are displayed as text.
 
 ```@raw html
 <section id="relation-explorer" class="er-explorer" aria-label="Empirical relations explorer">

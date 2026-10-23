@@ -1,10 +1,9 @@
 # Binary and EOS parameters
 
-The inspiral and postmerger signal depend on the component masses and on how each star
-responds to tidal fields. This page defines the normalized quantities used in the
-database. Symbols in an original publication can follow a different ordering or mass-
-ratio convention; the original value and definition remain available alongside the
-normalized fields.
+The inspiral and postmerger signal depend on the component masses and the stellar tidal
+response. The database uses the definitions below. A publication may use a different
+component ordering or mass-ratio convention; `q_original` and
+`q_original_definition` retain that convention.
 
 ## Mass variables
 
@@ -26,9 +25,8 @@ The public field `q` always uses the bounded convention
 q = \frac{\min(m_1,m_2)}{\max(m_1,m_2)} \leq 1.
 ```
 
-Some papers instead use the reciprocal ratio or impose a fixed label ordering. Those
-values are not discarded: `q_original` and `q_original_definition` preserve them.
-Equal-mass filtering in the explorer refers to the normalized value ``q=1``.
+Some papers use the reciprocal ratio or impose a fixed label ordering. Equal-mass
+filtering in the explorer refers to the normalized value ``q=1``.
 
 ## Tidal deformability
 
@@ -62,15 +60,13 @@ of a cold star with the indicated mass; they are not radii of the hot merger rem
 `m_tov_msun` denotes a source-reported maximum mass for a nonrotating sequence when the
 publication supplies one.
 
-EOS rows are source-specific. Values with the same nominal EOS name are not averaged
-across papers because differences in EOS variants, thermal treatment, or tabulation can
-be scientifically relevant. Consult the row's source and definition notes before
-joining EOS properties to waveform measurements.
+EOS rows are source-specific. Values with the same EOS name are not averaged across
+papers because the EOS variant, thermal treatment, or tabulation may differ. The source
+and definition notes identify the value used in each row.
 
 ## Derived versus reported quantities
 
-Total mass, chirp mass, or normalized mass ratio may be calculated algebraically from
-reported component masses when the source convention is explicit. Such deterministic
-derivations are different from empirical predictions: they introduce no fitted
-physics, but remain subject to rounding in the published inputs. The extraction notes
-record when a value was derived rather than transcribed.
+Total mass, chirp mass, and normalized mass ratio may be calculated from reported
+component masses when the source convention is explicit. These algebraic values inherit
+the rounding of the published inputs. Extraction notes distinguish them from transcribed
+values and from predictions obtained with fitted relations.

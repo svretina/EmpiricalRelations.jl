@@ -1546,7 +1546,7 @@ catalogue- or record-specific suffix. Every public record resolves to a row in
         "## Extracted structures", "",
     ]
     for name, info in table_report.items():
-        report_lines.append(f"- `{name}`: `{info['source_path']}` — " + ", ".join(f"{key}={value}" for key, value in info.items() if key.endswith("records") or key in {"latex_rows", "waveform_records"}))
+        report_lines.append(f"- `{name}`: `{info['source_path']}`; " + ", ".join(f"{key}={value}" for key, value in info.items() if key.endswith("records") or key in {"latex_rows", "waveform_records"}))
     report_lines.extend([
         "", "## Count investigation", "",
         "The CFC/SPH appendix table contains 45 physical LaTeX rows with two waveform entries per row, yielding the stated 90 records.",

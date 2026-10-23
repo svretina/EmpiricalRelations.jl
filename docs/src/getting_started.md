@@ -1,10 +1,9 @@
 # Getting started
 
 The [waveform explorer](database/explorer.md) and [relations catalogue](relations/catalogue.md)
-run entirely in your browser. Search terms and filters operate on the generated JSON;
-no query is sent to a server.
+load generated JSON files and apply search and filters in the browser.
 
-For programmatic use, clone the repository and read the canonical CSV files directly:
+For programmatic analysis, clone the repository and read the CSV files under `data/`:
 
 ```julia
 using DelimitedFiles
@@ -12,8 +11,8 @@ using DelimitedFiles
 header, rows = readdlm("data/waveforms.csv", ',', String, '\n'; header=true)
 ```
 
-For CSV fields containing commas or quoted text, use a standards-compliant CSV package
-such as CSV.jl. Empty numeric fields mean unavailable values, never physical zero.
+Use CSV.jl for fields that contain commas or quoted text. An empty numeric field denotes
+an unavailable value, not zero.
 
 To build the documentation locally:
 

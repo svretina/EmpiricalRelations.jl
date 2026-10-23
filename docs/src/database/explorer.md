@@ -1,8 +1,8 @@
 # Interactive waveform explorer
 
-Search and filter reviewed waveform records locally in your browser. A dash means the
-value is unavailable; it never means zero. Frequencies are in kHz and masses in
-solar masses.
+The table lists normalized waveform records with local search, filters, sorting, and
+CSV export. A dash denotes an unavailable value. Frequencies are in kHz and masses are
+in solar masses.
 
 ```@raw html
 <section id="waveform-explorer" class="er-explorer" aria-label="Waveform database explorer">
@@ -40,5 +40,5 @@ solar masses.
 </section>
 ```
 
-The [original CSV on GitHub](https://github.com/svretina/EmpiricalRelations.jl/blob/master/data/waveforms.csv)
-retains complete numerical text and is the authoritative scientific dataset.
+The complete table, including the original numerical text, is available as
+[`data/waveforms.csv`](https://github.com/svretina/EmpiricalRelations.jl/blob/master/data/waveforms.csv).

@@ -6,11 +6,11 @@ Governing policies: [`docs/extraction_conventions.md`](../docs/extraction_conven
 
 ## Extracted structures
 
-- `CFC/SPH`: `tables/bauswein_data.tex` — latex_rows=45, waveform_records=90
-- `CoRe`: `tables/CORE_data.tex` — latex_rows=27, waveform_records=27
-- `EOS`: `tables/TOV_info.tex` — eos_records=16
-- `frequency_relations`: `tables/tables_combined_fRM.tex` — relation_records=24
-- `radius_relations`: `tables/tables_combined.tex` — relation_records=24
+- `CFC/SPH`: `tables/bauswein_data.tex`; latex_rows=45, waveform_records=90
+- `CoRe`: `tables/CORE_data.tex`; latex_rows=27, waveform_records=27
+- `EOS`: `tables/TOV_info.tex`; eos_records=16
+- `frequency_relations`: `tables/tables_combined_fRM.tex`; relation_records=24
+- `radius_relations`: `tables/tables_combined.tex`; relation_records=24
 
 ## Count investigation
 
