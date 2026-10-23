@@ -64,11 +64,32 @@
     }
     return escapeHTML(humanize(key));
   };
-  const equationLatex = value => {
-    let latex = text(value).trim().replace(/^\$|\$$/g, "").replace(/,\s*$/, "");
+  const coefficientLatex = value => text(value).replace(/^([A-Za-z]+)(\d+)$/, "$1_{$2}");
+  const numberLatex = value => {
+    const number = text(value);
+    const scientific = number.match(/^([+-]?\d+(?:\.\d+)?)[eE]([+-]?\d+)$/);
+    return scientific ? `${scientific[1]} \\times 10^{${Number(scientific[2])}}` : number;
+  };
+  const equationLatex = row => {
+    let latex = text(row.equation_latex).trim().replace(/^\$|\$$/g, "").replace(/,\s*$/, "");
+    const inputs = text(row.independent_variables).split(";");
+    const frequency = row.dependent_variable.startsWith("f_")
+      ? symbols[row.dependent_variable]
+      : symbols[inputs.find(value => value.startsWith("f_"))];
+    const radius = row.dependent_variable.startsWith("r_")
+      ? symbols[row.dependent_variable]
+      : symbols[inputs.find(value => value.startsWith("r_"))];
+    if (frequency) latex = latex.replace(/\bf_j\b/g, frequency);
+    if (radius) latex = latex.replace(/\bR_x\b/g, radius);
+    if (row.family === "F1_tidal_mass_ratio_frequency_fit" && symbols[row.dependent_variable]) {
+      latex = latex.replace(/\bf(?=\/Hz)/, symbols[row.dependent_variable]);
+      latex = latex.replace(/\bM(?=\/Msun)/, String.raw`M_{\mathrm{tot}}`);
+    }
+    if (row.family === "tidal_coupling_rational_fit" && symbols[row.dependent_variable]) {
+      latex = latex.replace(/^Q(?=\s*\()/, symbols[row.dependent_variable]);
+    }
     const aliases = [
-      [/\bM_chirp\b/g, String.raw`\mathcal{M}`], [/\bf_j\b/g, String.raw`f_j`],
-      [/\bR_x\b/g, String.raw`R_x`], [/\bkappa_2_T\b/g, String.raw`\kappa_2^T`],
+      [/\bM_chirp\b/g, String.raw`\mathcal{M}`], [/\bkappa_2_T\b/g, String.raw`\kappa_2^T`],
       [/\bMsun\b/g, String.raw`M_\odot`], [/\blog10\b/g, String.raw`\log_{10}`],
       [/\b([abcdn])([0-9])\b/g, "$1_{$2}"],
     ];
@@ -146,7 +167,7 @@
       (!filters.status || row.implementation_status === filters.status));
   }
 
-  window.EmpiricalRelationsExplorer = {filterWaveforms, filterRelations, compareValues, rowsToCSV, numericInRange, symbolHTML, fieldLabelHTML, humanize};
+  window.EmpiricalRelationsExplorer = {filterWaveforms, filterRelations, compareValues, rowsToCSV, numericInRange, symbolHTML, fieldLabelHTML, humanize, equationLatex, coefficientLatex, numberLatex};
 
   const load = name => fetch(dataURL(name)).then(response => {
     if (!response.ok) throw new Error(`Unable to load ${name}.json (${response.status})`);
@@ -256,11 +277,11 @@
     const controls = [...root.querySelectorAll("input, select")];
     const filters = () => ({search: byId("rel-search").value, dependent: byId("rel-dependent").value, family: byId("rel-family").value, source: byId("rel-source").value, status: byId("rel-status").value});
     const showDetail = row => {
-      const coefficients = row.coefficients.length ? row.coefficients.map(item => `<span class="er-chip">${escapeHTML(item.coefficient)} = ${escapeHTML(item.value)} (${escapeHTML(item.term)})</span>`).join("") : "<span class=\"er-missing\">No normalized coefficients</span>";
+      const coefficients = row.coefficients.length ? row.coefficients.map(item => `<span class="er-chip">${inlineMath(`${coefficientLatex(item.coefficient)} = ${numberLatex(item.value)}`)}</span>`).join("") : "<span class=\"er-missing\">No normalized coefficients</span>";
       const predicts = symbolHTML(row.dependent_variable);
       const fields = [["Relation ID", row.relation_id], ["Predicts", predicts, true], ["Independent variables", variablesHTML(row.independent_variables), true], ["Calibration population", row.calibration_population], ["Applicability", row.applicability], ["Adjusted R²", row.r_squared_adjusted], ["Maximum residual", row.max_residual], ["Mean residual", row.mean_residual], ["Residual σ", row.residual_std], ["Residual unit", row.residual_unit], ["Review status", row.review_status], ["Implementation", row.implementation_status], ["Notes", row.notes]];
       const initialLanguage = "julia";
-      dialog.querySelector(".er-dialog-body").innerHTML = `<h2>${symbolHTML(row.dependent_variable)} — ${escapeHTML(row.family)}</h2><h3>Published expression</h3><div class="er-equation">\\[${escapeHTML(equationLatex(row.equation_latex))}\\]</div><h3>Coefficients</h3><p>${coefficients}</p>${detailList(fields)}<h3>Implementation</h3><div class="er-snippet-toolbar"><label>Language <select class="er-code-language"><option value="julia">Julia</option><option value="python">Python</option></select></label><button class="er-button er-copy-code" type="button">Copy code</button></div><pre class="er-code-block"><code>${escapeHTML(row.code[initialLanguage])}</code></pre><h3>Citation</h3><div class="er-snippet-toolbar"><span>BibTeX</span><button class="er-button er-copy-bibtex" type="button">Copy BibTeX</button></div><pre class="er-code-block er-bibtex"><code>${escapeHTML(row.source.bibtex)}</code></pre><h3>Original publication</h3><p>${sourceLink(row)}<br>${escapeHTML(row.source.authors || "")}</p>`;
+      dialog.querySelector(".er-dialog-body").innerHTML = `<h2>${symbolHTML(row.dependent_variable)} — ${escapeHTML(row.family)}</h2><h3>Published expression</h3><div class="er-equation">\\[${escapeHTML(equationLatex(row))}\\]</div><h3>Coefficients</h3><p>${coefficients}</p><h3>Implementation</h3><div class="er-snippet-toolbar"><label>Language <select class="er-code-language"><option value="julia">Julia</option><option value="python">Python</option></select></label><button class="er-button er-copy-code" type="button">Copy code</button></div><pre class="er-code-block"><code>${escapeHTML(row.code[initialLanguage])}</code></pre><h3>Citation</h3><div class="er-snippet-toolbar"><span>BibTeX</span><button class="er-button er-copy-bibtex" type="button">Copy BibTeX</button></div><pre class="er-code-block er-bibtex"><code>${escapeHTML(row.source.bibtex)}</code></pre><h3>Relation metadata</h3>${detailList(fields)}<h3>Original publication</h3><p>${sourceLink(row)}<br>${escapeHTML(row.source.authors || "")}</p>`;
       const language = dialog.querySelector(".er-code-language");
       const code = dialog.querySelector(".er-code-block code");
       language.addEventListener("change", () => { code.textContent = row.code[language.value]; });

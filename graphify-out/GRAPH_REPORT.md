@@ -1,11 +1,11 @@
 # Graph Report - .  (2026-10-23)
 
 ## Corpus Check
-- 14 files · ~2,438,935 words
+- 14 files · ~2,439,086 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 293 nodes · 514 edges · 29 communities detected
+- 295 nodes · 518 edges · 29 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -50,7 +50,7 @@
 7. `extract_additional_papers()` - 11 edges
 8. `acquire()` - 10 edges
 9. `scan_all_sources()` - 10 edges
-10. `AcquisitionError` - 9 edges
+10. `text()` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -66,8 +66,8 @@ Cohesion: 0.1
 Nodes (44): acquire(), AcquisitionError, ascii_slug(), base_arxiv_id(), bibtex_escape(), bibtex_key(), build_parser(), clean_space() (+36 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.11
-Nodes (21): csvCell(), dataURL(), equationLatex(), escapeHTML(), fieldLabelHTML(), humanize(), initRelations(), initSummary() (+13 more)
+Cohesion: 0.1
+Nodes (23): coefficientLatex(), csvCell(), dataURL(), equationLatex(), escapeHTML(), fieldLabelHTML(), humanize(), initRelations() (+15 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.07
@@ -223,7 +223,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
