@@ -1,5 +1,9 @@
 # EmpiricalRelations.jl
 
+<p align="center">
+  <img src="docs/src/assets/images/logo.png" alt="EmpiricalRelations.jl — binary neutron-star merger and gravitational-wave logo" width="720">
+</p>
+
 [![CI](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 [![Documentation](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/Documentation.yml/badge.svg?branch=master)](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/Documentation.yml?query=branch%3Amaster)
 [![Documentation site](https://img.shields.io/badge/docs-GitHub%20Pages-176b87)](https://svretina.github.io/EmpiricalRelations.jl/)
@@ -15,6 +19,73 @@ The Julia API provides searchable, citable implementations of the reviewed relat
 **[Explore the database and documentation](https://svretina.github.io/EmpiricalRelations.jl/)**
 · [Waveform explorer](https://svretina.github.io/EmpiricalRelations.jl/database/explorer/)
 · [Relations catalogue](https://svretina.github.io/EmpiricalRelations.jl/relations/catalogue/)
+· [API guide](https://svretina.github.io/EmpiricalRelations.jl/api/finding/)
+
+## Installation
+
+```julia
+using Pkg
+Pkg.add(url="https://github.com/svretina/EmpiricalRelations.jl")
+```
+
+EmpiricalRelations.jl has no runtime dependencies beyond the Julia standard library.
+The API does not load the waveform tables or literature-processing pipeline.
+
+## Quick start
+
+The main workflow is discover, select, evaluate, and cite:
+
+```julia
+using EmpiricalRelations
+
+# Find fits for the nonlinear mode-coupling frequency.
+relations(:f_2_0; inputs=[:M_chirp, :Lambda_tilde])
+
+# Publication + observable + inputs uniquely identify this relation.
+r = relation(:Vretinaris2026;
+    quantity=:f_2_0,
+    inputs=[:M_chirp, :Lambda_tilde],
+)
+
+f_2_0 = evaluate(r; M_chirp=1.2, Lambda_tilde=500.0) # kHz
+
+formula(r)       # original and canonical LaTeX
+coefficients(r)  # fitted coefficients
+domain(r)        # calibration bounds and assumptions
+source(r)        # paper and equation provenance
+bibtex(r)        # citation for the original relation
+```
+
+Use a stable relation ID when a publication contains multiple fits with the same
+observable and inputs. The package reports ambiguity instead of choosing a calibration
+population implicitly.
+
+### Batch evaluation
+
+```julia
+systems = [
+    (M_chirp=1.18, Lambda_tilde=600.0),
+    (M_chirp=1.22, Lambda_tilde=450.0),
+]
+
+frequencies_khz = evaluate(r, systems)
+```
+
+### Compare published models
+
+```julia
+models = relations(:f_peak; inputs=[:M_chirp, :R_1_6])
+predictions = [
+    (publication=row.publication,
+     relation_id=row.relation_id,
+     f_peak_khz=evaluate(relation(row.relation_id);
+                         M_chirp=1.2, R_1_6=12.0))
+    for row in models
+]
+```
+
+See the [research workflows](https://svretina.github.io/EmpiricalRelations.jl/api/workflows/)
+for model comparison, applicability checks, batch calculations, and citation export.
 
 ## Data
 
@@ -71,28 +142,13 @@ python3 -m http.server --directory docs/build 8000
 Then open <http://localhost:8000>. The documentation build generates the JSON files used
 by the database browser from the CSV tables under `data/`.
 
-## Julia API
-
-Discover a relation by observable and input signature, then evaluate it using canonical
-variable names:
-
-```julia
-using EmpiricalRelations
-
-relations(:f_2_0; inputs=[:M_chirp, :Lambda_tilde])
-r = relation(:Vretinaris2026; quantity=:f_2_0,
-             inputs=[:M_chirp, :Lambda_tilde])
-evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)  # kHz
-
-formula(r)
-domain(r)
-bibtex(r)
-```
+## Units and validity
 
 Frequencies use kHz, masses use solar masses, radii use km, and tidal parameters are
-dimensionless. The [Julia API documentation](https://svretina.github.io/EmpiricalRelations.jl/api/finding/)
-describes exact-input and available-input searches, domain checking, batch evaluation,
-and citation retrieval.
+dimensionless. Mathematical input checks are always applied. Known empirical-domain
+violations warn by default and can be made errors with `strict_domain=true`. An unknown
+domain is retained as unknown rather than treated as unrestricted validity. See
+[units and symbols](https://svretina.github.io/EmpiricalRelations.jl/api/conventions/).
 
 ## Contributing and citation
 

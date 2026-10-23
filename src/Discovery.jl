@@ -1,4 +1,22 @@
-"""List registered relations, optionally filtering by quantity, inputs, available data, author, or publication."""
+"""
+    relations([quantity]; inputs=nothing, available=nothing, author=nothing,
+              publication=nothing, implemented_only=true)
+
+Return a [`RelationCatalogue`](@ref) of registered empirical relations.
+
+`inputs` matches the exact required input set, independent of order. `available`
+instead keeps relations whose required inputs are a subset of the supplied variables.
+Filter by a case-insensitive author substring or an exact publication symbol. Callable
+relations are returned by default.
+
+# Examples
+```julia
+relations(:f_peak)
+relations(:f_peak; inputs=[:M_chirp, :Lambda_tilde])
+relations(:f_peak; available=[:M_chirp, :Lambda_tilde, :q])
+relations(author="Vretinaris")
+```
+"""
 function relations(quantity::Union{Nothing,Symbol}=nothing; inputs=nothing, available=nothing,
                    author=nothing, publication=nothing, implemented_only::Bool=true)
     wanted_quantity = isnothing(quantity) ? nothing : _canonical(quantity)
@@ -25,7 +43,16 @@ function _candidates(selector::Symbol; quantity=nothing, inputs=nothing, variant
     return entries
 end
 
-"""Retrieve exactly one relation by stable ID or by publication plus disambiguating metadata."""
+"""
+    relation(selector; quantity=nothing, inputs=nothing, variant=nothing)
+
+Retrieve exactly one [`RelationSpec`](@ref). `selector` may be a stable relation ID or
+a publication symbol. Publication selection may be narrowed by output `quantity`, exact
+`inputs`, and `variant`.
+
+An ambiguous selection raises `ArgumentError` and lists candidate stable IDs; no model
+is selected implicitly.
+"""
 function relation(selector::Union{Symbol,RelationID,AbstractString}; quantity=nothing, inputs=nothing, variant=nothing)
     key = selector isa RelationID ? Symbol(selector) : Symbol(selector)
     candidates = _candidates(key; quantity=quantity, inputs=inputs, variant=variant)
@@ -37,7 +64,16 @@ function relation(selector::Union{Symbol,RelationID,AbstractString}; quantity=no
     return only(candidates)
 end
 
-"""List models compatible with supplied values and report their known domain status."""
+"""
+    applicable_relations(quantity; values...)
+
+Report input availability and known numerical-domain status for every implemented
+relation predicting `quantity`.
+
+Rows contain `relation_id`, `inputs_available`, `missing_inputs`, and `domain_status`.
+The status is `:within`, `:outside`, `:unknown`, or `:missing_inputs`. Categorical
+assumptions are not inferred from numerical keywords; inspect [`domain`](@ref) as well.
+"""
 function applicable_relations(quantity::Symbol; kwargs...)
     available = collect(keys(kwargs))
     return [(

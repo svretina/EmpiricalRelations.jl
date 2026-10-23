@@ -70,6 +70,8 @@ makedocs(
             "Reference" => "api.md",
             "Finding relations" => "api/finding.md",
             "Evaluating relations" => "api/evaluating.md",
+            "Research workflows" => "api/workflows.md",
+            "Units and symbols" => "api/conventions.md",
             "Metadata and citations" => "api/metadata.md",
         ],
         "Citations" => "citations.md",

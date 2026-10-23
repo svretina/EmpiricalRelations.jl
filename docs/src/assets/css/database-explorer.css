@@ -25,6 +25,20 @@ html.theme--catppuccin-mocha {
 
 .er-explorer, .er-explorer *, .er-dialog, .er-dialog * { box-sizing: border-box; }
 
+.er-project-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto 1.25rem;
+  text-align: center;
+}
+.er-project-logo img {
+  display: block;
+  width: min(100%, 46rem);
+  height: auto;
+  margin: 0 auto;
+}
+
 .er-hero-links, .er-toolbar, .er-results-bar, .er-pagination {
   display: flex;
   align-items: center;

@@ -1,4 +1,10 @@
-"""Return structured scientific metadata for a relation."""
+"""
+    info(spec)
+
+Return a named tuple containing the stable ID, publication, predicted quantity, required
+inputs, fit family, variant, canonical output unit, verification status, and
+implementation status.
+"""
 info(spec::RelationSpec) = (
     id=Symbol(spec.id), publication=spec.publication, quantity=spec.quantity,
     inputs=spec.inputs, family=spec.family, variant=spec.variant,
@@ -6,23 +12,52 @@ info(spec::RelationSpec) = (
     implementation_status=spec.implementation_status,
 )
 
-"""Return the original and canonical mathematical expressions."""
+"""
+    formula(spec)
+
+Return `(original, canonical)` LaTeX strings. `original` preserves the transcribed
+publication expression; `canonical` specializes generic family placeholders to this
+relation's observable and inputs. Evaluation never parses these strings.
+"""
 formula(spec::RelationSpec) = (original=spec.original_equation, canonical=spec.canonical_expression)
 
-"""Return fitted coefficients as a `NamedTuple`."""
+"""
+    coefficients(spec)
+
+Return fitted coefficient names and numerical values as a `NamedTuple`, retaining the
+coefficient symbols used by the publication.
+"""
 coefficients(spec::RelationSpec) = spec.coefficient_values
 
-"""Return applicability bounds and assumptions."""
+"""
+    domain(spec)
+
+Return `(summary, bounds, assumptions)` for the relation's reported applicability.
+`bounds` contains only machine-checkable numerical limits. Empty bounds mean that no
+limits are encoded, not that the relation is valid without restriction.
+"""
 domain(spec::RelationSpec) = (
     summary=spec.applicability.summary,
     bounds=spec.applicability.bounds,
     assumptions=copy(spec.applicability.assumptions),
 )
 
-"""Return publication and equation-level provenance."""
+"""
+    source(spec)
+
+Return [`SourceInfo`](@ref) with publication metadata, DOI and arXiv identifiers,
+equation or table references, extraction path, and BibTeX entry.
+"""
 source(spec::RelationSpec) = spec.source_info
 
-"""Return the source publication's BibTeX entry."""
+"""
+    bibtex(spec)
+    bibtex(publication; quantity=nothing, inputs=nothing, variant=nothing)
+
+Return the original source publication's BibTeX entry. A publication symbol can be
+used directly because all relations from that publication share the citation. Supply
+relation selectors when resolving a specific fit is also desired.
+"""
 bibtex(spec::RelationSpec) = spec.source_info.bibtex
 
 function bibtex(publication::Symbol; quantity=nothing, inputs=nothing, variant=nothing)

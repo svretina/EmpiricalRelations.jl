@@ -10,8 +10,38 @@ using EmpiricalRelations
 relations(:f_peak)
 ```
 
+The package has no runtime dependencies beyond Julia's standard library. Relation
+discovery and evaluation use the packaged registry and do not load the waveform CSVs.
+
+## First prediction
+
+```julia
+r = relation(:Vretinaris2026;
+    quantity=:f_2_0,
+    inputs=[:M_chirp, :Lambda_tilde],
+)
+
+f_2_0_khz = evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)
+```
+
+Inspect the relation before adopting it in an analysis:
+
+```julia
+info(r)
+formula(r)
+coefficients(r)
+domain(r)
+source(r)
+```
+
+The result is in the canonical output unit reported by `info(r).output_unit`. The API
+uses kHz for frequencies, solar masses for masses, km for radii, and dimensionless tidal
+parameters.
+
 See [finding relations](api/finding.md) for registry filters and
 [evaluating relations](api/evaluating.md) for scalar and batch calculations.
+The [research workflows](api/workflows.md) cover ambiguity resolution, model comparison,
+applicability checks, and provenance-aware result records.
 
 The [waveform explorer](database/explorer.md) and [relations catalogue](relations/catalogue.md)
 provide browser-based access to the scientific tables and relation metadata.
