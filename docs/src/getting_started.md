@@ -1,9 +1,23 @@
 # Getting started
 
-The [waveform explorer](database/explorer.md) and [relations catalogue](relations/catalogue.md)
-load generated JSON files and apply search and filters in the browser.
+Install the package from its repository and inspect the implemented relations:
 
-For programmatic analysis, clone the repository and read the CSV files under `data/`:
+```julia
+using Pkg
+Pkg.add(url="https://github.com/svretina/EmpiricalRelations.jl")
+
+using EmpiricalRelations
+relations(:f_peak)
+```
+
+See [finding relations](api/finding.md) for registry filters and
+[evaluating relations](api/evaluating.md) for scalar and batch calculations.
+
+The [waveform explorer](database/explorer.md) and [relations catalogue](relations/catalogue.md)
+provide browser-based access to the scientific tables and relation metadata.
+
+For programmatic analysis of the waveform tables, clone the repository and read the CSV
+files under `data/`:
 
 ```julia
 using DelimitedFiles

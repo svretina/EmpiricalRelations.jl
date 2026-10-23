@@ -66,7 +66,12 @@ makedocs(
             "Interactive catalogue" => "relations/catalogue.md",
         ],
         "Examples" => "examples.md",
-        "Julia API" => "api.md",
+        "Julia API" => [
+            "Reference" => "api.md",
+            "Finding relations" => "api/finding.md",
+            "Evaluating relations" => "api/evaluating.md",
+            "Metadata and citations" => "api/metadata.md",
+        ],
         "Citations" => "citations.md",
         "Contributing" => "contributing.md",
     ],

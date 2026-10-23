@@ -24,6 +24,10 @@ const specialized = core.equationLatex({
 assert(specialized.includes(String.raw`f_{\mathrm{peak}}/\mathcal{M}`));
 assert(specialized.includes(String.raw`R_{1.6}`));
 assert(!specialized.includes("R_x") && !specialized.includes("f_j"));
+assert.strictEqual(
+  core.relationSignatureHTML({dependent_variable:"f_peak_khz", independent_variables:"mchirp_msun;r_1_6_km"}),
+  String.raw`\(f_{\mathrm{peak}}\!\left(\mathcal{M}, R_{1.6}\right)\)`,
+);
 const relationRows = JSON.parse(fs.readFileSync("docs/src/assets/data/relations.json", "utf8"));
 for (const relation of relationRows) {
   const rendered = core.equationLatex(relation);

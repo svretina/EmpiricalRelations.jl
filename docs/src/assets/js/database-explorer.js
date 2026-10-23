@@ -41,15 +41,21 @@
   const shown = value => text(value) || "—";
   const escapeHTML = value => text(value).replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"})[char]);
   const inlineMath = latex => `\\(${escapeHTML(latex)}\\)`;
-  const symbolHTML = value => {
+  const symbolLatex = value => {
     const valueText = text(value);
     const direct = symbols[valueText];
-    if (direct) return inlineMath(direct);
+    if (direct) return direct;
     const power = valueText.match(/^(.+)\^\(([-+]?\d+(?:\/\d+)?)\)$/);
-    if (power && symbols[power[1]]) return inlineMath(`${symbols[power[1]]}^{${power[2]}}`);
-    return escapeHTML(valueText);
+    if (power && symbols[power[1]]) return `${symbols[power[1]]}^{${power[2]}}`;
+    return "";
   };
+  const symbolHTML = value => symbolLatex(value) ? inlineMath(symbolLatex(value)) : escapeHTML(value);
   const variablesHTML = value => text(value).split(";").map(symbolHTML).join(", ");
+  const relationSignatureHTML = row => {
+    const dependent = symbolLatex(row.dependent_variable) || text(row.dependent_variable);
+    const inputs = text(row.independent_variables).split(";").map(value => symbolLatex(value) || text(value));
+    return inlineMath(`${dependent}\\!\\left(${inputs.join(", ")}\\right)`);
+  };
   const humanize = value => {
     const result = text(value).replaceAll("_", " ").trim();
     return result ? result[0].toUpperCase() + result.slice(1) : "";
@@ -167,7 +173,7 @@
       (!filters.status || row.implementation_status === filters.status));
   }
 
-  window.EmpiricalRelationsExplorer = {filterWaveforms, filterRelations, compareValues, rowsToCSV, numericInRange, symbolHTML, fieldLabelHTML, humanize, equationLatex, coefficientLatex, numberLatex};
+  window.EmpiricalRelationsExplorer = {filterWaveforms, filterRelations, compareValues, rowsToCSV, numericInRange, symbolHTML, fieldLabelHTML, humanize, equationLatex, coefficientLatex, numberLatex, relationSignatureHTML};
 
   const load = name => fetch(dataURL(name)).then(response => {
     if (!response.ok) throw new Error(`Unable to load ${name}.json (${response.status})`);
@@ -272,16 +278,16 @@
     const records = await load("relations"); const byId = id => document.getElementById(id);
     const table = byId("rel-table"), body = table.tBodies[0], dialog = byId("rel-dialog");
     const state = {page: 1, sortKey: "relation_id", direction: 1, visible: records};
-    selectOptions(byId("rel-dependent"), records, "dependent_variable"); selectOptions(byId("rel-family"), records, "family");
+    selectOptions(byId("rel-dependent"), records, "dependent_variable"); selectOptions(byId("rel-family"), records, "family", humanize);
     selectOptions(byId("rel-source"), records, "source_id", value => sourceLabel(records.find(row => row.source_id === value)));
     const controls = [...root.querySelectorAll("input, select")];
     const filters = () => ({search: byId("rel-search").value, dependent: byId("rel-dependent").value, family: byId("rel-family").value, source: byId("rel-source").value, status: byId("rel-status").value});
     const showDetail = row => {
       const coefficients = row.coefficients.length ? row.coefficients.map(item => `<span class="er-chip">${inlineMath(`${coefficientLatex(item.coefficient)} = ${numberLatex(item.value)}`)}</span>`).join("") : "<span class=\"er-missing\">No normalized coefficients</span>";
       const predicts = symbolHTML(row.dependent_variable);
-      const fields = [["Relation ID", row.relation_id], ["Predicts", predicts, true], ["Independent variables", variablesHTML(row.independent_variables), true], ["Calibration population", row.calibration_population], ["Applicability", row.applicability], ["Adjusted R²", row.r_squared_adjusted], ["Maximum residual", row.max_residual], ["Mean residual", row.mean_residual], ["Residual σ", row.residual_std], ["Residual unit", row.residual_unit], ["Review status", row.review_status], ["Implementation", row.implementation_status], ["Notes", row.notes]];
+      const fields = [["Relation ID", row.relation_id], ["Relation family", humanize(row.family)], ["Predicts", predicts, true], ["Independent variables", variablesHTML(row.independent_variables), true], ["Calibration population", row.calibration_population], ["Applicability", row.applicability], ["Adjusted R²", row.r_squared_adjusted], ["Maximum residual", row.max_residual], ["Mean residual", row.mean_residual], ["Residual σ", row.residual_std], ["Residual unit", row.residual_unit], ["Review status", row.review_status], ["Implementation", row.implementation_status], ["Notes", row.notes]];
       const initialLanguage = "julia";
-      dialog.querySelector(".er-dialog-body").innerHTML = `<h2>${symbolHTML(row.dependent_variable)} — ${escapeHTML(row.family)}</h2><h3>Published expression</h3><div class="er-equation">\\[${escapeHTML(equationLatex(row))}\\]</div><h3>Coefficients</h3><p>${coefficients}</p><h3>Implementation</h3><div class="er-snippet-toolbar"><label>Language <select class="er-code-language"><option value="julia">Julia</option><option value="python">Python</option></select></label><button class="er-button er-copy-code" type="button">Copy code</button></div><pre class="er-code-block"><code>${escapeHTML(row.code[initialLanguage])}</code></pre><h3>Citation</h3><div class="er-snippet-toolbar"><span>BibTeX</span><button class="er-button er-copy-bibtex" type="button">Copy BibTeX</button></div><pre class="er-code-block er-bibtex"><code>${escapeHTML(row.source.bibtex)}</code></pre><h3>Relation metadata</h3>${detailList(fields)}<h3>Original publication</h3><p>${sourceLink(row)}<br>${escapeHTML(row.source.authors || "")}</p>`;
+      dialog.querySelector(".er-dialog-body").innerHTML = `<h2>${relationSignatureHTML(row)}</h2><h3>Published expression</h3><div class="er-equation">\\[${escapeHTML(equationLatex(row))}\\]</div><h3>Coefficients</h3><p>${coefficients}</p><h3>Implementation</h3><div class="er-snippet-toolbar"><label>Language <select class="er-code-language"><option value="julia">Julia</option><option value="python">Python</option></select></label><button class="er-button er-copy-code" type="button">Copy code</button></div><pre class="er-code-block"><code>${escapeHTML(row.code[initialLanguage])}</code></pre><h3>Citation</h3><div class="er-snippet-toolbar"><span>BibTeX</span><button class="er-button er-copy-bibtex" type="button">Copy BibTeX</button></div><pre class="er-code-block er-bibtex"><code>${escapeHTML(row.source.bibtex)}</code></pre><h3>Relation metadata</h3>${detailList(fields)}<h3>Original publication</h3><p>${sourceLink(row)}<br>${escapeHTML(row.source.authors || "")}</p>`;
       const language = dialog.querySelector(".er-code-language");
       const code = dialog.querySelector(".er-code-block code");
       language.addEventListener("change", () => { code.textContent = row.code[language.value]; });
@@ -294,7 +300,7 @@
       state.visible = filterRelations(records, filters()).sort((a, b) => state.direction * compareValues(a[state.sortKey], b[state.sortKey]));
       const pages = Math.max(1, Math.ceil(state.visible.length / PAGE_SIZE)); state.page = Math.min(state.page, pages);
       const pageRows = state.visible.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
-      body.innerHTML = pageRows.map(row => `<tr tabindex="0" data-id="${escapeHTML(row.relation_id)}"><td>${symbolHTML(row.dependent_variable)}</td><td>${escapeHTML(row.family)}</td><td>${variablesHTML(row.independent_variables)}</td><td>${escapeHTML(shown(row.residual_std))} ${escapeHTML(row.residual_unit || "")}</td><td>${escapeHTML(sourceLabel(row))}</td><td>${escapeHTML(row.implementation_status)}</td></tr>`).join("");
+      body.innerHTML = pageRows.map(row => `<tr tabindex="0" data-id="${escapeHTML(row.relation_id)}"><td>${symbolHTML(row.dependent_variable)}</td><td>${escapeHTML(humanize(row.family))}</td><td>${variablesHTML(row.independent_variables)}</td><td>${escapeHTML(shown(row.residual_std))} ${escapeHTML(row.residual_unit || "")}</td><td>${escapeHTML(sourceLabel(row))}</td><td>${escapeHTML(row.implementation_status)}</td></tr>`).join("");
       typesetMath(body);
       body.querySelectorAll("tr").forEach(tr => { const open = () => showDetail(records.find(row => row.relation_id === tr.dataset.id)); tr.addEventListener("click", open); tr.addEventListener("keydown", event => { if (event.key === "Enter") open(); }); });
       byId("rel-count").textContent = `${state.visible.length} of ${records.length} relations`; byId("rel-empty").hidden = state.visible.length !== 0; table.parentElement.hidden = state.visible.length === 0;

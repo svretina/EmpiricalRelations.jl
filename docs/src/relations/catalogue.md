@@ -14,7 +14,7 @@ omit units; the residual column retains the unit reported by the publication.
     <label>Predicted quantity<select id="rel-dependent"><option value="">All quantities</option></select></label>
     <label>Relation family<select id="rel-family"><option value="">All families</option></select></label>
     <label>Source paper<select id="rel-source"><option value="">All sources</option></select></label>
-    <label>Implementation<select id="rel-status"><option value="">Any status</option><option value="catalogued">Catalogued</option></select></label>
+    <label>Implementation<select id="rel-status"><option value="">Any status</option><option value="implemented">Implemented</option></select></label>
   </div>
   <div class="er-results-bar"><strong id="rel-count" aria-live="polite">Loading…</strong><div><button id="rel-download" class="er-button" type="button">Download filtered CSV</button><a class="er-button" href="#" data-er-download="relations.csv" download>Full relations CSV</a><a class="er-button" href="#" data-er-download="coefficients.csv" download>Coefficients CSV</a></div></div>
   <div class="er-table-wrap"><table id="rel-table" class="er-table"><thead><tr><th data-key="dependent_variable">Predicts</th><th data-key="family">Family</th><th data-key="independent_variables">Inputs</th><th data-key="residual_std">Residual σ</th><th data-key="source_id">Source</th><th data-key="implementation_status">Status</th></tr></thead><tbody></tbody></table></div>

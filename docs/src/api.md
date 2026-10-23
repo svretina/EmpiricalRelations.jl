@@ -1,9 +1,31 @@
 # Julia API
 
-```@autodocs
-Modules = [EmpiricalRelations]
+The public interface separates publications, empirical relations, and predicted
+observables. Relation discovery reads only the packaged registry; it does not load the
+raw waveform database.
+
+## Registry types
+
+```@docs
+RelationID
+RelationSpec
+RelationCatalogue
+EmpiricalRelations.SourceInfo
+EmpiricalRelations.DomainSpec
 ```
 
-No relation-evaluation functions are exported in the current release. Relations listed
-in the database have status `catalogued` until an implementation is tested against the
-published equation, coefficients, units, and reference values.
+## Public functions
+
+```@docs
+relations
+relation
+evaluate
+predict
+applicable_relations
+info
+formula
+coefficients
+domain
+source
+bibtex
+```

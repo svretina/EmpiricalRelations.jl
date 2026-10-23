@@ -9,7 +9,7 @@
       "source_file": "src/EmpiricalRelations.jl",
       "source_location": "L1",
       "id": "src_empiricalrelations_jl",
-      "community": 11,
+      "community": 18,
       "norm_label": "empiricalrelations.jl"
     },
     {
@@ -18,8 +18,350 @@
       "source_file": "src/EmpiricalRelations.jl",
       "source_location": "L1",
       "id": "empiricalrelations_empiricalrelations",
-      "community": 11,
+      "community": 18,
       "norm_label": "empiricalrelations"
+    },
+    {
+      "label": "__init__()",
+      "file_type": "code",
+      "source_file": "src/EmpiricalRelations.jl",
+      "source_location": "L15",
+      "id": "empiricalrelations_init",
+      "community": 18,
+      "norm_label": "__init__()"
+    },
+    {
+      "label": "Types.jl",
+      "file_type": "code",
+      "source_file": "src/Types.jl",
+      "source_location": "L1",
+      "id": "src_types_jl",
+      "community": 13,
+      "norm_label": "types.jl"
+    },
+    {
+      "label": "RelationID",
+      "file_type": "code",
+      "source_file": "src/Types.jl",
+      "source_location": "L2",
+      "id": "types_relationid",
+      "community": 13,
+      "norm_label": "relationid"
+    },
+    {
+      "label": "SourceInfo",
+      "file_type": "code",
+      "source_file": "src/Types.jl",
+      "source_location": "L12",
+      "id": "types_sourceinfo",
+      "community": 13,
+      "norm_label": "sourceinfo"
+    },
+    {
+      "label": "DomainSpec",
+      "file_type": "code",
+      "source_file": "src/Types.jl",
+      "source_location": "L28",
+      "id": "types_domainspec",
+      "community": 13,
+      "norm_label": "domainspec"
+    },
+    {
+      "label": "RelationSpec",
+      "file_type": "code",
+      "source_file": "src/Types.jl",
+      "source_location": "L35",
+      "id": "types_relationspec",
+      "community": 13,
+      "norm_label": "relationspec"
+    },
+    {
+      "label": "RelationCatalogue",
+      "file_type": "code",
+      "source_file": "src/Types.jl",
+      "source_location": "L60",
+      "id": "types_relationcatalogue",
+      "community": 13,
+      "norm_label": "relationcatalogue"
+    },
+    {
+      "label": "Registry.jl",
+      "file_type": "code",
+      "source_file": "src/Registry.jl",
+      "source_location": "L1",
+      "id": "src_registry_jl",
+      "community": 17,
+      "norm_label": "registry.jl"
+    },
+    {
+      "label": "_register!()",
+      "file_type": "code",
+      "source_file": "src/Registry.jl",
+      "source_location": "L5",
+      "id": "registry_register",
+      "community": 17,
+      "norm_label": "_register!()"
+    },
+    {
+      "label": "_validate_registry()",
+      "file_type": "code",
+      "source_file": "src/Registry.jl",
+      "source_location": "L13",
+      "id": "registry_validate_registry",
+      "community": 17,
+      "norm_label": "_validate_registry()"
+    },
+    {
+      "label": "_canonical()",
+      "file_type": "code",
+      "source_file": "src/Registry.jl",
+      "source_location": "L35",
+      "id": "registry_canonical",
+      "community": 17,
+      "norm_label": "_canonical()"
+    },
+    {
+      "label": "Discovery.jl",
+      "file_type": "code",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L1",
+      "id": "src_discovery_jl",
+      "community": 15,
+      "norm_label": "discovery.jl"
+    },
+    {
+      "label": "relations()",
+      "file_type": "code",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L2",
+      "id": "discovery_relations",
+      "community": 15,
+      "norm_label": "relations()"
+    },
+    {
+      "label": "_candidates()",
+      "file_type": "code",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L19",
+      "id": "discovery_candidates",
+      "community": 15,
+      "norm_label": "_candidates()"
+    },
+    {
+      "label": "relation()",
+      "file_type": "code",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L29",
+      "id": "discovery_relation",
+      "community": 15,
+      "norm_label": "relation()"
+    },
+    {
+      "label": "applicable_relations()",
+      "file_type": "code",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L41",
+      "id": "discovery_applicable_relations",
+      "community": 15,
+      "norm_label": "applicable_relations()"
+    },
+    {
+      "label": "Evaluation.jl",
+      "file_type": "code",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L1",
+      "id": "src_evaluation_jl",
+      "community": 16,
+      "norm_label": "evaluation.jl"
+    },
+    {
+      "label": "_numeric_checks()",
+      "file_type": "code",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L1",
+      "id": "evaluation_numeric_checks",
+      "community": 16,
+      "norm_label": "_numeric_checks()"
+    },
+    {
+      "label": "_domain_status()",
+      "file_type": "code",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L19",
+      "id": "evaluation_domain_status",
+      "community": 16,
+      "norm_label": "_domain_status()"
+    },
+    {
+      "label": "evaluate()",
+      "file_type": "code",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L31",
+      "id": "evaluation_evaluate",
+      "community": 16,
+      "norm_label": "evaluate()"
+    },
+    {
+      "label": "predict()",
+      "file_type": "code",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L57",
+      "id": "evaluation_predict",
+      "community": 16,
+      "norm_label": "predict()"
+    },
+    {
+      "label": "Metadata.jl",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L1",
+      "id": "src_metadata_jl",
+      "community": 11,
+      "norm_label": "metadata.jl"
+    },
+    {
+      "label": "info()",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L2",
+      "id": "metadata_info",
+      "community": 11,
+      "norm_label": "info()"
+    },
+    {
+      "label": "formula()",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L10",
+      "id": "metadata_formula",
+      "community": 11,
+      "norm_label": "formula()"
+    },
+    {
+      "label": "coefficients()",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L13",
+      "id": "metadata_coefficients",
+      "community": 11,
+      "norm_label": "coefficients()"
+    },
+    {
+      "label": "domain()",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L16",
+      "id": "metadata_domain",
+      "community": 11,
+      "norm_label": "domain()"
+    },
+    {
+      "label": "source()",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L23",
+      "id": "metadata_source",
+      "community": 11,
+      "norm_label": "source()"
+    },
+    {
+      "label": "bibtex()",
+      "file_type": "code",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L26",
+      "id": "metadata_bibtex",
+      "community": 11,
+      "norm_label": "bibtex()"
+    },
+    {
+      "label": "GeneratedRegistry.jl",
+      "file_type": "code",
+      "source_file": "src/GeneratedRegistry.jl",
+      "source_location": "L1",
+      "id": "src_generatedregistry_jl",
+      "community": 20,
+      "norm_label": "generatedregistry.jl"
+    },
+    {
+      "label": "Common.jl",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L1",
+      "id": "src_relations_common_jl",
+      "community": 9,
+      "norm_label": "common.jl"
+    },
+    {
+      "label": "_frequency_from_radius()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L3",
+      "id": "common_frequency_from_radius",
+      "community": 9,
+      "norm_label": "_frequency_from_radius()"
+    },
+    {
+      "label": "_radius_from_frequency()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L10",
+      "id": "common_radius_from_frequency",
+      "community": 9,
+      "norm_label": "_radius_from_frequency()"
+    },
+    {
+      "label": "_frequency_from_tidal()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L17",
+      "id": "common_frequency_from_tidal",
+      "community": 9,
+      "norm_label": "_frequency_from_tidal()"
+    },
+    {
+      "label": "_tidal_rational()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L20",
+      "id": "common_tidal_rational",
+      "community": 9,
+      "norm_label": "_tidal_rational()"
+    },
+    {
+      "label": "_eta_tidal_frequency()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L23",
+      "id": "common_eta_tidal_frequency",
+      "community": 9,
+      "norm_label": "_eta_tidal_frequency()"
+    },
+    {
+      "label": "_mass_ratio_tidal_frequency()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L34",
+      "id": "common_mass_ratio_tidal_frequency",
+      "community": 9,
+      "norm_label": "_mass_ratio_tidal_frequency()"
+    },
+    {
+      "label": "_fixed_mass_peak()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L39",
+      "id": "common_fixed_mass_peak",
+      "community": 9,
+      "norm_label": "_fixed_mass_peak()"
+    },
+    {
+      "label": "_evaluator()",
+      "file_type": "code",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L41",
+      "id": "common_evaluator",
+      "community": 9,
+      "norm_label": "_evaluator()"
     },
     {
       "label": "runtests.jl",
@@ -27,7 +369,7 @@
       "source_file": "test/runtests.jl",
       "source_location": "L1",
       "id": "test_runtests_jl",
-      "community": 10,
+      "community": 14,
       "norm_label": "runtests.jl"
     },
     {
@@ -36,7 +378,7 @@
       "source_file": "docs/make.jl",
       "source_location": "L2",
       "id": "empiricalrelations",
-      "community": 10,
+      "community": 14,
       "norm_label": "empiricalrelations"
     },
     {
@@ -45,7 +387,7 @@
       "source_file": "test/runtests.jl",
       "source_location": "L2",
       "id": "test",
-      "community": 10,
+      "community": 14,
       "norm_label": "test"
     },
     {
@@ -54,7 +396,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L1",
       "id": "papers_2310_06025_prakash_2024_source_fillbib_py",
-      "community": 8,
+      "community": 10,
       "norm_label": "fillbib.py"
     },
     {
@@ -63,7 +405,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L26",
       "id": "fillbib_ads_citation",
-      "community": 8,
+      "community": 10,
       "norm_label": "ads_citation()"
     },
     {
@@ -72,7 +414,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L47",
       "id": "fillbib_inspire_citation",
-      "community": 8,
+      "community": 10,
       "norm_label": "inspire_citation()"
     },
     {
@@ -81,7 +423,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L163",
       "id": "fillbib_test_ads",
-      "community": 8,
+      "community": 10,
       "norm_label": "test_ads()"
     },
     {
@@ -90,7 +432,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L168",
       "id": "fillbib_test_inspire",
-      "community": 8,
+      "community": 10,
       "norm_label": "test_inspire()"
     },
     {
@@ -99,7 +441,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L174",
       "id": "fillbib_fillbib_tex",
-      "community": 8,
+      "community": 10,
       "norm_label": "fillbib_tex()"
     },
     {
@@ -108,7 +450,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L243",
       "id": "fillbib_fillbib_list",
-      "community": 8,
+      "community": 10,
       "norm_label": "fillbib_list()"
     },
     {
@@ -116,7 +458,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/fillbib.py",
       "source_location": "L52",
-      "community": 8,
+      "community": 10,
       "norm_label": "generate a custom bibtex entry      * generate         if true we generate the b",
       "id": "fillbib_rationale_52"
     },
@@ -819,7 +1161,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L1",
       "id": "scripts_discover_literature_py",
-      "community": 7,
+      "community": 8,
       "norm_label": "discover_literature.py"
     },
     {
@@ -828,7 +1170,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L29",
       "id": "discover_literature_now",
-      "community": 7,
+      "community": 8,
       "norm_label": "now()"
     },
     {
@@ -837,7 +1179,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L33",
       "id": "discover_literature_openalex",
-      "community": 7,
+      "community": 8,
       "norm_label": "openalex"
     },
     {
@@ -846,7 +1188,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L34",
       "id": "discover_literature_openalex_init",
-      "community": 7,
+      "community": 8,
       "norm_label": ".__init__()"
     },
     {
@@ -855,7 +1197,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L39",
       "id": "discover_literature_openalex_get",
-      "community": 7,
+      "community": 8,
       "norm_label": ".get()"
     },
     {
@@ -864,7 +1206,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L52",
       "id": "discover_literature_abstract_text",
-      "community": 7,
+      "community": 8,
       "norm_label": "abstract_text()"
     },
     {
@@ -873,7 +1215,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L58",
       "id": "discover_literature_arxiv_id",
-      "community": 7,
+      "community": 8,
       "norm_label": "arxiv_id()"
     },
     {
@@ -882,7 +1224,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L67",
       "id": "discover_literature_relevant",
-      "community": 7,
+      "community": 8,
       "norm_label": "relevant()"
     },
     {
@@ -891,7 +1233,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L78",
       "id": "discover_literature_compact_work",
-      "community": 7,
+      "community": 8,
       "norm_label": "compact_work()"
     },
     {
@@ -900,7 +1242,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L100",
       "id": "discover_literature_resolve_core_works",
-      "community": 7,
+      "community": 8,
       "norm_label": "resolve_core_works()"
     },
     {
@@ -909,7 +1251,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L118",
       "id": "discover_literature_discover",
-      "community": 7,
+      "community": 8,
       "norm_label": "discover()"
     },
     {
@@ -918,7 +1260,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L177",
       "id": "discover_literature_write_bibliography",
-      "community": 7,
+      "community": 8,
       "norm_label": "write_bibliography()"
     },
     {
@@ -927,7 +1269,7 @@
       "source_file": "scripts/discover_literature.py",
       "source_location": "L195",
       "id": "discover_literature_main",
-      "community": 7,
+      "community": 8,
       "norm_label": "main()"
     },
     {
@@ -1498,6 +1840,132 @@
       "id": "extract_reference_data_rationale_1243"
     },
     {
+      "label": "generate_julia_registry.py",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L1",
+      "id": "scripts_generate_julia_registry_py",
+      "community": 6,
+      "norm_label": "generate_julia_registry.py"
+    },
+    {
+      "label": "julia_string()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L15",
+      "id": "generate_julia_registry_julia_string",
+      "community": 6,
+      "norm_label": "julia_string()"
+    },
+    {
+      "label": "symbol()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L19",
+      "id": "generate_julia_registry_symbol",
+      "community": 6,
+      "norm_label": "symbol()"
+    },
+    {
+      "label": "bibtex_entries()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L23",
+      "id": "generate_julia_registry_bibtex_entries",
+      "community": 6,
+      "norm_label": "bibtex_entries()"
+    },
+    {
+      "label": "number()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L33",
+      "id": "generate_julia_registry_number",
+      "community": 6,
+      "norm_label": "number()"
+    },
+    {
+      "label": "fixed_coefficients()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L39",
+      "id": "generate_julia_registry_fixed_coefficients",
+      "community": 6,
+      "norm_label": "fixed_coefficients()"
+    },
+    {
+      "label": "publication_id()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L49",
+      "id": "generate_julia_registry_publication_id",
+      "community": 6,
+      "norm_label": "publication_id()"
+    },
+    {
+      "label": "quantity()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L55",
+      "id": "generate_julia_registry_quantity",
+      "community": 6,
+      "norm_label": "quantity()"
+    },
+    {
+      "label": "fixed_input()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L73",
+      "id": "generate_julia_registry_fixed_input",
+      "community": 6,
+      "norm_label": "fixed_input()"
+    },
+    {
+      "label": "inputs()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L85",
+      "id": "generate_julia_registry_inputs",
+      "community": 6,
+      "norm_label": "inputs()"
+    },
+    {
+      "label": "canonical_expression()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L106",
+      "id": "generate_julia_registry_canonical_expression",
+      "community": 6,
+      "norm_label": "canonical_expression()"
+    },
+    {
+      "label": "domain()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L149",
+      "id": "generate_julia_registry_domain",
+      "community": 6,
+      "norm_label": "domain()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L158",
+      "id": "generate_julia_registry_main",
+      "community": 6,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Specialize placeholders in a published family expression for one relation.",
+      "file_type": "rationale",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L107",
+      "id": "generate_julia_registry_rationale_107",
+      "community": 6,
+      "norm_label": "specialize placeholders in a published family expression for one relation."
+    },
+    {
       "label": "test_download_papers.py",
       "file_type": "code",
       "source_file": "tests/test_download_papers.py",
@@ -1962,7 +2430,7 @@
       "source_file": "tests/test_docs_explorer.py",
       "source_location": "L1",
       "id": "tests_test_docs_explorer_py",
-      "community": 9,
+      "community": 12,
       "norm_label": "test_docs_explorer.py"
     },
     {
@@ -1971,7 +2439,7 @@
       "source_file": "tests/test_docs_explorer.py",
       "source_location": "L14",
       "id": "test_docs_explorer_explorergenerationtests",
-      "community": 9,
+      "community": 12,
       "norm_label": "explorergenerationtests"
     },
     {
@@ -1980,7 +2448,7 @@
       "source_file": "tests/test_docs_explorer.py",
       "source_location": "L16",
       "id": "test_docs_explorer_setupclass",
-      "community": 9,
+      "community": 12,
       "norm_label": "setupclass()"
     },
     {
@@ -1989,7 +2457,7 @@
       "source_file": "tests/test_docs_explorer.py",
       "source_location": "L20",
       "id": "test_docs_explorer_explorergenerationtests_test_json_is_valid_and_ids_are_unique",
-      "community": 9,
+      "community": 12,
       "norm_label": ".test_json_is_valid_and_ids_are_unique()"
     },
     {
@@ -1998,7 +2466,7 @@
       "source_file": "tests/test_docs_explorer.py",
       "source_location": "L26",
       "id": "test_docs_explorer_explorergenerationtests_test_schema_and_scientific_numbers_are_preserved",
-      "community": 9,
+      "community": 12,
       "norm_label": ".test_schema_and_scientific_numbers_are_preserved()"
     },
     {
@@ -2007,16 +2475,16 @@
       "source_file": "tests/test_docs_explorer.py",
       "source_location": "L42",
       "id": "test_docs_explorer_explorergenerationtests_test_relation_coefficients_and_metadata_counts",
-      "community": 9,
+      "community": 12,
       "norm_label": ".test_relation_coefficients_and_metadata_counts()"
     },
     {
       "label": ".test_required_static_and_mobile_assets_exist()",
       "file_type": "code",
       "source_file": "tests/test_docs_explorer.py",
-      "source_location": "L53",
+      "source_location": "L62",
       "id": "test_docs_explorer_explorergenerationtests_test_required_static_and_mobile_assets_exist",
-      "community": 9,
+      "community": 12,
       "norm_label": ".test_required_static_and_mobile_assets_exist()"
     },
     {
@@ -2025,7 +2493,7 @@
       "source_file": "tests/database-explorer.test.js",
       "source_location": "L1",
       "id": "tests_database_explorer_test_js",
-      "community": 12,
+      "community": 19,
       "norm_label": "database-explorer.test.js"
     },
     {
@@ -2034,7 +2502,7 @@
       "source_file": "tests/database-explorer.test.js",
       "source_location": "L5",
       "id": "database_explorer_test_addeventlistener",
-      "community": 12,
+      "community": 19,
       "norm_label": "addeventlistener()"
     },
     {
@@ -2043,7 +2511,7 @@
       "source_file": "docs/make.jl",
       "source_location": "L1",
       "id": "docs_make_jl",
-      "community": 10,
+      "community": 14,
       "norm_label": "make.jl"
     },
     {
@@ -2052,7 +2520,7 @@
       "source_file": "docs/make.jl",
       "source_location": "L1",
       "id": "documenter",
-      "community": 10,
+      "community": 14,
       "norm_label": "documenter"
     },
     {
@@ -2061,7 +2529,7 @@
       "source_file": "docs/make.jl",
       "source_location": "L10",
       "id": "make_canonical_page",
-      "community": 10,
+      "community": 14,
       "norm_label": "canonical_page()"
     },
     {
@@ -2070,7 +2538,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L1",
       "id": "docs_scripts_generate_explorer_data_py",
-      "community": 6,
+      "community": 7,
       "norm_label": "generate_explorer_data.py"
     },
     {
@@ -2079,7 +2547,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L49",
       "id": "generate_explorer_data_read_table",
-      "community": 6,
+      "community": 7,
       "norm_label": "read_table()"
     },
     {
@@ -2088,7 +2556,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L64",
       "id": "generate_explorer_data_scalar",
-      "community": 6,
+      "community": 7,
       "norm_label": "scalar()"
     },
     {
@@ -2097,7 +2565,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L78",
       "id": "generate_explorer_data_convert",
-      "community": 6,
+      "community": 7,
       "norm_label": "convert()"
     },
     {
@@ -2106,7 +2574,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L82",
       "id": "generate_explorer_data_unique",
-      "community": 6,
+      "community": 7,
       "norm_label": "unique()"
     },
     {
@@ -2115,7 +2583,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L88",
       "id": "generate_explorer_data_last_updated",
-      "community": 6,
+      "community": 7,
       "norm_label": "last_updated()"
     },
     {
@@ -2124,7 +2592,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L99",
       "id": "generate_explorer_data_bibliography_by_arxiv",
-      "community": 6,
+      "community": 7,
       "norm_label": "bibliography_by_arxiv()"
     },
     {
@@ -2133,7 +2601,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L111",
       "id": "generate_explorer_data_coefficient_map",
-      "community": 6,
+      "community": 7,
       "norm_label": "coefficient_map()"
     },
     {
@@ -2142,7 +2610,7 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L115",
       "id": "generate_explorer_data_fixed_mass_coefficients",
-      "community": 6,
+      "community": 7,
       "norm_label": "fixed_mass_coefficients()"
     },
     {
@@ -2151,16 +2619,16 @@
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L132",
       "id": "generate_explorer_data_code_examples",
-      "community": 6,
+      "community": 7,
       "norm_label": "code_examples()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L179",
+      "source_location": "L205",
       "id": "generate_explorer_data_main",
-      "community": 6,
+      "community": 7,
       "norm_label": "main()"
     },
     {
@@ -2168,7 +2636,7 @@
       "file_type": "rationale",
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L100",
-      "community": 6,
+      "community": 7,
       "norm_label": "return complete generated bibtex entries indexed by bare arxiv id.",
       "id": "generate_explorer_data_rationale_100"
     },
@@ -2177,7 +2645,7 @@
       "file_type": "rationale",
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L116",
-      "community": 6,
+      "community": 7,
       "norm_label": "extract c0, c1, c2 from the reviewed fixed-mass quadratic expression.",
       "id": "generate_explorer_data_rationale_116"
     },
@@ -2186,7 +2654,7 @@
       "file_type": "rationale",
       "source_file": "docs/scripts/generate_explorer_data.py",
       "source_location": "L133",
-      "community": 6,
+      "community": 7,
       "norm_label": "build transparent, dependency-free julia and python implementations.",
       "id": "generate_explorer_data_rationale_133"
     },
@@ -2254,10 +2722,19 @@
       "norm_label": "inlinemath()"
     },
     {
-      "label": "symbolHTML()",
+      "label": "symbolLatex()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
       "source_location": "L44",
+      "id": "database_explorer_symbollatex",
+      "community": 2,
+      "norm_label": "symbollatex()"
+    },
+    {
+      "label": "symbolHTML()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L52",
       "id": "database_explorer_symbolhtml",
       "community": 2,
       "norm_label": "symbolhtml()"
@@ -2266,16 +2743,25 @@
       "label": "variablesHTML()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L52",
+      "source_location": "L53",
       "id": "database_explorer_variableshtml",
       "community": 2,
       "norm_label": "variableshtml()"
     },
     {
+      "label": "relationSignatureHTML()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L54",
+      "id": "database_explorer_relationsignaturehtml",
+      "community": 2,
+      "norm_label": "relationsignaturehtml()"
+    },
+    {
       "label": "humanize()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L53",
+      "source_location": "L59",
       "id": "database_explorer_humanize",
       "community": 2,
       "norm_label": "humanize()"
@@ -2284,7 +2770,7 @@
       "label": "fieldLabelHTML()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L57",
+      "source_location": "L63",
       "id": "database_explorer_fieldlabelhtml",
       "community": 2,
       "norm_label": "fieldlabelhtml()"
@@ -2293,7 +2779,7 @@
       "label": "coefficientLatex()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L67",
+      "source_location": "L73",
       "id": "database_explorer_coefficientlatex",
       "community": 2,
       "norm_label": "coefficientlatex()"
@@ -2302,7 +2788,7 @@
       "label": "numberLatex()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L68",
+      "source_location": "L74",
       "id": "database_explorer_numberlatex",
       "community": 2,
       "norm_label": "numberlatex()"
@@ -2311,7 +2797,7 @@
       "label": "equationLatex()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L73",
+      "source_location": "L79",
       "id": "database_explorer_equationlatex",
       "community": 2,
       "norm_label": "equationlatex()"
@@ -2320,7 +2806,7 @@
       "label": "queueMathJax2()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L102",
+      "source_location": "L108",
       "id": "database_explorer_queuemathjax2",
       "community": 2,
       "norm_label": "queuemathjax2()"
@@ -2329,7 +2815,7 @@
       "label": "typesetMath()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L105",
+      "source_location": "L111",
       "id": "database_explorer_typesetmath",
       "community": 2,
       "norm_label": "typesetmath()"
@@ -2338,7 +2824,7 @@
       "label": "searchable()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L120",
+      "source_location": "L126",
       "id": "database_explorer_searchable",
       "community": 2,
       "norm_label": "searchable()"
@@ -2347,7 +2833,7 @@
       "label": "numericInRange()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L124",
+      "source_location": "L130",
       "id": "database_explorer_numericinrange",
       "community": 2,
       "norm_label": "numericinrange()"
@@ -2356,7 +2842,7 @@
       "label": "compareValues()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L130",
+      "source_location": "L136",
       "id": "database_explorer_comparevalues",
       "community": 2,
       "norm_label": "comparevalues()"
@@ -2365,7 +2851,7 @@
       "label": "csvCell()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L136",
+      "source_location": "L142",
       "id": "database_explorer_csvcell",
       "community": 2,
       "norm_label": "csvcell()"
@@ -2374,7 +2860,7 @@
       "label": "rowsToCSV()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L140",
+      "source_location": "L146",
       "id": "database_explorer_rowstocsv",
       "community": 2,
       "norm_label": "rowstocsv()"
@@ -2383,7 +2869,7 @@
       "label": "filterWaveforms()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L142",
+      "source_location": "L148",
       "id": "database_explorer_filterwaveforms",
       "community": 2,
       "norm_label": "filterwaveforms()"
@@ -2392,7 +2878,7 @@
       "label": "filterRelations()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L161",
+      "source_location": "L167",
       "id": "database_explorer_filterrelations",
       "community": 2,
       "norm_label": "filterrelations()"
@@ -2401,7 +2887,7 @@
       "label": "load()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L172",
+      "source_location": "L178",
       "id": "database_explorer_load",
       "community": 2,
       "norm_label": "load()"
@@ -2410,7 +2896,7 @@
       "label": "selectOptions()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L176",
+      "source_location": "L182",
       "id": "database_explorer_selectoptions",
       "community": 2,
       "norm_label": "selectoptions()"
@@ -2419,7 +2905,7 @@
       "label": "download()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L180",
+      "source_location": "L186",
       "id": "database_explorer_download",
       "community": 2,
       "norm_label": "download()"
@@ -2428,7 +2914,7 @@
       "label": "copyText()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L187",
+      "source_location": "L193",
       "id": "database_explorer_copytext",
       "community": 2,
       "norm_label": "copytext()"
@@ -2437,7 +2923,7 @@
       "label": "sourceLabel()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L201",
+      "source_location": "L207",
       "id": "database_explorer_sourcelabel",
       "community": 2,
       "norm_label": "sourcelabel()"
@@ -2446,7 +2932,7 @@
       "label": "sourceLink()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L202",
+      "source_location": "L208",
       "id": "database_explorer_sourcelink",
       "community": 2,
       "norm_label": "sourcelink()"
@@ -2455,7 +2941,7 @@
       "label": "detailList()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L203",
+      "source_location": "L209",
       "id": "database_explorer_detaillist",
       "community": 2,
       "norm_label": "detaillist()"
@@ -2464,7 +2950,7 @@
       "label": "wireDialog()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L204",
+      "source_location": "L210",
       "id": "database_explorer_wiredialog",
       "community": 2,
       "norm_label": "wiredialog()"
@@ -2473,7 +2959,7 @@
       "label": "setSortable()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L208",
+      "source_location": "L214",
       "id": "database_explorer_setsortable",
       "community": 2,
       "norm_label": "setsortable()"
@@ -2482,7 +2968,7 @@
       "label": "markSort()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L214",
+      "source_location": "L220",
       "id": "database_explorer_marksort",
       "community": 2,
       "norm_label": "marksort()"
@@ -2491,7 +2977,7 @@
       "label": "initSummary()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L216",
+      "source_location": "L222",
       "id": "database_explorer_initsummary",
       "community": 2,
       "norm_label": "initsummary()"
@@ -2500,7 +2986,7 @@
       "label": "initWaveforms()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L227",
+      "source_location": "L233",
       "id": "database_explorer_initwaveforms",
       "community": 2,
       "norm_label": "initwaveforms()"
@@ -2509,7 +2995,7 @@
       "label": "initRelations()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L270",
+      "source_location": "L276",
       "id": "database_explorer_initrelations",
       "community": 2,
       "norm_label": "initrelations()"
@@ -2519,7 +3005,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L109",
-      "community": 13,
+      "community": 21,
       "norm_label": "return every tabular/tabular* body, including tables with width arguments.",
       "id": "extract_reference_data_rationale_109"
     },
@@ -2528,7 +3014,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L118",
-      "community": 14,
+      "community": 22,
       "norm_label": "split a tabular body on unescaped latex row terminators.",
       "id": "extract_reference_data_rationale_118"
     },
@@ -2537,7 +3023,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L187",
-      "community": 15,
+      "community": 23,
       "norm_label": "extract a central numeric value while retaining the original cell separately.",
       "id": "extract_reference_data_rationale_187"
     },
@@ -2546,7 +3032,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L704",
-      "community": 16,
+      "community": 24,
       "norm_label": "convert structural records into lossless, source-linked public csv rows.",
       "id": "extract_reference_data_rationale_704"
     },
@@ -2555,7 +3041,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L777",
-      "community": 17,
+      "community": 25,
       "norm_label": "normalize reviewed simulation tables that map safely to the public schema.",
       "id": "extract_reference_data_rationale_777"
     },
@@ -2564,7 +3050,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L1057",
-      "community": 18,
+      "community": 26,
       "norm_label": "normalize reviewed coefficient/formula tables outside the reference paper.",
       "id": "extract_reference_data_rationale_1057"
     },
@@ -2573,7 +3059,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L1190",
-      "community": 19,
+      "community": 27,
       "norm_label": "ensure each source-specific waveform eos resolves without merging definitions ac",
       "id": "extract_reference_data_rationale_1190"
     },
@@ -2582,7 +3068,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L106",
-      "community": 20,
+      "community": 28,
       "norm_label": "return every tabular/tabular* body, including tables with width arguments.",
       "id": "extract_reference_data_rationale_106"
     },
@@ -2591,7 +3077,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L115",
-      "community": 21,
+      "community": 29,
       "norm_label": "split a tabular body on unescaped latex row terminators.",
       "id": "extract_reference_data_rationale_115"
     },
@@ -2600,7 +3086,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L184",
-      "community": 22,
+      "community": 30,
       "norm_label": "extract a central numeric value while retaining the original cell separately.",
       "id": "extract_reference_data_rationale_184"
     },
@@ -2609,7 +3095,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L681",
-      "community": 23,
+      "community": 31,
       "norm_label": "convert structural records into lossless, source-linked public csv rows.",
       "id": "extract_reference_data_rationale_681"
     },
@@ -2618,7 +3104,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L752",
-      "community": 24,
+      "community": 32,
       "norm_label": "normalize reviewed simulation tables that map safely to the public schema.",
       "id": "extract_reference_data_rationale_752"
     },
@@ -2627,7 +3113,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L940",
-      "community": 25,
+      "community": 33,
       "norm_label": "normalize reviewed coefficient/formula tables outside the reference paper.",
       "id": "extract_reference_data_rationale_940"
     },
@@ -2636,7 +3122,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L990",
-      "community": 26,
+      "community": 34,
       "norm_label": "ensure each source-specific waveform eos resolves without merging definitions ac",
       "id": "extract_reference_data_rationale_990"
     },
@@ -2645,7 +3131,7 @@
       "file_type": "rationale",
       "source_file": "scripts/extract_reference_data.py",
       "source_location": "L98",
-      "community": 27,
+      "community": 35,
       "norm_label": "split a tabular body on unescaped latex row terminators.",
       "id": "extract_reference_data_rationale_98"
     },
@@ -2654,7 +3140,7 @@
       "file_type": "rationale",
       "source_file": "scripts/download_papers.py",
       "source_location": "L304",
-      "community": 28,
+      "community": 36,
       "norm_label": "add journal dates from crossref, reusing previously persisted enrichment.",
       "id": "download_papers_rationale_304"
     }
@@ -2670,6 +3156,582 @@
       "_tgt": "empiricalrelations_empiricalrelations",
       "source": "src_empiricalrelations_jl",
       "target": "empiricalrelations_empiricalrelations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/EmpiricalRelations.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "empiricalrelations_empiricalrelations",
+      "_tgt": "empiricalrelations_init",
+      "source": "empiricalrelations_empiricalrelations",
+      "target": "empiricalrelations_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Types.jl",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "src_types_jl",
+      "_tgt": "types_relationid",
+      "source": "src_types_jl",
+      "target": "types_relationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Types.jl",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "src_types_jl",
+      "_tgt": "types_sourceinfo",
+      "source": "src_types_jl",
+      "target": "types_sourceinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Types.jl",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "src_types_jl",
+      "_tgt": "types_domainspec",
+      "source": "src_types_jl",
+      "target": "types_domainspec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Types.jl",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_src": "src_types_jl",
+      "_tgt": "types_relationspec",
+      "source": "src_types_jl",
+      "target": "types_relationspec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Types.jl",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "src_types_jl",
+      "_tgt": "types_relationcatalogue",
+      "source": "src_types_jl",
+      "target": "types_relationcatalogue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Types.jl",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "types_relationid",
+      "_tgt": "types_relationid",
+      "source": "types_relationid",
+      "target": "types_relationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Registry.jl",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "src_registry_jl",
+      "_tgt": "registry_register",
+      "source": "src_registry_jl",
+      "target": "registry_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Registry.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "src_registry_jl",
+      "_tgt": "registry_validate_registry",
+      "source": "src_registry_jl",
+      "target": "registry_validate_registry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Registry.jl",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "src_registry_jl",
+      "_tgt": "registry_canonical",
+      "source": "src_registry_jl",
+      "target": "registry_canonical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Registry.jl",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "registry_canonical",
+      "_tgt": "registry_canonical",
+      "source": "registry_canonical",
+      "target": "registry_canonical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_src": "src_discovery_jl",
+      "_tgt": "discovery_relations",
+      "source": "src_discovery_jl",
+      "target": "discovery_relations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "src_discovery_jl",
+      "_tgt": "discovery_candidates",
+      "source": "src_discovery_jl",
+      "target": "discovery_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_src": "src_discovery_jl",
+      "_tgt": "discovery_relation",
+      "source": "src_discovery_jl",
+      "target": "discovery_relation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "src_discovery_jl",
+      "_tgt": "discovery_applicable_relations",
+      "source": "src_discovery_jl",
+      "target": "discovery_applicable_relations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "discovery_candidates",
+      "_tgt": "discovery_relations",
+      "source": "discovery_relations",
+      "target": "discovery_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "discovery_applicable_relations",
+      "_tgt": "discovery_relations",
+      "source": "discovery_relations",
+      "target": "discovery_applicable_relations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Discovery.jl",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_src": "discovery_relation",
+      "_tgt": "discovery_candidates",
+      "source": "discovery_candidates",
+      "target": "discovery_relation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "src_evaluation_jl",
+      "_tgt": "evaluation_numeric_checks",
+      "source": "src_evaluation_jl",
+      "target": "evaluation_numeric_checks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "src_evaluation_jl",
+      "_tgt": "evaluation_domain_status",
+      "source": "src_evaluation_jl",
+      "target": "evaluation_domain_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "src_evaluation_jl",
+      "_tgt": "evaluation_evaluate",
+      "source": "src_evaluation_jl",
+      "target": "evaluation_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "src_evaluation_jl",
+      "_tgt": "evaluation_predict",
+      "source": "src_evaluation_jl",
+      "target": "evaluation_predict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "evaluation_evaluate",
+      "_tgt": "evaluation_numeric_checks",
+      "source": "evaluation_numeric_checks",
+      "target": "evaluation_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "evaluation_evaluate",
+      "_tgt": "evaluation_domain_status",
+      "source": "evaluation_domain_status",
+      "target": "evaluation_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_src": "evaluation_evaluate",
+      "_tgt": "evaluation_evaluate",
+      "source": "evaluation_evaluate",
+      "target": "evaluation_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Evaluation.jl",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "evaluation_predict",
+      "_tgt": "evaluation_evaluate",
+      "source": "evaluation_evaluate",
+      "target": "evaluation_predict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_src": "src_metadata_jl",
+      "_tgt": "metadata_info",
+      "source": "src_metadata_jl",
+      "target": "metadata_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "src_metadata_jl",
+      "_tgt": "metadata_formula",
+      "source": "src_metadata_jl",
+      "target": "metadata_formula",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "src_metadata_jl",
+      "_tgt": "metadata_coefficients",
+      "source": "src_metadata_jl",
+      "target": "metadata_coefficients",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "src_metadata_jl",
+      "_tgt": "metadata_domain",
+      "source": "src_metadata_jl",
+      "target": "metadata_domain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "src_metadata_jl",
+      "_tgt": "metadata_source",
+      "source": "src_metadata_jl",
+      "target": "metadata_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "src_metadata_jl",
+      "_tgt": "metadata_bibtex",
+      "source": "src_metadata_jl",
+      "target": "metadata_bibtex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Metadata.jl",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "metadata_bibtex",
+      "_tgt": "metadata_bibtex",
+      "source": "metadata_bibtex",
+      "target": "metadata_bibtex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_frequency_from_radius",
+      "source": "src_relations_common_jl",
+      "target": "common_frequency_from_radius",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_radius_from_frequency",
+      "source": "src_relations_common_jl",
+      "target": "common_radius_from_frequency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_frequency_from_tidal",
+      "source": "src_relations_common_jl",
+      "target": "common_frequency_from_tidal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_tidal_rational",
+      "source": "src_relations_common_jl",
+      "target": "common_tidal_rational",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_eta_tidal_frequency",
+      "source": "src_relations_common_jl",
+      "target": "common_eta_tidal_frequency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_mass_ratio_tidal_frequency",
+      "source": "src_relations_common_jl",
+      "target": "common_mass_ratio_tidal_frequency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_fixed_mass_peak",
+      "source": "src_relations_common_jl",
+      "target": "common_fixed_mass_peak",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "src_relations_common_jl",
+      "_tgt": "common_evaluator",
+      "source": "src_relations_common_jl",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_frequency_from_radius",
+      "source": "common_frequency_from_radius",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_radius_from_frequency",
+      "source": "common_radius_from_frequency",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_frequency_from_tidal",
+      "source": "common_frequency_from_tidal",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_tidal_rational",
+      "source": "common_tidal_rational",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_eta_tidal_frequency",
+      "source": "common_eta_tidal_frequency",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_mass_ratio_tidal_frequency",
+      "source": "common_mass_ratio_tidal_frequency",
+      "target": "common_evaluator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Relations/Common.jl",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "common_evaluator",
+      "_tgt": "common_fixed_mass_peak",
+      "source": "common_fixed_mass_peak",
+      "target": "common_evaluator",
       "confidence_score": 1.0
     },
     {
@@ -7019,6 +8081,306 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_julia_string",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_julia_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_symbol",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_symbol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_bibtex_entries",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_bibtex_entries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_number",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_number",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_fixed_coefficients",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_fixed_coefficients",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_publication_id",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_publication_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_quantity",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_quantity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_fixed_input",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_fixed_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_inputs",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_inputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_canonical_expression",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_canonical_expression",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_domain",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_domain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_src": "scripts_generate_julia_registry_py",
+      "_tgt": "generate_julia_registry_main",
+      "source": "scripts_generate_julia_registry_py",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_symbol",
+      "_tgt": "generate_julia_registry_julia_string",
+      "source": "generate_julia_registry_julia_string",
+      "target": "generate_julia_registry_symbol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L184",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_julia_string",
+      "source": "generate_julia_registry_julia_string",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_symbol",
+      "source": "generate_julia_registry_symbol",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_bibtex_entries",
+      "source": "generate_julia_registry_bibtex_entries",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_fixed_coefficients",
+      "_tgt": "generate_julia_registry_number",
+      "source": "generate_julia_registry_number",
+      "target": "generate_julia_registry_fixed_coefficients",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_fixed_coefficients",
+      "source": "generate_julia_registry_fixed_coefficients",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_publication_id",
+      "source": "generate_julia_registry_publication_id",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_quantity",
+      "source": "generate_julia_registry_quantity",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_inputs",
+      "_tgt": "generate_julia_registry_fixed_input",
+      "source": "generate_julia_registry_fixed_input",
+      "target": "generate_julia_registry_inputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_inputs",
+      "source": "generate_julia_registry_inputs",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_canonical_expression",
+      "source": "generate_julia_registry_canonical_expression",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_rationale_107",
+      "_tgt": "generate_julia_registry_canonical_expression",
+      "source": "generate_julia_registry_canonical_expression",
+      "target": "generate_julia_registry_rationale_107",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/generate_julia_registry.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_src": "generate_julia_registry_main",
+      "_tgt": "generate_julia_registry_domain",
+      "source": "generate_julia_registry_domain",
+      "target": "generate_julia_registry_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "tests/test_download_papers.py",
       "source_location": "L16",
       "weight": 1.0,
@@ -7812,7 +9174,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_docs_explorer.py",
-      "source_location": "L53",
+      "source_location": "L62",
       "weight": 1.0,
       "_src": "test_docs_explorer_explorergenerationtests",
       "_tgt": "test_docs_explorer_explorergenerationtests_test_required_static_and_mobile_assets_exist",
@@ -7968,7 +9330,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L179",
+      "source_location": "L205",
       "weight": 1.0,
       "_src": "docs_scripts_generate_explorer_data_py",
       "_tgt": "generate_explorer_data_main",
@@ -7980,7 +9342,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L180",
+      "source_location": "L206",
       "weight": 1.0,
       "_src": "generate_explorer_data_main",
       "_tgt": "generate_explorer_data_read_table",
@@ -8004,7 +9366,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L188",
+      "source_location": "L214",
       "weight": 1.0,
       "_src": "generate_explorer_data_main",
       "_tgt": "generate_explorer_data_convert",
@@ -8016,7 +9378,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L182",
+      "source_location": "L208",
       "weight": 1.0,
       "_src": "generate_explorer_data_main",
       "_tgt": "generate_explorer_data_unique",
@@ -8028,7 +9390,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L240",
+      "source_location": "L266",
       "weight": 1.0,
       "_src": "generate_explorer_data_main",
       "_tgt": "generate_explorer_data_last_updated",
@@ -8040,7 +9402,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L187",
+      "source_location": "L213",
       "weight": 1.0,
       "_src": "generate_explorer_data_main",
       "_tgt": "generate_explorer_data_bibliography_by_arxiv",
@@ -8076,7 +9438,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L173",
+      "source_location": "L189",
       "weight": 1.0,
       "_src": "generate_explorer_data_code_examples",
       "_tgt": "generate_explorer_data_fixed_mass_coefficients",
@@ -8100,7 +9462,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/scripts/generate_explorer_data.py",
-      "source_location": "L222",
+      "source_location": "L248",
       "weight": 1.0,
       "_src": "generate_explorer_data_main",
       "_tgt": "generate_explorer_data_code_examples",
@@ -8199,6 +9561,18 @@
       "source_location": "L44",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_symbollatex",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_symbollatex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_symbolhtml",
       "source": "docs_src_assets_js_database_explorer_js",
       "target": "database_explorer_symbolhtml",
@@ -8208,7 +9582,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L52",
+      "source_location": "L53",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_variableshtml",
@@ -8220,7 +9594,19 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L53",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_relationsignaturehtml",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_relationsignaturehtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L59",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_humanize",
@@ -8232,7 +9618,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L57",
+      "source_location": "L63",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_fieldlabelhtml",
@@ -8244,7 +9630,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L67",
+      "source_location": "L73",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_coefficientlatex",
@@ -8256,7 +9642,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L68",
+      "source_location": "L74",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_numberlatex",
@@ -8268,7 +9654,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L73",
+      "source_location": "L79",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_equationlatex",
@@ -8280,7 +9666,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L102",
+      "source_location": "L108",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_queuemathjax2",
@@ -8292,7 +9678,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L105",
+      "source_location": "L111",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_typesetmath",
@@ -8304,7 +9690,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L120",
+      "source_location": "L126",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_searchable",
@@ -8316,7 +9702,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L124",
+      "source_location": "L130",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_numericinrange",
@@ -8328,7 +9714,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L130",
+      "source_location": "L136",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_comparevalues",
@@ -8340,7 +9726,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L136",
+      "source_location": "L142",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_csvcell",
@@ -8352,7 +9738,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L140",
+      "source_location": "L146",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_rowstocsv",
@@ -8364,7 +9750,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L142",
+      "source_location": "L148",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_filterwaveforms",
@@ -8376,7 +9762,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L161",
+      "source_location": "L167",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_filterrelations",
@@ -8388,7 +9774,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L172",
+      "source_location": "L178",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_load",
@@ -8400,7 +9786,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L176",
+      "source_location": "L182",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_selectoptions",
@@ -8412,7 +9798,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L180",
+      "source_location": "L186",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_download",
@@ -8424,7 +9810,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L187",
+      "source_location": "L193",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_copytext",
@@ -8436,7 +9822,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L201",
+      "source_location": "L207",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_sourcelabel",
@@ -8448,7 +9834,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L202",
+      "source_location": "L208",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_sourcelink",
@@ -8460,7 +9846,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L203",
+      "source_location": "L209",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_detaillist",
@@ -8472,7 +9858,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L204",
+      "source_location": "L210",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_wiredialog",
@@ -8484,7 +9870,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L208",
+      "source_location": "L214",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_setsortable",
@@ -8496,7 +9882,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L214",
+      "source_location": "L220",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_marksort",
@@ -8508,7 +9894,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L216",
+      "source_location": "L222",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_initsummary",
@@ -8520,7 +9906,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L227",
+      "source_location": "L233",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_initwaveforms",
@@ -8532,7 +9918,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L270",
+      "source_location": "L276",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_initrelations",
@@ -8544,7 +9930,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L172",
+      "source_location": "L178",
       "weight": 1.0,
       "_src": "database_explorer_load",
       "_tgt": "database_explorer_dataurl",
@@ -8582,17 +9968,17 @@
       "source_file": "docs/src/assets/js/database-explorer.js",
       "source_location": "L45",
       "weight": 1.0,
-      "_src": "database_explorer_symbolhtml",
+      "_src": "database_explorer_symbollatex",
       "_tgt": "database_explorer_text",
       "source": "database_explorer_text",
-      "target": "database_explorer_symbolhtml",
+      "target": "database_explorer_symbollatex",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L52",
+      "source_location": "L53",
       "weight": 1.0,
       "_src": "database_explorer_variableshtml",
       "_tgt": "database_explorer_text",
@@ -8604,7 +9990,19 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L54",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "database_explorer_relationsignaturehtml",
+      "_tgt": "database_explorer_text",
+      "source": "database_explorer_text",
+      "target": "database_explorer_relationsignaturehtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L60",
       "weight": 1.0,
       "_src": "database_explorer_humanize",
       "_tgt": "database_explorer_text",
@@ -8616,7 +10014,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L67",
+      "source_location": "L73",
       "weight": 1.0,
       "_src": "database_explorer_coefficientlatex",
       "_tgt": "database_explorer_text",
@@ -8628,7 +10026,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L69",
+      "source_location": "L75",
       "weight": 1.0,
       "_src": "database_explorer_numberlatex",
       "_tgt": "database_explorer_text",
@@ -8640,7 +10038,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L74",
+      "source_location": "L80",
       "weight": 1.0,
       "_src": "database_explorer_equationlatex",
       "_tgt": "database_explorer_text",
@@ -8652,7 +10050,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L137",
+      "source_location": "L143",
       "weight": 1.0,
       "_src": "database_explorer_csvcell",
       "_tgt": "database_explorer_text",
@@ -8676,7 +10074,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L50",
+      "source_location": "L52",
       "weight": 1.0,
       "_src": "database_explorer_symbolhtml",
       "_tgt": "database_explorer_escapehtml",
@@ -8688,7 +10086,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L65",
+      "source_location": "L71",
       "weight": 1.0,
       "_src": "database_explorer_fieldlabelhtml",
       "_tgt": "database_explorer_escapehtml",
@@ -8700,7 +10098,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L202",
+      "source_location": "L208",
       "weight": 1.0,
       "_src": "database_explorer_sourcelink",
       "_tgt": "database_explorer_escapehtml",
@@ -8712,7 +10110,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L47",
+      "source_location": "L52",
       "weight": 1.0,
       "_src": "database_explorer_symbolhtml",
       "_tgt": "database_explorer_inlinemath",
@@ -8724,7 +10122,19 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L58",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "database_explorer_relationsignaturehtml",
+      "_tgt": "database_explorer_inlinemath",
+      "source": "database_explorer_inlinemath",
+      "target": "database_explorer_relationsignaturehtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L64",
       "weight": 1.0,
       "_src": "database_explorer_fieldlabelhtml",
       "_tgt": "database_explorer_inlinemath",
@@ -8736,7 +10146,31 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L65",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "database_explorer_symbolhtml",
+      "_tgt": "database_explorer_symbollatex",
+      "source": "database_explorer_symbollatex",
+      "target": "database_explorer_symbolhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "database_explorer_relationsignaturehtml",
+      "_tgt": "database_explorer_symbollatex",
+      "source": "database_explorer_symbollatex",
+      "target": "database_explorer_relationsignaturehtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L71",
       "weight": 1.0,
       "_src": "database_explorer_fieldlabelhtml",
       "_tgt": "database_explorer_humanize",
@@ -8748,7 +10182,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L118",
+      "source_location": "L124",
       "weight": 1.0,
       "_src": "database_explorer_typesetmath",
       "_tgt": "database_explorer_queuemathjax2",
@@ -8760,7 +10194,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L242",
+      "source_location": "L248",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_typesetmath",
@@ -8772,7 +10206,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L220",
+      "source_location": "L226",
       "weight": 1.0,
       "_src": "database_explorer_initsummary",
       "_tgt": "database_explorer_load",
@@ -8784,7 +10218,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L229",
+      "source_location": "L235",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_load",
@@ -8796,7 +10230,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L272",
+      "source_location": "L278",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_load",
@@ -8808,7 +10242,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L233",
+      "source_location": "L239",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_selectoptions",
@@ -8820,7 +10254,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L275",
+      "source_location": "L281",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_selectoptions",
@@ -8832,7 +10266,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L267",
+      "source_location": "L273",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_wiredialog",
@@ -8844,7 +10278,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L307",
+      "source_location": "L313",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_wiredialog",
@@ -8856,7 +10290,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L267",
+      "source_location": "L273",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_setsortable",
@@ -8868,7 +10302,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L307",
+      "source_location": "L313",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_setsortable",

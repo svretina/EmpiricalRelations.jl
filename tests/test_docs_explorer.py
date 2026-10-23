@@ -43,12 +43,21 @@ class ExplorerGenerationTests(unittest.TestCase):
         relations = json.loads((self.output / "relations.json").read_text())
         metadata = json.loads((self.output / "metadata.json").read_text())
         self.assertEqual(metadata["counts"]["relations"], len(relations))
-        self.assertTrue(all(row["implementation_status"] == "catalogued" for row in relations))
+        self.assertTrue(all(row["implementation_status"] == "implemented" for row in relations))
         self.assertTrue(any(row["coefficients"] for row in relations))
         self.assertTrue(all(row["source"]["bibtex"].startswith("@article{") for row in relations))
         self.assertTrue(all(set(row["code"]) == {"julia", "python"} for row in relations))
         for row in relations:
             ast.parse(row["code"]["python"])
+            self.assertIn("Return fitted", row["code"]["python"])
+        radius_fit = next(row for row in relations if row["relation_id"].endswith("r1-6-all-masses"))
+        self.assertIn("R_1_6 [km]", radius_fit["code"]["julia"])
+        hz_families = {
+            "merger_frequency_from_tidal_deformability",
+            "postmerger_frequency_from_tidal_deformability",
+            "F1_tidal_mass_ratio_frequency_fit",
+        }
+        self.assertTrue(all("/ 1000" in row["code"]["julia"] for row in relations if row["family"] in hz_families))
 
     def test_required_static_and_mobile_assets_exist(self):
         css = (ROOT / "docs" / "src" / "assets" / "css" / "database-explorer.css").read_text()

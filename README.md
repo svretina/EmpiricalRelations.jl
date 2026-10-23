@@ -10,6 +10,7 @@
 EmpiricalRelations.jl collects published numerical measurements and empirical
 relations for binary-neutron-star (BNS) postmerger gravitational waves. Normalized
 records are linked to their publication, source table or equation, and review status.
+The Julia API provides searchable, citable implementations of the reviewed relations.
 
 **[Explore the database and documentation](https://svretina.github.io/EmpiricalRelations.jl/)**
 · [Waveform explorer](https://svretina.github.io/EmpiricalRelations.jl/database/explorer/)
@@ -54,7 +55,9 @@ Regenerate and validate the public exports:
 
 ```sh
 python3 scripts/extract_reference_data.py
+python3 scripts/generate_julia_registry.py
 python3 -m unittest discover -s tests -v
+julia --project=. -e 'using Pkg; Pkg.test()'
 ```
 
 Build the documentation and interactive explorer locally:
@@ -68,11 +71,28 @@ python3 -m http.server --directory docs/build 8000
 Then open <http://localhost:8000>. The documentation build generates the JSON files used
 by the database browser from the CSV tables under `data/`.
 
-## Julia package status
+## Julia API
 
-The Julia module does not yet export relation-evaluation functions. A relation has
-status `catalogued` until its Julia implementation is tested against the published
-expression, coefficients, units, and reference values.
+Discover a relation by observable and input signature, then evaluate it using canonical
+variable names:
+
+```julia
+using EmpiricalRelations
+
+relations(:f_2_0; inputs=[:M_chirp, :Lambda_tilde])
+r = relation(:Vretinaris2026; quantity=:f_2_0,
+             inputs=[:M_chirp, :Lambda_tilde])
+evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)  # kHz
+
+formula(r)
+domain(r)
+bibtex(r)
+```
+
+Frequencies use kHz, masses use solar masses, radii use km, and tidal parameters are
+dimensionless. The [Julia API documentation](https://svretina.github.io/EmpiricalRelations.jl/api/finding/)
+describes exact-input and available-input searches, domain checking, batch evaluation,
+and citation retrieval.
 
 ## Contributing and citation
 
