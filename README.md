@@ -5,6 +5,7 @@
 </p>
 
 [![CI](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+[![Aqua QA](https://juliatesting.github.io/Aqua.jl/dev/assets/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 [![Documentation](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/Documentation.yml/badge.svg?branch=master)](https://github.com/svretina/EmpiricalRelations.jl/actions/workflows/Documentation.yml?query=branch%3Amaster)
 [![Documentation site](https://img.shields.io/badge/docs-GitHub%20Pages-176b87)](https://svretina.github.io/EmpiricalRelations.jl/)
 [![Julia 1.10+](https://img.shields.io/badge/Julia-1.10%2B-9558B2?logo=julia)](Project.toml)
