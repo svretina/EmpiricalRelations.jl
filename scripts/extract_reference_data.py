@@ -29,6 +29,11 @@ WAVEFORM_FIELDS = [
     "f_gw_initial_hz", "spectral_type", "simulation_code", "numerical_method",
     "waveform_extraction", "source_table", "notes",
 ]
+FREQUENCY_FIELDS = [
+    "f_peak_khz", "f_2_0_khz", "f_spiral_khz", "f_radial_khz",
+    "f_peak_early_khz", "f_peak_late_khz", "f_peak_mean_khz",
+    "f_peak_instantaneous_khz", "f_merger_khz", "f_gw_initial_hz",
+]
 EOS_FIELDS = [
     "id", "source_id", "eos", "eos_variant", "r_1_2_km", "r_1_4_km",
     "r_1_6_km", "r_1_8_km", "m_tov_msun", "definition_notes", "source_table",
@@ -1116,6 +1121,43 @@ def extract_additional_relations(tables: list[dict[str, Any]], table_rows: list[
                            "raw_latex": equation["equation_latex"], "extraction_method": "reviewed_equation_adapter",
                            "review_status": "verified"})
 
+    # Vretinaris et al. (2026): new f_2-0 and f_spiral relations calibrated
+    # from the Vretinaris, Stergioulas & Bauswein (2020) simulation data.
+    vretinaris_2026_specs = {
+        "eq:quasiradial": ("f_2_0_khz", "secondary_frequency_from_tidal_deformability",
+                           0.362, 0.941, (("b0", "1", 0.558), ("b1", "mchirp_msun", -0.406), ("b2", "lambda_tilde^(-1/2)", 48.696))),
+        "eq:spiral": ("f_spiral_khz", "spiral_frequency_from_tidal_deformability",
+                      0.461, 0.944, (("b0", "1", 1.2), ("b1", "mchirp_msun", -0.442), ("b2", "lambda_tilde^(-1/2)", 45.819))),
+    }
+    for equation in equations:
+        if equation["source_id"] != "arxiv-2501-11518" or equation["label"] not in vretinaris_2026_specs:
+            continue
+        dependent, family, maximum_residual, r_squared, terms = vretinaris_2026_specs[equation["label"]]
+        relation_id = f'arxiv-2501-11518-{stable_id(equation["label"])}'
+        relations.append({
+            "relation_id": relation_id, "source_id": "arxiv-2501-11518", "family": family,
+            "equation_label": equation["label"], "equation_latex": equation["equation_latex"],
+            "dependent_variable": dependent, "dependent_unit": "kHz",
+            "independent_variables": "mchirp_msun;lambda_tilde",
+            "calibration_population": "Vretinaris, Stergioulas & Bauswein (2020) Table II data",
+            "applicability": "Source calibration domain; equal- and unequal-mass BNS models",
+            "source_table": "", "source_path": equation["source_path"],
+            "r_squared_adjusted": r_squared, "max_residual": maximum_residual,
+            "mean_residual": "", "residual_std": "", "residual_unit": "kHz",
+            "review_status": "verified_from_equation_and_context",
+            "notes": "The published expression fits f*M_chirp; divide its right-hand side by M_chirp to obtain the frequency in kHz.",
+        })
+        for name, term, value in terms:
+            coefficients.append({"relation_id": relation_id, "coefficient": name, "term": term,
+                                 "value": value, "source_id": "arxiv-2501-11518", "source_path": equation["source_path"]})
+        provenance.append({
+            "record_type": "relation", "record_id": relation_id, "source_id": "arxiv-2501-11518",
+            "source_path": equation["source_path"], "source_line_start": equation["line_start"],
+            "source_line_end": equation["line_end"], "table_label": equation["label"],
+            "raw_latex": equation["equation_latex"], "extraction_method": "reviewed_equation_adapter",
+            "review_status": "verified",
+        })
+
     # Topolski, Tootle & Rezzolla (2023), F1 frequency fits.
     table, rows = lookup[("arxiv-2310-10728", "tab:fit_parameters")]
     for ordinal, row in enumerate(rows, 1):
@@ -1183,6 +1225,17 @@ def complete_eos_registry(waveforms: list[dict[str, Any]], eos: list[dict[str, A
         evidence = provenance_by_waveform[waveform["id"]]
         eos_provenance.append({**evidence, "record_type": "eos", "record_id": record_id})
         existing.add(name)
+
+
+def retain_frequency_records(waveforms: list[dict[str, Any]], measurements_extra: list[dict[str, Any]],
+                             provenance: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    """Keep normalized waveform rows only when at least one frequency is reported."""
+    retained = [row for row in waveforms if any(row.get(field) not in (None, "") for field in FREQUENCY_FIELDS)]
+    retained_ids = {row["id"] for row in retained}
+    measurements_extra = [row for row in measurements_extra if row["waveform_id"] in retained_ids]
+    provenance = [row for row in provenance
+                  if row["record_type"] != "waveform" or row["record_id"] in retained_ids]
+    return retained, measurements_extra, provenance
 
 
 def complete_collection_eos_registry(waveforms: list[dict[str, Any]], eos: list[dict[str, Any]],
@@ -1324,6 +1377,8 @@ def validate(waveforms: list[dict[str, Any]], eos: list[dict[str, Any]], relatio
     provenance_ids = {row["record_id"] for row in provenance}
     add("all public records have provenance", record_ids <= provenance_ids, detail=str(sorted(record_ids - provenance_ids)))
     add("missing frequencies are never encoded as zero", all(row["f_2_0_khz"] != 0 and row["f_spiral_khz"] != 0 for row in waveforms))
+    add("every waveform row reports at least one frequency",
+        all(any(row.get(field) not in (None, "") for field in FREQUENCY_FIELDS) for row in waveforms))
     errors = [check for check in checks if check["status"] == "error"]
     warnings = [check for check in checks if check["status"] == "warning"]
     return {
@@ -1374,7 +1429,7 @@ This directory is the public, CSV-based extraction of the complete {source_count
 corpus. It is generated deterministically by `scripts/extract_reference_data.py`
 from the preserved arXiv LaTeX source projects.
 
-- `waveforms.csv`: normalized simulation configurations and postmerger measurements.
+- `waveforms.csv`: normalized simulation configurations with at least one reported frequency.
 - `eos.csv`: source-specific EOS identifiers and published stellar properties.
 - `sources.csv`: publication-level attribution.
 - `extraction_coverage.csv`: per-paper structural and scientific-review coverage.
@@ -1406,6 +1461,10 @@ explain whether the source table omitted or did not identify a feature. The stan
 mass ratio is `q = min(m1,m2)/max(m1,m2) <= 1`; the source value and convention are
 retained separately.
 
+Configurations with every frequency field empty are excluded from `waveforms.csv`.
+Their original tables remain available in the lossless exports, and papers contributing
+only empirical relations remain represented in the relation catalogue.
+
 All {source_count} collected papers are represented in `sources.csv`, `published_tables.csv`, and/or
 `published_equations.csv` according to their source contents. Reviewed adapters normalize
 compatible simulation and EOS tables into the compact domain CSVs; the lossless public
@@ -1432,6 +1491,10 @@ Masses are in solar masses, postmerger frequencies in kHz, and initial binary GW
 frequencies in Hz. `simulation_id` retains the published identifier when one exists;
 it is empty for the 2020 CoRe appendix because that table does not provide the original
 identifiers. `spectral_type` remains `unknown` unless a source states it explicitly.
+
+Every row contains at least one reported frequency. Source tables that describe only
+simulation configurations, collapse outcomes, or empirical-relation calibration inputs
+remain in the lossless exports and do not create frequency-empty waveform rows.
 
 The standardized `q` is always the smaller component mass divided by the larger.
 `q_original` and `q_original_definition` preserve the table convention. Missing
@@ -1540,6 +1603,9 @@ def extract(source: Path, data_dir: Path, papers_dir: Path = Path("papers")) -> 
     relations.extend(additional_relations)
     coefficients.extend(additional_coefficients)
     provenance.extend(additional_provenance + additional_relation_provenance)
+    waveforms, measurements_extra, provenance = retain_frequency_records(
+        waveforms, measurements_extra, provenance
+    )
     complete_collection_eos_registry(waveforms, eos, provenance)
     published_cells, published_equations = publication_exports(all_tables, all_table_rows, all_equations)
     validation = validate(waveforms, eos, relations, coefficients, provenance)

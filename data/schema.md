@@ -13,6 +13,10 @@ frequencies in Hz. `simulation_id` retains the published identifier when one exi
 it is empty for the 2020 CoRe appendix because that table does not provide the original
 identifiers. `spectral_type` remains `unknown` unless a source states it explicitly.
 
+Every row contains at least one reported frequency. Source tables that describe only
+simulation configurations, collapse outcomes, or empirical-relation calibration inputs
+remain in the lossless exports and do not create frequency-empty waveform rows.
+
 The standardized `q` is always the smaller component mass divided by the larger.
 `q_original` and `q_original_definition` preserve the table convention. Missing
 secondary features use an empty numeric cell plus `f_2_0_status` or

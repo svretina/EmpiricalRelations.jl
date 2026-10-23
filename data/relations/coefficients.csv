@@ -314,6 +314,12 @@ arxiv-1907-03790-eq-f2,c00,c0 constant,11.363,arxiv-1907-03790,paper.tex
 arxiv-1907-03790-eq-f2,c01,c0 eta,-27.418,arxiv-1907-03790,paper.tex
 arxiv-1907-03790-eq-f2,c10,c1 constant,-2.158,arxiv-1907-03790,paper.tex
 arxiv-1907-03790-eq-f2,c11,c1 eta,7.941,arxiv-1907-03790,paper.tex
+arxiv-2501-11518-eq-quasiradial,b0,1,0.558,arxiv-2501-11518,main.tex
+arxiv-2501-11518-eq-quasiradial,b1,mchirp_msun,-0.406,arxiv-2501-11518,main.tex
+arxiv-2501-11518-eq-quasiradial,b2,lambda_tilde^(-1/2),48.696,arxiv-2501-11518,main.tex
+arxiv-2501-11518-eq-spiral,b0,1,1.2,arxiv-2501-11518,main.tex
+arxiv-2501-11518-eq-spiral,b1,mchirp_msun,-0.442,arxiv-2501-11518,main.tex
+arxiv-2501-11518-eq-spiral,b2,lambda_tilde^(-1/2),45.819,arxiv-2501-11518,main.tex
 arxiv-2310-10728-f1-03,a0,constant,4.589,arxiv-2310-10728,main.tex
 arxiv-2310-10728-f1-03,b0,kappa term constant,-0.581,arxiv-2310-10728,main.tex
 arxiv-2310-10728-f1-03,b1,kappa term q,-0.543,arxiv-2310-10728,main.tex

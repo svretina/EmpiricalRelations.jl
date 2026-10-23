@@ -35,8 +35,9 @@ The extraction has two complementary layers.
 
 `waveforms.csv`, `eos.csv`, `measurements_extra.csv`, and `relations/` contain
 scientifically reviewed records that can be mapped safely to stable fields. A waveform
-row may represent a published simulation configuration even when no postmerger
-frequency was reported; missing measurements remain empty.
+row is promoted only when the source reports at least one frequency represented by the
+waveform schema. Simulation configurations with no reported frequency remain available
+in the lossless table exports instead of appearing as empty frequency records.
 
 ### Lossless structural records
 
@@ -113,6 +114,8 @@ coverage table records which papers have reviewed adapters.
 ## 7. Missing values and status fields
 
 - Missing numerical data are empty CSV fields, never zero.
+- A simulation row with every frequency field empty is excluded from `waveforms.csv`;
+  its source table remains in the lossless exports.
 - A literal zero is retained only when the source reports a physical zero.
 - Status fields distinguish at least `measured`, `not_reported`, `not_identified`,
   catalogue-level omission, prompt collapse, and no collapse where the adapter has

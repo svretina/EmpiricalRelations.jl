@@ -1,12 +1,12 @@
 {
   "status": "passed_with_warnings",
   "summary": {
-    "waveforms": 371,
+    "waveforms": 337,
     "cfc_sph": 90,
     "core": 27,
-    "eos": 104,
-    "relations": 80,
-    "coefficients": 345,
+    "eos": 90,
+    "relations": 82,
+    "coefficients": 351,
     "errors": 0,
     "warnings": 3,
     "sources_registered": 31,
@@ -82,6 +82,11 @@
     },
     {
       "name": "missing frequencies are never encoded as zero",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "every waveform row reports at least one frequency",
       "status": "pass",
       "detail": ""
     },

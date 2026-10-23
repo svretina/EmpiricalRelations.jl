@@ -372,13 +372,11 @@ eos,arxiv-1106-1616-eos-sly4,arxiv-1106-1616,paper.tex,64,66,tab:models,"\hline
 Sly4  \cite{2001AA...380..151D}  $+\Gamma_{\mathrm{th}}$  & 2.05          &  10.01       & 3.32, 0.20 & 2.33",reviewed_paper_table_adapter,verified
 waveform,arxiv-1106-1616-bauswein2012-apr-1-35-1-35,arxiv-1106-1616,paper.tex,66,67,tab:models,"APR   \cite{1998PhRvC..58.1804A} $+\Gamma_{\mathrm{th}}$  & 2.19          &  9.90        & 3.46, 0.18 & 2.45",reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-apr,arxiv-1106-1616,paper.tex,66,67,tab:models,"APR   \cite{1998PhRvC..58.1804A} $+\Gamma_{\mathrm{th}}$  & 2.19          &  9.90        & 3.46, 0.18 & 2.45",reviewed_paper_table_adapter,verified
-waveform,arxiv-1106-1616-bauswein2012-fps-1-35-1-35,arxiv-1106-1616,paper.tex,67,68,tab:models,FPS   \cite{1981NuPhA.361..502F} $+\Gamma_{\mathrm{th}}$  & 1.80          &  9.30        & x          & x,reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-fps,arxiv-1106-1616,paper.tex,67,68,tab:models,FPS   \cite{1981NuPhA.361..502F} $+\Gamma_{\mathrm{th}}$  & 1.80          &  9.30        & x          & x,reviewed_paper_table_adapter,verified
 waveform,arxiv-1106-1616-bauswein2012-bbb2-1-35-1-35,arxiv-1106-1616,paper.tex,68,69,tab:models,"BBB2  \cite{1997AA...328..274B}  $+\Gamma_{\mathrm{th}}$  & 1.92          &  9.55        & 3.73, 0.22 & 1.33",reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-bbb2,arxiv-1106-1616,paper.tex,68,69,tab:models,"BBB2  \cite{1997AA...328..274B}  $+\Gamma_{\mathrm{th}}$  & 1.92          &  9.55        & 3.73, 0.22 & 1.33",reviewed_paper_table_adapter,verified
 waveform,arxiv-1106-1616-bauswein2012-glendnh3-1-35-1-35,arxiv-1106-1616,paper.tex,69,70,tab:models,"Glendnh3 \cite{1985ApJ...293..470G}$+\Gamma_{\mathrm{th}}$& 1.96          &  11.48       & 2.33, 0.13 & 1.27",reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-glendnh3,arxiv-1106-1616,paper.tex,69,70,tab:models,"Glendnh3 \cite{1985ApJ...293..470G}$+\Gamma_{\mathrm{th}}$& 1.96          &  11.48       & 2.33, 0.13 & 1.27",reviewed_paper_table_adapter,verified
-waveform,arxiv-1106-1616-bauswein2012-eosau-1-35-1-35,arxiv-1106-1616,paper.tex,70,71,tab:models,eosAU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.14          &  9.45        & x          & x,reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-eosau,arxiv-1106-1616,paper.tex,70,71,tab:models,eosAU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.14          &  9.45        & x          & x,reviewed_paper_table_adapter,verified
 waveform,arxiv-1106-1616-bauswein2012-eosc-1-35-1-35,arxiv-1106-1616,paper.tex,71,72,tab:models,"eosC  \cite{1974NuPhA.230....1B} $+\Gamma_{\mathrm{th}}$  & 1.87          &  9.89        & 3.33, 0.22 & 1.27",reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-eosc,arxiv-1106-1616,paper.tex,71,72,tab:models,"eosC  \cite{1974NuPhA.230....1B} $+\Gamma_{\mathrm{th}}$  & 1.87          &  9.89        & 3.33, 0.22 & 1.27",reviewed_paper_table_adapter,verified
@@ -388,7 +386,6 @@ waveform,arxiv-1106-1616-bauswein2012-eoso-1-35-1-35,arxiv-1106-1616,paper.tex,7
 eos,arxiv-1106-1616-eos-eoso,arxiv-1106-1616,paper.tex,73,74,tab:models,"eosO  \cite{1975PhRvD..12.3043B} $+\Gamma_{\mathrm{th}}$  & 2.39          &  11.56       & 2.66, 0.11 & 2.30",reviewed_paper_table_adapter,verified
 waveform,arxiv-1106-1616-bauswein2012-eosuu-1-35-1-35,arxiv-1106-1616,paper.tex,74,75,tab:models,"eosUU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.21          &  9.84        & 3.50, 0.17 & 2.64",reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-eosuu,arxiv-1106-1616,paper.tex,74,75,tab:models,"eosUU \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 2.21          &  9.84        & 3.50, 0.17 & 2.64",reviewed_paper_table_adapter,verified
-waveform,arxiv-1106-1616-bauswein2012-eosws-1-35-1-35,arxiv-1106-1616,paper.tex,75,76,tab:models,eosWS \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 1.85          &  9.58        & x          & x,reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-eosws,arxiv-1106-1616,paper.tex,75,76,tab:models,eosWS \cite{1988PhRvC..38.1010W} $+\Gamma_{\mathrm{th}}$  & 1.85          &  9.58        & x          & x,reviewed_paper_table_adapter,verified
 waveform,arxiv-1106-1616-bauswein2012-ska-1-35-1-35,arxiv-1106-1616,paper.tex,76,77,tab:models,"SKA   \cite{1991NuPhA.535..331L} $+\Gamma_{\mathrm{th}}$  & 2.21          &  11.17       & 2.64, 0.13 & 1.96",reviewed_paper_table_adapter,verified
 eos,arxiv-1106-1616-eos-ska,arxiv-1106-1616,paper.tex,76,77,tab:models,"SKA   \cite{1991NuPhA.535..331L} $+\Gamma_{\mathrm{th}}$  & 2.21          &  11.17       & 2.64, 0.13 & 1.96",reviewed_paper_table_adapter,verified
@@ -596,8 +593,6 @@ eos,arxiv-1509-08522-eos-heb6,arxiv-1509-08522,pmns_pca.tex,555,556,tab1,Heb6  &
 eos,arxiv-1509-08522-eos-heb5,arxiv-1509-08522,pmns_pca.tex,556,557,tab1,Heb5  & \cite{2010PhRvC..82a4314H}                       &  12.38,reviewed_paper_table_adapter,verified
 eos,arxiv-1509-08522-eos-heb4,arxiv-1509-08522,pmns_pca.tex,557,558,tab1,Heb4  & \cite{2010PhRvC..82a4314H}                       &  12.51,reviewed_paper_table_adapter,verified
 eos,arxiv-1509-08522-eos-heb3,arxiv-1509-08522,pmns_pca.tex,558,559,tab1,Heb3  & \cite{2010PhRvC..82a4314H}                       &  12.03,reviewed_paper_table_adapter,verified
-waveform,arxiv-1908-11418-nrpm-validation-validation-04-1-35-1-35,arxiv-1908-11418,ms.tex,793,795,tab:valbns,"\hline
-    2B&1.78&8.47&1.35&1.35&23.6&---& \cite{Bernuzzi:2014owa}&---&---&---&---&---&---&---",reviewed_paper_table_adapter,verified
 waveform,arxiv-1908-11418-nrpm-validation-validation-05-1-364-1-364,arxiv-1908-11418,ms.tex,795,796,tab:valbns,SLy4& 2.06&9.97&1.364&1.364&75.2&3.65&\cite{Perego:2019adq}&12&22&$1.79^{+0.46}_{-0.17}$&$1.33^{+0.11}_{-0.07}$&$74^{+151}_{-4}$&$5.22^{+0.03}_{-2.30}$&${6.5}^{+3.4}_{-0.3}$,reviewed_paper_table_adapter,verified
 waveform,arxiv-1908-11418-nrpm-validation-validation-06-1-5-1-5,arxiv-1908-11418,ms.tex,796,797,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.50&1.50&90.0&3.39&\cite{Radice:2016rys}&10&13&$2.50^{+0.10}_{-0.25}$&$1.03^{+0.07}_{-0.03}$&$79^{+28}_{-8}$&$3.60^{+0.14}_{-0.07}$&${9.3}^{+0.2}_{-0.5}$,reviewed_paper_table_adapter,verified
 waveform,arxiv-1908-11418-nrpm-validation-validation-07-1-5-1-5,arxiv-1908-11418,ms.tex,797,798,tab:valbns,DD2 &2.42 &11.93&1.50&1.50&91.1&2.76&\cite{Radice:2016rys}&9&13&$2.39^{+0.35}_{-0.29}$&$1.10^{+0.13}_{-0.09}$& $196^{+79}_{-68}$&$2.74^{+0.02}_{-0.02}$ &${10.6}^{+0.7}_{-0.7}$,reviewed_paper_table_adapter,verified
@@ -607,23 +602,6 @@ waveform,arxiv-1908-11418-nrpm-validation-validation-10-1-4-1-33,arxiv-1908-1141
 waveform,arxiv-1908-11418-nrpm-validation-validation-11-1-364-1-364,arxiv-1908-11418,ms.tex,801,802,tab:valbns,DD2&2.42 &11.93&1.364&1.364&157.5&2.39&\cite{Perego:2019adq}&7&12&$1.94^{+2.75}_{-0.43}$&$1.06^{+0.34}_{-0.06}$&$414^{+252}_{-332}$&$2.30^{+0.88}_{-1.42}$&$10.9^{+10.9}_{-5.0}$,reviewed_paper_table_adapter,verified
 waveform,arxiv-1908-11418-nrpm-validation-validation-12-1-45-1-25,arxiv-1908-11418,ms.tex,802,803,tab:valbns,H4&2.03&11.66&1.45&1.25&210.7&2.33&\cite{Dietrich:2015iva}&6& 8 & $4.01^{+0.97}_{-2.25}$&$1.27^{+0.19}_{-0.24}$&$183^{+554}_{-107}$&$1.85^{+0.88}_{-0.99}$&$16.8^{+2.3}_{-7.1}$,reviewed_paper_table_adapter,verified
 waveform,arxiv-1908-11418-nrpm-validation-validation-13-1-25-1-25,arxiv-1908-11418,ms.tex,803,804,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.25&1.25&256.1&2.36&\cite{Radice:2016rys}&8&9&$2.41^{+0.42}_{-0.26}$&$1.07^{+0.15}_{-0.07}$&$281^{+88}_{95}$&$2.35^{+0.02}_{-0.02}$&${11.5}^{+0.9}_{-0.5}$,reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-02-1-0-2-0,arxiv-2310-06025,NR_Simulation_Summary.tex,8,9,tab:NR_Simulation_Summary,$\mathrm{EOS}$ & $m_1\;[M_{\odot}]$ & $m_2\;[M_{\odot}]$  & $q$ & $\Lambda_1$ & $\Lambda_2$ & $t_{\mathrm{BH}} - t_{\mathrm{merg}}\;[\mathrm{ms}]$,reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-03-1-298-1-298,arxiv-2310-06025,NR_Simulation_Summary.tex,9,12,tab:NR_Simulation_Summary,"\hline
-\hline
-$\mathrm{BLh}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & HMNS",reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-04-1-298-1-298,arxiv-2310-06025,NR_Simulation_Summary.tex,12,13,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & 15.95,reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-05-1-481-1-257,arxiv-2310-06025,NR_Simulation_Summary.tex,13,15,tab:NR_Simulation_Summary,"\hline
-$\mathrm{BLh}$ & 1.481 & 1.257 & 1.178 & 295.467 & 856.064 & HMNS",reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-06-1-481-1-257,arxiv-2310-06025,NR_Simulation_Summary.tex,15,16,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.481 & 1.257 & 1.178 & 295.467 & 856.064 & 3.54,reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-07-1-398-1-198,arxiv-2310-06025,NR_Simulation_Summary.tex,16,18,tab:NR_Simulation_Summary,"\hline
-$\mathrm{BLh}$ & 1.398 & 1.198 & 1.167 & 435.735 & 1145.850 & HMNS",reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-08-1-398-1-198,arxiv-2310-06025,NR_Simulation_Summary.tex,18,19,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.398 & 1.198 & 1.167 & 435.735 & 1145.850 & 17.2,reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-09-1-363-1-363,arxiv-2310-06025,NR_Simulation_Summary.tex,19,21,tab:NR_Simulation_Summary,"\hline
-$\mathrm{BLh}$ & 1.363 & 1.363 & 1.0 & 515.379 & 515.379 & HMNS",reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-10-1-363-1-363,arxiv-2310-06025,NR_Simulation_Summary.tex,21,22,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.363 & 1.363 & 1.0 & 515.379 & 515.379 & 4.1,reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-11-1-289-1-289,arxiv-2310-06025,NR_Simulation_Summary.tex,22,24,tab:NR_Simulation_Summary,"\hline
-$\mathrm{DD2F}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & HMNS",reviewed_paper_table_adapter,verified
-waveform,arxiv-2310-06025-prakash2024-nr-nr-12-1-289-1-289,arxiv-2310-06025,NR_Simulation_Summary.tex,24,25,tab:NR_Simulation_Summary,$\mathrm{DD2F-SF1}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & 42.36,reviewed_paper_table_adapter,verified
 waveform,arxiv-2411-00943-bamber2025-sly-2-57-0-1-285-1-285,arxiv-2411-00943,apssamp.tex,904,906,tab:GW_freqs,"\hline
 SLy & 2.57 &   0 & 3.224(7) & 2.1(2) & 4.36(10) & 2.244(14) & 1.194(18) \Tstrut",reviewed_paper_table_adapter,verified
 waveform,arxiv-2411-00943-bamber2025-sly-2-57-textcolorc0pu-5-5-times-10-15-1-285-1-285,arxiv-2411-00943,apssamp.tex,906,907,tab:GW_freqs,SLy & 2.57 & \textcolor{C0}{PU $5.5\times 10^{15}$} & 3.225(4) & 2.0(2) & 4.36(5) & 2.4(2) & 1.194(18),reviewed_paper_table_adapter,verified
@@ -648,37 +626,6 @@ waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc2pu-5-5-times-10-16-1-3
 waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc3pu-2-2-times-10-17-1-35-1-35,arxiv-2411-00943,apssamp.tex,925,926,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C3}{PU $2.2\times 10^{17}$} & 2.853(15) & 1.70(6) & 3.96(2) & 2.14(9) & 1.179(8),reviewed_paper_table_adapter,verified
 waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc4it-5-5-times-10-16-1-35-1-35,arxiv-2411-00943,apssamp.tex,926,927,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C4}{IT $5.5\times 10^{16}$} & 2.90(5) & 1.8(3) & 3.90(7) & 2.2(2) & 1.00(3),reviewed_paper_table_adapter,verified
 waveform,arxiv-2411-00943-bamber2025-alf2-2-70-textcolorc5ip-5-5-times-10-16-1-35-1-35,arxiv-2411-00943,apssamp.tex,927,928,tab:GW_freqs,ALF2 & 2.70 & \textcolor{C5}{IP $5.5\times 10^{16}$} & 2.92(6) & 1.74(3) & 3.96(13) & 2.3(2) & 1.125(5),reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-thc-0036-r03-1-35-1-35,arxiv-2501-11518,main.tex,129,130,table:info,"\hline
-THC:0036:R03   & SLy          & 1.0        & 1.350        & \cite{Radice2016}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-thc-0019-r05-1-35-1-35,arxiv-2501-11518,main.tex,130,131,table:info,"\hline
-THC:0019:R05   & LS220        & 1.0        & 1.350        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0088-r01-1-5-1-5,arxiv-2501-11518,main.tex,131,132,table:info,"\hline
-BAM:0088:R01   & MS1b         & 1.0        & 1.500        & \cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-thc-0002-r01-1-3-1-3,arxiv-2501-11518,main.tex,132,133,table:info,"\hline
-THC:0002:R01   & BHBlp        & 1.0        & 1.300        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-thc-0011-r01-1-25-1-25,arxiv-2501-11518,main.tex,133,134,table:info,"\hline
-THC:0011:R01   & DD2          & 1.0        & 1.250        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0070-r01-1-375-1-375,arxiv-2501-11518,main.tex,134,135,table:info,"\hline
-BAM:0070:R01   & MS1b         & 1.0        & 1.375        & \cite{Dietrich2017}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0065-r03-1-35-1-35,arxiv-2501-11518,main.tex,135,136,table:info,"\hline
-BAM:0065:R03   & MS1b         & 1.0        & 1.350        & \cite{Bernuzzi2016}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-thc-0010-r01-1-2-1-2,arxiv-2501-11518,main.tex,136,137,table:info,"\hline
-THC:0010:R01   & DD2          & 1.0        & 1.200        &  \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0002-r02-1-35-1-35,arxiv-2501-11518,main.tex,137,138,table:info,"\hline
-BAM:0002:R02   & 2H           & 1.0        & 1.350        & \cite{Bernuzzi2016}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0053-r01-1-65-1-1,arxiv-2501-11518,main.tex,138,139,table:info,"\hline
-BAM:0053:R01   & H4           & 1.5        & 1.375        & \cite{Dietrich:2016hky}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0124-r01-1-5-1-0,arxiv-2501-11518,main.tex,139,140,table:info,"\hline
-BAM:0124:R01   & SLy          & 1.5        & 1.250       & \cite{Dietrich2017}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0090-r02-1-6-1-6,arxiv-2501-11518,main.tex,140,141,table:info,"\hline
-BAM:0090:R02   & MS1b         & 1.0        & 1.600       & \cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-bam-0092-r02-1-7-1-7,arxiv-2501-11518,main.tex,141,143,table:info,"\hline
-BAM:0092:R02   & MS1b         & 1.0        & 1.700    
-&\cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-soultanis-et-al-1-2-1-2,arxiv-2501-11518,main.tex,143,144,table:info,"\hline
-Soultanis et al.  & MPA1         & 1.0        & 1.200        & \cite{soultanis2022}",reviewed_paper_table_adapter,verified
-waveform,arxiv-2501-11518-vretinaris2026-soultanis-et-al-1-55-1-55,arxiv-2501-11518,main.tex,144,145,table:info,"\hline
-Soultanis et al.  & MPA1         & 1.0        & 1.550         & \cite{soultanis2022}",reviewed_paper_table_adapter,verified
 waveform,arxiv-2407-11143-grippa2025-strange-star-cold-gamma-law-lr-1-36-1-36,arxiv-2407-11143,Table_Summary.tex,10,12,Table:summary,"\hline
  Cold $\rm{+}$ $\Gamma$-Law & 1.36 & 1.36 & 2.72 & 723.34 & LR & 2.836 & Yes & 63.35",reviewed_paper_table_adapter,verified
 waveform,arxiv-2407-11143-grippa2025-strange-star-cold-gamma-law-sr-1-36-1-36,arxiv-2407-11143,Table_Summary.tex,12,13,Table:summary,Cold $\rm{+}$ $\Gamma$-Law & 1.36 & 1.36 & 2.72  & 723.34 & SR & 2.576 & No & ...,reviewed_paper_table_adapter,verified
@@ -717,18 +664,10 @@ waveform,arxiv-2606-08522-huang2026-m130-stiffg16-1-3-1-3,arxiv-2606-08522,main.
     M130-stiffG16 & 1.30 & 1.44 & 6.90 & 11.50 & 470 & 1696 & 1404 & $2572^{+35}_{-36}$ & $3373^{+16}_{-17}$ & $4512^{+18}_{-17}$",reviewed_paper_table_adapter,verified
 waveform,arxiv-2606-08522-huang2026-m130-stiffg20-1-3-1-3,arxiv-2606-08522,main.tex,147,148,tab:allmodels,"[0.5em]
     M130-stiffG20 &  &  &  &  &  &  & 1380 & $2395^{+13}_{-14}$ & $3253^{+7}_{-18}$ & $4485^{+47}_{-46}$",reviewed_paper_table_adapter,verified
-waveform,arxiv-2606-08522-huang2026-m135-softg16-1-35-1-35,arxiv-2606-08522,main.tex,148,149,tab:allmodels,"[0.5em]
-    M135-softG16  & 1.35 & 1.51 & 7.45 & 11.04 & 165 & 1837 & -- & -- & -- & --",reviewed_paper_table_adapter,verified
-waveform,arxiv-2606-08522-huang2026-m135-softg20-1-35-1-35,arxiv-2606-08522,main.tex,149,150,tab:allmodels,"[0.5em]
-    M135-softG20  &  &  &  &  &  &  & -- & -- & -- & --",reviewed_paper_table_adapter,verified
 waveform,arxiv-2606-08522-huang2026-m135-stiffg16-1-35-1-35,arxiv-2606-08522,main.tex,150,151,tab:allmodels,"[0.5em]
     M135-stiffG16 & 1.35 & 1.50 & 7.34 & 11.53 & 383 & 1720 & 1305 & $2619^{+156}_{-115}$ & $3468^{+22}_{-20}$ & $4655^{+13}_{-14}$",reviewed_paper_table_adapter,verified
 waveform,arxiv-2606-08522-huang2026-m135-stiffg20-1-35-1-35,arxiv-2606-08522,main.tex,151,152,tab:allmodels,"[0.5em]
     M135-stiffG20 &  &  &  &  &  &  & 1348 & $2343^{+23}_{-23}$ & $3357^{+16}_{-16}$ & $4572^{+12}_{-12}$",reviewed_paper_table_adapter,verified
-waveform,arxiv-2606-08522-huang2026-m140-softg16-1-4-1-4,arxiv-2606-08522,main.tex,152,153,tab:allmodels,"[0.5em]
-    M140-softG16  & 1.40 & 1.57 & 7.87 & 11.49 & 250 & 1762 & -- & -- & -- & --",reviewed_paper_table_adapter,verified
-waveform,arxiv-2606-08522-huang2026-m140-softg20-1-4-1-4,arxiv-2606-08522,main.tex,153,154,tab:allmodels,"[0.5em]
-    M140-softG20  &  &  &  &  &  &  & -- & -- & -- & --",reviewed_paper_table_adapter,verified
 waveform,arxiv-2606-08522-huang2026-m140-stiffg16-1-4-1-4,arxiv-2606-08522,main.tex,154,155,tab:allmodels,"[0.5em]
     M140-stiffG16 & 1.40 & 1.56 & 7.78 & 11.57 & 317 & 1744 & -- & $2472^{+40}_{-34}$ & $3392^{+32}_{-26}$ & $4557^{+26}_{-25}$",reviewed_paper_table_adapter,verified
 waveform,arxiv-2606-08522-huang2026-m140-stiffg20-1-4-1-4,arxiv-2606-08522,main.tex,155,156,tab:allmodels,"[0.5em]
@@ -744,6 +683,8 @@ relation,arxiv-1907-03790-eq-fpeak,arxiv-1907-03790,paper.tex,689,693,eq:fpeak,"
 relation,arxiv-1907-03790-eq-f2,arxiv-1907-03790,paper.tex,845,849,eq:f2,"&\log_{10}\left[\left(\frac{f_2}{\rm Hz}\right)\left(\frac{m_0}{M_\odot}\right)\right] = c_0(\eta) + c_1(\eta) \tilde{\Lambda}^{1/5},\nonumber\\
   &c_0(\eta) = 11.363 - 27.418 \eta,\nonumber\\
   &c_1(\eta) = -2.158 + 7.941 \eta.",reviewed_equation_adapter,verified
+relation,arxiv-2501-11518-eq-quasiradial,arxiv-2501-11518,main.tex,256,258,eq:quasiradial,"f_\mathrm{2-0}M_\mathrm{chirp} =  0.558 - 0.406 M_\mathrm{chirp}+48.696 \tilde{\Lambda}^{-1/2},",reviewed_equation_adapter,verified
+relation,arxiv-2501-11518-eq-spiral,arxiv-2501-11518,main.tex,260,262,eq:spiral,"f_\mathrm{spiral}M_\mathrm{chirp} =  1.2 - 0.442 M_\mathrm{chirp}+45.819 \tilde{\Lambda}^{-1/2},",reviewed_equation_adapter,verified
 relation,arxiv-2310-10728-f1-03,arxiv-2310-10728,main.tex,807,809,tab:fit_parameters,"\hline
       $f^{\psi_{4}}_{\rm mer}$ & $4.589$ & $-0.581$ & $\phantom{-}0.543$ & $-0.236$ & $0.20\phantom{^{\dagger}}$  & $0.65$ & $4.52$ & $0.135$ & $1.19 $ & $0.934$",reviewed_paper_table_adapter,verified
 relation,arxiv-2310-10728-f1-04,arxiv-2310-10728,main.tex,809,810,tab:fit_parameters,$f^{h}_{\rm mer}$      & $4.201$ & $-0.330$ & $\phantom{-}0.198$ & $-0.067$ & $0.20\phantom{^{\dagger}}$  & $0.32$ & $2.99$ & $0.035$ & $0.30 $ & $0.957$,reviewed_paper_table_adapter,verified
@@ -827,41 +768,15 @@ eos,arxiv-1604-00246-eos-apr4,arxiv-1604-00246,manuscript.tex,1639,1642,tab:mode
 \mn{APR4-q10-M1200} & APR4 & $1.000$ & $1.200$ & $11.034$ & $2.3795$ & $1.3173$ & $0.16058$ & $268.60$ & $5.9801$ & $1.0562$ & $14.100$ & $0.10415$  & $650.23$ & $1732.9$",reviewed_paper_table_adapter,verified
 eos,arxiv-1604-00246-eos-ls220,arxiv-1604-00246,manuscript.tex,1652,1655,tab:models,"\hline
 \mn{LS220-q10-M1338}& LS220& $1.000$ & $1.338$ & $12.754$ & $2.6737$ & $1.4733$ & $0.15491$ & $2.8129$ & $7.2656$ & $1.0163$ & $14.489$ & $0.096525$ & $721.43$ & $1472.4$",reviewed_paper_table_adapter,verified
-eos,arxiv-1908-11418-eos-2b,arxiv-1908-11418,ms.tex,793,795,tab:valbns,"\hline
-    2B&1.78&8.47&1.35&1.35&23.6&---& \cite{Bernuzzi:2014owa}&---&---&---&---&---&---&---",reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-sly4,arxiv-1908-11418,ms.tex,795,796,tab:valbns,SLy4& 2.06&9.97&1.364&1.364&75.2&3.65&\cite{Perego:2019adq}&12&22&$1.79^{+0.46}_{-0.17}$&$1.33^{+0.11}_{-0.07}$&$74^{+151}_{-4}$&$5.22^{+0.03}_{-2.30}$&${6.5}^{+3.4}_{-0.3}$,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-bhb-lambda-phi,arxiv-1908-11418,ms.tex,796,797,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.50&1.50&90.0&3.39&\cite{Radice:2016rys}&10&13&$2.50^{+0.10}_{-0.25}$&$1.03^{+0.07}_{-0.03}$&$79^{+28}_{-8}$&$3.60^{+0.14}_{-0.07}$&${9.3}^{+0.2}_{-0.5}$,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-dd2,arxiv-1908-11418,ms.tex,797,798,tab:valbns,DD2 &2.42 &11.93&1.50&1.50&91.1&2.76&\cite{Radice:2016rys}&9&13&$2.39^{+0.35}_{-0.29}$&$1.10^{+0.13}_{-0.09}$& $196^{+79}_{-68}$&$2.74^{+0.02}_{-0.02}$ &${10.6}^{+0.7}_{-0.7}$,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-ls220,arxiv-1908-11418,ms.tex,799,800,tab:valbns,LS220& 2.04&10.67&1.364&1.364&133.9&2.97&\cite{Perego:2019adq}&8 &13&$2.30^{+2.38}_{-0.44}$&$1.28^{+0.17}_{-0.22}$&$218^{+500}_{-99}$&$2.95^{+0.03}_{-2.07}$&${9.9}^{+7.3}_{-0.7}$,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-h4,arxiv-1908-11418,ms.tex,802,803,tab:valbns,H4&2.03&11.66&1.45&1.25&210.7&2.33&\cite{Dietrich:2015iva}&6& 8 & $4.01^{+0.97}_{-2.25}$&$1.27^{+0.19}_{-0.24}$&$183^{+554}_{-107}$&$1.85^{+0.88}_{-0.99}$&$16.8^{+2.3}_{-7.1}$,reviewed_paper_table_adapter,verified
-eos,arxiv-2310-06025-eos-eos,arxiv-2310-06025,NR_Simulation_Summary.tex,8,9,tab:NR_Simulation_Summary,$\mathrm{EOS}$ & $m_1\;[M_{\odot}]$ & $m_2\;[M_{\odot}]$  & $q$ & $\Lambda_1$ & $\Lambda_2$ & $t_{\mathrm{BH}} - t_{\mathrm{merg}}\;[\mathrm{ms}]$,reviewed_paper_table_adapter,verified
-eos,arxiv-2310-06025-eos-blh,arxiv-2310-06025,NR_Simulation_Summary.tex,9,12,tab:NR_Simulation_Summary,"\hline
-\hline
-$\mathrm{BLh}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & HMNS",reviewed_paper_table_adapter,verified
-eos,arxiv-2310-06025-eos-blq,arxiv-2310-06025,NR_Simulation_Summary.tex,12,13,tab:NR_Simulation_Summary,$\mathrm{BLQ}$ & 1.298 & 1.298 & 1.0 & 701.901 & 701.901 & 15.95,reviewed_paper_table_adapter,verified
-eos,arxiv-2310-06025-eos-dd2f,arxiv-2310-06025,NR_Simulation_Summary.tex,22,24,tab:NR_Simulation_Summary,"\hline
-$\mathrm{DD2F}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & HMNS",reviewed_paper_table_adapter,verified
-eos,arxiv-2310-06025-eos-dd2f-sf1,arxiv-2310-06025,NR_Simulation_Summary.tex,24,25,tab:NR_Simulation_Summary,$\mathrm{DD2F-SF1}$ & 1.289 & 1.289 & 1.0 & 707.511 & 707.511 & 42.36,reviewed_paper_table_adapter,verified
 eos,arxiv-2411-00943-eos-sly,arxiv-2411-00943,apssamp.tex,904,906,tab:GW_freqs,"\hline
 SLy & 2.57 &   0 & 3.224(7) & 2.1(2) & 4.36(10) & 2.244(14) & 1.194(18) \Tstrut",reviewed_paper_table_adapter,verified
 eos,arxiv-2411-00943-eos-alf2,arxiv-2411-00943,apssamp.tex,912,914,tab:GW_freqs,"\hline
 ALF2 & 2.57 &   0 & 2.647(13) & 1.39(11) & 3.72(10) & 2.14(9) & 1.22(10) \Tstrut",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-sly,arxiv-2501-11518,main.tex,129,130,table:info,"\hline
-THC:0036:R03   & SLy          & 1.0        & 1.350        & \cite{Radice2016}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-ls220,arxiv-2501-11518,main.tex,130,131,table:info,"\hline
-THC:0019:R05   & LS220        & 1.0        & 1.350        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-ms1b,arxiv-2501-11518,main.tex,131,132,table:info,"\hline
-BAM:0088:R01   & MS1b         & 1.0        & 1.500        & \cite{databasepaper,CORE}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-bhblp,arxiv-2501-11518,main.tex,132,133,table:info,"\hline
-THC:0002:R01   & BHBlp        & 1.0        & 1.300        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-dd2,arxiv-2501-11518,main.tex,133,134,table:info,"\hline
-THC:0011:R01   & DD2          & 1.0        & 1.250        & \cite{Radice2017,Radice2018}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-2h,arxiv-2501-11518,main.tex,137,138,table:info,"\hline
-BAM:0002:R02   & 2H           & 1.0        & 1.350        & \cite{Bernuzzi2016}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-h4,arxiv-2501-11518,main.tex,138,139,table:info,"\hline
-BAM:0053:R01   & H4           & 1.5        & 1.375        & \cite{Dietrich:2016hky}",reviewed_paper_table_adapter,verified
-eos,arxiv-2501-11518-eos-mpa1,arxiv-2501-11518,main.tex,143,144,table:info,"\hline
-Soultanis et al.  & MPA1         & 1.0        & 1.200        & \cite{soultanis2022}",reviewed_paper_table_adapter,verified
 eos,arxiv-2407-11143-eos-strange-star,arxiv-2407-11143,Table_Summary.tex,10,12,Table:summary,"\hline
  Cold $\rm{+}$ $\Gamma$-Law & 1.36 & 1.36 & 2.72 & 723.34 & LR & 2.836 & Yes & 63.35",reviewed_paper_table_adapter,verified
 eos,arxiv-2606-08522-eos-stiff,arxiv-2606-08522,main.tex,132,133,tab:allmodels,"[-0.5em]

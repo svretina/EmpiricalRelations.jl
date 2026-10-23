@@ -4,7 +4,7 @@ This directory is the public, CSV-based extraction of the complete 31-paper seed
 corpus. It is generated deterministically by `scripts/extract_reference_data.py`
 from the preserved arXiv LaTeX source projects.
 
-- `waveforms.csv`: normalized simulation configurations and postmerger measurements.
+- `waveforms.csv`: normalized simulation configurations with at least one reported frequency.
 - `eos.csv`: source-specific EOS identifiers and published stellar properties.
 - `sources.csv`: publication-level attribution.
 - `extraction_coverage.csv`: per-paper structural and scientific-review coverage.
@@ -35,6 +35,10 @@ Empty frequency cells are missing values, never zero. Their companion status col
 explain whether the source table omitted or did not identify a feature. The standardized
 mass ratio is `q = min(m1,m2)/max(m1,m2) <= 1`; the source value and convention are
 retained separately.
+
+Configurations with every frequency field empty are excluded from `waveforms.csv`.
+Their original tables remain available in the lossless exports, and papers contributing
+only empirical relations remain represented in the relation catalogue.
 
 All 31 collected papers are represented in `sources.csv`, `published_tables.csv`, and/or
 `published_equations.csv` according to their source contents. Reviewed adapters normalize

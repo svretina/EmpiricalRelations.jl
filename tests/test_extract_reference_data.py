@@ -97,9 +97,17 @@ class ReferenceExtractionTests(unittest.TestCase):
         rows = self.read_csv(self.output / "waveforms.csv")
         source_ids = {row["source_id"] for row in rows}
         self.assertTrue({
-            "arxiv-1106-1616", "arxiv-1908-11418", "arxiv-2310-06025",
-            "arxiv-2411-00943", "arxiv-2501-11518", "arxiv-2606-08522",
+            "arxiv-1106-1616", "arxiv-1908-11418", "arxiv-2411-00943",
+            "arxiv-2606-08522",
         } <= source_ids)
+        self.assertNotIn("arxiv-2501-11518", source_ids)
+
+    def test_waveform_rows_always_contain_a_frequency(self):
+        rows = self.read_csv(self.output / "waveforms.csv")
+        self.assertTrue(all(any(row[field] for field in extraction.FREQUENCY_FIELDS) for row in rows))
+        retained_ids = {row["id"] for row in rows}
+        extras = self.read_csv(self.output / "measurements_extra.csv")
+        self.assertTrue(all(row["waveform_id"] in retained_ids for row in extras))
 
     def test_lossless_public_exports_cover_the_corpus(self):
         sources = {row["source_id"] for row in self.read_csv(self.output / "sources.csv")}
@@ -134,6 +142,8 @@ class ReferenceExtractionTests(unittest.TestCase):
         self.assertEqual(len(reference_coefficients), 291)
         self.assertGreater(len(coefficients), 291)
         self.assertIn("fpeak2DL", {row["equation_label"] for row in relations})
+        vretinaris_2026 = [row for row in relations if row["source_id"] == "arxiv-2501-11518"]
+        self.assertEqual({row["dependent_variable"] for row in vretinaris_2026}, {"f_2_0_khz", "f_spiral_khz"})
 
     def test_every_public_record_has_provenance(self):
         waveforms = self.read_csv(self.output / "waveforms.csv")
