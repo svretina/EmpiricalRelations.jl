@@ -9,7 +9,10 @@
   --er-dialog-text: #1f2933;
 }
 
-html.theme--documenter-dark {
+html.theme--documenter-dark,
+html.theme--catppuccin-frappe,
+html.theme--catppuccin-macchiato,
+html.theme--catppuccin-mocha {
   --er-accent: #67c7df;
   --er-accent-strong: #9cdeed;
   --er-surface: #202a30;
@@ -84,8 +87,14 @@ html.theme--documenter-dark {
 .er-empty { text-align: center; border: 1px dashed var(--er-border); padding: 2rem; color: var(--er-muted); }
 .er-pagination { justify-content: center; margin: 1rem 0; }
 .er-pagination button:disabled { opacity: .45; cursor: default; }
-.er-dialog { width: min(52rem, calc(100vw - 2rem)); max-height: calc(100vh - 3rem); overflow: auto; border: 1px solid var(--er-border); border-radius: .6rem; background: var(--er-dialog-bg); color: var(--er-dialog-text); padding: 1.2rem; color-scheme: light; }
-html.theme--documenter-dark .er-dialog { color-scheme: dark; }
+.er-dialog { width: min(52rem, calc(100vw - 2rem)); max-height: calc(100vh - 3rem); overflow: auto; border: 1px solid var(--er-border); border-radius: .6rem; background: var(--er-dialog-bg) !important; color: var(--er-dialog-text) !important; padding: 1.2rem; color-scheme: light; }
+.er-dialog h1, .er-dialog h2, .er-dialog h3, .er-dialog h4,
+.er-dialog p, .er-dialog dt, .er-dialog dd { color: var(--er-dialog-text) !important; }
+.er-dialog a { color: var(--er-accent-strong) !important; }
+html.theme--documenter-dark .er-dialog,
+html.theme--catppuccin-frappe .er-dialog,
+html.theme--catppuccin-macchiato .er-dialog,
+html.theme--catppuccin-mocha .er-dialog { color-scheme: dark; }
 .er-dialog::backdrop { background: rgba(8, 18, 24, .66); }
 .er-dialog-close { float: right; border: 0; background: transparent; color: inherit; font-size: 1.7rem; cursor: pointer; }
 .er-detail-grid { display: grid; grid-template-columns: minmax(9rem, .4fr) 1fr; gap: .38rem .9rem; clear: both; }

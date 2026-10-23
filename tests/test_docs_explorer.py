@@ -52,9 +52,12 @@ class ExplorerGenerationTests(unittest.TestCase):
         self.assertIn("@media (max-width: 600px)", css)
         self.assertIn("--er-dialog-bg", css)
         self.assertIn("box-sizing: border-box", css)
+        self.assertIn("theme--catppuccin-mocha", css)
+        self.assertIn("background: var(--er-dialog-bg) !important", css)
         self.assertIn("showModal", js)
         self.assertIn("sourceLink", js)
         self.assertIn("typesetPromise", js)
+        self.assertIn('window.require(["mathjax"]', js)
         self.assertIn("Documenter.MathJax()", make)
 
 

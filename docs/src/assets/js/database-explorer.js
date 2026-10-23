@@ -61,18 +61,23 @@
     }
     return latex;
   };
+  const queueMathJax2 = (engine, element) => {
+    if (engine && engine.Hub) engine.Hub.Queue(["Typeset", engine.Hub, element]);
+  };
   const typesetMath = (element, attempt = 0) => {
     if (!element) return;
     if (!window.MathJax) {
+      if (typeof window.require === "function") {
+        window.require(["mathjax"], engine => queueMathJax2(engine, element));
+        return;
+      }
       if (attempt < 50) window.setTimeout(() => typesetMath(element, attempt + 1), 100);
       return;
     }
     if (window.MathJax.typesetPromise) {
       if (window.MathJax.typesetClear) window.MathJax.typesetClear([element]);
       window.MathJax.typesetPromise([element]).catch(() => {});
-    } else if (window.MathJax.Hub) {
-      window.MathJax.Hub.Queue(["Typeset", window.MathJax.Hub, element]);
-    }
+    } else queueMathJax2(window.MathJax, element);
   };
   const searchable = row => [
     ...Object.entries(row).filter(([, value]) => typeof value !== "object").map(([key, value]) => `${key} ${text(value)}`),
