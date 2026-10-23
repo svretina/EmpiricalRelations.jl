@@ -47,6 +47,11 @@ makedocs(
         "Home" => "index.md",
         "Getting started" => "getting_started.md",
         "Scientific background" => "scientific_background.md",
+        "Theory" => [
+            "Binary and EOS parameters" => "theory/binary_eos_parameters.md",
+            "Postmerger spectrum" => "theory/postmerger_spectrum.md",
+            "Empirical relations" => "theory/empirical_relations.md",
+        ],
         "Database" => [
             "Overview" => "database/overview.md",
             "Interactive explorer" => "database/explorer.md",

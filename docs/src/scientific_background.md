@@ -15,3 +15,17 @@ This database separates four kinds of scientific object:
 It also separates a Fourier-spectrum maximum from a time-dependent instantaneous
 frequency. Similar paper-local symbols are not enough to establish physical identity;
 see the [canonical nomenclature](database/frequency_nomenclature.md).
+
+## Theory guide
+
+The theory documentation is divided into three focused chapters:
+
+- [Binary and EOS parameters](theory/binary_eos_parameters.md) defines the mass and
+  tidal quantities used by the database.
+- [Postmerger spectrum](theory/postmerger_spectrum.md) distinguishes Fourier peaks,
+  time-dependent frequencies, and secondary-feature interpretations.
+- [Empirical relations](theory/empirical_relations.md) explains fit structure,
+  calibration domains, residuals, and scientifically valid use.
+
+These pages establish terminology for reading the database; they do not replace the
+definitions and qualifications in the cited source publications.
