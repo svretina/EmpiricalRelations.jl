@@ -40,12 +40,12 @@ the waveform database:
 ```julia
 using EmpiricalRelations
 
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Bernuzzi2015;
+    quantity=:E_b_mrg,
+    inputs=[:kappa2T],
 )
 
-evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)
+evaluate(r; kappa2T=100.0)
 bibtex(r)
 ```
 

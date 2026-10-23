@@ -5,20 +5,20 @@
 ```julia
 using EmpiricalRelations
 
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Lioutas2021;
+    quantity=:f_peak,
+    inputs=[:R_1_6],
 )
 
-frequency_khz = evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)
+frequency_khz = evaluate(r; R_1_6=12.0)
 ```
 
 The relation handle can be reused for a collection of binary configurations:
 
 ```julia
 systems = [
-    (M_chirp=1.18, Lambda_tilde=600.0),
-    (M_chirp=1.22, Lambda_tilde=450.0),
+    (R_1_6=11.8,),
+    (R_1_6=12.2,),
 ]
 frequencies_khz = evaluate(r, systems)
 ```

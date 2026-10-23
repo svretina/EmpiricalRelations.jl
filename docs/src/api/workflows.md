@@ -11,8 +11,8 @@ Start with the physical observable and the parameters available in the analysis:
 ```julia
 using EmpiricalRelations
 
-catalogue = relations(:f_2_0;
-    available=[:M_chirp, :Lambda_tilde],
+catalogue = relations(:f_peak;
+    available=[:M_tot, :eta, :Lambda_tilde],
 )
 ```
 
@@ -29,14 +29,15 @@ end
 Select a model using scientific metadata rather than array position:
 
 ```julia
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Kiuchi2020;
+    quantity=:f_peak,
+    inputs=[:M_tot, :eta, :Lambda_tilde],
 )
 
-f_2_0_khz = evaluate(r;
-    M_chirp=1.2,
-    Lambda_tilde=500.0,
+f_peak_khz = evaluate(r;
+    M_tot=2.7,
+    eta=0.25,
+    Lambda_tilde=400.0,
 )
 ```
 
@@ -45,7 +46,7 @@ Record the exact relation and its source alongside the prediction:
 ```julia
 result = (
     relation_id=info(r).id,
-    prediction=f_2_0_khz,
+    prediction=f_peak_khz,
     unit=info(r).output_unit,
     publication=info(r).publication,
     arxiv=source(r).arxiv_id,
@@ -85,8 +86,8 @@ new publications and fit variants are added.
 Use `relations(...; inputs=...)` to compare only like-for-like models:
 
 ```julia
-models = relations(:f_peak;
-    inputs=[:M_chirp, :R_1_6],
+models = relations(:f_merger;
+    inputs=[:M_tot, :q, :kappa2T],
 )
 
 comparison = [
@@ -95,8 +96,9 @@ comparison = [
         relation_id=row.relation_id,
         prediction_khz=evaluate(
             relation(row.relation_id);
-            M_chirp=1.2,
-            R_1_6=12.0,
+            M_tot=2.7,
+            q=0.9,
+            kappa2T=100.0,
         ),
     )
     for row in models
@@ -113,18 +115,18 @@ The batch interface accepts a vector of named tuples and returns one prediction 
 row:
 
 ```julia
-r = relation(:Vretinaris2026;
-    quantity=:f_spiral,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Lioutas2021;
+    quantity=:f_peak,
+    inputs=[:R_1_6],
 )
 
 posterior_samples = [
-    (M_chirp=1.17, Lambda_tilde=650.0),
-    (M_chirp=1.20, Lambda_tilde=520.0),
-    (M_chirp=1.23, Lambda_tilde=410.0),
+    (R_1_6=11.8,),
+    (R_1_6=12.0,),
+    (R_1_6=12.2,),
 ]
 
-f_spiral_khz = evaluate(r, posterior_samples)
+f_peak_khz = evaluate(r, posterior_samples)
 ```
 
 The method accepts standard Julia `Real` values, including `Float64` and `BigFloat`.
@@ -137,9 +139,10 @@ to named tuples or evaluate each row explicitly.
 `applicable_relations` additionally reports known numerical-domain status:
 
 ```julia
-statuses = applicable_relations(:f_2_0;
-    M_chirp=1.2,
-    Lambda_tilde=500.0,
+statuses = applicable_relations(:f_peak;
+    M_tot=2.7,
+    q=0.9,
+    kappa2T=100.0,
 )
 
 evaluable = filter(row -> row.inputs_available, statuses)
@@ -186,11 +189,10 @@ No mode clips inputs or substitutes a boundary value.
 `predict` is convenient when a relation handle will not be reused:
 
 ```julia
-f_2_0_khz = predict(:f_2_0;
-    model=:Vretinaris2026,
-    inputs=(:M_chirp, :Lambda_tilde),
-    M_chirp=1.2,
-    Lambda_tilde=500.0,
+E_b_mrg = predict(:E_b_mrg;
+    model=:Bernuzzi2015,
+    inputs=(:kappa2T,),
+    kappa2T=100.0,
 )
 ```
 
@@ -205,8 +207,8 @@ A compact record for an exported prediction can include:
 prediction_record = (
     relation_id=info(r).id,
     publication=info(r).publication,
-    inputs=(M_chirp=1.2, Lambda_tilde=500.0),
-    value=evaluate(r; M_chirp=1.2, Lambda_tilde=500.0),
+    inputs=(R_1_6=12.0,),
+    value=evaluate(r; R_1_6=12.0),
     unit=info(r).output_unit,
     equation=source(r).equation_label,
     arxiv_id=source(r).arxiv_id,

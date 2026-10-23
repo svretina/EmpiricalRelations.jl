@@ -38,16 +38,16 @@ The main workflow is discover, select, evaluate, and cite:
 ```julia
 using EmpiricalRelations
 
-# Find fits for the nonlinear mode-coupling frequency.
-relations(:f_2_0; inputs=[:M_chirp, :Lambda_tilde])
+# Find fits for the dominant postmerger frequency.
+relations(:f_peak; inputs=[:M_tot, :eta, :Lambda_tilde])
 
 # Publication + observable + inputs uniquely identify this relation.
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Kiuchi2020;
+    quantity=:f_peak,
+    inputs=[:M_tot, :eta, :Lambda_tilde],
 )
 
-f_2_0 = evaluate(r; M_chirp=1.2, Lambda_tilde=500.0) # kHz
+f_peak = evaluate(r; M_tot=2.7, eta=0.25, Lambda_tilde=400.0) # kHz
 
 formula(r)       # original and canonical LaTeX
 coefficients(r)  # fitted coefficients
@@ -64,8 +64,8 @@ population implicitly.
 
 ```julia
 systems = [
-    (M_chirp=1.18, Lambda_tilde=600.0),
-    (M_chirp=1.22, Lambda_tilde=450.0),
+    (M_tot=2.65, eta=0.250, Lambda_tilde=500.0),
+    (M_tot=2.80, eta=0.245, Lambda_tilde=350.0),
 ]
 
 frequencies_khz = evaluate(r, systems)
@@ -74,12 +74,12 @@ frequencies_khz = evaluate(r, systems)
 ### Compare published models
 
 ```julia
-models = relations(:f_peak; inputs=[:M_chirp, :R_1_6])
+models = relations(:f_merger; inputs=[:M_tot, :q, :kappa2T])
 predictions = [
     (publication=row.publication,
      relation_id=row.relation_id,
-     f_peak_khz=evaluate(relation(row.relation_id);
-                         M_chirp=1.2, R_1_6=12.0))
+     f_merger_khz=evaluate(relation(row.relation_id);
+                           M_tot=2.7, q=0.9, kappa2T=100.0))
     for row in models
 ]
 ```

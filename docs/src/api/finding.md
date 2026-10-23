@@ -10,7 +10,7 @@ using EmpiricalRelations
 relations()
 relations(:f_peak)
 relations(:f_2_0)
-relations(author="Vretinaris")
+relations(author="Kiuchi")
 relations(publication=:Bernuzzi2015)
 ```
 
@@ -46,15 +46,15 @@ relations(:f_peak; available=[:M_chirp, :Lambda_tilde, :q])
 Author matching is case-insensitive and searches every author attached to the source:
 
 ```julia
-relations(author="vretinaris")
+relations(author="topolski")
 ```
 
 Select a unique relation using a publication, observable, and input signature:
 
 ```julia
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Kiuchi2020;
+    quantity=:f_peak,
+    inputs=[:M_tot, :eta, :Lambda_tilde],
 )
 ```
 
@@ -64,9 +64,9 @@ candidate stable IDs rather than selecting one implicitly. Pass one of those IDs
 `relation` to make the choice explicit.
 
 ```julia
-candidates = relations(:f_peak;
-    publication=:Vretinaris2020,
-    inputs=[:M_chirp, :R_1_6],
+candidates = relations(:f_merger;
+    publication=:Topolski2023,
+    inputs=[:M_tot, :q, :kappa2T],
 )
 
 r = relation(candidates[1].relation_id)

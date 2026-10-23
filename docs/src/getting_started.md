@@ -16,12 +16,12 @@ discovery and evaluation use the packaged registry and do not load the waveform 
 ## First prediction
 
 ```julia
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Topolski2023;
+    quantity=:f_peak,
+    inputs=[:M_tot, :q, :kappa2T],
 )
 
-f_2_0_khz = evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)
+f_peak_khz = evaluate(r; M_tot=2.7, q=0.9, kappa2T=100.0)
 ```
 
 Inspect the relation before adopting it in an analysis:

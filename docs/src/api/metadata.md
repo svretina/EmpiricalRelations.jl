@@ -37,7 +37,7 @@ the source equation or table, and the extraction path. A publication-level citat
 does not require selecting one relation:
 
 ```julia
-bibtex(:Vretinaris2020)
+bibtex(:Topolski2023)
 ```
 
 Useful source fields include:

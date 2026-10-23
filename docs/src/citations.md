@@ -11,7 +11,7 @@ bibtex(r)
 source(r)
 ```
 
-`bibtex(:Vretinaris2020)` returns the publication entry without selecting one of its
+`bibtex(:Bernuzzi2015)` returns the publication entry without selecting one of its
 relations. Cite both the original publication and EmpiricalRelations.jl when software
 from this package is used in an analysis. The publication citation attributes the
 scientific fit; the repository release or commit identifies the software and database

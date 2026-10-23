@@ -14,7 +14,7 @@ relations are returned by default.
 relations(:f_peak)
 relations(:f_peak; inputs=[:M_chirp, :Lambda_tilde])
 relations(:f_peak; available=[:M_chirp, :Lambda_tilde, :q])
-relations(author="Vretinaris")
+relations(author="Kiuchi")
 ```
 """
 function relations(quantity::Union{Nothing,Symbol}=nothing; inputs=nothing, available=nothing,

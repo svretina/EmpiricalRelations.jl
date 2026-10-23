@@ -5,12 +5,12 @@ Select a relation once and reuse the handle:
 ```julia
 using EmpiricalRelations
 
-r = relation(:Vretinaris2026;
-    quantity=:f_2_0,
-    inputs=[:M_chirp, :Lambda_tilde],
+r = relation(:Lioutas2021;
+    quantity=:f_peak,
+    inputs=[:R_1_6],
 )
 
-evaluate(r; M_chirp=1.2, Lambda_tilde=500.0)
+evaluate(r; R_1_6=12.0)
 ```
 
 Keyword order does not matter. Keyword names do: `info(r).inputs` reports the exact
@@ -44,11 +44,12 @@ No evaluation mode clips values to a calibration boundary.
 The one-call interface resolves and evaluates through the same implementation:
 
 ```julia
-predict(:f_2_0;
-    model=:Vretinaris2026,
-    inputs=(:M_chirp, :Lambda_tilde),
-    M_chirp=1.2,
-    Lambda_tilde=500.0,
+predict(:f_peak;
+    model=:Kiuchi2020,
+    inputs=(:M_tot, :eta, :Lambda_tilde),
+    M_tot=2.7,
+    eta=0.25,
+    Lambda_tilde=400.0,
 )
 ```
 
@@ -56,8 +57,8 @@ For batch calculations, pass a vector of named tuples:
 
 ```julia
 systems = [
-    (M_chirp=1.18, Lambda_tilde=600.0),
-    (M_chirp=1.22, Lambda_tilde=450.0),
+    (R_1_6=11.8,),
+    (R_1_6=12.2,),
 ]
 evaluate(r, systems)
 ```
@@ -75,7 +76,7 @@ Inputs may use standard Julia `Real` types, including higher-precision values wh
 published expression supports them:
 
 ```julia
-evaluate(r; M_chirp=big"1.2", Lambda_tilde=big"500.0")
+evaluate(r; R_1_6=big"12.0")
 ```
 
 Published decimal coefficients are stored as floating-point values. `BigFloat` inputs
@@ -87,11 +88,11 @@ Missing and extra keywords are rejected to prevent silently applying the wrong r
 signature:
 
 ```julia
-# Missing Lambda_tilde: raises ArgumentError.
-evaluate(r; M_chirp=1.2)
+# Missing R_1_6: raises ArgumentError.
+evaluate(r)
 
 # q is not an input of this relation: raises ArgumentError.
-evaluate(r; M_chirp=1.2, Lambda_tilde=500.0, q=1.0)
+evaluate(r; R_1_6=12.0, q=1.0)
 ```
 
 Inspect `domain(r)` before production evaluation and prefer `strict_domain=true` when
