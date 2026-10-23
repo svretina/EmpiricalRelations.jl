@@ -48,9 +48,14 @@ class ExplorerGenerationTests(unittest.TestCase):
     def test_required_static_and_mobile_assets_exist(self):
         css = (ROOT / "docs" / "src" / "assets" / "css" / "database-explorer.css").read_text()
         js = (ROOT / "docs" / "src" / "assets" / "js" / "database-explorer.js").read_text()
+        make = (ROOT / "docs" / "make.jl").read_text()
         self.assertIn("@media (max-width: 600px)", css)
+        self.assertIn("--er-dialog-bg", css)
+        self.assertIn("box-sizing: border-box", css)
         self.assertIn("showModal", js)
         self.assertIn("sourceLink", js)
+        self.assertIn("typesetPromise", js)
+        self.assertIn("Documenter.MathJax()", make)
 
 
 if __name__ == "__main__":

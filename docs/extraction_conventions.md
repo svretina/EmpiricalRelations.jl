@@ -188,20 +188,7 @@ coverage table records which papers have reviewed adapters.
 - After code changes, regenerate the dataset, run the Python and Julia tests, and
   rebuild the Graphify code graph.
 
-## 12. Current known exceptions
-
-The Vretinaris et al. 2020 source contains three documented inconsistencies:
-
-1. The narrative states 28 CoRe waveforms, while the published table contains 27.
-2. The narrative states 13 CFC/SPH EOS identifiers, while the waveform table contains
-   12 unique identifiers.
-3. SHEN and SLY4 occur in the waveform table without compatible rows in the published
-   EOS-property table.
-
-The database preserves the available rows, creates no synthetic measurements, and
-records these issues in `review_issues.csv` and `validation_report.json`.
-
-## 13. Changing a convention
+## 12. Changing a convention
 
 A convention change should update, in the same commit:
 

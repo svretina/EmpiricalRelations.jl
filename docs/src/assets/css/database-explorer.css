@@ -5,6 +5,8 @@
   --er-border: #ccd7dd;
   --er-muted: #5d6970;
   --er-code: #edf2f4;
+  --er-dialog-bg: #ffffff;
+  --er-dialog-text: #1f2933;
 }
 
 html.theme--documenter-dark {
@@ -14,7 +16,11 @@ html.theme--documenter-dark {
   --er-border: #44545d;
   --er-muted: #b4c0c6;
   --er-code: #172126;
+  --er-dialog-bg: #182126;
+  --er-dialog-text: #edf3f5;
 }
+
+.er-explorer, .er-explorer *, .er-dialog, .er-dialog * { box-sizing: border-box; }
 
 .er-hero-links, .er-toolbar, .er-results-bar, .er-pagination {
   display: flex;
@@ -42,9 +48,10 @@ html.theme--documenter-dark {
 .er-stat strong { display: block; font-size: 1.55rem; color: var(--er-accent-strong); }
 .er-stat span { color: var(--er-muted); font-size: .85rem; }
 
-.er-explorer { margin: 1.2rem 0; }
+.er-explorer { margin: 1.5rem 0; min-width: 0; }
 .er-toolbar { justify-content: space-between; margin-bottom: .8rem; }
-.er-search { flex: 1 1 22rem; }
+.er-toolbar > *, .er-results-bar > * { min-width: 0; }
+.er-search { flex: 1 1 22rem; max-width: 100%; }
 .er-search input { width: 100%; }
 .er-explorer input, .er-explorer select {
   display: block;
@@ -57,11 +64,11 @@ html.theme--documenter-dark {
   padding: .48rem;
   font: inherit;
 }
-.er-filter-panel { border: 1px solid var(--er-border); border-radius: .5rem; padding: .7rem .8rem; margin-bottom: 1rem; }
+.er-filter-panel { border: 1px solid var(--er-border); border-radius: .5rem; padding: .85rem; margin-bottom: 1.2rem; }
 .er-filter-panel summary { cursor: pointer; font-weight: 650; }
-.er-filter-grid, .er-range-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: .65rem; margin-top: .75rem; }
-.er-filter-grid label, .er-range-grid label, .er-search { color: var(--er-muted); font-size: .82rem; font-weight: 600; }
-.er-range-pair { display: grid; grid-template-columns: 1fr 1fr; gap: .3rem; }
+.er-filter-grid, .er-range-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: .9rem; margin-top: .9rem; }
+.er-filter-grid label, .er-range-grid label, .er-search { color: var(--er-muted); font-size: .82rem; font-weight: 600; min-width: 0; }
+.er-range-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
 .er-results-bar { justify-content: space-between; margin: 1rem 0 .6rem; }
 .er-results-bar > div { display: flex; flex-wrap: wrap; gap: .4rem; }
 .er-table-wrap { overflow-x: auto; border: 1px solid var(--er-border); border-radius: .45rem; }
@@ -77,16 +84,18 @@ html.theme--documenter-dark {
 .er-empty { text-align: center; border: 1px dashed var(--er-border); padding: 2rem; color: var(--er-muted); }
 .er-pagination { justify-content: center; margin: 1rem 0; }
 .er-pagination button:disabled { opacity: .45; cursor: default; }
-.er-dialog { width: min(52rem, calc(100vw - 2rem)); max-height: calc(100vh - 3rem); border: 1px solid var(--er-border); border-radius: .6rem; background: var(--documenter-bg, white); color: inherit; padding: 1.2rem; }
+.er-dialog { width: min(52rem, calc(100vw - 2rem)); max-height: calc(100vh - 3rem); overflow: auto; border: 1px solid var(--er-border); border-radius: .6rem; background: var(--er-dialog-bg); color: var(--er-dialog-text); padding: 1.2rem; color-scheme: light; }
+html.theme--documenter-dark .er-dialog { color-scheme: dark; }
 .er-dialog::backdrop { background: rgba(8, 18, 24, .66); }
 .er-dialog-close { float: right; border: 0; background: transparent; color: inherit; font-size: 1.7rem; cursor: pointer; }
 .er-detail-grid { display: grid; grid-template-columns: minmax(9rem, .4fr) 1fr; gap: .38rem .9rem; clear: both; }
 .er-detail-grid dt { color: var(--er-muted); font-weight: 600; }
 .er-detail-grid dd { margin: 0; overflow-wrap: anywhere; }
-.er-equation { overflow-x: auto; background: var(--er-code); border-radius: .35rem; padding: .8rem; font-family: monospace; white-space: pre-wrap; }
+.er-equation { overflow-x: auto; background: var(--er-code); border-radius: .35rem; padding: .8rem; text-align: center; }
 .er-chip { display: inline-block; margin: .15rem .25rem .15rem 0; padding: .2rem .4rem; border-radius: .3rem; background: var(--er-code); font-family: monospace; font-size: .82rem; }
 
 @media (max-width: 600px) {
+  .er-filter-grid, .er-range-grid { grid-template-columns: 1fr; }
   .er-results-bar { align-items: stretch; }
   .er-results-bar, .er-results-bar > div { flex-direction: column; }
   .er-button { text-align: center; }

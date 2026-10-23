@@ -126,7 +126,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L1",
       "id": "papers_2310_06025_prakash_2024_source_generatesubmittarb_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "generatesubmittarb.py"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L14",
       "id": "generatesubmittarb_now",
-      "community": 3,
+      "community": 4,
       "norm_label": "now()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L18",
       "id": "generatesubmittarb_basename",
-      "community": 3,
+      "community": 4,
       "norm_label": "basename()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L22",
       "id": "generatesubmittarb_extension",
-      "community": 3,
+      "community": 4,
       "norm_label": "extension()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L26",
       "id": "generatesubmittarb_pdflatex",
-      "community": 3,
+      "community": 4,
       "norm_label": "pdflatex()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L35",
       "id": "generatesubmittarb_tarball",
-      "community": 3,
+      "community": 4,
       "norm_label": "tarball()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L39",
       "id": "generatesubmittarb_make_tarball",
-      "community": 3,
+      "community": 4,
       "norm_label": "make_tarball()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L45",
       "id": "generatesubmittarb_remove_file_list",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove_file_list()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L52",
       "id": "generatesubmittarb_remove_tex_temp_files",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove_tex_temp_files()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L61",
       "id": "generatesubmittarb_remove_pattern",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove_pattern()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L65",
       "id": "generatesubmittarb_remove_comments",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove_comments()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L69",
       "id": "generatesubmittarb_substitute_pattern",
-      "community": 3,
+      "community": 4,
       "norm_label": "substitute_pattern()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L73",
       "id": "generatesubmittarb_substitute_bibliography",
-      "community": 3,
+      "community": 4,
       "norm_label": "substitute_bibliography()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L77",
       "id": "generatesubmittarb_rename_figures",
-      "community": 3,
+      "community": 4,
       "norm_label": "rename_figures()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L119",
       "id": "generatesubmittarb_copy_folder_files",
-      "community": 3,
+      "community": 4,
       "norm_label": "copy_folder_files()"
     },
     {
@@ -260,7 +260,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L15",
-      "community": 3,
+      "community": 4,
       "norm_label": "return date in form yyyymmdd",
       "id": "generatesubmittarb_rationale_15"
     },
@@ -269,7 +269,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L27",
-      "community": 3,
+      "community": 4,
       "norm_label": "compile .tex file with pdflatex (command str)",
       "id": "generatesubmittarb_rationale_27"
     },
@@ -278,7 +278,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L36",
-      "community": 3,
+      "community": 4,
       "norm_label": "tarball of a folder (command str)",
       "id": "generatesubmittarb_rationale_36"
     },
@@ -287,7 +287,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L46",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove a list of files",
       "id": "generatesubmittarb_rationale_46"
     },
@@ -296,7 +296,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L53",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove all .tex temporary files in folder",
       "id": "generatesubmittarb_rationale_53"
     },
@@ -305,7 +305,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L62",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove pattern from text",
       "id": "generatesubmittarb_rationale_62"
     },
@@ -314,7 +314,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L66",
-      "community": 3,
+      "community": 4,
       "norm_label": "remove comments '%% <comment>'",
       "id": "generatesubmittarb_rationale_66"
     },
@@ -323,7 +323,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L70",
-      "community": 3,
+      "community": 4,
       "norm_label": "substitute text from pattern",
       "id": "generatesubmittarb_rationale_70"
     },
@@ -332,7 +332,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L74",
-      "community": 3,
+      "community": 4,
       "norm_label": "substitute bibliography line",
       "id": "generatesubmittarb_rationale_74"
     },
@@ -341,7 +341,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L78",
-      "community": 3,
+      "community": 4,
       "norm_label": "parse_text lines and rename figures",
       "id": "generatesubmittarb_rationale_78"
     },
@@ -350,7 +350,7 @@
       "file_type": "rationale",
       "source_file": "papers/2310.06025_prakash_2024/source/GenerateSubmitTarb.py",
       "source_location": "L120",
-      "community": 3,
+      "community": 4,
       "norm_label": "copy folders and files in flist into root/",
       "id": "generatesubmittarb_rationale_120"
     },
@@ -1503,7 +1503,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L1",
       "id": "tests_test_download_papers_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "test_download_papers.py"
     },
     {
@@ -1512,7 +1512,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L16",
       "id": "test_download_papers_fakeheaders",
-      "community": 2,
+      "community": 3,
       "norm_label": "fakeheaders"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_file": "",
       "source_location": "",
       "id": "dict",
-      "community": 2,
+      "community": 3,
       "norm_label": "dict"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L17",
       "id": "test_download_papers_fakeheaders_get_content_type",
-      "community": 2,
+      "community": 3,
       "norm_label": ".get_content_type()"
     },
     {
@@ -1539,7 +1539,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L21",
       "id": "test_download_papers_fakeresponse",
-      "community": 2,
+      "community": 3,
       "norm_label": "fakeresponse"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L22",
       "id": "test_download_papers_fakeresponse_init",
-      "community": 2,
+      "community": 3,
       "norm_label": ".__init__()"
     },
     {
@@ -1557,7 +1557,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L27",
       "id": "test_download_papers_fakeresponse_geturl",
-      "community": 2,
+      "community": 3,
       "norm_label": ".geturl()"
     },
     {
@@ -1566,7 +1566,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L30",
       "id": "test_download_papers_fakeresponse_enter",
-      "community": 2,
+      "community": 3,
       "norm_label": ".__enter__()"
     },
     {
@@ -1575,7 +1575,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L33",
       "id": "test_download_papers_fakeresponse_exit",
-      "community": 2,
+      "community": 3,
       "norm_label": ".__exit__()"
     },
     {
@@ -1584,7 +1584,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L37",
       "id": "test_download_papers_identifiertests",
-      "community": 2,
+      "community": 3,
       "norm_label": "identifiertests"
     },
     {
@@ -1593,7 +1593,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L38",
       "id": "test_download_papers_identifiertests_test_valid_identifiers",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_valid_identifiers()"
     },
     {
@@ -1602,7 +1602,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L42",
       "id": "test_download_papers_identifiertests_test_invalid_identifiers",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_invalid_identifiers()"
     },
     {
@@ -1611,7 +1611,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L47",
       "id": "test_download_papers_identifiertests_test_directory_name",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_directory_name()"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L56",
       "id": "test_download_papers_identifiertests_test_duplicate_seeds_are_merged",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_duplicate_seeds_are_merged()"
     },
     {
@@ -1629,7 +1629,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L68",
       "id": "test_download_papers_formatandextractiontests",
-      "community": 2,
+      "community": 3,
       "norm_label": "formatandextractiontests"
     },
     {
@@ -1638,7 +1638,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L69",
       "id": "test_download_papers_formatandextractiontests_setup",
-      "community": 2,
+      "community": 3,
       "norm_label": ".setup()"
     },
     {
@@ -1647,7 +1647,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L73",
       "id": "test_download_papers_formatandextractiontests_teardown",
-      "community": 2,
+      "community": 3,
       "norm_label": ".teardown()"
     },
     {
@@ -1656,7 +1656,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L76",
       "id": "test_download_papers_formatandextractiontests_test_pdf_magic_validation_rejects_html",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_pdf_magic_validation_rejects_html()"
     },
     {
@@ -1665,7 +1665,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L84",
       "id": "test_download_papers_formatandextractiontests_test_detect_gzip_tar_plain_tex_and_gzip_tex",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_detect_gzip_tar_plain_tex_and_gzip_tex()"
     },
     {
@@ -1674,7 +1674,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L110",
       "id": "test_download_papers_formatandextractiontests_test_safe_multifile_extraction_and_root_identification",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_safe_multifile_extraction_and_root_identification()"
     },
     {
@@ -1683,7 +1683,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L131",
       "id": "test_download_papers_formatandextractiontests_test_path_traversal_and_symlink_are_rejected",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_path_traversal_and_symlink_are_rejected()"
     },
     {
@@ -1692,7 +1692,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L144",
       "id": "test_download_papers_formatandextractiontests_test_ambiguous_roots_are_reported",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_ambiguous_roots_are_reported()"
     },
     {
@@ -1701,7 +1701,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L154",
       "id": "test_download_papers_networkingandpersistencetests",
-      "community": 2,
+      "community": 3,
       "norm_label": "networkingandpersistencetests"
     },
     {
@@ -1710,7 +1710,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L155",
       "id": "test_download_papers_networkingandpersistencetests_test_crossref_publication_date",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_crossref_publication_date()"
     },
     {
@@ -1719,7 +1719,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L166",
       "id": "test_download_papers_networkingandpersistencetests_test_retry_after_and_transient_failure",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_retry_after_and_transient_failure()"
     },
     {
@@ -1728,7 +1728,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L182",
       "id": "test_download_papers_networkingandpersistencetests_test_interrupted_download_removes_partial_file",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_interrupted_download_removes_partial_file()"
     },
     {
@@ -1737,7 +1737,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L202",
       "id": "test_download_papers_networkingandpersistencetests_test_existing_checksum_is_idempotently_validated",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_existing_checksum_is_idempotently_validated()"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_file": "tests/test_download_papers.py",
       "source_location": "L211",
       "id": "test_download_papers_networkingandpersistencetests_test_missing_source_status_and_metadata_serialization",
-      "community": 2,
+      "community": 3,
       "norm_label": ".test_missing_source_status_and_metadata_serialization()"
     },
     {
@@ -2133,7 +2133,7 @@
       "source_file": "docs/src/assets/js/database-explorer.js",
       "source_location": "L1",
       "id": "docs_src_assets_js_database_explorer_js",
-      "community": 4,
+      "community": 2,
       "norm_label": "database-explorer.js"
     },
     {
@@ -2142,7 +2142,7 @@
       "source_file": "docs/src/assets/js/database-explorer.js",
       "source_location": "L5",
       "id": "database_explorer_dataurl",
-      "community": 4,
+      "community": 2,
       "norm_label": "dataurl()"
     },
     {
@@ -2151,205 +2151,259 @@
       "source_file": "docs/src/assets/js/database-explorer.js",
       "source_location": "L6",
       "id": "database_explorer_downloadurl",
-      "community": 4,
+      "community": 2,
       "norm_label": "downloadurl()"
     },
     {
       "label": "text()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L17",
+      "source_location": "L36",
       "id": "database_explorer_text",
-      "community": 4,
+      "community": 2,
       "norm_label": "text()"
     },
     {
       "label": "shown()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L18",
+      "source_location": "L37",
       "id": "database_explorer_shown",
-      "community": 4,
+      "community": 2,
       "norm_label": "shown()"
     },
     {
       "label": "escapeHTML()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L19",
+      "source_location": "L38",
       "id": "database_explorer_escapehtml",
-      "community": 4,
+      "community": 2,
       "norm_label": "escapehtml()"
+    },
+    {
+      "label": "inlineMath()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L39",
+      "id": "database_explorer_inlinemath",
+      "community": 2,
+      "norm_label": "inlinemath()"
+    },
+    {
+      "label": "symbolHTML()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L40",
+      "id": "database_explorer_symbolhtml",
+      "community": 2,
+      "norm_label": "symbolhtml()"
+    },
+    {
+      "label": "variablesHTML()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L48",
+      "id": "database_explorer_variableshtml",
+      "community": 2,
+      "norm_label": "variableshtml()"
+    },
+    {
+      "label": "fieldLabelHTML()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L49",
+      "id": "database_explorer_fieldlabelhtml",
+      "community": 2,
+      "norm_label": "fieldlabelhtml()"
+    },
+    {
+      "label": "equationLatex()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L50",
+      "id": "database_explorer_equationlatex",
+      "community": 2,
+      "norm_label": "equationlatex()"
+    },
+    {
+      "label": "typesetMath()",
+      "file_type": "code",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L64",
+      "id": "database_explorer_typesetmath",
+      "community": 2,
+      "norm_label": "typesetmath()"
     },
     {
       "label": "searchable()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L20",
+      "source_location": "L77",
       "id": "database_explorer_searchable",
-      "community": 4,
+      "community": 2,
       "norm_label": "searchable()"
     },
     {
       "label": "numericInRange()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L24",
+      "source_location": "L81",
       "id": "database_explorer_numericinrange",
-      "community": 4,
+      "community": 2,
       "norm_label": "numericinrange()"
     },
     {
       "label": "compareValues()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L30",
+      "source_location": "L87",
       "id": "database_explorer_comparevalues",
-      "community": 4,
+      "community": 2,
       "norm_label": "comparevalues()"
     },
     {
       "label": "csvCell()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L36",
+      "source_location": "L93",
       "id": "database_explorer_csvcell",
-      "community": 4,
+      "community": 2,
       "norm_label": "csvcell()"
     },
     {
       "label": "rowsToCSV()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L40",
+      "source_location": "L97",
       "id": "database_explorer_rowstocsv",
-      "community": 4,
+      "community": 2,
       "norm_label": "rowstocsv()"
     },
     {
       "label": "filterWaveforms()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L42",
+      "source_location": "L99",
       "id": "database_explorer_filterwaveforms",
-      "community": 4,
+      "community": 2,
       "norm_label": "filterwaveforms()"
     },
     {
       "label": "filterRelations()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L61",
+      "source_location": "L118",
       "id": "database_explorer_filterrelations",
-      "community": 4,
+      "community": 2,
       "norm_label": "filterrelations()"
     },
     {
       "label": "load()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L72",
+      "source_location": "L129",
       "id": "database_explorer_load",
-      "community": 4,
+      "community": 2,
       "norm_label": "load()"
     },
     {
       "label": "selectOptions()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L76",
+      "source_location": "L133",
       "id": "database_explorer_selectoptions",
-      "community": 4,
+      "community": 2,
       "norm_label": "selectoptions()"
     },
     {
       "label": "download()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L80",
+      "source_location": "L137",
       "id": "database_explorer_download",
-      "community": 4,
+      "community": 2,
       "norm_label": "download()"
     },
     {
       "label": "sourceLabel()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L87",
+      "source_location": "L144",
       "id": "database_explorer_sourcelabel",
-      "community": 4,
+      "community": 2,
       "norm_label": "sourcelabel()"
     },
     {
       "label": "sourceLink()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L88",
+      "source_location": "L145",
       "id": "database_explorer_sourcelink",
-      "community": 4,
+      "community": 2,
       "norm_label": "sourcelink()"
     },
     {
       "label": "detailList()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L89",
+      "source_location": "L146",
       "id": "database_explorer_detaillist",
-      "community": 4,
+      "community": 2,
       "norm_label": "detaillist()"
     },
     {
       "label": "wireDialog()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L90",
+      "source_location": "L147",
       "id": "database_explorer_wiredialog",
-      "community": 4,
+      "community": 2,
       "norm_label": "wiredialog()"
     },
     {
       "label": "setSortable()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L94",
+      "source_location": "L151",
       "id": "database_explorer_setsortable",
-      "community": 4,
+      "community": 2,
       "norm_label": "setsortable()"
     },
     {
       "label": "markSort()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L100",
+      "source_location": "L157",
       "id": "database_explorer_marksort",
-      "community": 4,
+      "community": 2,
       "norm_label": "marksort()"
     },
     {
       "label": "initSummary()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L102",
+      "source_location": "L159",
       "id": "database_explorer_initsummary",
-      "community": 4,
+      "community": 2,
       "norm_label": "initsummary()"
     },
     {
       "label": "initWaveforms()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L113",
+      "source_location": "L170",
       "id": "database_explorer_initwaveforms",
-      "community": 4,
+      "community": 2,
       "norm_label": "initwaveforms()"
     },
     {
       "label": "initRelations()",
       "file_type": "code",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L154",
+      "source_location": "L213",
       "id": "database_explorer_initrelations",
-      "community": 4,
+      "community": 2,
       "norm_label": "initrelations()"
     },
     {
@@ -7854,7 +7908,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L17",
+      "source_location": "L36",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_text",
@@ -7866,7 +7920,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L18",
+      "source_location": "L37",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_shown",
@@ -7878,7 +7932,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L19",
+      "source_location": "L38",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_escapehtml",
@@ -7890,7 +7944,79 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L20",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_inlinemath",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_inlinemath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_symbolhtml",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_symbolhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_variableshtml",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_variableshtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_fieldlabelhtml",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_fieldlabelhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_equationlatex",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_equationlatex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_src": "docs_src_assets_js_database_explorer_js",
+      "_tgt": "database_explorer_typesetmath",
+      "source": "docs_src_assets_js_database_explorer_js",
+      "target": "database_explorer_typesetmath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L77",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_searchable",
@@ -7902,7 +8028,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L24",
+      "source_location": "L81",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_numericinrange",
@@ -7914,7 +8040,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L30",
+      "source_location": "L87",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_comparevalues",
@@ -7926,7 +8052,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L36",
+      "source_location": "L93",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_csvcell",
@@ -7938,7 +8064,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L40",
+      "source_location": "L97",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_rowstocsv",
@@ -7950,7 +8076,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L42",
+      "source_location": "L99",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_filterwaveforms",
@@ -7962,7 +8088,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L61",
+      "source_location": "L118",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_filterrelations",
@@ -7974,7 +8100,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L72",
+      "source_location": "L129",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_load",
@@ -7986,7 +8112,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L76",
+      "source_location": "L133",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_selectoptions",
@@ -7998,7 +8124,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L80",
+      "source_location": "L137",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_download",
@@ -8010,7 +8136,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L87",
+      "source_location": "L144",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_sourcelabel",
@@ -8022,7 +8148,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L88",
+      "source_location": "L145",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_sourcelink",
@@ -8034,7 +8160,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L89",
+      "source_location": "L146",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_detaillist",
@@ -8046,7 +8172,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L90",
+      "source_location": "L147",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_wiredialog",
@@ -8058,7 +8184,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L94",
+      "source_location": "L151",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_setsortable",
@@ -8070,7 +8196,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L100",
+      "source_location": "L157",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_marksort",
@@ -8082,7 +8208,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L102",
+      "source_location": "L159",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_initsummary",
@@ -8094,7 +8220,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L113",
+      "source_location": "L170",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_initwaveforms",
@@ -8106,7 +8232,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L154",
+      "source_location": "L213",
       "weight": 1.0,
       "_src": "docs_src_assets_js_database_explorer_js",
       "_tgt": "database_explorer_initrelations",
@@ -8118,7 +8244,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L72",
+      "source_location": "L129",
       "weight": 1.0,
       "_src": "database_explorer_load",
       "_tgt": "database_explorer_dataurl",
@@ -8130,7 +8256,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L18",
+      "source_location": "L37",
       "weight": 1.0,
       "_src": "database_explorer_shown",
       "_tgt": "database_explorer_text",
@@ -8142,7 +8268,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L19",
+      "source_location": "L38",
       "weight": 1.0,
       "_src": "database_explorer_escapehtml",
       "_tgt": "database_explorer_text",
@@ -8154,7 +8280,55 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L37",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "database_explorer_symbolhtml",
+      "_tgt": "database_explorer_text",
+      "source": "database_explorer_text",
+      "target": "database_explorer_symbolhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "database_explorer_variableshtml",
+      "_tgt": "database_explorer_text",
+      "source": "database_explorer_text",
+      "target": "database_explorer_variableshtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "database_explorer_fieldlabelhtml",
+      "_tgt": "database_explorer_text",
+      "source": "database_explorer_text",
+      "target": "database_explorer_fieldlabelhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_src": "database_explorer_equationlatex",
+      "_tgt": "database_explorer_text",
+      "source": "database_explorer_text",
+      "target": "database_explorer_equationlatex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L94",
       "weight": 1.0,
       "_src": "database_explorer_csvcell",
       "_tgt": "database_explorer_text",
@@ -8166,7 +8340,43 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L88",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "database_explorer_inlinemath",
+      "_tgt": "database_explorer_escapehtml",
+      "source": "database_explorer_escapehtml",
+      "target": "database_explorer_inlinemath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "database_explorer_symbolhtml",
+      "_tgt": "database_explorer_escapehtml",
+      "source": "database_explorer_escapehtml",
+      "target": "database_explorer_symbolhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "database_explorer_fieldlabelhtml",
+      "_tgt": "database_explorer_escapehtml",
+      "source": "database_explorer_escapehtml",
+      "target": "database_explorer_fieldlabelhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L145",
       "weight": 1.0,
       "_src": "database_explorer_sourcelink",
       "_tgt": "database_explorer_escapehtml",
@@ -8178,7 +8388,43 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L106",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "database_explorer_symbolhtml",
+      "_tgt": "database_explorer_inlinemath",
+      "source": "database_explorer_inlinemath",
+      "target": "database_explorer_symbolhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "database_explorer_fieldlabelhtml",
+      "_tgt": "database_explorer_inlinemath",
+      "source": "database_explorer_inlinemath",
+      "target": "database_explorer_fieldlabelhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_src": "database_explorer_initwaveforms",
+      "_tgt": "database_explorer_typesetmath",
+      "source": "database_explorer_typesetmath",
+      "target": "database_explorer_initwaveforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/src/assets/js/database-explorer.js",
+      "source_location": "L163",
       "weight": 1.0,
       "_src": "database_explorer_initsummary",
       "_tgt": "database_explorer_load",
@@ -8190,7 +8436,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L115",
+      "source_location": "L172",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_load",
@@ -8202,7 +8448,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L156",
+      "source_location": "L215",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_load",
@@ -8214,7 +8460,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L119",
+      "source_location": "L176",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_selectoptions",
@@ -8226,7 +8472,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L159",
+      "source_location": "L218",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_selectoptions",
@@ -8238,7 +8484,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L151",
+      "source_location": "L210",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_wiredialog",
@@ -8250,7 +8496,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L182",
+      "source_location": "L244",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_wiredialog",
@@ -8262,7 +8508,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L151",
+      "source_location": "L210",
       "weight": 1.0,
       "_src": "database_explorer_initwaveforms",
       "_tgt": "database_explorer_setsortable",
@@ -8274,7 +8520,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "docs/src/assets/js/database-explorer.js",
-      "source_location": "L182",
+      "source_location": "L244",
       "weight": 1.0,
       "_src": "database_explorer_initrelations",
       "_tgt": "database_explorer_setsortable",

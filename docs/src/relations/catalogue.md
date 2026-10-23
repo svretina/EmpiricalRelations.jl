@@ -2,7 +2,9 @@
 
 Search published relations by dependent variable, fit family, or publication. Record
 details include coefficients, applicability limits, reported residuals, and the source
-equation. Mathematical expressions are displayed as text.
+equation. Frequencies are expressed in kHz, masses in solar masses, and radii in km
+unless a record states otherwise. Variable names therefore omit units; the residual
+column retains the unit reported by the publication.
 
 ```@raw html
 <section id="relation-explorer" class="er-explorer" aria-label="Empirical relations explorer">

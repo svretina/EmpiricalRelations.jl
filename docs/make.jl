@@ -42,6 +42,7 @@ makedocs(
         assets = ["assets/css/database-explorer.css", "assets/js/database-explorer.js"],
         edit_link = "master",
         size_threshold = 400_000,
+        mathengine = Documenter.MathJax(),
     ),
     pages = [
         "Home" => "index.md",
