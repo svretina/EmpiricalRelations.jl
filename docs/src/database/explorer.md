@@ -20,7 +20,7 @@ in solar masses.
       <label>Simulation code<select id="wf-code"><option value="">All codes</option></select></label>
       <label>Spectral type<select id="wf-spectral"><option value="">All types</option></select></label>
       <label>Mass configuration<select id="wf-mass-kind"><option value="">All</option><option value="equal">Equal mass</option><option value="unequal">Unequal mass</option></select></label>
-      <label>Frequency availability<select id="wf-availability"><option value="">Any</option><option value="f_peak_khz">Has f_peak</option><option value="f_2_0_khz">Has f_2-0</option><option value="f_spiral_khz">Has f_spiral</option></select></label>
+      <label>Frequency availability<select id="wf-availability"><option value="">Any</option><option value="f_peak_khz">Has peak frequency</option><option value="f_2_0_khz">Has mode-coupling frequency</option><option value="f_spiral_khz">Has spiral frequency</option></select></label>
     </div>
     <div id="wf-ranges" class="er-range-grid"></div>
   </details>
@@ -31,7 +31,7 @@ in solar masses.
     <a class="er-button" href="#" data-er-download="eos.csv" download>EOS metadata</a></div>
   </div>
   <div class="er-table-wrap"><table id="wf-table" class="er-table">
-    <thead><tr><th data-key="simulation_id">Simulation</th><th data-key="eos">EOS</th><th data-key="mtot_msun">M<sub>tot</sub></th><th data-key="q">q</th><th data-key="lambda_tilde">Λ̃</th><th data-key="f_peak_khz">f<sub>peak</sub></th><th data-key="f_2_0_khz">f<sub>2-0</sub></th><th data-key="f_spiral_khz">f<sub>spiral</sub></th><th data-key="source_id">Source</th></tr></thead>
+    <thead><tr><th data-key="simulation_id">Simulation</th><th data-key="eos">EOS</th><th data-key="mtot_msun">\(M_{\mathrm{tot}}\)</th><th data-key="q">\(q\)</th><th data-key="lambda_tilde">\(\widetilde{\Lambda}\)</th><th data-key="f_peak_khz">\(f_{\mathrm{peak}}\)</th><th data-key="f_2_0_khz">\(f_{2-0}\)</th><th data-key="f_spiral_khz">\(f_{\mathrm{spiral}}\)</th><th data-key="source_id">Source</th></tr></thead>
     <tbody></tbody>
   </table></div>
   <div id="wf-empty" class="er-empty" hidden>No records match the active filters.</div>

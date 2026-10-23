@@ -55,10 +55,10 @@ an EOS label or an empirical frequency fit.
 ## EOS properties
 
 An equation of state relates thermodynamic variables and determines the sequence of
-cold, nonrotating stellar models. Radius fields such as `r_1_6_km` refer to the radius
+cold, nonrotating stellar models. Quantities such as ``R_{1.6}`` refer to the radius
 of a cold star with the indicated mass; they are not radii of the hot merger remnant.
-`m_tov_msun` denotes a source-reported maximum mass for a nonrotating sequence when the
-publication supplies one.
+``M_{\mathrm{TOV}}`` denotes a source-reported maximum mass for a nonrotating sequence
+when the publication supplies one.
 
 EOS rows are source-specific. Values with the same EOS name are not averaged across
 papers because the EOS variant, thermal treatment, or tabulation may differ. The source

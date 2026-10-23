@@ -18,20 +18,24 @@
   const symbols = {
     m1_msun: String.raw`m_1`, m2_msun: String.raw`m_2`,
     mtot_msun: String.raw`M_{\mathrm{tot}}`, total_mass_msun: String.raw`M_{\mathrm{tot}}`,
-    mchirp_msun: String.raw`\mathcal{M}`, q: "q", eta: String.raw`\eta`,
+    mchirp_msun: String.raw`\mathcal{M}`, m_tov_msun: String.raw`M_{\mathrm{TOV}}`,
+    q: "q", q_original: String.raw`q_{\mathrm{source}}`, eta: String.raw`\eta`,
     lambda1: String.raw`\Lambda_1`, lambda2: String.raw`\Lambda_2`, lambda_tilde: String.raw`\widetilde{\Lambda}`,
-    kappa_2_T: String.raw`\kappa_2^T`, f_peak_khz: String.raw`f_{\mathrm{peak}}`, f_peak_hz: String.raw`f_{\mathrm{peak}}`,
-    f_2_0_khz: String.raw`f_{2-0}`, f_spiral_khz: String.raw`f_{\mathrm{spiral}}`, f_radial_khz: String.raw`f_0`,
+    kappa_2_T: String.raw`\kappa_2^T`, f_peak: String.raw`f_{\mathrm{peak}}`, f_peak_khz: String.raw`f_{\mathrm{peak}}`, f_peak_hz: String.raw`f_{\mathrm{peak}}`,
+    f_2_0: String.raw`f_{2-0}`, f_2_0_khz: String.raw`f_{2-0}`,
+    f_spiral: String.raw`f_{\mathrm{spiral}}`, f_spiral_khz: String.raw`f_{\mathrm{spiral}}`,
+    f_radial: String.raw`f_0`, f_radial_khz: String.raw`f_0`,
     f_peak_early_khz: String.raw`f_{\mathrm{peak}}^{\mathrm{early}}`, f_peak_late_khz: String.raw`f_{\mathrm{peak}}^{\mathrm{late}}`,
     f_peak_mean_khz: String.raw`\overline{f}_{\mathrm{peak}}`, f_peak_instantaneous_khz: String.raw`f_{\mathrm{peak}}^{\mathrm{inst}}`,
     f_peak_instantaneous_hz: String.raw`f_{\mathrm{peak}}^{\mathrm{inst}}`, f_merger_khz: String.raw`f_{\mathrm{mrg}}`,
-    f_merger_hz: String.raw`f_{\mathrm{mrg}}`, f_gw_initial_hz: String.raw`f_{\mathrm{GW}}^{\mathrm{initial}}`,
+    f_merger: String.raw`f_{\mathrm{mrg}}`, f_merger_hz: String.raw`f_{\mathrm{mrg}}`, f_gw_initial_hz: String.raw`f_{\mathrm{GW}}^{\mathrm{initial}}`,
     r_1_2_km: String.raw`R_{1.2}`, r_1_4_km: String.raw`R_{1.4}`, r_1_6_km: String.raw`R_{1.6}`, r_1_8_km: String.raw`R_{1.8}`,
     "Mf_2": String.raw`M f_2`, "f_peak_khz*mchirp_msun": String.raw`f_{\mathrm{peak}}\mathcal{M}`,
     "M\\omega_22^\\textmrg": String.raw`M\omega_{22}^{\mathrm{mrg}}`, "E_b^\\textmrg": String.raw`E_b^{\mathrm{mrg}}`,
     "j^\\textmrg": String.raw`j^{\mathrm{mrg}}`, "R": "R", "R^90\\%": String.raw`R^{90\%}`,
     "R^cc": String.raw`R^{\mathrm{cc}}`, "\\Lambda^1/5": String.raw`\Lambda^{1/5}`,
   };
+  const humanizedFields = new Set(["f_2_0_status", "f_spiral_status", "q_definition", "q_original_definition", "review_status", "implementation_status"]);
 
   const text = value => value === null || value === undefined || value === "" ? "" : String(value);
   const shown = value => text(value) || "—";
@@ -46,7 +50,20 @@
     return escapeHTML(valueText);
   };
   const variablesHTML = value => text(value).split(";").map(symbolHTML).join(", ");
-  const fieldLabelHTML = key => symbols[key] ? inlineMath(symbols[key]) : escapeHTML(text(key).replaceAll("_", " "));
+  const humanize = value => {
+    const result = text(value).replaceAll("_", " ").trim();
+    return result ? result[0].toUpperCase() + result.slice(1) : "";
+  };
+  const fieldLabelHTML = key => {
+    if (symbols[key]) return inlineMath(symbols[key]);
+    for (const suffix of ["_status", "_definition"]) {
+      if (key.endsWith(suffix)) {
+        const base = key.slice(0, -suffix.length);
+        if (symbols[base]) return `${inlineMath(symbols[base])} ${suffix.slice(1)}`;
+      }
+    }
+    return escapeHTML(humanize(key));
+  };
   const equationLatex = value => {
     let latex = text(value).trim().replace(/^\$|\$$/g, "").replace(/,\s*$/, "");
     const aliases = [
@@ -129,7 +146,7 @@
       (!filters.status || row.implementation_status === filters.status));
   }
 
-  window.EmpiricalRelationsExplorer = {filterWaveforms, filterRelations, compareValues, rowsToCSV, numericInRange, symbolHTML};
+  window.EmpiricalRelationsExplorer = {filterWaveforms, filterRelations, compareValues, rowsToCSV, numericInRange, symbolHTML, fieldLabelHTML, humanize};
 
   const load = name => fetch(dataURL(name)).then(response => {
     if (!response.ok) throw new Error(`Unable to load ${name}.json (${response.status})`);
@@ -162,7 +179,7 @@
   };
   const sourceLabel = row => row.source ? `${row.source.authors.split(";")[0]} (${row.source.publication_year})` : row.source_id;
   const sourceLink = row => row.source && row.source.abstract_url ? `<a href="${escapeHTML(row.source.abstract_url)}">${escapeHTML(row.source.title)}</a>` : escapeHTML(row.source_id);
-  const detailList = entries => `<dl class="er-detail-grid">${entries.filter(([, value]) => value !== null && value !== "").map(([label, value, valueIsHTML = false]) => `<dt>${fieldLabelHTML(label)}</dt><dd>${valueIsHTML ? value : escapeHTML(value)}</dd>`).join("")}</dl>`;
+  const detailList = entries => `<dl class="er-detail-grid">${entries.filter(([, value]) => value !== null && value !== "").map(([label, value, valueIsHTML = false]) => `<dt>${fieldLabelHTML(label)}</dt><dd>${valueIsHTML ? value : escapeHTML(humanizedFields.has(label) ? humanize(value) : value)}</dd>`).join("")}</dl>`;
   const wireDialog = dialog => {
     dialog.querySelector(".er-dialog-close").addEventListener("click", () => dialog.close());
     dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });

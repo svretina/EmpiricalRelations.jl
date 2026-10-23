@@ -42,7 +42,7 @@ Bauswein--Stergioulas--Vretinaris literature:
   coupling between quadrupolar and quasiradial motion.
 - ``f_{\mathrm{spiral}}`` is a secondary feature explicitly associated with a
   transient spiral deformation.
-- ``f_0`` or `f_radial` denotes a quasiradial oscillation only when the source makes
+- ``f_0`` denotes a quasiradial oscillation only when the source makes
   that physical identification.
 - early, late, mean, instantaneous, and merger frequencies remain separate fields.
 
