@@ -1,4 +1,5 @@
 import csv
+import ast
 import importlib.util
 import json
 import subprocess
@@ -44,6 +45,10 @@ class ExplorerGenerationTests(unittest.TestCase):
         self.assertEqual(metadata["counts"]["relations"], len(relations))
         self.assertTrue(all(row["implementation_status"] == "catalogued" for row in relations))
         self.assertTrue(any(row["coefficients"] for row in relations))
+        self.assertTrue(all(row["source"]["bibtex"].startswith("@article{") for row in relations))
+        self.assertTrue(all(set(row["code"]) == {"julia", "python"} for row in relations))
+        for row in relations:
+            ast.parse(row["code"]["python"])
 
     def test_required_static_and_mobile_assets_exist(self):
         css = (ROOT / "docs" / "src" / "assets" / "css" / "database-explorer.css").read_text()
@@ -58,6 +63,8 @@ class ExplorerGenerationTests(unittest.TestCase):
         self.assertIn("sourceLink", js)
         self.assertIn("typesetPromise", js)
         self.assertIn('window.require(["mathjax"]', js)
+        self.assertIn("Copy BibTeX", js)
+        self.assertIn("er-code-language", js)
         self.assertIn("Documenter.MathJax()", make)
 
 

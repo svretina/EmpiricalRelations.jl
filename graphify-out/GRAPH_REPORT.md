@@ -1,11 +1,11 @@
 # Graph Report - .  (2026-10-23)
 
 ## Corpus Check
-- 14 files · ~2,438,253 words
+- 14 files · ~2,438,825 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 284 nodes · 500 edges · 29 communities detected
+- 292 nodes · 512 edges · 29 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -82,20 +82,20 @@ Cohesion: 0.13
 Nodes (3): read_csv(), ReferenceExtractionTests, StructuralParserTests
 
 ### Community 6 - "Community 6"
+Cohesion: 0.24
+Nodes (13): bibliography_by_arxiv(), code_examples(), coefficient_map(), convert(), fixed_mass_coefficients(), last_updated(), main(), Return complete generated BibTeX entries indexed by bare arXiv ID. (+5 more)
+
+### Community 7 - "Community 7"
 Cohesion: 0.35
 Nodes (10): abstract_text(), arxiv_id(), compact_work(), discover(), main(), now(), OpenAlex, relevant() (+2 more)
 
-### Community 7 - "Community 7"
+### Community 8 - "Community 8"
 Cohesion: 0.46
 Nodes (7): ads_citation(), fillbib_list(), fillbib_tex(), inspire_citation(), Generate a custom BiBTeX entry      * generate         if True we generate the B, test_ads(), test_inspire()
 
-### Community 8 - "Community 8"
+### Community 9 - "Community 9"
 Cohesion: 0.29
 Nodes (1): ExplorerGenerationTests
-
-### Community 9 - "Community 9"
-Cohesion: 0.52
-Nodes (6): convert(), last_updated(), main(), read_table(), scalar(), unique()
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -174,7 +174,7 @@ Cohesion: 1.0
 Nodes (1): Add journal dates from Crossref, reusing previously persisted enrichment.
 
 ## Knowledge Gaps
-- **40 isolated node(s):** `EmpiricalRelations`, `Test`, `Generate a custom BiBTeX entry      * generate         if True we generate the B`, `Return date in form YYYYMMDD`, `Compile .tex file with pdflatex (command str)` (+35 more)
+- **43 isolated node(s):** `EmpiricalRelations`, `Test`, `Generate a custom BiBTeX entry      * generate         if True we generate the B`, `Return date in form YYYYMMDD`, `Compile .tex file with pdflatex (command str)` (+38 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Community 11`** (2 nodes): `EmpiricalRelations`, `EmpiricalRelations.jl`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -217,7 +217,7 @@ Nodes (1): Add journal dates from Crossref, reusing previously persisted enrichm
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `EmpiricalRelations`, `Test`, `Generate a custom BiBTeX entry      * generate         if True we generate the B` to the rest of the system?**
-  _40 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _43 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 from collections import Counter
@@ -16,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 OUT = ROOT / "docs" / "src" / "assets" / "data"
 DOWNLOADS = ROOT / "docs" / "src" / "assets" / "downloads"
+BIBLIOGRAPHY = ROOT / "papers" / "bibliography.bib"
 
 FILES = {
     "waveforms": DATA / "waveforms.csv",
@@ -94,6 +96,86 @@ def last_updated() -> str:
         return "unknown"
 
 
+def bibliography_by_arxiv() -> dict[str, str]:
+    """Return complete generated BibTeX entries indexed by bare arXiv ID."""
+    content = BIBLIOGRAPHY.read_text(encoding="utf-8")
+    entries = re.findall(r"(?ms)^@\w+\{.*?^\}\s*$", content)
+    result = {}
+    for entry in entries:
+        match = re.search(r"(?m)^\s*eprint\s*=\s*\{([^}]+)\}", entry)
+        if match:
+            result[match.group(1).strip()] = entry.strip()
+    return result
+
+
+def coefficient_map(coefficients: list[dict]) -> dict[str, int | float]:
+    return {item["coefficient"]: item["value"] for item in coefficients}
+
+
+def fixed_mass_coefficients(equation: str) -> tuple[float, float, float]:
+    """Extract c0, c1, c2 from the reviewed fixed-mass quadratic expression."""
+    rhs = equation.strip().strip("$").split("=", 1)[1]
+    number = r"[+-]?\s*\d+(?:\.\d+)?(?:\s*\\times\s*10\^\{[+-]?\d+\})?"
+    constant = re.match(rf"\s*({number})", rhs)
+    variable_terms = re.findall(rf"({number})\s*(?=(?:\\left\s*\()?\s*(?:R_|\\Lambda))", rhs)
+    if constant is None or len(variable_terms) != 2:
+        raise ValueError(f"unable to parse fixed-mass relation: {equation}")
+
+    def numeric(token: str) -> float:
+        normalized = re.sub(r"\s+", "", token)
+        normalized = re.sub(r"\\times10\^\{([+-]?\d+)\}", r"e\1", normalized)
+        return float(normalized)
+
+    return numeric(constant.group(1)), numeric(variable_terms[0]), numeric(variable_terms[1])
+
+
+def code_examples(row: dict, coefficients: list[dict]) -> dict[str, str]:
+    """Build transparent, dependency-free Julia and Python implementations."""
+    family = row["family"]
+    values = coefficient_map(coefficients)
+    py_name = "empirical_relation"
+    jl_name = "empirical_relation"
+
+    def pair(arguments: str, expression: str, comment: str) -> dict[str, str]:
+        python_expression = expression.replace("^", "**")
+        return {
+            "python": f"def {py_name}({arguments}):\n    \"\"\"{comment}\"\"\"\n    return {python_expression}\n",
+            "julia": f'"""{comment}"""\nfunction {jl_name}({arguments})\n    return {expression}\nend\n',
+        }
+
+    if family == "frequency_from_radius":
+        v = values
+        expression = f"{v['b0']} + {v['b1']}*mchirp_msun + {v['b2']}*radius_km + {v['b3']}*mchirp_msun^2 + {v['b4']}*radius_km*mchirp_msun + {v['b5']}*radius_km^2"
+        return pair("mchirp_msun, radius_km", f"mchirp_msun * ({expression})", "Return the fitted frequency in kHz.")
+    if family == "radius_from_frequency":
+        v = values
+        ratio = "frequency_khz / mchirp_msun"
+        expression = f"{v['b0']} + {v['b1']}*mchirp_msun + {v['b2']}*({ratio}) + {v['b3']}*mchirp_msun^2 + {v['b4']}*frequency_khz + {v['b5']}*({ratio})^2"
+        return pair("mchirp_msun, frequency_khz", expression, "Return the fitted radius in km.")
+    if family in {"frequency_from_tidal_deformability", "secondary_frequency_from_tidal_deformability", "spiral_frequency_from_tidal_deformability"}:
+        v = values
+        expression = f"({v['b0']} + {v['b1']}*mchirp_msun + {v['b2']}*lambda_tilde^(-0.5)) / mchirp_msun"
+        return pair("mchirp_msun, lambda_tilde", expression, "Return the fitted frequency in kHz.")
+    if family == "tidal_coupling_rational_fit":
+        v = values
+        expression = f"{v['Q0']} * (1 + {v['n1']}*kappa2T + {v['n2']}*kappa2T^2) / (1 + {v['d1']}*kappa2T)"
+        return pair("kappa2T", expression, "Return the dimensionless fitted quantity.")
+    if family in {"merger_frequency_from_tidal_deformability", "postmerger_frequency_from_tidal_deformability"}:
+        prefix = "a" if family.startswith("merger_") else "c"
+        v = values
+        exponent = f"({v[prefix + '00']} + {v[prefix + '01']}*eta) + ({v[prefix + '10']} + {v[prefix + '11']}*eta)*lambda_tilde^(1/5)"
+        return pair("total_mass_msun, eta, lambda_tilde", f"10^({exponent}) / total_mass_msun", "Return the fitted frequency in Hz.")
+    if family == "F1_tidal_mass_ratio_frequency_fit":
+        v = values
+        exponent = f"{v['a0']} + ({v['b0']} + {v['b1']}*q + {v['b2']}*q^2)*kappa2T^{v['n']}"
+        return pair("total_mass_msun, q, kappa2T", f"10^({exponent}) / total_mass_msun", "Return the fitted frequency in Hz.")
+    if family == "fixed_mass_peak_frequency":
+        c0, c1, c2 = fixed_mass_coefficients(row["equation_latex"])
+        argument = "lambda_one_fifth" if "Lambda" in row["independent_variables"] else "radius_km"
+        return pair(argument, f"{c0} + {c1}*{argument} + {c2}*{argument}^2", "Return the fitted peak frequency in kHz.")
+    raise ValueError(f"no implementation template for relation family {family!r}")
+
+
 def main() -> None:
     loaded = {name: read_table(name) for name in FILES}
     rows = {name: value[1] for name, value in loaded.items()}
@@ -102,7 +184,10 @@ def main() -> None:
     unique(rows["sources"], "source_id", "source IDs")
     unique(rows["relations"], "relation_id", "relation IDs")
 
+    bibtex = bibliography_by_arxiv()
     sources = {row["source_id"]: convert("sources", row) for row in rows["sources"]}
+    for source in sources.values():
+        source["bibtex"] = bibtex.get(source["arxiv_id"])
     provenance = {}
     for row in rows["provenance"]:
         # Raw LaTeX is intentionally excluded from the compact browser payload.
@@ -134,6 +219,7 @@ def main() -> None:
         item = convert("relations", row)
         item["source"] = sources[row["source_id"]]
         item["coefficients"] = coefficient_groups.get(row["relation_id"], [])
+        item["code"] = code_examples(row, item["coefficients"])
         item["provenance"] = provenance.get(row["relation_id"], [])
         item["implementation_status"] = "catalogued"
         relation_records.append(item)

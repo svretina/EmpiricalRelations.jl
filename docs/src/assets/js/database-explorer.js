@@ -146,6 +146,20 @@
     anchor.click();
     URL.revokeObjectURL(anchor.href);
   };
+  const copyText = async (value, button) => {
+    try {
+      if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(value);
+      else {
+        const area = document.createElement("textarea");
+        area.value = value; area.style.position = "fixed"; area.style.opacity = "0";
+        document.body.appendChild(area); area.select(); document.execCommand("copy"); area.remove();
+      }
+      const original = button.textContent; button.textContent = "Copied";
+      window.setTimeout(() => { button.textContent = original; }, 1600);
+    } catch (_) {
+      button.textContent = "Copy failed";
+    }
+  };
   const sourceLabel = row => row.source ? `${row.source.authors.split(";")[0]} (${row.source.publication_year})` : row.source_id;
   const sourceLink = row => row.source && row.source.abstract_url ? `<a href="${escapeHTML(row.source.abstract_url)}">${escapeHTML(row.source.title)}</a>` : escapeHTML(row.source_id);
   const detailList = entries => `<dl class="er-detail-grid">${entries.filter(([, value]) => value !== null && value !== "").map(([label, value, valueIsHTML = false]) => `<dt>${fieldLabelHTML(label)}</dt><dd>${valueIsHTML ? value : escapeHTML(value)}</dd>`).join("")}</dl>`;
@@ -228,7 +242,13 @@
       const coefficients = row.coefficients.length ? row.coefficients.map(item => `<span class="er-chip">${escapeHTML(item.coefficient)} = ${escapeHTML(item.value)} (${escapeHTML(item.term)})</span>`).join("") : "<span class=\"er-missing\">No normalized coefficients</span>";
       const predicts = symbolHTML(row.dependent_variable);
       const fields = [["Relation ID", row.relation_id], ["Predicts", predicts, true], ["Independent variables", variablesHTML(row.independent_variables), true], ["Calibration population", row.calibration_population], ["Applicability", row.applicability], ["Adjusted R²", row.r_squared_adjusted], ["Maximum residual", row.max_residual], ["Mean residual", row.mean_residual], ["Residual σ", row.residual_std], ["Residual unit", row.residual_unit], ["Review status", row.review_status], ["Implementation", row.implementation_status], ["Notes", row.notes]];
-      dialog.querySelector(".er-dialog-body").innerHTML = `<h2>${symbolHTML(row.dependent_variable)} — ${escapeHTML(row.family)}</h2><h3>Published expression</h3><div class="er-equation">\\[${escapeHTML(equationLatex(row.equation_latex))}\\]</div><h3>Coefficients</h3><p>${coefficients}</p>${detailList(fields)}<h3>Original publication</h3><p>${sourceLink(row)}<br>${escapeHTML(row.source.authors || "")}</p>`;
+      const initialLanguage = "julia";
+      dialog.querySelector(".er-dialog-body").innerHTML = `<h2>${symbolHTML(row.dependent_variable)} — ${escapeHTML(row.family)}</h2><h3>Published expression</h3><div class="er-equation">\\[${escapeHTML(equationLatex(row.equation_latex))}\\]</div><h3>Coefficients</h3><p>${coefficients}</p>${detailList(fields)}<h3>Implementation</h3><div class="er-snippet-toolbar"><label>Language <select class="er-code-language"><option value="julia">Julia</option><option value="python">Python</option></select></label><button class="er-button er-copy-code" type="button">Copy code</button></div><pre class="er-code-block"><code>${escapeHTML(row.code[initialLanguage])}</code></pre><h3>Citation</h3><div class="er-snippet-toolbar"><span>BibTeX</span><button class="er-button er-copy-bibtex" type="button">Copy BibTeX</button></div><pre class="er-code-block er-bibtex"><code>${escapeHTML(row.source.bibtex)}</code></pre><h3>Original publication</h3><p>${sourceLink(row)}<br>${escapeHTML(row.source.authors || "")}</p>`;
+      const language = dialog.querySelector(".er-code-language");
+      const code = dialog.querySelector(".er-code-block code");
+      language.addEventListener("change", () => { code.textContent = row.code[language.value]; });
+      dialog.querySelector(".er-copy-code").addEventListener("click", event => copyText(row.code[language.value], event.currentTarget));
+      dialog.querySelector(".er-copy-bibtex").addEventListener("click", event => copyText(row.source.bibtex, event.currentTarget));
       dialog.showModal();
       typesetMath(dialog.querySelector(".er-dialog-body"));
     };
