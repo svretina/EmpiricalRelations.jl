@@ -76,9 +76,10 @@ The data model distinguishes:
 | Empirical relation | A published fitted mapping and its calibration metadata |
 | Predicted value | The result of evaluating a relation for selected inputs |
 
-Predictions are not inserted into missing measurement cells. Likewise, a relation in
-the catalogue is marked `catalogued` until a Julia implementation has been checked
-against the published expression, coefficients, units, and reference cases.
+Predictions are not inserted into missing measurement cells. Relations exposed by the
+Julia API are marked `implemented`; their expressions, coefficients, units, and source
+locations have been checked during catalogue review. The verification status records
+whether the evidence came from a coefficient table or from an equation and its context.
 
 ## Comparing relations
 
@@ -87,5 +88,6 @@ then inspect their calibration domains and residual definitions. A fit for a sta
 ``f_{\mathrm{peak}}`` cannot be compared directly with one for a merger-time or
 instantaneous frequency merely because both use the symbol ``f_2``. The
 [relations catalogue](../relations/catalogue.md) lists the definitions and calibration
-metadata used for this comparison. Extracted expressions are not evaluated by the web
-interface.
+metadata used for this comparison. The catalogue supplies copyable Julia and Python
+implementations, while the Julia API provides validated numerical evaluation and
+calibration-domain checks.

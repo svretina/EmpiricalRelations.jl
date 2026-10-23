@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import re
@@ -155,7 +156,7 @@ def domain(row: dict) -> tuple[str, list[str]]:
     return "NamedTuple()", [part.strip() for part in app.split(";") if part.strip()]
 
 
-def main() -> None:
+def generated_content() -> tuple[str, int]:
     with (ROOT / "data" / "relations" / "relations.csv").open(newline="") as handle:
         relations = list(csv.DictReader(handle))
     with (ROOT / "data" / "relations" / "coefficients.csv").open(newline="") as handle:
@@ -207,9 +208,33 @@ def main() -> None:
             "end",
             "",
         ])
+    return "\n".join(lines), len(relations)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Generate the Julia relation registry from reviewed CSV data."
+    )
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="fail if the committed registry differs from generated content",
+    )
+    args = parser.parse_args()
+
+    content, relation_count = generated_content()
     destination = ROOT / "src" / "GeneratedRegistry.jl"
-    destination.write_text("\n".join(lines))
-    print(f"Generated {destination.relative_to(ROOT)} with {len(relations)} relations.")
+    if args.check:
+        if not destination.exists() or destination.read_text() != content:
+            parser.error(
+                "src/GeneratedRegistry.jl is stale; run "
+                "python3 scripts/generate_julia_registry.py"
+            )
+        print(f"Verified {destination.relative_to(ROOT)} ({relation_count} relations).")
+        return
+
+    destination.write_text(content)
+    print(f"Generated {destination.relative_to(ROOT)} with {relation_count} relations.")
 
 
 if __name__ == "__main__":

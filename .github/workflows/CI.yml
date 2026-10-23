@@ -37,5 +37,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
       - uses: julia-actions/cache@v3
+      - name: Verify generated relation registry
+        run: python3 scripts/generate_julia_registry.py --check
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-runtest@v1

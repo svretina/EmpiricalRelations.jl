@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use EmpiricalRelations.jl, cite the software release and the original
+  publications for every empirical relation or measurement used.
+title: EmpiricalRelations.jl
+type: software
+version: 0.1.0
+authors:
+  - family-names: Vretinaris
+    given-names: Stamatis
+    email: svretina@gmail.com
+repository-code: https://github.com/svretina/EmpiricalRelations.jl
+url: https://svretina.github.io/EmpiricalRelations.jl/
+license: MIT
+abstract: >-
+  A Julia library and source-linked catalogue of published empirical relations
+  and numerical measurements for binary-neutron-star postmerger gravitational
+  waves.
+keywords:
+  - Julia
+  - gravitational waves
+  - binary neutron stars
+  - postmerger
+  - empirical relations
+  - equation of state

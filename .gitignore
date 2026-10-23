@@ -19,5 +19,8 @@ __pycache__/
 /docs/src/database/frequency_nomenclature.md
 /docs/src/database/schema.md
 
-# Local Graphify cache. The checked-in graph is not rebuilt as part of development.
-/graphify-out/cache/
+# Graphify output is not part of the project or its release archives.
+/graphify-out/
+
+# Documentation environments are resolved from docs/Project.toml in CI.
+/docs/Manifest.toml

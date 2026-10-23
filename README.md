@@ -157,4 +157,10 @@ before adding scientific records. Mark ambiguous notation as unresolved rather t
 assigning it to a normalized field. Cite the original publication for each reused
 measurement or relation and record the repository revision or release.
 
+Release-level citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+`bibtex(r)` returns the original publication that introduced a selected empirical
+relation; cite both that publication and the software release used in an analysis.
+The scope of the software license and third-party scientific material is described in
+[`DATA_NOTICE.md`](DATA_NOTICE.md).
+
 EmpiricalRelations.jl is distributed under the [MIT License](LICENSE).

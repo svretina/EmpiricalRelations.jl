@@ -1,9 +1,14 @@
 using EmpiricalRelations
+using Aqua
 using Test
 
 const VRETINARIS_FPEAK_R16 = Symbol("arxiv-1910-10856-frequency-from-radius-f-peak-khz-r1-6-all-masses")
 const BERNUZZI_EB = Symbol("arxiv-1504-01764-kappa2t-e-b-textmrg-2")
 const LIOUTAS_R14 = Symbol("arxiv-2102-12455-fpeak-colrule-vspace0-1cm-1-2-1-2-r-3")
+
+@testset "package quality" begin
+    Aqua.test_all(EmpiricalRelations)
+end
 
 @testset "registry and discovery" begin
     catalogue = relations()
@@ -26,6 +31,50 @@ const LIOUTAS_R14 = Symbol("arxiv-2102-12455-fpeak-colrule-vspace0-1cm-1-2-1-2-r
     @test relation(VRETINARIS_FPEAK_R16).id == RelationID(VRETINARIS_FPEAK_R16)
     @test_throws ArgumentError relation(:Vretinaris2020; quantity=:f_peak, inputs=[:M_chirp, :R_1_6])
     @test_throws ArgumentError relation(:UnknownPublication)
+end
+
+@testset "release catalogue integrity" begin
+    representative = Dict(
+        :M_chirp => 1.2,
+        :M_tot => 2.7,
+        :q => 0.9,
+        :eta => 0.24,
+        :Lambda_tilde => 400.0,
+        :kappa2T => 100.0,
+        :R_1_2 => 12.0,
+        :R_1_4 => 12.0,
+        :R_1_6 => 12.0,
+        :R_1_8 => 12.0,
+        :R_1_4_90 => 12.0,
+        :R_1_6_90 => 12.0,
+        :R_1_4_cc => 12.0,
+        :R_1_6_cc => 12.0,
+        :R_1_7 => 12.0,
+        :R_1_7_90 => 12.0,
+        :R_1_75 => 12.0,
+        :R_1_75_90 => 12.0,
+        :Lambda_1_2_one_fifth => 3.5,
+        :Lambda_1_35_one_fifth => 3.5,
+        :Lambda_1_4_one_fifth => 3.5,
+        :Lambda_1_6_one_fifth => 3.5,
+        :Lambda_1_7_one_fifth => 3.5,
+        :Lambda_1_75_one_fifth => 3.5,
+        :f_peak => 3.0,
+        :f_2_0 => 2.0,
+        :f_spiral => 2.5,
+    )
+
+    for spec in relations().entries
+        values = NamedTuple{spec.inputs}(Tuple(representative[name] for name in spec.inputs))
+        @test isfinite(evaluate(spec; values..., check_domain=false))
+        @test !isempty(source(spec).source_id)
+        @test !isempty(source(spec).source_path)
+        @test !isempty(source(spec).bibtex)
+        @test info(spec).verification_status in (
+            :verified_from_coefficient_table,
+            :verified_from_equation_and_context,
+        )
+    end
 end
 
 @testset "evaluation" begin

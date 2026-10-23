@@ -22,3 +22,9 @@ The machine-readable bibliography is maintained in
 and publication metadata are available in `sources.csv`. Record the repository release
 or commit used for an analysis; each documentation build also reports a checksum of the
 input tables.
+
+Machine-readable citation metadata for the package are maintained in
+[`CITATION.cff`](https://github.com/svretina/EmpiricalRelations.jl/blob/master/CITATION.cff).
+The package citation identifies the software implementation and database version; it
+does not replace citations to the publications from which individual relations and
+measurements originate.
