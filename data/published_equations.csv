@@ -1040,6 +1040,2094 @@ k=-3.61 C_\mathrm{max} + 2.44
 \end{equation}
 in the range $C_\mathrm{max} = \{0.243, 0.328\}$ of the EoS models shown in Tab.~\ref{tab1}
 (taking a first-order Taylor expansion around the mid-point $C_\mathrm{max} = 0.2852$).",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-eae04fe0437c,arxiv-1707-03368,arxiv_paper.tex,282,286,,"P_{cold} &= K_i \rho^{\Gamma_i}\\ 
+  \epsilon_{cold} &= \epsilon_i +
+  \frac{K_i}{\Gamma_i -1} \rho^{\Gamma_i - 1},","The cold part of the EOS is parametrized as a piecewise polytrope with
+7 pieces, following the prescription of
+ref. \cite{Read:2009constraints}:
+\begin{align}
+  P_{cold} &= K_i \rho^{\Gamma_i}\\ 
+  \epsilon_{cold} &= \epsilon_i +
+  \frac{K_i}{\Gamma_i -1} \rho^{\Gamma_i - 1},
+\end{align}
+where $\epsilon_i$ and $K_i$ are fixed imposing the continuity of the
+zero-temperature pressure and the specific energy density ($P_{cold}$
+and $\epsilon_{cold}$ respectively), starting from $K_0$, $\epsilon_0
+= 0$ and the (zero-temperature) pressure value at the fixed density
+$10^{14.7} g/cm^3$. The four lowest-density pieces are common to all
+the adopted EOS, and are taken from the SLy EOS \cite{Douchin00}.  The
+three high density pieces, instead, differ for the four EOS models we
+compared (two nuclear many-body EOSs, SLy \cite{Douchin01} and APR4
+\cite{Akmal:1998cf}, and two relativistic mean-filed EOSs, H4
+\cite{Lackey:2005tk} and MS1 \cite{Muller:1995ji}). All the
+EOS-specific parameters are reported in table \ref{tab:eos}. During
+the evolution, the cold EOS is supplemented by an ideal-fluid thermal
+component, to ensure thermodynamic consistency in the presence of
+shocks. It takes the form of a $\Gamma$-law, with the choice
+$\Gamma_{th} = 1.8$ \cite{bauswein:2010testing}.
+\begin{equation}
+  P_{th} = \Gamma_{th} \rho (\epsilon - \epsilon_{cold}).
+\end{equation}",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-83ae54f7095e,arxiv-1707-03368,arxiv_paper.tex,302,304,,P_{th} = \Gamma_{th} \rho (\epsilon - \epsilon_{cold}).,"The cold part of the EOS is parametrized as a piecewise polytrope with
+7 pieces, following the prescription of
+ref. \cite{Read:2009constraints}:
+\begin{align}
+  P_{cold} &= K_i \rho^{\Gamma_i}\\ 
+  \epsilon_{cold} &= \epsilon_i +
+  \frac{K_i}{\Gamma_i -1} \rho^{\Gamma_i - 1},
+\end{align}
+where $\epsilon_i$ and $K_i$ are fixed imposing the continuity of the
+zero-temperature pressure and the specific energy density ($P_{cold}$
+and $\epsilon_{cold}$ respectively), starting from $K_0$, $\epsilon_0
+= 0$ and the (zero-temperature) pressure value at the fixed density
+$10^{14.7} g/cm^3$. The four lowest-density pieces are common to all
+the adopted EOS, and are taken from the SLy EOS \cite{Douchin00}.  The
+three high density pieces, instead, differ for the four EOS models we
+compared (two nuclear many-body EOSs, SLy \cite{Douchin01} and APR4
+\cite{Akmal:1998cf}, and two relativistic mean-filed EOSs, H4
+\cite{Lackey:2005tk} and MS1 \cite{Muller:1995ji}). All the
+EOS-specific parameters are reported in table \ref{tab:eos}. During
+the evolution, the cold EOS is supplemented by an ideal-fluid thermal
+component, to ensure thermodynamic consistency in the presence of
+shocks. It takes the form of a $\Gamma$-law, with the choice
+$\Gamma_{th} = 1.8$ \cite{bauswein:2010testing}.
+\begin{equation}
+  P_{th} = \Gamma_{th} \rho (\epsilon - \epsilon_{cold}).
+\end{equation}",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-75abed5727fd,arxiv-1707-03368,arxiv_paper.tex,345,347,eq:psi4,"\Psi_4 = \ddot{h}_+ - i \ddot{h}_{\times},","\subsection{Gravitational waves extraction}
+During the simulations the GW signal is extracted
+computing the Newman-Penrose scalar $\Psi_4$
+\cite{Newman:1961qr,Baker:2001sf} (using the code module
+\codename{WeylScalar4}), which is linked to the GW
+strain by the following relation, valid only at spatial infinity:
+\begin{equation}
+  \Psi_4 = \ddot{h}_+ - i \ddot{h}_{\times}, \label{eq:psi4}
+\end{equation}
+where $h_+$ and $h_{\times}$ are the two polarizations of the complex
+GW strain $h = h_+ i h_{\times}$. The signal is then
+decomposed in spin-weighted spherical harmonics of weight $(-2)$
+\cite{Thorne:1980ru} (by the module \codename{Multipole}):
+\begin{equation}
+ \psi_4(t,r,\theta,\phi)  = 
+ \sum_{l=2}^{\infty} {\sum_{m=-l}^{l} {\psi_4^{lm}(t,r)\ {{}_{-2}\!}{Y}_{lm}(\theta,\phi)}}.
+\end{equation}
+Since in this work we only focus on the dominant $l = m = 2$ mode,
+we will identify $h = h_{2,2}$ for the rest of this paper. In order to
+get the GW strain form $\Psi_4$ and minimizing the
+extraction errors, one has to extrapolate the signal
+extracted within the simulation at finite distance from the source to infinity,
+in order for eq. (\ref{eq:psi4}) to be valid. Then, the extrapolated $\Psi_4$
+is integrated twice in time, employing an appropriate
+technique to reduce the amplitude oscillations caused by
+high-frequency noise aliased in the low-frequency signal and amplified
+by the double integration process~\cite{Reisswig:2011notes}. We
+adopted the procedure developed and extensively discussed in
+ref. \cite{Maione:2016zqz}: first, $\Psi_4$ is extrapolated
+to spatial infinity using the second order perturbative correction of
+Nakano and collaborators~\cite{Nakano:2015perturbative}:
+\begin{align}
+  r\psi_4^{lm}(t_\mathrm{ret})\left|_{r=\infty}\right. 
+  & =\ \left( 1-\frac{2M}{r}\right) \bigg( r\ddot{\bar{h}}(t_\mathrm{ret},r) + \label{eq:extrap}\\
+  & - \ \frac{(l-1)(l+2)}{2r} \dot{\bar{h}}(t_\mathrm{ret},r)\            \notag \\
+  & + \ \frac{(l-1)(l+2)(l^2+l-4)}{8r^2} \bar{h}(t_\mathrm{ret},r)\bigg). \notag
+\end{align}
+Both the GW strains at finite radius, which are
+present in eq. (\ref{eq:extrap}), and the final extrapolated strain are
+computed first by integrating the Newman-Penrose
+scalar twice in time with a simple trapezoid rule, starting from zero coordinate
+time, and fixing only the two physically meaningful integration
+constants $Q_0$ and $Q_1$ by subtracting a linear fit
+of itself from the signal:
+\begin{align}
+ \bar{h}^{(0)}_{lm}\ &=\ \int_{0}^t{dt' \int_{0}^{t'}{dt'' \psi_4^{lm}(t'',r)}} \label{eq:time_int}\\
+\bar{h}_{lm}\ &=\ \bar{h}^{(0)}_{lm}\ -\ Q_1 t\ -\ Q_0.\label{eq:fit_int}
+\end{align}
+Only after the integration, a digital high-pass
+Butterworth filter is applied, designed to have a maximum amplitude reduction of
+$0.01$~dB at the initial GW frequency $f_{t_0}$ (assumed to be two times
+the initial orbital angular velocity, as reported by the LORENE code),
+and an amplitude reduction of $80$~dB at frequency $0.1 f_{t_0}$.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-f0382d4591f3,arxiv-1707-03368,arxiv_paper.tex,352,355,,"\psi_4(t,r,\theta,\phi)  = 
+ \sum_{l=2}^{\infty} {\sum_{m=-l}^{l} {\psi_4^{lm}(t,r)\ {{}_{-2}\!}{Y}_{lm}(\theta,\phi)}}.","\subsection{Gravitational waves extraction}
+During the simulations the GW signal is extracted
+computing the Newman-Penrose scalar $\Psi_4$
+\cite{Newman:1961qr,Baker:2001sf} (using the code module
+\codename{WeylScalar4}), which is linked to the GW
+strain by the following relation, valid only at spatial infinity:
+\begin{equation}
+  \Psi_4 = \ddot{h}_+ - i \ddot{h}_{\times}, \label{eq:psi4}
+\end{equation}
+where $h_+$ and $h_{\times}$ are the two polarizations of the complex
+GW strain $h = h_+ i h_{\times}$. The signal is then
+decomposed in spin-weighted spherical harmonics of weight $(-2)$
+\cite{Thorne:1980ru} (by the module \codename{Multipole}):
+\begin{equation}
+ \psi_4(t,r,\theta,\phi)  = 
+ \sum_{l=2}^{\infty} {\sum_{m=-l}^{l} {\psi_4^{lm}(t,r)\ {{}_{-2}\!}{Y}_{lm}(\theta,\phi)}}.
+\end{equation}
+Since in this work we only focus on the dominant $l = m = 2$ mode,
+we will identify $h = h_{2,2}$ for the rest of this paper. In order to
+get the GW strain form $\Psi_4$ and minimizing the
+extraction errors, one has to extrapolate the signal
+extracted within the simulation at finite distance from the source to infinity,
+in order for eq. (\ref{eq:psi4}) to be valid. Then, the extrapolated $\Psi_4$
+is integrated twice in time, employing an appropriate
+technique to reduce the amplitude oscillations caused by
+high-frequency noise aliased in the low-frequency signal and amplified
+by the double integration process~\cite{Reisswig:2011notes}. We
+adopted the procedure developed and extensively discussed in
+ref. \cite{Maione:2016zqz}: first, $\Psi_4$ is extrapolated
+to spatial infinity using the second order perturbative correction of
+Nakano and collaborators~\cite{Nakano:2015perturbative}:
+\begin{align}
+  r\psi_4^{lm}(t_\mathrm{ret})\left|_{r=\infty}\right. 
+  & =\ \left( 1-\frac{2M}{r}\right) \bigg( r\ddot{\bar{h}}(t_\mathrm{ret},r) + \label{eq:extrap}\\
+  & - \ \frac{(l-1)(l+2)}{2r} \dot{\bar{h}}(t_\mathrm{ret},r)\            \notag \\
+  & + \ \frac{(l-1)(l+2)(l^2+l-4)}{8r^2} \bar{h}(t_\mathrm{ret},r)\bigg). \notag
+\end{align}
+Both the GW strains at finite radius, which are
+present in eq. (\ref{eq:extrap}), and the final extrapolated strain are
+computed first by integrating the Newman-Penrose
+scalar twice in time with a simple trapezoid rule, starting from zero coordinate
+time, and fixing only the two physically meaningful integration
+constants $Q_0$ and $Q_1$ by subtracting a linear fit
+of itself from the signal:
+\begin{align}
+ \bar{h}^{(0)}_{lm}\ &=\ \int_{0}^t{dt' \int_{0}^{t'}{dt'' \psi_4^{lm}(t'',r)}} \label{eq:time_int}\\
+\bar{h}_{lm}\ &=\ \bar{h}^{(0)}_{lm}\ -\ Q_1 t\ -\ Q_0.\label{eq:fit_int}
+\end{align}
+Only after the integration, a digital high-pass
+Butterworth filter is applied, designed to have a maximum amplitude reduction of
+$0.01$~dB at the initial GW frequency $f_{t_0}$ (assumed to be two times
+the initial orbital angular velocity, as reported by the LORENE code),
+and an amplitude reduction of $80$~dB at frequency $0.1 f_{t_0}$.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-a9bae9a4868d,arxiv-1707-03368,arxiv_paper.tex,370,375,eq:extrap,"r\psi_4^{lm}(t_\mathrm{ret})\left|_{r=\infty}\right. 
+  & =\ \left( 1-\frac{2M}{r}\right) \bigg( r\ddot{\bar{h}}(t_\mathrm{ret},r) + \\
+  & - \ \frac{(l-1)(l+2)}{2r} \dot{\bar{h}}(t_\mathrm{ret},r)\            \notag \\
+  & + \ \frac{(l-1)(l+2)(l^2+l-4)}{8r^2} \bar{h}(t_\mathrm{ret},r)\bigg). \notag","\subsection{Gravitational waves extraction}
+During the simulations the GW signal is extracted
+computing the Newman-Penrose scalar $\Psi_4$
+\cite{Newman:1961qr,Baker:2001sf} (using the code module
+\codename{WeylScalar4}), which is linked to the GW
+strain by the following relation, valid only at spatial infinity:
+\begin{equation}
+  \Psi_4 = \ddot{h}_+ - i \ddot{h}_{\times}, \label{eq:psi4}
+\end{equation}
+where $h_+$ and $h_{\times}$ are the two polarizations of the complex
+GW strain $h = h_+ i h_{\times}$. The signal is then
+decomposed in spin-weighted spherical harmonics of weight $(-2)$
+\cite{Thorne:1980ru} (by the module \codename{Multipole}):
+\begin{equation}
+ \psi_4(t,r,\theta,\phi)  = 
+ \sum_{l=2}^{\infty} {\sum_{m=-l}^{l} {\psi_4^{lm}(t,r)\ {{}_{-2}\!}{Y}_{lm}(\theta,\phi)}}.
+\end{equation}
+Since in this work we only focus on the dominant $l = m = 2$ mode,
+we will identify $h = h_{2,2}$ for the rest of this paper. In order to
+get the GW strain form $\Psi_4$ and minimizing the
+extraction errors, one has to extrapolate the signal
+extracted within the simulation at finite distance from the source to infinity,
+in order for eq. (\ref{eq:psi4}) to be valid. Then, the extrapolated $\Psi_4$
+is integrated twice in time, employing an appropriate
+technique to reduce the amplitude oscillations caused by
+high-frequency noise aliased in the low-frequency signal and amplified
+by the double integration process~\cite{Reisswig:2011notes}. We
+adopted the procedure developed and extensively discussed in
+ref. \cite{Maione:2016zqz}: first, $\Psi_4$ is extrapolated
+to spatial infinity using the second order perturbative correction of
+Nakano and collaborators~\cite{Nakano:2015perturbative}:
+\begin{align}
+  r\psi_4^{lm}(t_\mathrm{ret})\left|_{r=\infty}\right. 
+  & =\ \left( 1-\frac{2M}{r}\right) \bigg( r\ddot{\bar{h}}(t_\mathrm{ret},r) + \label{eq:extrap}\\
+  & - \ \frac{(l-1)(l+2)}{2r} \dot{\bar{h}}(t_\mathrm{ret},r)\            \notag \\
+  & + \ \frac{(l-1)(l+2)(l^2+l-4)}{8r^2} \bar{h}(t_\mathrm{ret},r)\bigg). \notag
+\end{align}
+Both the GW strains at finite radius, which are
+present in eq. (\ref{eq:extrap}), and the final extrapolated strain are
+computed first by integrating the Newman-Penrose
+scalar twice in time with a simple trapezoid rule, starting from zero coordinate
+time, and fixing only the two physically meaningful integration
+constants $Q_0$ and $Q_1$ by subtracting a linear fit
+of itself from the signal:
+\begin{align}
+ \bar{h}^{(0)}_{lm}\ &=\ \int_{0}^t{dt' \int_{0}^{t'}{dt'' \psi_4^{lm}(t'',r)}} \label{eq:time_int}\\
+\bar{h}_{lm}\ &=\ \bar{h}^{(0)}_{lm}\ -\ Q_1 t\ -\ Q_0.\label{eq:fit_int}
+\end{align}
+Only after the integration, a digital high-pass
+Butterworth filter is applied, designed to have a maximum amplitude reduction of
+$0.01$~dB at the initial GW frequency $f_{t_0}$ (assumed to be two times
+the initial orbital angular velocity, as reported by the LORENE code),
+and an amplitude reduction of $80$~dB at frequency $0.1 f_{t_0}$.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-0ce144f4c69b,arxiv-1707-03368,arxiv_paper.tex,383,386,eq:time_int,"\bar{h}^{(0)}_{lm}\ &=\ \int_{0}^t{dt' \int_{0}^{t'}{dt'' \psi_4^{lm}(t'',r)}} \\
+\bar{h}_{lm}\ &=\ \bar{h}^{(0)}_{lm}\ -\ Q_1 t\ -\ Q_0.","\subsection{Gravitational waves extraction}
+During the simulations the GW signal is extracted
+computing the Newman-Penrose scalar $\Psi_4$
+\cite{Newman:1961qr,Baker:2001sf} (using the code module
+\codename{WeylScalar4}), which is linked to the GW
+strain by the following relation, valid only at spatial infinity:
+\begin{equation}
+  \Psi_4 = \ddot{h}_+ - i \ddot{h}_{\times}, \label{eq:psi4}
+\end{equation}
+where $h_+$ and $h_{\times}$ are the two polarizations of the complex
+GW strain $h = h_+ i h_{\times}$. The signal is then
+decomposed in spin-weighted spherical harmonics of weight $(-2)$
+\cite{Thorne:1980ru} (by the module \codename{Multipole}):
+\begin{equation}
+ \psi_4(t,r,\theta,\phi)  = 
+ \sum_{l=2}^{\infty} {\sum_{m=-l}^{l} {\psi_4^{lm}(t,r)\ {{}_{-2}\!}{Y}_{lm}(\theta,\phi)}}.
+\end{equation}
+Since in this work we only focus on the dominant $l = m = 2$ mode,
+we will identify $h = h_{2,2}$ for the rest of this paper. In order to
+get the GW strain form $\Psi_4$ and minimizing the
+extraction errors, one has to extrapolate the signal
+extracted within the simulation at finite distance from the source to infinity,
+in order for eq. (\ref{eq:psi4}) to be valid. Then, the extrapolated $\Psi_4$
+is integrated twice in time, employing an appropriate
+technique to reduce the amplitude oscillations caused by
+high-frequency noise aliased in the low-frequency signal and amplified
+by the double integration process~\cite{Reisswig:2011notes}. We
+adopted the procedure developed and extensively discussed in
+ref. \cite{Maione:2016zqz}: first, $\Psi_4$ is extrapolated
+to spatial infinity using the second order perturbative correction of
+Nakano and collaborators~\cite{Nakano:2015perturbative}:
+\begin{align}
+  r\psi_4^{lm}(t_\mathrm{ret})\left|_{r=\infty}\right. 
+  & =\ \left( 1-\frac{2M}{r}\right) \bigg( r\ddot{\bar{h}}(t_\mathrm{ret},r) + \label{eq:extrap}\\
+  & - \ \frac{(l-1)(l+2)}{2r} \dot{\bar{h}}(t_\mathrm{ret},r)\            \notag \\
+  & + \ \frac{(l-1)(l+2)(l^2+l-4)}{8r^2} \bar{h}(t_\mathrm{ret},r)\bigg). \notag
+\end{align}
+Both the GW strains at finite radius, which are
+present in eq. (\ref{eq:extrap}), and the final extrapolated strain are
+computed first by integrating the Newman-Penrose
+scalar twice in time with a simple trapezoid rule, starting from zero coordinate
+time, and fixing only the two physically meaningful integration
+constants $Q_0$ and $Q_1$ by subtracting a linear fit
+of itself from the signal:
+\begin{align}
+ \bar{h}^{(0)}_{lm}\ &=\ \int_{0}^t{dt' \int_{0}^{t'}{dt'' \psi_4^{lm}(t'',r)}} \label{eq:time_int}\\
+\bar{h}_{lm}\ &=\ \bar{h}^{(0)}_{lm}\ -\ Q_1 t\ -\ Q_0.\label{eq:fit_int}
+\end{align}
+Only after the integration, a digital high-pass
+Butterworth filter is applied, designed to have a maximum amplitude reduction of
+$0.01$~dB at the initial GW frequency $f_{t_0}$ (assumed to be two times
+the initial orbital angular velocity, as reported by the LORENE code),
+and an amplitude reduction of $80$~dB at frequency $0.1 f_{t_0}$.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-743bb8a3d958,arxiv-1707-03368,arxiv_paper.tex,395,398,,"t_\mathrm{ret} &= t - R^*\\
+  R^* &= R + 2M_\mathrm{ADM} \log\left(\frac{R}{2M_\mathrm{ADM}} - 1\right).\notag","All the GW related information will be reported in
+function of the retarded time
+\begin{align}
+  t_\mathrm{ret} &= t - R^*\\
+  R^* &= R + 2M_\mathrm{ADM} \log\left(\frac{R}{2M_\mathrm{ADM}} - 1\right).\notag 
+\end{align}
+From the GW strain obtained with the aforementioned procedure, 
+we arrive at the GW amplitude spectral density $\abs{\tilde{h}(f)}f^{1/2}$, 
+which is the physical observable we are focusing on in the analysis presented in this work, with:
+\begin{equation}
+\abs{\tilde{h}(f)} = \sqrt{\frac{\abs{\tilde{h}_+(f)}^2 + \abs{\tilde{h}_{\times}}^2}{2}}, \label{eq:fft}
+\end{equation}
+where $\tilde{h}(f)$ is the Fourier transform of the complex GW strain:
+\begin{equation}
+\tilde{h}(f) = \int_{t_i}^{t^f}{h(t)e^{-2\pi \i ft} dt}.
+\end{equation}",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-f8be5dddfc3d,arxiv-1707-03368,arxiv_paper.tex,402,404,eq:fft,"\abs{\tilde{h}(f)} = \sqrt{\frac{\abs{\tilde{h}_+(f)}^2 + \abs{\tilde{h}_{\times}}^2}{2}},","All the GW related information will be reported in
+function of the retarded time
+\begin{align}
+  t_\mathrm{ret} &= t - R^*\\
+  R^* &= R + 2M_\mathrm{ADM} \log\left(\frac{R}{2M_\mathrm{ADM}} - 1\right).\notag 
+\end{align}
+From the GW strain obtained with the aforementioned procedure, 
+we arrive at the GW amplitude spectral density $\abs{\tilde{h}(f)}f^{1/2}$, 
+which is the physical observable we are focusing on in the analysis presented in this work, with:
+\begin{equation}
+\abs{\tilde{h}(f)} = \sqrt{\frac{\abs{\tilde{h}_+(f)}^2 + \abs{\tilde{h}_{\times}}^2}{2}}, \label{eq:fft}
+\end{equation}
+where $\tilde{h}(f)$ is the Fourier transform of the complex GW strain:
+\begin{equation}
+\tilde{h}(f) = \int_{t_i}^{t^f}{h(t)e^{-2\pi \i ft} dt}.
+\end{equation}",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-53df0f67529e,arxiv-1707-03368,arxiv_paper.tex,406,408,,\tilde{h}(f) = \int_{t_i}^{t^f}{h(t)e^{-2\pi \i ft} dt}.,"All the GW related information will be reported in
+function of the retarded time
+\begin{align}
+  t_\mathrm{ret} &= t - R^*\\
+  R^* &= R + 2M_\mathrm{ADM} \log\left(\frac{R}{2M_\mathrm{ADM}} - 1\right).\notag 
+\end{align}
+From the GW strain obtained with the aforementioned procedure, 
+we arrive at the GW amplitude spectral density $\abs{\tilde{h}(f)}f^{1/2}$, 
+which is the physical observable we are focusing on in the analysis presented in this work, with:
+\begin{equation}
+\abs{\tilde{h}(f)} = \sqrt{\frac{\abs{\tilde{h}_+(f)}^2 + \abs{\tilde{h}_{\times}}^2}{2}}, \label{eq:fft}
+\end{equation}
+where $\tilde{h}(f)$ is the Fourier transform of the complex GW strain:
+\begin{equation}
+\tilde{h}(f) = \int_{t_i}^{t^f}{h(t)e^{-2\pi \i ft} dt}.
+\end{equation}",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-2fed769811f3,arxiv-1707-03368,arxiv_paper.tex,986,989,eq:prony,"h[n] = \sum_{k=1}^{M}{A_k e^{(-\frac{1}{\tau_k} + 2\pi i f_k ) T\; n  + i \phi_k}} =
+\sum_{k=1}^M{c_k z_k^{n}},","\subsection{Analyzing the postmerger GW spectrum with the Prony method}
+\label{sec:prony}
+Fourier spectrograms are a very informative technique, but they have
+also some known drawbacks:
+\begin{itemize}
+\item They consider only the modulus of the GW strain,
+  not the full complex number;
+\item They do not allow extraction of information about the excited mode
+  damping times, nor do they indicate whether the modes are growing or vanishing in
+  a particular time interval;
+  \item Their accuracy in time and frequency is limited by the
+    bandwidth theorem.
+\end{itemize}
+All these shortcomings can be overcome by a complementary analysis
+which fits the time domain signal to
+a sum of complex exponentials. These can, at each sampled point $n \in
+\sq{1,N}$, be expressed as ($T$ is the sampling time) :
+\begin{equation}
+h[n] = \sum_{k=1}^{M}{A_k e^{(-\frac{1}{\tau_k} + 2\pi i f_k ) T\; n  + i \phi_k}} =
+\sum_{k=1}^M{c_k z_k^{n}}, \label{eq:prony}
+\end{equation}
+where $M$ is the number of signal components, which \textit{a priori}
+could be unknown. Retrieving the same
+number of excited modes with the same frequencies using this technique
+and using a Fourier spectrum would be a confirmation
+that the postmerger GW signal is indeed the superposition
+of different exponentially-decaying excited modes.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-c7a50af54415,arxiv-1707-03368,arxiv_paper.tex,1024,1049,eq:Vandermonde,"\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-e32cbc2a9d36,arxiv-1707-03368,arxiv_paper.tex,1057,1060,eq:pronypoly,"p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C},","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-0580cde80d33,arxiv-1707-03368,arxiv_paper.tex,1064,1069,,"&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-29e929ac11fa,arxiv-1707-03368,arxiv_paper.tex,1072,1074,,"\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-5de8197d7649,arxiv-1707-03368,arxiv_paper.tex,1077,1102,eq:hankel,"\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-05038df5e314,arxiv-1707-03368,arxiv_paper.tex,1107,1117,,"H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-4c0a265fcf8e,arxiv-1707-03368,arxiv_paper.tex,1123,1132,eq:companion,"&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-a886dc69bcf6,arxiv-1707-03368,arxiv_paper.tex,1134,1144,,"C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-e73321a40063,arxiv-1707-03368,arxiv_paper.tex,1146,1153,,"V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).","Prony's original method was developed to fit a noiseless signal of
+$N=2M$ samples. Its starting point was rewriting eq. (\ref{eq:prony}) 
+as a Vandermonde linear system:
+\begin{eqnarray}
+\left(
+  \begin{array}{cccc}
+ z_1^0 & z_2^0 & \cdots & z_{M}^0\\
+ z_1^1 & z_2^1 & \cdots & z_{M}^1\\
+  \vdots & \vdots & \ddots & \vdots\\
+  z_1^{M\text{-}1} &z_2^{M\text{-}1}&\cdots&z_{M}^{M\text{-}1}
+  \end{array}
+\right) \left(
+\begin{array}{c}
+c_1 \\
+c_2\\
+\vdots \\
+c_{M}\\
+\end{array}
+\right)
+= \left(
+\begin{array}{c}
+h[0] \\
+h[1]\\
+\vdots \\
+h[\mbox{M\text{-}1}]\\
+\end{array}
+\right)
+{}\,.\label{eq:Vandermonde}
+\end{eqnarray}
+The goal of Prony's method is to find in an independent way a
+solution for the complex exponentials $z_k$, which give the
+frequencies and the damping times of the signal components. Once they
+are known, one can solve system~\ref{eq:Vandermonde} with standard
+techniques, to get also the amplitudes and the phases encoded in the
+coefficients $c_k$. The starting point is to construct an M-grade
+polynomial, whose zeros are the first M $z_k$:
+\begin{equation}
+p(z) = \prod_{k=1}^{M}{(z - z_k)} = \sum_{k=0}^{M-1}{a_k z^k} + z^M,
+z\in \mathcal{C}, \label{eq:pronypoly}
+\end{equation}
+where the coefficient $a_M$ has been arbitrarily set to one. Starting
+from these \textit{Prony polynomials}, one can find the following
+relation, for each $m \in \mathcal{N}^*$:
+\begin{align}
+&\sum_{k=0}^{M}{a_k h[k+m]}\ =\ \sum_{k=0}^M{a_k \rnd{\sum_{j=1}^M{c_j
+      z_j^{k+m}}}} = \notag \\ &= \sum_{j=1}^M{c_j z_j^m
+  \rnd{\sum_{k=0}^M{a_k z_j^k}}}\ =\ \sum_{j=1}^M{c_j z_j^m p(z_j)}
+\ =\ 0.
+\end{align} 
+Using the sampled values of the signal $h[k],\ k\in [0,2M-1]$, this
+can be translated in a forward linear prediction system:
+\begin{equation}
+\sum_{k=0}^{M-1}{a_k h[k+m]}\ =\ -h[M+m], m \in [0,M-1],
+\end{equation}
+which, in matrix form, becomes:
+\begin{widetext}
+\begin{eqnarray}
+\left(
+  \begin{array}{ccccc}
+ h[0] & h[1] & \cdots & h[M-1]\\
+ h[1] & h[2] & \cdots & h[M]\\
+  \vdots & \vdots & \ddots & \vdots                   \\
+ h[M-1] &h[M]&\cdots&h[2M-2]
+  \end{array}
+\right) \left(
+\begin{array}{c}
+a[0] \\
+a[1]\\
+\vdots \\
+a[M-1]\\
+\end{array}
+\right)
+=- \left(
+\begin{array}{c}
+h[M] \\
+h[M+1]\\
+\vdots \\
+h[2M-1]\\
+\end{array}
+\right)
+{}\,.\label{eq:hankel}
+\end{eqnarray}
+\end{widetext}
+In order to fit a sample with noise and $N > 2M$
+points, where $M$ is not known a priori, in the ESPRIT Prony technique, the starting point is
+building the rectangular Hankel matrix
+\begin{equation}
+H(0) = 
+\left(
+\begin{array}{cccc}
+h[0] & h[1] & \cdots & h[L] \\
+h[1] & h[2] & \cdots & h[L+1]\\
+\vdots & \vdots & & \vdots\\
+h[N\text{-}L\text{-}1] & h[N\text{-}L] & \cdots & h[N\text{-}1]
+\end{array}
+\right)
+\end{equation}
+and the closely related matrix $H_{N-L,L}(1)$, which is obtained from
+$H_{N-L,L}(0)$ by removing the first column and adding a $N-L$ vector of
+zeros as the last column. Following from eq.~(\ref{eq:hankel}), an
+\textit{extended companion matrix} $C_{L+1}$ can be constructed, which
+allows one to transform $H_{N-L,L}(0)$ in $H_{N-L,L+1}(1)$:
+\begin{align}
+&H_{N-L,L+1}(0)C_{L+1} = H_{N-L,L+1}(1) \label{eq:companion}\\
+&C_{L+1} = 
+\left(
+\begin{array}{cc}
+C_M(a) & \mathbf{0}_{M,L+1-M}\\
+\mathbf{0}_{L+1-M,M} & V_{L+1-M}
+\end{array}
+\right),
+\end{align}
+where $C(M)$ is the companion matrix in the original Prony method:
+\begin{equation}
+C_M(a)\ =\ \left(
+\begin{array}{ccccc}
+0 & 0 & \cdots & 0 & -a_0 \\
+1 & 0 & \cdots & 0 & -a_1 \\
+0 & 1 & \cdots & 0 & -a_2 \\
+\vdots & \vdots & & \vdots & \vdots\\
+0 & 0 & \cdots & 1 & -a_{M-1}
+\end{array}
+\right)
+\end{equation}
+and the bottom-right block is given by:
+\begin{equation}
+V_{L+1-M}\ =\ \left(
+\begin{array}{cc}
+\mathbf{0}_{1,L-M} & 0\\
+I_{L-M} & \mathbf{0}_{L-M,1}
+\end{array}
+\right).
+\end{equation}
+The key of this method is the fact that the companion matrix $C_M$ has
+the M complex numbers $z_j,\ j\in [1,M]$ as eigenvalues. Note that in
+a noiseless sample, its extended version $C_{L+1}$ has the same $M$
+eigenvalues, plus $L+1-M$ additional eigenvalues which are
+zero. Therefore, the technique focuses on finding the $M$ significant
+eigenvalues of $C_{L+1}$ by discriminating them from the eigenvalues due
+to noise.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-90afbfc5020a,arxiv-1707-03368,arxiv_paper.tex,1165,1168,,"&H_{N-L,L+1} = U_{N-L} S_{N-L,L+1} W_{L+1} \\
+&H_{N-L,L+1}(1) = U_{N-L} S_{N-L,L+1} W_{L+1}(1),","As in many other Prony-like techniques, this is done by performing a
+singular value decomposition (SVD) of the Hankel matrix and the
+closely related matrix $H(1)$:
+\begin{align}
+&H_{N-L,L+1} = U_{N-L} S_{N-L,L+1} W_{L+1} \\
+&H_{N-L,L+1}(1) = U_{N-L} S_{N-L,L+1} W_{L+1}(1), 
+\end{align}
+where $U$ and $W$ are unitary matrices and $S$ is a rectangular
+diagonal matrix, whose nonzero values $\sigma_i, i \in [1,L+1]$ are
+called the \textit{singular values} of the Hankel matrix, arranged in
+a non increasing order. $W(1)$ is, by construction of the Hankel
+matrices, built from $W$ by removing the first column and adding a last
+column filled with zeros. For noiseless data, only $M$ singular values
+are nonzero. For data with noise instead, it is possible to define a
+threshold $\epsilon$ depending on the desired accuracy (which depends
+also on the input data accuracy), in order to find \textit{a posteriori}
+the number $M$ of complex exponential components
+present in the signal, requiring
+\begin{equation}
+\frac{\sigma_M}{\sigma_1} \geq \epsilon. \label{eq:Mcondition}
+\end{equation}
+In the present case, we have chosen $\epsilon = 10^{-2}$.",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-a0f868611240,arxiv-1707-03368,arxiv_paper.tex,1180,1182,eq:Mcondition,\frac{\sigma_M}{\sigma_1} \geq \epsilon.,"As in many other Prony-like techniques, this is done by performing a
+singular value decomposition (SVD) of the Hankel matrix and the
+closely related matrix $H(1)$:
+\begin{align}
+&H_{N-L,L+1} = U_{N-L} S_{N-L,L+1} W_{L+1} \\
+&H_{N-L,L+1}(1) = U_{N-L} S_{N-L,L+1} W_{L+1}(1), 
+\end{align}
+where $U$ and $W$ are unitary matrices and $S$ is a rectangular
+diagonal matrix, whose nonzero values $\sigma_i, i \in [1,L+1]$ are
+called the \textit{singular values} of the Hankel matrix, arranged in
+a non increasing order. $W(1)$ is, by construction of the Hankel
+matrices, built from $W$ by removing the first column and adding a last
+column filled with zeros. For noiseless data, only $M$ singular values
+are nonzero. For data with noise instead, it is possible to define a
+threshold $\epsilon$ depending on the desired accuracy (which depends
+also on the input data accuracy), in order to find \textit{a posteriori}
+the number $M$ of complex exponential components
+present in the signal, requiring
+\begin{equation}
+\frac{\sigma_M}{\sigma_1} \geq \epsilon. \label{eq:Mcondition}
+\end{equation}
+In the present case, we have chosen $\epsilon = 10^{-2}$.",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-1dd9009808a7,arxiv-1707-03368,arxiv_paper.tex,1195,1197,,"S_{N-L,M} W_{M,L+1} C_{L+1}\ =\ S_{N-L,M} W_{M,L+1}(1).","After the $\sigma_i$ rearrangement, and after determining the value of $M$,
+it is possible to remove all $L+1-M$ singular values
+linked with noise from $S$ by setting them to zero, and building the rectangular
+diagonal submatrix $S_{N-L,M}$.
+The submatrix $W_{M,L+1}$ is defined accordingly.
+Those submatrices only take into account the signal-related singular values,
+are then used to
+reconstruct $H_{N-L,L+1}$ and $H_{N-L,L+1}(1)$, choosing also in
+this case only the largest $M$ singular values. This allows one to rewrite
+eq.~(\ref{eq:companion}) as:
+\begin{equation}
+S_{N-L,M} W_{M,L+1} C_{L+1}\ =\ S_{N-L,M} W_{M,L+1}(1).
+\end{equation}
+Multiplying the conjugate transposed equation with
+$\rnd{S^*_{N-L,M}}^{\dagger}$ from the left, and setting
+\begin{equation}
+W_{M,L}(s)\ =\  W_{M,L+1}(1:M,1+s:L+s), s=0,1,
+\end{equation}
+in order to remove the zero columns, one finally gets 
+\begin{equation}
+C_L^* W^*_{M,L}(0) = W^*_{M,L}(1).\label{eq:comp2}.
+\end{equation}
+Since $C_L$ has rank $M$, and its eigenvalues are the $z_j$ we are
+looking for, one can find them solving eq. (\ref{eq:comp2}) in the
+least-square sense and computing the eigenvalues of the solution
+matrix
+\begin{equation}
+F_M\ :=\ \rnd{W^*_{M,L}}^{\dagger}(0) W^*_{M,L}(1),
+\end{equation}
+where $\rnd{W^*_{M,L}}^{\dagger}$ is the Moore-Penrose pseudoinverse
+of $W_{M,L}$.  Once one obtains the $M$ complex $z_J$x, as eigenvalues
+of $F_M$, it is possible to solve the (now overdetermined) Vandermonde
+system~\ref{eq:Vandermonde}, again in the least-squares sense, to get
+also the $c_j$, from which the modes amplitudes and phases can be
+computed.",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-161f900ea2ec,arxiv-1707-03368,arxiv_paper.tex,1200,1202,,"W_{M,L}(s)\ =\  W_{M,L+1}(1:M,1+s:L+s), s=0,1,","After the $\sigma_i$ rearrangement, and after determining the value of $M$,
+it is possible to remove all $L+1-M$ singular values
+linked with noise from $S$ by setting them to zero, and building the rectangular
+diagonal submatrix $S_{N-L,M}$.
+The submatrix $W_{M,L+1}$ is defined accordingly.
+Those submatrices only take into account the signal-related singular values,
+are then used to
+reconstruct $H_{N-L,L+1}$ and $H_{N-L,L+1}(1)$, choosing also in
+this case only the largest $M$ singular values. This allows one to rewrite
+eq.~(\ref{eq:companion}) as:
+\begin{equation}
+S_{N-L,M} W_{M,L+1} C_{L+1}\ =\ S_{N-L,M} W_{M,L+1}(1).
+\end{equation}
+Multiplying the conjugate transposed equation with
+$\rnd{S^*_{N-L,M}}^{\dagger}$ from the left, and setting
+\begin{equation}
+W_{M,L}(s)\ =\  W_{M,L+1}(1:M,1+s:L+s), s=0,1,
+\end{equation}
+in order to remove the zero columns, one finally gets 
+\begin{equation}
+C_L^* W^*_{M,L}(0) = W^*_{M,L}(1).\label{eq:comp2}.
+\end{equation}
+Since $C_L$ has rank $M$, and its eigenvalues are the $z_j$ we are
+looking for, one can find them solving eq. (\ref{eq:comp2}) in the
+least-square sense and computing the eigenvalues of the solution
+matrix
+\begin{equation}
+F_M\ :=\ \rnd{W^*_{M,L}}^{\dagger}(0) W^*_{M,L}(1),
+\end{equation}
+where $\rnd{W^*_{M,L}}^{\dagger}$ is the Moore-Penrose pseudoinverse
+of $W_{M,L}$.  Once one obtains the $M$ complex $z_J$x, as eigenvalues
+of $F_M$, it is possible to solve the (now overdetermined) Vandermonde
+system~\ref{eq:Vandermonde}, again in the least-squares sense, to get
+also the $c_j$, from which the modes amplitudes and phases can be
+computed.",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-bff3551c000d,arxiv-1707-03368,arxiv_paper.tex,1204,1206,eq:comp2,"C_L^* W^*_{M,L}(0) = W^*_{M,L}(1)..","After the $\sigma_i$ rearrangement, and after determining the value of $M$,
+it is possible to remove all $L+1-M$ singular values
+linked with noise from $S$ by setting them to zero, and building the rectangular
+diagonal submatrix $S_{N-L,M}$.
+The submatrix $W_{M,L+1}$ is defined accordingly.
+Those submatrices only take into account the signal-related singular values,
+are then used to
+reconstruct $H_{N-L,L+1}$ and $H_{N-L,L+1}(1)$, choosing also in
+this case only the largest $M$ singular values. This allows one to rewrite
+eq.~(\ref{eq:companion}) as:
+\begin{equation}
+S_{N-L,M} W_{M,L+1} C_{L+1}\ =\ S_{N-L,M} W_{M,L+1}(1).
+\end{equation}
+Multiplying the conjugate transposed equation with
+$\rnd{S^*_{N-L,M}}^{\dagger}$ from the left, and setting
+\begin{equation}
+W_{M,L}(s)\ =\  W_{M,L+1}(1:M,1+s:L+s), s=0,1,
+\end{equation}
+in order to remove the zero columns, one finally gets 
+\begin{equation}
+C_L^* W^*_{M,L}(0) = W^*_{M,L}(1).\label{eq:comp2}.
+\end{equation}
+Since $C_L$ has rank $M$, and its eigenvalues are the $z_j$ we are
+looking for, one can find them solving eq. (\ref{eq:comp2}) in the
+least-square sense and computing the eigenvalues of the solution
+matrix
+\begin{equation}
+F_M\ :=\ \rnd{W^*_{M,L}}^{\dagger}(0) W^*_{M,L}(1),
+\end{equation}
+where $\rnd{W^*_{M,L}}^{\dagger}$ is the Moore-Penrose pseudoinverse
+of $W_{M,L}$.  Once one obtains the $M$ complex $z_J$x, as eigenvalues
+of $F_M$, it is possible to solve the (now overdetermined) Vandermonde
+system~\ref{eq:Vandermonde}, again in the least-squares sense, to get
+also the $c_j$, from which the modes amplitudes and phases can be
+computed.",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-cd75486e8939,arxiv-1707-03368,arxiv_paper.tex,1211,1213,,"F_M\ :=\ \rnd{W^*_{M,L}}^{\dagger}(0) W^*_{M,L}(1),","After the $\sigma_i$ rearrangement, and after determining the value of $M$,
+it is possible to remove all $L+1-M$ singular values
+linked with noise from $S$ by setting them to zero, and building the rectangular
+diagonal submatrix $S_{N-L,M}$.
+The submatrix $W_{M,L+1}$ is defined accordingly.
+Those submatrices only take into account the signal-related singular values,
+are then used to
+reconstruct $H_{N-L,L+1}$ and $H_{N-L,L+1}(1)$, choosing also in
+this case only the largest $M$ singular values. This allows one to rewrite
+eq.~(\ref{eq:companion}) as:
+\begin{equation}
+S_{N-L,M} W_{M,L+1} C_{L+1}\ =\ S_{N-L,M} W_{M,L+1}(1).
+\end{equation}
+Multiplying the conjugate transposed equation with
+$\rnd{S^*_{N-L,M}}^{\dagger}$ from the left, and setting
+\begin{equation}
+W_{M,L}(s)\ =\  W_{M,L+1}(1:M,1+s:L+s), s=0,1,
+\end{equation}
+in order to remove the zero columns, one finally gets 
+\begin{equation}
+C_L^* W^*_{M,L}(0) = W^*_{M,L}(1).\label{eq:comp2}.
+\end{equation}
+Since $C_L$ has rank $M$, and its eigenvalues are the $z_j$ we are
+looking for, one can find them solving eq. (\ref{eq:comp2}) in the
+least-square sense and computing the eigenvalues of the solution
+matrix
+\begin{equation}
+F_M\ :=\ \rnd{W^*_{M,L}}^{\dagger}(0) W^*_{M,L}(1),
+\end{equation}
+where $\rnd{W^*_{M,L}}^{\dagger}$ is the Moore-Penrose pseudoinverse
+of $W_{M,L}$.  Once one obtains the $M$ complex $z_J$x, as eigenvalues
+of $F_M$, it is possible to solve the (now overdetermined) Vandermonde
+system~\ref{eq:Vandermonde}, again in the least-squares sense, to get
+also the $c_j$, from which the modes amplitudes and phases can be
+computed.",False,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-5b6db4dfcc50,arxiv-1707-03368,arxiv_paper.tex,1567,1570,formula:f2B,f_2^B  = M_{tot} \left( 0.0157 R_{1.6}^2 - 0.5495 R_{1.6} + 5.5030 \right),"The details of the proposed universal relations reported in table~\ref{tab:FREQ} are the following. 
+For equal mass binaries, Bauswein~et.~al.~\cite{Bauswein:2015vxa} proposed the following
+universal relation for the main frequency of the post merger with respect to the total mass $M_{tot}=2 \cdot M$ 
+(in units of solar mass) of the binary system and the properties of the EOS parametrized as the radius of
+the corresponding TOV star of mass $M=1.6 M_\odot$ denoted as $R_{1.6}$ (expressed in km). 
+The proposed quasi universal formula is: 
+\begin{equation}
+f_2^B  = M_{tot} \left( 0.0157 R_{1.6}^2 - 0.5495 R_{1.6} + 5.5030 \right)
+\label{formula:f2B}
+\end{equation}
+The predictions of the unified model by Bauswein and Stergioulas~\cite{bauswein:2015unified} are:
+\begin{eqnarray}
+f^{U}_{peak}   & = 2.33 - 28.1 \cdot  C + 199 \cdot  C^2\\
+f^{U}_{spiral} & = 6.16 - 82.1 \cdot  C + 358 \cdot  C^2 \label{eq:fspiralB}\\
+f^{U}_{20}     & = 5.95 - 88.3 \cdot  C + 392 \cdot  C^2
+\end{eqnarray}
+Analogously we can also check the formula assumed by Rezzolla and Takami \cite{Rezzolla:2016nxn}
+\begin{eqnarray}
+ f_1^T        &=& -22.07 + 466.62\cdot C  - 3131.63 \cdot C^2  \nonumber \\
+              & & + 7210.01\cdot C^3   \; . \label{eq:f1T}
+\end{eqnarray}
+In \cite{Rezzolla:2016nxn} was also suggested that the third peak $f_3$ is related 
+to $f_1^T$ from the prescription $f_3^T=2 f_{2i}-f_1$  and that Eq.~(\ref{eq:fspiralB}) 
+should be improved through  a quadratic two-dimensional fit in terms of the compactness and average 
+gravitational mass of the binary:
+\begin{eqnarray}
+ f_{spiral}^T &=&   3.28 -   8.68\cdot C +  174\cdot C^2 \label{eq:fspiralT}\\
+              & &  - 2.34 \cdot M + 0.99\cdot M^2 - 13.0\cdot C \cdot M 
+   \; .\nonumber 
+\end{eqnarray}
+More recently, in order to determine the neutron star radius from a population of BNS
+mergers~\cite{Bose:2017jvk}, the following fit was proposed for the determination
+of the $f_1$ and $f_2$ frequencies as a function of the compactness (since
+here we are also considering unequal mass binaries, we use the average compactness):
+\begin{eqnarray}
+  f_1^R &=& -35.17 + 727.99 \cdot C - 4858.54 \cdot C^2 \nonumber \\
+        & &  + 10989.88 \cdot C^3 \\
+  f_2^R &=& -3.12  + 51.90 \cdot C - 89.07 \cdot C^2 
+\end{eqnarray}
+In general, we find that all these formulas show some agreement with the observed 
+frequencies within a discrepancy at most of 0.2--0.3 kHz that is not much 
+greater than the half-amplitudes of the peaks.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-92fa6e67a960,arxiv-1707-03368,arxiv_paper.tex,1572,1576,eq:fspiralB,"f^{U}_{peak}   & = 2.33 - 28.1 \cdot  C + 199 \cdot  C^2\\
+f^{U}_{spiral} & = 6.16 - 82.1 \cdot  C + 358 \cdot  C^2 \\
+f^{U}_{20}     & = 5.95 - 88.3 \cdot  C + 392 \cdot  C^2","The details of the proposed universal relations reported in table~\ref{tab:FREQ} are the following. 
+For equal mass binaries, Bauswein~et.~al.~\cite{Bauswein:2015vxa} proposed the following
+universal relation for the main frequency of the post merger with respect to the total mass $M_{tot}=2 \cdot M$ 
+(in units of solar mass) of the binary system and the properties of the EOS parametrized as the radius of
+the corresponding TOV star of mass $M=1.6 M_\odot$ denoted as $R_{1.6}$ (expressed in km). 
+The proposed quasi universal formula is: 
+\begin{equation}
+f_2^B  = M_{tot} \left( 0.0157 R_{1.6}^2 - 0.5495 R_{1.6} + 5.5030 \right)
+\label{formula:f2B}
+\end{equation}
+The predictions of the unified model by Bauswein and Stergioulas~\cite{bauswein:2015unified} are:
+\begin{eqnarray}
+f^{U}_{peak}   & = 2.33 - 28.1 \cdot  C + 199 \cdot  C^2\\
+f^{U}_{spiral} & = 6.16 - 82.1 \cdot  C + 358 \cdot  C^2 \label{eq:fspiralB}\\
+f^{U}_{20}     & = 5.95 - 88.3 \cdot  C + 392 \cdot  C^2
+\end{eqnarray}
+Analogously we can also check the formula assumed by Rezzolla and Takami \cite{Rezzolla:2016nxn}
+\begin{eqnarray}
+ f_1^T        &=& -22.07 + 466.62\cdot C  - 3131.63 \cdot C^2  \nonumber \\
+              & & + 7210.01\cdot C^3   \; . \label{eq:f1T}
+\end{eqnarray}
+In \cite{Rezzolla:2016nxn} was also suggested that the third peak $f_3$ is related 
+to $f_1^T$ from the prescription $f_3^T=2 f_{2i}-f_1$  and that Eq.~(\ref{eq:fspiralB}) 
+should be improved through  a quadratic two-dimensional fit in terms of the compactness and average 
+gravitational mass of the binary:
+\begin{eqnarray}
+ f_{spiral}^T &=&   3.28 -   8.68\cdot C +  174\cdot C^2 \label{eq:fspiralT}\\
+              & &  - 2.34 \cdot M + 0.99\cdot M^2 - 13.0\cdot C \cdot M 
+   \; .\nonumber 
+\end{eqnarray}
+More recently, in order to determine the neutron star radius from a population of BNS
+mergers~\cite{Bose:2017jvk}, the following fit was proposed for the determination
+of the $f_1$ and $f_2$ frequencies as a function of the compactness (since
+here we are also considering unequal mass binaries, we use the average compactness):
+\begin{eqnarray}
+  f_1^R &=& -35.17 + 727.99 \cdot C - 4858.54 \cdot C^2 \nonumber \\
+        & &  + 10989.88 \cdot C^3 \\
+  f_2^R &=& -3.12  + 51.90 \cdot C - 89.07 \cdot C^2 
+\end{eqnarray}
+In general, we find that all these formulas show some agreement with the observed 
+frequencies within a discrepancy at most of 0.2--0.3 kHz that is not much 
+greater than the half-amplitudes of the peaks.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-d342c621f117,arxiv-1707-03368,arxiv_paper.tex,1578,1581,eq:f1T,"f_1^T        &=& -22.07 + 466.62\cdot C  - 3131.63 \cdot C^2  \nonumber \\
+              & & + 7210.01\cdot C^3   \; .","The details of the proposed universal relations reported in table~\ref{tab:FREQ} are the following. 
+For equal mass binaries, Bauswein~et.~al.~\cite{Bauswein:2015vxa} proposed the following
+universal relation for the main frequency of the post merger with respect to the total mass $M_{tot}=2 \cdot M$ 
+(in units of solar mass) of the binary system and the properties of the EOS parametrized as the radius of
+the corresponding TOV star of mass $M=1.6 M_\odot$ denoted as $R_{1.6}$ (expressed in km). 
+The proposed quasi universal formula is: 
+\begin{equation}
+f_2^B  = M_{tot} \left( 0.0157 R_{1.6}^2 - 0.5495 R_{1.6} + 5.5030 \right)
+\label{formula:f2B}
+\end{equation}
+The predictions of the unified model by Bauswein and Stergioulas~\cite{bauswein:2015unified} are:
+\begin{eqnarray}
+f^{U}_{peak}   & = 2.33 - 28.1 \cdot  C + 199 \cdot  C^2\\
+f^{U}_{spiral} & = 6.16 - 82.1 \cdot  C + 358 \cdot  C^2 \label{eq:fspiralB}\\
+f^{U}_{20}     & = 5.95 - 88.3 \cdot  C + 392 \cdot  C^2
+\end{eqnarray}
+Analogously we can also check the formula assumed by Rezzolla and Takami \cite{Rezzolla:2016nxn}
+\begin{eqnarray}
+ f_1^T        &=& -22.07 + 466.62\cdot C  - 3131.63 \cdot C^2  \nonumber \\
+              & & + 7210.01\cdot C^3   \; . \label{eq:f1T}
+\end{eqnarray}
+In \cite{Rezzolla:2016nxn} was also suggested that the third peak $f_3$ is related 
+to $f_1^T$ from the prescription $f_3^T=2 f_{2i}-f_1$  and that Eq.~(\ref{eq:fspiralB}) 
+should be improved through  a quadratic two-dimensional fit in terms of the compactness and average 
+gravitational mass of the binary:
+\begin{eqnarray}
+ f_{spiral}^T &=&   3.28 -   8.68\cdot C +  174\cdot C^2 \label{eq:fspiralT}\\
+              & &  - 2.34 \cdot M + 0.99\cdot M^2 - 13.0\cdot C \cdot M 
+   \; .\nonumber 
+\end{eqnarray}
+More recently, in order to determine the neutron star radius from a population of BNS
+mergers~\cite{Bose:2017jvk}, the following fit was proposed for the determination
+of the $f_1$ and $f_2$ frequencies as a function of the compactness (since
+here we are also considering unequal mass binaries, we use the average compactness):
+\begin{eqnarray}
+  f_1^R &=& -35.17 + 727.99 \cdot C - 4858.54 \cdot C^2 \nonumber \\
+        & &  + 10989.88 \cdot C^3 \\
+  f_2^R &=& -3.12  + 51.90 \cdot C - 89.07 \cdot C^2 
+\end{eqnarray}
+In general, we find that all these formulas show some agreement with the observed 
+frequencies within a discrepancy at most of 0.2--0.3 kHz that is not much 
+greater than the half-amplitudes of the peaks.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-b10cb37b8d22,arxiv-1707-03368,arxiv_paper.tex,1586,1590,eq:fspiralT,"f_{spiral}^T &=&   3.28 -   8.68\cdot C +  174\cdot C^2 \\
+              & &  - 2.34 \cdot M + 0.99\cdot M^2 - 13.0\cdot C \cdot M 
+   \; .\nonumber","The details of the proposed universal relations reported in table~\ref{tab:FREQ} are the following. 
+For equal mass binaries, Bauswein~et.~al.~\cite{Bauswein:2015vxa} proposed the following
+universal relation for the main frequency of the post merger with respect to the total mass $M_{tot}=2 \cdot M$ 
+(in units of solar mass) of the binary system and the properties of the EOS parametrized as the radius of
+the corresponding TOV star of mass $M=1.6 M_\odot$ denoted as $R_{1.6}$ (expressed in km). 
+The proposed quasi universal formula is: 
+\begin{equation}
+f_2^B  = M_{tot} \left( 0.0157 R_{1.6}^2 - 0.5495 R_{1.6} + 5.5030 \right)
+\label{formula:f2B}
+\end{equation}
+The predictions of the unified model by Bauswein and Stergioulas~\cite{bauswein:2015unified} are:
+\begin{eqnarray}
+f^{U}_{peak}   & = 2.33 - 28.1 \cdot  C + 199 \cdot  C^2\\
+f^{U}_{spiral} & = 6.16 - 82.1 \cdot  C + 358 \cdot  C^2 \label{eq:fspiralB}\\
+f^{U}_{20}     & = 5.95 - 88.3 \cdot  C + 392 \cdot  C^2
+\end{eqnarray}
+Analogously we can also check the formula assumed by Rezzolla and Takami \cite{Rezzolla:2016nxn}
+\begin{eqnarray}
+ f_1^T        &=& -22.07 + 466.62\cdot C  - 3131.63 \cdot C^2  \nonumber \\
+              & & + 7210.01\cdot C^3   \; . \label{eq:f1T}
+\end{eqnarray}
+In \cite{Rezzolla:2016nxn} was also suggested that the third peak $f_3$ is related 
+to $f_1^T$ from the prescription $f_3^T=2 f_{2i}-f_1$  and that Eq.~(\ref{eq:fspiralB}) 
+should be improved through  a quadratic two-dimensional fit in terms of the compactness and average 
+gravitational mass of the binary:
+\begin{eqnarray}
+ f_{spiral}^T &=&   3.28 -   8.68\cdot C +  174\cdot C^2 \label{eq:fspiralT}\\
+              & &  - 2.34 \cdot M + 0.99\cdot M^2 - 13.0\cdot C \cdot M 
+   \; .\nonumber 
+\end{eqnarray}
+More recently, in order to determine the neutron star radius from a population of BNS
+mergers~\cite{Bose:2017jvk}, the following fit was proposed for the determination
+of the $f_1$ and $f_2$ frequencies as a function of the compactness (since
+here we are also considering unequal mass binaries, we use the average compactness):
+\begin{eqnarray}
+  f_1^R &=& -35.17 + 727.99 \cdot C - 4858.54 \cdot C^2 \nonumber \\
+        & &  + 10989.88 \cdot C^3 \\
+  f_2^R &=& -3.12  + 51.90 \cdot C - 89.07 \cdot C^2 
+\end{eqnarray}
+In general, we find that all these formulas show some agreement with the observed 
+frequencies within a discrepancy at most of 0.2--0.3 kHz that is not much 
+greater than the half-amplitudes of the peaks.",True,structurally_extracted_unreviewed
+arxiv-1707-03368-equation-36e09e6c7fdb,arxiv-1707-03368,arxiv_paper.tex,1595,1599,,"f_1^R &=& -35.17 + 727.99 \cdot C - 4858.54 \cdot C^2 \nonumber \\
+        & &  + 10989.88 \cdot C^3 \\
+  f_2^R &=& -3.12  + 51.90 \cdot C - 89.07 \cdot C^2","The details of the proposed universal relations reported in table~\ref{tab:FREQ} are the following. 
+For equal mass binaries, Bauswein~et.~al.~\cite{Bauswein:2015vxa} proposed the following
+universal relation for the main frequency of the post merger with respect to the total mass $M_{tot}=2 \cdot M$ 
+(in units of solar mass) of the binary system and the properties of the EOS parametrized as the radius of
+the corresponding TOV star of mass $M=1.6 M_\odot$ denoted as $R_{1.6}$ (expressed in km). 
+The proposed quasi universal formula is: 
+\begin{equation}
+f_2^B  = M_{tot} \left( 0.0157 R_{1.6}^2 - 0.5495 R_{1.6} + 5.5030 \right)
+\label{formula:f2B}
+\end{equation}
+The predictions of the unified model by Bauswein and Stergioulas~\cite{bauswein:2015unified} are:
+\begin{eqnarray}
+f^{U}_{peak}   & = 2.33 - 28.1 \cdot  C + 199 \cdot  C^2\\
+f^{U}_{spiral} & = 6.16 - 82.1 \cdot  C + 358 \cdot  C^2 \label{eq:fspiralB}\\
+f^{U}_{20}     & = 5.95 - 88.3 \cdot  C + 392 \cdot  C^2
+\end{eqnarray}
+Analogously we can also check the formula assumed by Rezzolla and Takami \cite{Rezzolla:2016nxn}
+\begin{eqnarray}
+ f_1^T        &=& -22.07 + 466.62\cdot C  - 3131.63 \cdot C^2  \nonumber \\
+              & & + 7210.01\cdot C^3   \; . \label{eq:f1T}
+\end{eqnarray}
+In \cite{Rezzolla:2016nxn} was also suggested that the third peak $f_3$ is related 
+to $f_1^T$ from the prescription $f_3^T=2 f_{2i}-f_1$  and that Eq.~(\ref{eq:fspiralB}) 
+should be improved through  a quadratic two-dimensional fit in terms of the compactness and average 
+gravitational mass of the binary:
+\begin{eqnarray}
+ f_{spiral}^T &=&   3.28 -   8.68\cdot C +  174\cdot C^2 \label{eq:fspiralT}\\
+              & &  - 2.34 \cdot M + 0.99\cdot M^2 - 13.0\cdot C \cdot M 
+   \; .\nonumber 
+\end{eqnarray}
+More recently, in order to determine the neutron star radius from a population of BNS
+mergers~\cite{Bose:2017jvk}, the following fit was proposed for the determination
+of the $f_1$ and $f_2$ frequencies as a function of the compactness (since
+here we are also considering unequal mass binaries, we use the average compactness):
+\begin{eqnarray}
+  f_1^R &=& -35.17 + 727.99 \cdot C - 4858.54 \cdot C^2 \nonumber \\
+        & &  + 10989.88 \cdot C^3 \\
+  f_2^R &=& -3.12  + 51.90 \cdot C - 89.07 \cdot C^2 
+\end{eqnarray}
+In general, we find that all these formulas show some agreement with the observed 
+frequencies within a discrepancy at most of 0.2--0.3 kHz that is not much 
+greater than the half-amplitudes of the peaks.",True,structurally_extracted_unreviewed
 arxiv-1907-02424-equation-cec01177042c,arxiv-1907-02424,paper20190704.tex,306,310,eq:tildeLambda,"\tilde{\Lambda} = \frac{16}{13} \frac{ (M_A+12M_B)M_A^4\Lambda_A 
 + (M_B+12M_A)M_B^4\Lambda_B }{ (M_A+M_B)^5 } \,.","In Fig.~\ref{fig:dt_min} we show the time 
 between the merger and the first amplitude minimum, 

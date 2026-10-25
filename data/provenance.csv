@@ -573,6 +573,26 @@ waveform,arxiv-1604-00246-rezzollatakami2016-apr4-q10-m1500-1-5-1-5,arxiv-1604-0
 waveform,arxiv-1604-00246-rezzollatakami2016-ls220-q10-m1338-1-338-1-338,arxiv-1604-00246,manuscript.tex,1652,1655,tab:models,"\hline
 \mn{LS220-q10-M1338}& LS220& $1.000$ & $1.338$ & $12.754$ & $2.6737$ & $1.4733$ & $0.15491$ & $2.8129$ & $7.2656$ & $1.0163$ & $14.489$ & $0.096525$ & $721.43$ & $1472.4$",reviewed_paper_table_adapter,verified
 waveform,arxiv-1604-00246-rezzollatakami2016-ls220-q10-m1372-1-372-1-372,arxiv-1604-00246,manuscript.tex,1655,1656,tab:models,\mn{LS220-q10-M1372}& LS220& $1.000$ & $1.372$ & $12.732$ & $2.7414$ & $1.5150$ & $0.15910$ & $2.8404$ & $7.5772$ & $1.0082$ & $13.859$ & $0.093518$ & $611.61$ & $1494.8$,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-11vs1-11-01,arxiv-1707-03368,arxiv_paper.tex,1493,1495,tab:FREQ,"\hline
+SLy &1.11vs1.11    & 2.852  & 1.311 & 2.04  & 2.791 &       & 2.784 & 2.257 & 1.657 & 1.241 &  1.641 & 2.041 &  1.657 & 2.360",reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-20vs1-20-01,arxiv-1707-03368,arxiv_paper.tex,1495,1496,tab:FREQ,SLy &1.20vs1.20    & 2.964  & 1.311 & 1.89  & 3.009 & 4.17  & 3.009 & 2.598 & 1.905 & 1.531 &  1.798 & 2.176 &  1.804 & 2.664,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-28vs1-28-01,arxiv-1707-03368,arxiv_paper.tex,1496,1497,tab:FREQ,SLy &1.28vs1.28    & 3.139  & 1.178 & 2.15  & 3.227 & 4.30  & 3.212 & 2.957 & 2.215 & 1.887 &  1.966 & 2.333 &  1.958 & 2.921,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-36vs1-36-01,arxiv-1707-03368,arxiv_paper.tex,1497,1498,tab:FREQ,SLy &1.36vs1.36    & 3.506  & 0.933 & 2.60  & 3.483 & 4.30  & 3.410 & 3.358 & 2.603 & 2.329 &  2.211 & 2.521 &  2.210 & 3.156,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-24vs1-32-01,arxiv-1707-03368,arxiv_paper.tex,1498,1500,tab:FREQ,"\hline
+SLy &1.24vs1.32    & 3.131  & 1.178 & 2.10  & 3.175 & 4.26  & 3.210 & 2.953 & 2.212 & 1.883 &  1.965 & 2.331 &  1.957 & 2.919",reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-20vs1-36-01,arxiv-1707-03368,arxiv_paper.tex,1500,1501,tab:FREQ,SLy &1.20vs1.36    & 3.047  & 1.200 & 2.01  & 3.072 & 4.19  & 3.210 & 2.956 & 2.214 & 1.886 &  1.966 & 2.333 &  1.958 & 2.920,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-16vs1-40-01,arxiv-1707-03368,arxiv_paper.tex,1501,1502,tab:FREQ,SLy &1.16vs1.40    & 2.984  & 1.245 & 1.93  & 2.967 & 4.11  & 3.210 & 2.959 & 2.217 & 1.890 &  1.968 & 2.336 &  1.960 & 2.922,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-11vs1-44-01,arxiv-1707-03368,arxiv_paper.tex,1502,1503,tab:FREQ,SLy &1.11vs1.44    & 2.998  & 1.267 &       & 2.967 &       & 3.197 & 2.943 & 2.202 & 1.872 &  1.959 & 2.332 &  1.951 & 2.911,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-apr4-1-17vs1-56-01,arxiv-1707-03368,arxiv_paper.tex,1503,1505,tab:FREQ,"\hline
+APR4 &1.17vs1.56   & 3.317  & 1.133 & 2.36  & 3.494 & 4.62  & 3.574 & 3.657 & 2.914 & 2.681 &  2.449 & 2.756 &  2.478 & 3.305",reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-17vs1-56-01,arxiv-1707-03368,arxiv_paper.tex,1505,1506,tab:FREQ,SLy  &1.17vs1.56   & 3.270  & 1.022 & 2.25  & 3.312 & 4.23  & 3.427 & 3.418 & 2.665 & 2.399 &  2.256 & 2.559 &  2.258 & 3.188,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-h4-1-17vs1-56-01,arxiv-1707-03368,arxiv_paper.tex,1506,1507,tab:FREQ,H4   &1.17vs1.56   & 2.370  & 1.022 & 2.06  & 2.274 &       & 2.503 & 2.443 & 1.785 & 1.391 &  1.730 & 1.758 &  1.743 & 2.535,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-ms1-1-17vs1-56-01,arxiv-1707-03368,arxiv_paper.tex,1507,1508,tab:FREQ,MS1  &1.17vs1.56   & 1.902  & 1.422 & 1.39  & 1.913 &       & 2.179 & 2.171 & 1.606 & 1.179 &  1.594 & 1.539 &  1.606 & 2.271,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-apr4-1-27vs1-27-01,arxiv-1707-03368,arxiv_paper.tex,1508,1510,tab:FREQ,"\hline
+APR4 &1.27vs1.27   & 3.166  & 1.267 & 2.16  & 3.307 & 4.48  & 3.336 & 3.155 & 2.403 & 2.101 &  2.078 & 2.513 &  2.069 & 3.043",reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-sly-1-28vs1-28-02,arxiv-1707-03368,arxiv_paper.tex,1510,1511,tab:FREQ,SLy  &1.28vs1.28   & 3.172  & 1.178 & 2.12  & 3.219 & 4.35  & 3.212 & 2.957 & 2.215 & 1.887 &  1.966 & 2.333 &  1.958 & 2.921,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-h4-1-30vs1-30-01,arxiv-1707-03368,arxiv_paper.tex,1511,1512,tab:FREQ,H4   &1.30vs1.30   & 2.448  & 1.023 & 1.71  & 2.349 &       & 2.382 & 2.218 & 1.633 & 1.212 &  1.620 & 1.674 &  1.635 & 2.320,reviewed_paper_table_adapter,verified
+waveform,arxiv-1707-03368-maione2017-ms1-1-30vs1-30-01,arxiv-1707-03368,arxiv_paper.tex,1512,1513,tab:FREQ,MS1  &1.30vs1.30   & 2.023  & 1.089 & 1.52  & 2.031 &       & 2.081 & 2.024 & 1.530 & 1.087 &  1.494 & 1.506 &  1.489 & 2.100,reviewed_paper_table_adapter,verified
 eos,arxiv-1509-08522-eos-eos,arxiv-1509-08522,pmns_pca.tex,540,541,tab1,"\hline    
 EoS & Ref. & $R_{1.35}$ [km]",reviewed_paper_table_adapter,verified
 eos,arxiv-1509-08522-eos-nl3,arxiv-1509-08522,pmns_pca.tex,541,544,tab1,"\hline    
@@ -768,6 +788,12 @@ eos,arxiv-1604-00246-eos-apr4,arxiv-1604-00246,manuscript.tex,1639,1642,tab:mode
 \mn{APR4-q10-M1200} & APR4 & $1.000$ & $1.200$ & $11.034$ & $2.3795$ & $1.3173$ & $0.16058$ & $268.60$ & $5.9801$ & $1.0562$ & $14.100$ & $0.10415$  & $650.23$ & $1732.9$",reviewed_paper_table_adapter,verified
 eos,arxiv-1604-00246-eos-ls220,arxiv-1604-00246,manuscript.tex,1652,1655,tab:models,"\hline
 \mn{LS220-q10-M1338}& LS220& $1.000$ & $1.338$ & $12.754$ & $2.6737$ & $1.4733$ & $0.15491$ & $2.8129$ & $7.2656$ & $1.0163$ & $14.489$ & $0.096525$ & $721.43$ & $1472.4$",reviewed_paper_table_adapter,verified
+eos,arxiv-1707-03368-eos-sly,arxiv-1707-03368,arxiv_paper.tex,1493,1495,tab:FREQ,"\hline
+SLy &1.11vs1.11    & 2.852  & 1.311 & 2.04  & 2.791 &       & 2.784 & 2.257 & 1.657 & 1.241 &  1.641 & 2.041 &  1.657 & 2.360",reviewed_paper_table_adapter,verified
+eos,arxiv-1707-03368-eos-apr4,arxiv-1707-03368,arxiv_paper.tex,1503,1505,tab:FREQ,"\hline
+APR4 &1.17vs1.56   & 3.317  & 1.133 & 2.36  & 3.494 & 4.62  & 3.574 & 3.657 & 2.914 & 2.681 &  2.449 & 2.756 &  2.478 & 3.305",reviewed_paper_table_adapter,verified
+eos,arxiv-1707-03368-eos-h4,arxiv-1707-03368,arxiv_paper.tex,1506,1507,tab:FREQ,H4   &1.17vs1.56   & 2.370  & 1.022 & 2.06  & 2.274 &       & 2.503 & 2.443 & 1.785 & 1.391 &  1.730 & 1.758 &  1.743 & 2.535,reviewed_paper_table_adapter,verified
+eos,arxiv-1707-03368-eos-ms1,arxiv-1707-03368,arxiv_paper.tex,1507,1508,tab:FREQ,MS1  &1.17vs1.56   & 1.902  & 1.422 & 1.39  & 1.913 &       & 2.179 & 2.171 & 1.606 & 1.179 &  1.594 & 1.539 &  1.606 & 2.271,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-sly4,arxiv-1908-11418,ms.tex,795,796,tab:valbns,SLy4& 2.06&9.97&1.364&1.364&75.2&3.65&\cite{Perego:2019adq}&12&22&$1.79^{+0.46}_{-0.17}$&$1.33^{+0.11}_{-0.07}$&$74^{+151}_{-4}$&$5.22^{+0.03}_{-2.30}$&${6.5}^{+3.4}_{-0.3}$,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-bhb-lambda-phi,arxiv-1908-11418,ms.tex,796,797,tab:valbns,BHB$\Lambda\phi$& 2.10&11.63&1.50&1.50&90.0&3.39&\cite{Radice:2016rys}&10&13&$2.50^{+0.10}_{-0.25}$&$1.03^{+0.07}_{-0.03}$&$79^{+28}_{-8}$&$3.60^{+0.14}_{-0.07}$&${9.3}^{+0.2}_{-0.5}$,reviewed_paper_table_adapter,verified
 eos,arxiv-1908-11418-eos-dd2,arxiv-1908-11418,ms.tex,797,798,tab:valbns,DD2 &2.42 &11.93&1.50&1.50&91.1&2.76&\cite{Radice:2016rys}&9&13&$2.39^{+0.35}_{-0.29}$&$1.10^{+0.13}_{-0.09}$& $196^{+79}_{-68}$&$2.74^{+0.02}_{-0.02}$ &${10.6}^{+0.7}_{-0.7}$,reviewed_paper_table_adapter,verified

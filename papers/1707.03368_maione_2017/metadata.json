@@ -1,0 +1,182 @@
+{
+  "arxiv_id": "1707.03368",
+  "resolved_version": "1707.03368v3",
+  "version": 3,
+  "title": "Spectral analysis of gravitational waves from binary neutron star merger remnants",
+  "authors": [
+    "Francesco Maione",
+    "Roberto De Pietri",
+    "Alessandra Feo",
+    "Frank Löffler"
+  ],
+  "abstract": "In this work we analyze the gravitational wave signal from hypermassive neutron stars formed after the merger of binary neutron star systems, focusing on its spectral features. The gravitational wave signals are extracted from numerical relativity simulations of models already considered by De Pietri et al. [Phys. Rev. D 93, 064047 (2016)], Maione et al. [Classical Quantum Gravity 33, 175009 (2016)], and Feo et al. [Classical Quantum Gravity 34, 034001 (2017)], and allow us to study the effect of the total baryonic mass of such systems (from $2.4 M_{\\odot}$ to $3 M_{\\odot}$), the mass ratio (up to $q = 0.77$), and the neutron star equation of state, both in equal and highly unequal mass binaries. We use the peaks we find in the gravitational spectrum as an independent test of already published hypotheses of their physical origin and empirical relations linking them with the characteristics of the merging neutron stars. In particular, we highlight the effects of the mass ratio, which in the past was often neglected. We also analyze the temporal evolution of the emission frequencies. Finally, we introduce a modern variant of Prony's method to analyze the gravitational wave postmerger emission as a sum of complex exponentials, trying to overcome some drawbacks of both Fourier spectra and least-squares fitting. Overall, the spectral properties of the postmerger signal observed in our simulation are in agreement with those proposed by other groups. More specifically, we find that the analysis of Bauswein and Stergioulas [Phys. Rev. D 91, 124056 (2015)] is particularly effective for binaries with very low masses or with a small mass ratio and that the mechanical toy model of Takami et al. [Phys. Rev. D 91, 064001 (2015)] provides a comprehensive and accurate description of the early stages of the postmerger.",
+  "submitted": "2017-07-11T17:14:00Z",
+  "last_revised": "2017-10-13T07:43:44Z",
+  "doi": "10.1103/PhysRevD.96.063011",
+  "journal_reference": "Phys. Rev. D 96, 063011 (2017)",
+  "arxiv_categories": [
+    "gr-qc"
+  ],
+  "primary_category": "gr-qc",
+  "abstract_url": "https://arxiv.org/abs/1707.03368v3",
+  "pdf_url": "https://export.arxiv.org/pdf/1707.03368v3",
+  "source_url": "https://export.arxiv.org/src/1707.03368v3",
+  "publication_date": "2017-09-19",
+  "publication_year": 2017,
+  "publication_date_source": "Crossref:published-online",
+  "publisher": "American Physical Society (APS)",
+  "container_title": "Physical Review D",
+  "categories": [
+    "spectral_analysis",
+    "secondary_frequencies",
+    "compactness",
+    "mass_ratio"
+  ],
+  "seed_group": "A",
+  "directory": "1707.03368_maione_2017",
+  "accessed_at": "2026-10-25T14:36:46.086327Z",
+  "pdf_status": "downloaded",
+  "source_status": "downloaded",
+  "tex_status": "extracted",
+  "main_tex": "source/arxiv_paper.tex",
+  "main_tex_candidates": [
+    {
+      "path": "arxiv_paper.tex",
+      "has_documentclass": true,
+      "has_begin_document": true,
+      "dependencies": [],
+      "score": 10
+    }
+  ],
+  "source_response_type": "gzip_tar",
+  "source_original_filename": "source.tar.gz",
+  "checksums": {
+    "pdf_sha256": "b4dec21fde48665532eb1298bcb9280bd2e290c3f65a983170d707c0d0eb7537",
+    "source_sha256": "caff545d9219f636788751aeac529d0ccc8d3737a1cc86d7ad53a6417ea44ad9"
+  },
+  "errors": [],
+  "frequency_nomenclature": [
+    {
+      "original_symbol": "f_2",
+      "original_definition": "Dominant quadrupolar peak measured from the full postmerger Fourier spectrum; also called f_peak or f_p in the paper's literature discussion.",
+      "measurement_method": "Maximum of the full postmerger amplitude spectral density after cubic-spline interpolation at 1 Hz resolution.",
+      "canonical_quantity": "f_peak",
+      "normalized_storage": "waveforms.f_peak_khz",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:f2;tab:FREQ"
+    },
+    {
+      "original_symbol": "f_2i",
+      "original_definition": "Dominant peak measured from the spectrum through 5 ms after merger.",
+      "measurement_method": "Maximum of the early postmerger amplitude spectral density after cubic-spline interpolation at 1 Hz resolution.",
+      "canonical_quantity": "f_peak_early",
+      "normalized_storage": "waveforms.f_peak_early_khz",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:f2;tab:FREQ"
+    },
+    {
+      "original_symbol": "f_1",
+      "original_definition": "Measured lower-frequency subdominant peak; its proposed origin is model-dependent and includes spiral emission and other transient or mode-coupling interpretations.",
+      "measurement_method": "Local maximum of the amplitude spectral density after cubic-spline interpolation at 1 Hz resolution.",
+      "canonical_quantity": "f_secondary_unknown",
+      "normalized_storage": "measurements_extra.quantity=f_secondary_unknown",
+      "mapping_status": "unresolved",
+      "source_location": "arxiv_paper.tex:tab:f1;sec:f1"
+    },
+    {
+      "original_symbol": "f_3",
+      "original_definition": "Measured upper-frequency transient subdominant peak, also discussed as f_+.",
+      "measurement_method": "Local maximum of the amplitude spectral density after cubic-spline interpolation at 1 Hz resolution.",
+      "canonical_quantity": "f_combination_other",
+      "normalized_storage": "measurements_extra.quantity=f_combination_other",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:f1;sec:f1"
+    },
+    {
+      "original_symbol": "f_0",
+      "original_definition": "Quasiradial oscillation frequency measured from the maximum-density oscillation spectrum.",
+      "measurement_method": "Density-spectrum peak over a 10 ms interval starting at merger, with 100 Hz sensitivity.",
+      "canonical_quantity": "f_radial",
+      "normalized_storage": "waveforms.f_radial_khz",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:f1;tab:FREQ"
+    },
+    {
+      "original_symbol": "f_merger",
+      "original_definition": "Instantaneous GW frequency at merger time.",
+      "measurement_method": "Derivative of accumulated GW phase at maximum strain amplitude.",
+      "canonical_quantity": "f_merger",
+      "normalized_storage": "waveforms.f_merger_khz",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:f1"
+    },
+    {
+      "original_symbol": "f_20",
+      "original_definition": "Appendix relation value f_2i - f_0; not a directly measured spectral peak.",
+      "measurement_method": "Algebraically derived relation value.",
+      "canonical_quantity": "f_2_0",
+      "normalized_storage": "published_table_cells only",
+      "mapping_status": "verified_but_not_normalized",
+      "source_location": "arxiv_paper.tex:tab:FREQ;formula:f20"
+    },
+    {
+      "original_symbol": "f_1_Prony",
+      "original_definition": "Lower transient component estimated by ESPRIT Prony analysis.",
+      "measurement_method": "ESPRIT Prony fit over 1-3 ms after merger.",
+      "canonical_quantity": "f_secondary_unknown",
+      "normalized_storage": "measurements_extra.quantity=f_secondary_unknown_prony",
+      "mapping_status": "unresolved",
+      "source_location": "arxiv_paper.tex:tab:Prony"
+    },
+    {
+      "original_symbol": "f_2i_Prony",
+      "original_definition": "Early dominant component estimated by ESPRIT Prony analysis.",
+      "measurement_method": "ESPRIT Prony fit over 1-3 ms after merger.",
+      "canonical_quantity": "f_peak_early",
+      "normalized_storage": "measurements_extra.quantity=f_peak_early_prony",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:Prony"
+    },
+    {
+      "original_symbol": "f_3_Prony",
+      "original_definition": "Upper transient component estimated by ESPRIT Prony analysis.",
+      "measurement_method": "ESPRIT Prony fit over 1-3 ms after merger.",
+      "canonical_quantity": "f_combination_other",
+      "normalized_storage": "measurements_extra.quantity=f_combination_other_prony",
+      "mapping_status": "verified",
+      "source_location": "arxiv_paper.tex:tab:Prony"
+    }
+  ],
+  "pdf_final_url": "https://export.arxiv.org/pdf/1707.03368v3",
+  "pdf_bytes": 1818583,
+  "source_final_url": "https://export.arxiv.org/src/1707.03368v3",
+  "source_content_type": "application/gzip",
+  "source_bytes": 1139216,
+  "source_inventory": {
+    "tex": [
+      "arxiv_paper.tex"
+    ],
+    "bibliography": [],
+    "styles": [
+      "apsrev4-1.bst",
+      "revsymb4-1.sty",
+      "revtex4-1.cls"
+    ],
+    "figures": [
+      "AllSpectra.pdf",
+      "Prony.pdf",
+      "Spectrogram.pdf",
+      "f0_spectrum.pdf",
+      "fft.pdf",
+      "rho.pdf"
+    ],
+    "other": [
+      "aip4-1.rtx",
+      "aps10pt4-1.rtx",
+      "aps11pt4-1.rtx",
+      "aps12pt4-1.rtx",
+      "aps4-1.rtx",
+      "apsrmp4-1.rtx"
+    ]
+  }
+}

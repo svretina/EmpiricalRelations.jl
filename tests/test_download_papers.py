@@ -224,10 +224,16 @@ class NetworkingAndPersistenceTests(unittest.TestCase):
                 return url, "application/pdf", destination.stat().st_size
 
         with tempfile.TemporaryDirectory() as temporary:
-            result = dp.download_one(Client(), {"arxiv_id": "1910.10856"}, metadata, Path(temporary))
+            papers_dir = Path(temporary)
+            folder = papers_dir / dp.directory_name(metadata)
+            folder.mkdir()
+            annotation = [{"original_symbol": "f_2", "canonical_quantity": "f_peak"}]
+            (folder / "metadata.json").write_text(json.dumps({"frequency_nomenclature": annotation}))
+            result = dp.download_one(Client(), {"arxiv_id": "1910.10856"}, metadata, papers_dir)
             self.assertEqual(result["source_status"], "unavailable")
             written = json.loads((Path(temporary) / result["directory"] / "metadata.json").read_text())
             self.assertEqual(written["checksums"]["pdf_sha256"], dp.sha256_file(Path(temporary) / result["directory"] / "paper.pdf"))
+            self.assertEqual(written["frequency_nomenclature"], annotation)
 
 
 if __name__ == "__main__":

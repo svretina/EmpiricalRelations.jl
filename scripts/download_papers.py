@@ -556,6 +556,10 @@ def download_one(client: HttpClient, seed: dict[str, Any], arxiv: dict[str, Any]
         "checksums": dict(old.get("checksums", {})),
         "errors": [],
     }
+    # Preserve reviewed, paper-local semantic annotations across acquisition
+    # refreshes. These fields are curated independently of arXiv metadata.
+    if "frequency_nomenclature" in old:
+        metadata["frequency_nomenclature"] = old["frequency_nomenclature"]
 
     pdf_path = folder / "paper.pdf"
     try:

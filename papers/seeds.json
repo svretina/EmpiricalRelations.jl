@@ -7,6 +7,7 @@
     {"arxiv_id": "1412.3240", "group": "A", "topics": ["spectral_classification", "secondary_frequencies"]},
     {"arxiv_id": "1502.03176", "group": "A", "topics": ["spectral_classification", "mode_identification", "secondary_frequencies"]},
     {"arxiv_id": "1604.00246", "group": "A", "topics": ["empirical_relations", "spectral_classification"]},
+    {"arxiv_id": "1707.03368", "group": "A", "topics": ["spectral_analysis", "secondary_frequencies", "compactness", "mass_ratio"]},
     {"arxiv_id": "1907.02424", "group": "A", "topics": ["empirical_relations", "parameter_inference"]},
     {"arxiv_id": "1910.10856", "group": "A", "topics": ["empirical_relations", "secondary_frequencies", "spectral_classification"]},
     {"arxiv_id": "2102.12455", "group": "A", "topics": ["empirical_relations", "fit_residuals"]},

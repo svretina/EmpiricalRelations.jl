@@ -79,6 +79,10 @@ arxiv-1604-00246-eos-alf2,arxiv-1604-00246,ALF2,,,,,,,EOS identifier is reported
 arxiv-1604-00246-eos-sly,arxiv-1604-00246,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
 arxiv-1604-00246-eos-apr4,arxiv-1604-00246,APR4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
 arxiv-1604-00246-eos-ls220,arxiv-1604-00246,LS220,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,manuscript.tex
+arxiv-1707-03368-eos-sly,arxiv-1707-03368,SLy,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,arxiv_paper.tex:tab:SUM;tab:FREQ;tab:f1
+arxiv-1707-03368-eos-apr4,arxiv-1707-03368,APR4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,arxiv_paper.tex:tab:SUM;tab:FREQ;tab:f1
+arxiv-1707-03368-eos-h4,arxiv-1707-03368,H4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,arxiv_paper.tex:tab:SUM;tab:FREQ;tab:f1
+arxiv-1707-03368-eos-ms1,arxiv-1707-03368,MS1,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,arxiv_paper.tex:tab:SUM;tab:FREQ;tab:f1
 arxiv-1908-11418-eos-sly4,arxiv-1908-11418,SLy4,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
 arxiv-1908-11418-eos-bhb-lambda-phi,arxiv-1908-11418,BHB\Lambda\phi,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex
 arxiv-1908-11418-eos-dd2,arxiv-1908-11418,DD2,,,,,,,EOS identifier is reported by this paper; no compatible stellar-property row was published in the adapted table.,ms.tex

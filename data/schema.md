@@ -41,9 +41,7 @@ in a mismatched radius column.
 `relations.csv` stores the equation family, variables, calibration population,
 applicability, residual statistics, and evidence location. `coefficients.csv` maps
 each `b0`–`b5` (or explicit-equation coefficient) to its mathematical term.
-Reviewed relations with `implementation_status = implemented` are available through
-the Julia API. Structurally extracted equations in `published_equations.csv` remain an
-inventory for review and are not treated as executable relations.
+The equations are an inventory for review and are not yet a callable Julia API.
 
 ## Corpus-wide lossless exports
 

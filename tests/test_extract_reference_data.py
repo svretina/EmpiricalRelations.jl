@@ -132,6 +132,50 @@ class ReferenceExtractionTests(unittest.TestCase):
         self.assertTrue(any(row["f_peak_mean_khz"] for row in huang))
         self.assertTrue(all(not row["f_peak_khz"] for row in huang))
 
+    def test_maione2017_models_and_frequency_mapping(self):
+        waveforms = self.read_csv(self.output / "waveforms.csv")
+        rows = [row for row in waveforms if row["source_id"] == "arxiv-1707-03368"]
+        self.assertEqual(len(rows), 16)
+        self.assertEqual(len({row["id"] for row in rows}), 16)
+        self.assertEqual(sum(row["simulation_id"] == "SLy 1.28vs1.28" for row in rows), 2)
+
+        model = next(row for row in rows if row["simulation_id"] == "SLy 1.11vs1.11")
+        self.assertEqual(model["f_peak_khz"], "2.852")
+        self.assertEqual(model["f_peak_early_khz"], "2.791")
+        self.assertEqual(model["f_radial_khz"], "1.311")
+        self.assertEqual(model["f_merger_khz"], "1.72")
+        self.assertEqual(model["f_2_0_khz"], "")
+        self.assertEqual(model["f_spiral_khz"], "")
+
+        extras = self.read_csv(self.output / "measurements_extra.csv")
+        model_extras = {row["quantity"]: row for row in extras if row["waveform_id"] == model["id"]}
+        self.assertEqual(model_extras["component_1_compactness"]["value"], "0.139")
+        self.assertEqual(model_extras["average_compactness"]["value"], "0.139")
+        self.assertEqual(model_extras["f_secondary_unknown"]["value"], "2.04")
+        self.assertEqual(model_extras["f_peak_early_prony"]["value"], "2.81")
+
+        h4 = next(row for row in rows if row["simulation_id"] == "H4 1.17vs1.56")
+        h4_f1 = next(row for row in extras if row["waveform_id"] == h4["id"] and row["quantity"] == "f_secondary_unknown")
+        self.assertEqual(h4_f1["value"], "")
+        self.assertEqual(h4_f1["status"], "not_identified")
+
+        aliases = self.read_csv(ROOT / "database/notation/paper_frequency_aliases.csv")
+        maione = {(row["original_symbol"], row["canonical_quantity"]) for row in aliases if row["arxiv_id"] == "1707.03368"}
+        self.assertIn(("f_2", "f_peak"), maione)
+        self.assertIn(("f_2i", "f_peak_early"), maione)
+        self.assertIn(("f_1", "f_secondary_unknown"), maione)
+        self.assertIn(("f_2i_Prony", "f_peak_early"), maione)
+
+        metadata = json.loads((ROOT / "papers/1707.03368_maione_2017/metadata.json").read_text())
+        metadata_map = {row["original_symbol"]: row for row in metadata["frequency_nomenclature"]}
+        self.assertEqual(metadata_map["f_1"]["canonical_quantity"], "f_secondary_unknown")
+        self.assertEqual(metadata_map["f_1"]["mapping_status"], "unresolved")
+        self.assertEqual(metadata_map["f_20"]["normalized_storage"], "published_table_cells only")
+
+        docs = (ROOT / "docs/frequency_nomenclature.md").read_text(encoding="utf-8")
+        self.assertIn("Maione et al. (2017), arXiv:1707.03368", docs)
+        self.assertIn("f_secondary_unknown", docs)
+
     def test_relation_and_coefficient_inventory(self):
         relations = self.read_csv(self.output / "relations/relations.csv")
         coefficients = self.read_csv(self.output / "relations/coefficients.csv")

@@ -1,17 +1,17 @@
 {
   "status": "passed_with_warnings",
   "summary": {
-    "waveforms": 337,
+    "waveforms": 353,
     "cfc_sph": 90,
     "core": 27,
-    "eos": 90,
+    "eos": 94,
     "relations": 82,
     "coefficients": 351,
     "errors": 0,
     "warnings": 3,
-    "sources_registered": 31,
-    "tables_inventoried": 93,
-    "equations_inventoried": 485,
+    "sources_registered": 32,
+    "tables_inventoried": 99,
+    "equations_inventoried": 515,
     "dependencies_inventoried": 27
   },
   "checks": [
@@ -93,7 +93,7 @@
     {
       "name": "all seed papers are source registered",
       "status": "pass",
-      "detail": "expected 31, registered 31"
+      "detail": "expected 32, registered 32"
     },
     {
       "name": "all staging records resolve to sources.csv",

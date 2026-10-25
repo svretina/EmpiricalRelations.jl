@@ -16,7 +16,7 @@ from typing import Any, Iterable
 
 SOURCE_ID = "arxiv-1910-10856"
 ARXIV_ID = "1910.10856"
-EXPECTED_SOURCE_COUNT = 31
+EXPECTED_SOURCE_COUNT = 32
 DEFAULT_SOURCE = Path("papers/1910.10856_vretinaris_2020/source")
 
 WAVEFORM_FIELDS = [
@@ -787,7 +787,8 @@ def extract_additional_papers(tables: list[dict[str, Any]], table_rows: list[dic
     provenance: list[dict[str, Any]] = []
 
     def extra(waveform: dict[str, Any], table: dict[str, Any], row: dict[str, Any], quantity: str,
-              value_text: str, unit: str, status: str = "measured") -> None:
+              value_text: str, unit: str, status: str = "measured",
+              notes: str = "Original table cell retained in value_text.") -> None:
         value = central_number(value_text)
         extras.append({
             "measurement_id": f'{waveform["id"]}-{stable_id(quantity)}', "waveform_id": waveform["id"],
@@ -795,7 +796,7 @@ def extract_additional_papers(tables: list[dict[str, Any]], table_rows: list[dic
             "quantity": quantity, "value": value, "unit": unit, "uncertainty_plus": "",
             "uncertainty_minus": "", "value_text": value_text, "status": status,
             "source_path": row["source_path"], "table_label": table["label"],
-            "line_start": row["line_start"], "notes": "Original table cell retained in value_text.",
+            "line_start": row["line_start"], "notes": notes,
         })
 
     # Bauswein & Janka (2012): every model is explicitly a 1.35+1.35 Msun binary.
@@ -935,6 +936,99 @@ def extract_additional_papers(tables: list[dict[str, Any]], table_rows: list[dic
                 quantities += (("f_2_initial", 3), ("f_m0", 5))
             for quantity, column in quantities:
                 extra(waveform, frequency_table, frequency_row, quantity, frequency_cells[column], frequency_unit)
+
+    # Maione et al. (2017): join the appendix initial-data and frequency
+    # summaries with the detailed measured-peak table. Duplicate displayed
+    # SLy 1.28vs1.28 labels are kept as separate simulations by occurrence.
+    source_id = "arxiv-1707-03368"
+    model_table, model_rows_all = lookup[(source_id, "tab:SUM")]
+    frequency_table, frequency_rows_all = lookup[(source_id, "tab:FREQ")]
+    secondary_table, secondary_rows_all = lookup[(source_id, "tab:f1")]
+    prony_table, prony_rows_all = lookup[(source_id, "tab:Prony")]
+    model_rows = [row for row in model_rows_all if len(row["cells_latex"]) == 14 and central_number(row["cells_latex"][5]) is not None]
+    frequency_rows = [row for row in frequency_rows_all if len(row["cells_latex"]) == 15 and central_number(row["cells_latex"][2]) is not None]
+    secondary_rows = [row for row in secondary_rows_all if len(row["cells_latex"]) == 6 and central_number(row["cells_latex"][5]) is not None]
+    prony_rows = [row for row in prony_rows_all if len(row["cells_latex"]) == 5 and central_number(row["cells_latex"][3]) is not None]
+
+    def maione_key(row: dict[str, Any]) -> tuple[str, str]:
+        cells = row["cells_latex"]
+        return clean_eos(cells[0]).upper(), clean_latex(cells[1])
+
+    models_by_key: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    secondary_by_key: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    prony_by_key: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    for row in model_rows:
+        models_by_key.setdefault(maione_key(row), []).append(row)
+    for row in secondary_rows:
+        secondary_by_key.setdefault(maione_key(row), []).append(row)
+    for row in prony_rows:
+        prony_by_key.setdefault(maione_key(row), []).append(row)
+
+    occurrences: dict[tuple[str, str], int] = {}
+    for frequency_row in frequency_rows:
+        key = maione_key(frequency_row)
+        if not models_by_key.get(key) or not secondary_by_key.get(key) or not prony_by_key.get(key):
+            raise ValueError(f"Maione2017 table join failed for {key}")
+        model_row = models_by_key[key].pop(0)
+        secondary_row = secondary_by_key[key].pop(0)
+        prony_row = prony_by_key[key].pop(0)
+        model_cells = model_row["cells_latex"]
+        frequency_cells = frequency_row["cells_latex"]
+        secondary_cells = secondary_row["cells_latex"]
+        prony_cells = prony_row["cells_latex"]
+        eos_name, model_label = clean_eos(model_cells[0]), clean_latex(model_cells[1])
+        m1, m2 = central_number(model_cells[5]), central_number(model_cells[7])
+        occurrences[key] = occurrences.get(key, 0) + 1
+        occurrence = occurrences[key]
+        simulation_id = f"{eos_name} {model_label}"
+        waveform = base_waveform(source_id, "Maione2017", simulation_id, eos_name, m1, m2, frequency_row["source_path"])
+        waveform["id"] = f'{source_id}-maione2017-{stable_id(eos_name, model_label)}-{occurrence:02d}'
+        q_match = re.search(r"q\s*=\s*([0-9.]+)", clean_latex(model_cells[2]))
+        waveform.update({
+            "q_original": float(q_match.group(1)) if q_match else min(m1, m2) / max(m1, m2),
+            "q_original_definition": "M1/M2 <= 1",
+            "f_peak_khz": central_number(frequency_cells[2]),
+            "f_peak_early_khz": central_number(frequency_cells[5]),
+            "f_radial_khz": central_number(frequency_cells[3]),
+            "f_merger_khz": central_number(secondary_cells[5]),
+            "f_2_0_status": "not_directly_measured",
+            "f_spiral_status": "not_directly_identified",
+            "simulation_code": "Einstein Toolkit (McLachlan/GRHydro)",
+            "numerical_method": "BSSN-OK; finite-volume GRHD with HLLE and WENO; RK4; dx=0.25 CU (about 370 m)",
+            "waveform_extraction": "l=m=2 Psi4 extrapolated to infinity and twice integrated to strain; Fourier peaks spline-interpolated at 1 Hz resolution",
+            "source_table": "arxiv_paper.tex:tab:SUM;tab:FREQ;tab:f1",
+            "notes": ("Joined by EOS/model label and occurrence. Source f2 maps to f_peak, f2i to f_peak_early, "
+                      "and f0 to f_radial. Measured f1 remains f_secondary_unknown because its physical "
+                      "identification varies between spiral and other transient mechanisms; f20 is only a predicted relation value."),
+        })
+        waveforms.append(waveform)
+        append_provenance(provenance, "waveform", waveform["id"], source_id, frequency_table, frequency_row)
+
+        for quantity, cell, unit in (
+            ("component_1_baryonic_mass", model_cells[3], "M_sun"),
+            ("component_2_baryonic_mass", model_cells[4], "M_sun"),
+            ("component_1_compactness", model_cells[6], "dimensionless"),
+            ("component_2_compactness", model_cells[8], "dimensionless"),
+            ("average_compactness", model_cells[10], "dimensionless"),
+            ("initial_adm_mass", model_cells[11], "M_sun"),
+            ("initial_adm_angular_momentum", model_cells[12], "G=c=M_sun=1"),
+            ("initial_orbital_angular_frequency", model_cells[13], "krad/s"),
+        ):
+            extra(waveform, model_table, model_row, quantity, cell, unit)
+        extra(waveform, secondary_table, secondary_row, "f_secondary_unknown", secondary_cells[2], "kHz",
+              "measured" if central_number(secondary_cells[2]) is not None else "not_identified",
+              "Source symbol f1; not globally mapped to f_spiral or f_2-0 because the paper gives model-dependent interpretations.")
+        extra(waveform, secondary_table, secondary_row, "f_combination_other", secondary_cells[3], "kHz",
+              "measured" if central_number(secondary_cells[3]) is not None else "not_identified",
+              "Source symbol f3; upper transient secondary peak, retained outside the canonical waveform columns.")
+        for quantity, cell, symbol in (
+            ("f_secondary_unknown_prony", prony_cells[2], "f1_Prony"),
+            ("f_peak_early_prony", prony_cells[3], "f2i_Prony"),
+            ("f_combination_other_prony", prony_cells[4], "f3_Prony"),
+        ):
+            extra(waveform, prony_table, prony_row, quantity, cell, "kHz",
+                  "measured" if central_number(cell) is not None else "not_identified",
+                  f"Source symbol {symbol}; ESPRIT Prony estimate over 1-3 ms after merger, kept distinct from Fourier measurements.")
 
     # Clark et al. (2016): source-specific R_1.35 EOS values.
     table, rows = lookup[("arxiv-1509-08522", "tab1")]
@@ -1270,6 +1364,7 @@ def extraction_coverage(sources: list[dict[str, Any]], tables: list[dict[str, An
         "arxiv-1504-01764": "bernuzzi2015", "arxiv-1907-03790": "kiuchi2020",
         "arxiv-1412-3240": "takami2015", "arxiv-1509-08522": "clark2016",
         "arxiv-1604-00246": "rezzolla_takami2016",
+        "arxiv-1707-03368": "maione2017",
         "arxiv-1908-11418": "breschi2019", "arxiv-2310-06025": "prakash2024",
         "arxiv-2102-12455": "lioutas2021",
         "arxiv-2310-10728": "topolski2023", "arxiv-2407-11143": "grippa2025",
@@ -1634,6 +1729,15 @@ def extract(source: Path, data_dir: Path, papers_dir: Path = Path("papers")) -> 
         "source_path": "tables/bauswein_data.tex; tables/TOV_info.tex",
         "issue": "SHEN and SLY4 occur in the waveform table but not in the source EOS-property table.",
         "resolution": "Create source-linked EOS registry rows with empty properties; do not alias SLY4 to SLy or invent radii.",
+        "status": "open",
+    }, {
+        "issue_id": "maione2017-secondary-frequency-summary-001", "severity": "warning",
+        "record_type": "catalogue", "record_id": "arxiv-1707-03368-maione2017",
+        "source_path": "arxiv_paper.tex:tab:f1;tab:FREQ",
+        "issue": ("The detailed measured-peak table reports APR4 1.17vs1.56 f1=2.38 kHz and no f1 for the "
+                  "H4/MS1 1.17vs1.56 models, while the appendix summary reports 2.36, 2.06, and 1.39 kHz."),
+        "resolution": ("Normalize f1 from the detailed table tab:f1, whose caption explicitly defines the local-maximum "
+                       "measurement; preserve every appendix value in the lossless table export."),
         "status": "open",
     }]
 

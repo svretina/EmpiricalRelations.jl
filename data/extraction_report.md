@@ -1,6 +1,6 @@
 # Corpus extraction report
 
-Sources: 31-paper BNS postmerger seed corpus, with Vretinaris, Stergioulas & Bauswein (2020) as the reference adapter.
+Sources: 32-paper BNS postmerger seed corpus, with Vretinaris, Stergioulas & Bauswein (2020) as the reference adapter.
 
 Governing policies: [`docs/extraction_conventions.md`](../docs/extraction_conventions.md). Frequency vocabulary: [`docs/frequency_nomenclature.md`](../docs/frequency_nomenclature.md).
 
@@ -26,4 +26,4 @@ Validation status: **passed_with_warnings**.
 
 ## Collection-wide structural coverage
 
-The source registry contains 31 papers. The generic pass found 93 tables, 1412 table rows, 485 equations, and 27 input/include dependencies. Every detected table cell and equation is published with source IDs and line numbers. Reviewed paper adapters additionally normalize compatible waveform and EOS records; other records retain their original text rather than receiving guessed semantics.
+The source registry contains 32 papers. The generic pass found 99 tables, 1511 table rows, 515 equations, and 27 input/include dependencies. Every detected table cell and equation is published with source IDs and line numbers. Reviewed paper adapters additionally normalize compatible waveform and EOS records; other records retain their original text rather than receiving guessed semantics.

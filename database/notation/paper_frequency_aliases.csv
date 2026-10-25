@@ -7,6 +7,16 @@ arxiv_id,arxiv_version,original_symbol,original_definition,canonical_quantity,ma
 1604.00246,1604.00246v2,f_2,Quasi-stationary dominant postmerger peak,f_peak,verified,manuscript.tex:tab:SNRs,Source definition
 1604.00246,1604.00246v2,f_2i,Early transient dominant quadrupolar frequency,f_peak_early,verified,manuscript.tex:tab:SNRs,Kept distinct from the stationary peak
 1604.00246,1604.00246v2,f_1,Lower-frequency spectral feature,f_secondary_unknown,unresolved,manuscript.tex:tab:SNRs,Not automatically identified with f_spiral
+1707.03368,1707.03368v3,f_2,Dominant peak measured from the full postmerger spectrum,f_peak,verified,arxiv_paper.tex:tab:f2;tab:FREQ,Explicitly identified with the fundamental quadrupolar m=2 oscillation and called f_peak in the literature
+1707.03368,1707.03368v3,f_2i,Dominant peak measured from the spectrum through 5 ms after merger,f_peak_early,verified,arxiv_paper.tex:tab:f2;tab:FREQ,Early transient measurement kept distinct from the full-spectrum f_2
+1707.03368,1707.03368v3,f_1,Measured lower-frequency subdominant peak with model-dependent proposed origins,f_secondary_unknown,unresolved,arxiv_paper.tex:tab:f1;sec:f1,Paper associates it with spiral emission in some models and other transient or mode-coupling mechanisms in others
+1707.03368,1707.03368v3,f_3,Measured upper-frequency transient subdominant peak,f_combination_other,verified,arxiv_paper.tex:tab:f1;sec:f1,Retained outside f_2-0 and f_spiral because it is the upper secondary feature
+1707.03368,1707.03368v3,f_0,Quasiradial oscillation frequency measured from the maximum-density spectrum,f_radial,verified,arxiv_paper.tex:tab:f1;tab:FREQ,Explicit source definition
+1707.03368,1707.03368v3,f_merger,Instantaneous GW frequency at maximum strain amplitude,f_merger,verified,arxiv_paper.tex:tab:f1,Explicit source definition
+1707.03368,1707.03368v3,f_20,Value predicted as f_2i minus f_0 rather than a directly measured peak,f_2_0,verified,arxiv_paper.tex:tab:FREQ;formula:f20,Physical alias verified but excluded from normalized measurements by the no-imputation policy
+1707.03368,1707.03368v3,f_1_Prony,Lower transient component estimated with ESPRIT Prony analysis,f_secondary_unknown,unresolved,arxiv_paper.tex:tab:Prony,Measurement channel retained separately; inherits the model-dependent ambiguity of f_1
+1707.03368,1707.03368v3,f_2i_Prony,Early dominant component estimated with ESPRIT Prony analysis,f_peak_early,verified,arxiv_paper.tex:tab:Prony,Stored as a channel-specific extra rather than overwriting the Fourier measurement
+1707.03368,1707.03368v3,f_3_Prony,Upper transient component estimated with ESPRIT Prony analysis,f_combination_other,verified,arxiv_paper.tex:tab:Prony,Measurement channel retained separately
 1907.03790,1907.03790v2,f_peak,Frequency at peak strain amplitude near merger,f_merger,verified,paper.tex:tb:fpeak,The paper's symbol is not the canonical postmerger f_peak
 1907.03790,1907.03790v2,f_2,Dominant postmerger Fourier-spectrum peak,f_peak,verified,paper.tex:tb:fpeak,Explicit postmerger definition
 1908.11418,1908.11418v2,f_2,Postmerger peak frequency,f_peak,verified,ms.tex:tab:valbns,NRPM validation table
