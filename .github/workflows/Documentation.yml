@@ -38,7 +38,7 @@ jobs:
         run: test -s docs/build/assets/data/waveforms.json && test -s docs/build/assets/data/relations.json && test -s docs/build/assets/js/database-explorer.js
       - name: Configure GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         with:
